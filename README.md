@@ -19,4 +19,5 @@ This article is an attempt to make a summary table from which it will be clear w
     ]
 }
 ```
-* - sortable column
+
+(*) sortable column
