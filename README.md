@@ -4,7 +4,7 @@ It is difficult to determine the processor performance by its number. A newer pr
 This article is an attempt to make a summary table from which it will be clear what characteristics the processor has and what performance it has according to tests. I am only interested in those processors with which laptops can be bought cheaply in Russia.
 
 
-| Name | Core/Threads | Min/Max Frequency | Min/Max TDP | CPU-Z Single Thread Bench | CPU-Z Single Multi Bench |
+| Name | Core/Threads | Min/Max Frequency | Min/Max TDP | CPU-Z Single Bench | CPU-Z Multi Bench |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | AMD Ryzen 5 5500U | 6/12 | - | - | 476 | 2536 |
 | Intel Core i5-12450H | 6/12 | - | - | 673 | 4756 |
