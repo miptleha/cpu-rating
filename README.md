@@ -3,38 +3,8 @@ It is difficult to determine the processor performance by its number. A newer pr
 
 This article is an attempt to make a summary table from which it will be clear what characteristics the processor has and what performance it has according to tests. I am only interested in those processors with which laptops can be bought cheaply in Russia.
 
-<html>
-<link href="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.css" rel="stylesheet" />
-<script src="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.js"></script>
-<script type="text/javascript">
-  function addSortable() {
-    var tags = document.getElementsByTagName("table");
-    for (i = 0; i < tags.length; i++) {
-		tags[i].className = "sortable";
-	}
-  }
 
-window.boot.register('page-ready', () => {
-    addSortable()
-})
-</script>
-</html>
-
-```json:table
-{
-    "fields" : [
-        {"key": "a", "label": "Name", "sortable": true},
-        {"key": "b", "label": "Core/Threads"},
-        {"key": "c", "label": "Min/Max Frequency"},
-        {"key", "d", "label": "Min/Max TDP"},
-        {"key", "e", "label": "CPU-Z Single Thread Bench*", "sortable": true},
-        {"key", "f", "label": "CPU-Z Single Multi Bench*", "sortable": true}
-    ],
-    "items" : [
-      {"a": "AMD Ryzen 5 5500U", "b": "6/12", "c": "-", "d": "-", "e": "476", "f": "2536"},
-      {"a": "Intel Core i5-12450H", "b": "6/12", "c": "-", "d": "-", "e": "673", "f": "4756"}
-    ]
-}
-```
-
-(*) sortable column
+| Name | Core/Threads | Min/Max Frequency | Min/Max TDP | CPU-Z Single Thread Bench | CPU-Z Single Multi Bench |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| AMD Ryzen 5 5500U | 6/12 | - | - | 476 | 2536 |
+| Intel Core i5-12450H | 6/12 | - | - | 673 | 4756 |
