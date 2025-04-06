@@ -3,6 +3,7 @@ It is difficult to determine the processor performance by its number. A newer pr
 
 This article is an attempt to make a summary table from which it will be clear what characteristics the processor has and what performance it has according to tests. I am only interested in those processors with which laptops can be bought cheaply in Russia.
 
+<html>
 <link href="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.js"></script>
 <script type="text/javascript">
@@ -17,6 +18,7 @@ window.boot.register('page-ready', () => {
     addSortable()
 })
 </script>
+</html>
 
 ```json:table
 {
