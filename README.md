@@ -37,7 +37,6 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 | AMD Ryzen 5 5650U (Vega 7)     | 6/12      | 2.3/4.2   | 3+16  | $${\color{green}15}$$    | $${\color{green}1200}$$    | 8500    | 900   | $${\color{green}150}$$   |
 | AMD Ryzen 7 4750U (Vega 7)     | 8/16      | 1.7/4.1   | 4+8   | $${\color{green}15}$$    | $${\color{green}1200}$$    | 9000    | 950    | $${\color{green}100}$$   |
 | AMD Ryzen 5 5600U (Vega 7)     | 6/12      | 2.3/4.2   | 3+16  | $${\color{green}15}$$    | $${\color{green}1150}$$    | 8000    | 850    | $${\color{green}130}$$   |
-| Intel Core i5-1335U (Iris Xe 80EU) | 10(2P+8E) | 1.3/4.6   | 7+12  | $${\color{green}15}$$    | $${\color{green}1100}$$    | 7000  | 950  | $${\color{green}180}$$   |
 | AMD Ryzen 5 5500U (Vega 7)       | 6/12  | 2.1/4.0   | 3+8   | $${\color{green}15}$$    | $${\color{green}1100}$$    | 7500    | 800      | $${\color{green}120}$$   |
 | AMD Ryzen 5 4600H (Vega 6)     | 6/12    | 3.0/4.0   | 3+8   | 35-45 | 1000    | 7500    | 800          | $${\color{green}100}$$   |
 | Intel Core i3-1315U (UHD 64EU) | 6(2P+4E)/8 | 1.2/4.5   | 5+10  | $${\color{green}15}$$    | 950     | $${\color{red}4500}$$    | $${\color{red}650}$$   | $${\color{green}120}$$   |
