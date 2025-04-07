@@ -44,4 +44,4 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 | 31 | Intel N4500 (UHD 16EU)             | 4/4       | 1.1/2.8   | 32+1.5+4 | 6     | 400     | 1200    | 200          | 25    |
 | 32 | Intel N4000 (UHD 600)              | 2/2       | 1.1/2.6   | 32+1+4   | 6     | 350     | 1000    | 150          | 20    |
 | 33 | Intel N4020 (UHD 600)              | 2/2       | 1.1/2.8   | 32+1+4   | 6     | 350     | 900     | 140          | 20    |
-| 34 | Intel J3710 (HD 405)               | 4/4       | 1.6/2.6   | 32+2+2   | 6.5   | 250     | 800     | <code style="color:red">80</code> | 10    |
+| 34 | Intel J3710 (HD 405)               | 4/4       | 1.6/2.6   | 32+2+2   | 6.5   | 250     | 800     | ```-80``` | 10    |
