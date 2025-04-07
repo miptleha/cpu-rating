@@ -23,7 +23,7 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 | AMD Ryzen 7 5700U (Vega 8)     | 8/16      | 1.8/4.3   | 64+4+8   | $${\color{green}15}$$    | $${\color{green}1250}$$    | 9500    | 1000  | $${\color{green}140}$$   |
 | AMD Ryzen 5 5650U (Vega 7)     | 6/12      | 2.3/4.2   | 64+3+16  | $${\color{green}15}$$    | $${\color{green}1200}$$    | 8500    | 900   | $${\color{green}150}$$   |
 | **CPU (iGPU)** | **Core/Threads** | **Freq GHz** | **L1+L2+L3** | **TDP** | **CB23 SC** | **CB23 MC** | **Time Spy GPU** | **Price (USD)** |
-| 15 | AMD Ryzen 7 4750U (Vega 7)     | 8/16      | 1.7/4.1   | 64+4+8   | $${\color{green}15}$$    | $${\color{green}1200}$$    | 9000    | 950    | $${\color{green}100}$$   |
+| AMD Ryzen 7 4750U (Vega 7)     | 8/16      | 1.7/4.1   | 64+4+8   | $${\color{green}15}$$    | $${\color{green}1200}$$    | 9000    | 950    | $${\color{green}100}$$   |
 | AMD Ryzen 5 5600U (Vega 7)     | 6/12      | 2.3/4.2   | 64+3+16  | $${\color{green}15}$$    | $${\color{green}1150}$$    | 8000    | 850    | $${\color{green}130}$$   |
 | Intel Core i5-1335U (Iris Xe 80EU) | 10(2P+8E) | 1.3/4.6   | 48+7+12  | $${\color{green}15}$$    | $${\color{green}1100}$$    | 7000  | 950  | $${\color{green}180}$$   |
 | AMD Ryzen 5 5500U (Vega 7)       | 6/12  | 2.1/4.0   | 64+3+8   | $${\color{green}15}$$    | $${\color{green}1100}$$    | 7500    | 800      | $${\color{green}120}$$   |
