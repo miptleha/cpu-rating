@@ -19,7 +19,7 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 | 9 | AMD Ryzen 7 5825U (Vega 8)   | 8/16   | 2.0/4.5   | 64+4+16  | $${\color{green}15}$$    | $${\color{green}1400}$$    | 11000   | 1100       | $${\color{green}180}$$   |
 | 10 | AMD Ryzen 5 7535HS (Radeon 660M) | 6/12    | 3.3/4.6   | 64+3+16  | 35    | $${\color{green}1380}$$    | 10000   | $${\color{green}1900}$$         | 220   |
 | 11 | AMD Ryzen 7 5800U (Vega 8)     | 8/16      | 1.9/4.4   | 64+4+16  | $${\color{green}15}$$    | $${\color{green}1350}$$    | 10500   | 1050  | $${\color{green}160}$$   |
-| 12 | Intel Core i5-13420H (UHD 48EU)| 8(4P+4E)  | 2.1/4.6   | 48+8+12  | 45-95 | $${\color{green}1300}$$    | 12500   | 900    | 220   |
+| 12 | Intel Core i5-13420H (UHD 48EU)| 8(4P+4E)  | 2.1/4.6   | 48+8+12  | $${\color{red}45-95}$$ | $${\color{green}1300}$$    | 12500   | 900    | 220   |
 | 13 | AMD Ryzen 7 5700U (Vega 8)     | 8/16      | 1.8/4.3   | 64+4+8   | $${\color{green}15}$$    | $${\color{green}1250}$$    | 9500    | 1000  | $${\color{green}140}$$   |
 | 14 | AMD Ryzen 5 5650U (Vega 7)     | 6/12      | 2.3/4.2   | 64+3+16  | $${\color{green}15}$$    | $${\color{green}1200}$$    | 8500    | 900   | $${\color{green}150}$$   |
 | **№**  | **CPU (iGPU)** | **Core/Threads** | **Frequency** | **L1+L2+L3** | **TDP** | **CB23 SC** | **CB23 MC** | **Time Spy GPU** | **Price (USD)** |
