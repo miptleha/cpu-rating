@@ -6,7 +6,7 @@ This article is an attempt to make a summary table from which it will be clear w
 Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU sorted by Single Core Score. Only 400- USD processors with less than 100 Watt max TDP.
 
 | **CPU (iGPU)** | **Core/Threads** | **Freq GHz** | **L1+L2+L3** | **TDP** | **CB23 SC** | **CB23 MC** | **Time Spy GPU** | **Price (USD)** |
-|----|------------------------------------|-----------|-----------|----------|-------|---------|---------|--------------|-------|
+|------------------------------------|-----------|-----------|----------|-------|---------|---------|--------------|-------|
 | Intel Core i7-13700H (Iris Xe 96EU)| 14(6P+8E) | 2.4/5.0 | 80+12+24 | $${\color{red}45-95}$$ | $${\color{green}1750}$$ | $${\color{green}23000}$$ | $${\color{green}1700}$$ | $${\color{red}400}$$   |
 | AMD Ryzen 7 8845HS (780M)  | 8/16 | 3.8/5.1 | 64+8+16  | 35-54 | $${\color{green}1600}$$    | $${\color{green}15500}$$   | $${\color{green}3200}$$  | $${\color{red}400}$$ |
 | AMD Ryzen 7 7840HS (780M)  | 8/16 | 3.8/5.1 | 64+8+16  | 35-54 | $${\color{green}1580}$$    | $${\color{green}15000}$$   | $${\color{green}3000}$$ | $${\color{red}380}$$ |
