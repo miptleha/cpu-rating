@@ -46,3 +46,6 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 | 33 | Intel N4000 (UHD 600)| 2/2 | 1.1/2.6 | 32+1+4 | $${\color{green}6}$$  | $${\color{red}350}$$ | $${\color{red}1000}$$  | $${\color{red}150}$$  | $${\color{green}20}$$ |
 | 34 | Intel N4020 (UHD 600)| 2/2 | 1.1/2.8  | 32+1+4 | $${\color{green}6}$$ | $${\color{red}350}$$  | $${\color{red}900}$$ | $${\color{red}140}$$  | $${\color{green}20}$$    |
 | 35 | Intel J3710 (HD 405) | 4/4 | 1.6/2.6  | 32+2+2  | $${\color{green}6}$$ | $${\color{red}250}$$  | $${\color{red}800}$$ | $${\color{red}80}$$ | $${\color{green}10}$$    |
+
+Most balanced (4 green): 5825U, 5800U
+Without red good cpu and gpu: 6800H, 7640HS
