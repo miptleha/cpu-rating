@@ -7,20 +7,30 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 
 | **CPU (iGPU)** | **Core/Threads** | **Freq GHz** | **L1+L2+L3** | **TDP** | **CB23 SC** | **CB23 MC** | **Time Spy GPU** | **Price (USD)** |
 |------------------------------------|-----------|-----------|----------|-------|---------|---------|--------------|-------|
-| Intel Core i7-13700H (Iris Xe 96EU)| 14(6P+8E) | 2.4/5.0 | 80+12+24 | $${\color{red}45-95}$$ | $${\color{green}1750}$$ | $${\color{green}23000}$$ | $${\color{green}1700}$$ | $${\color{red}400}$$   |
+| Intel Core i7-13700H (Iris Xe 96EU)| 14(6P+8E)/20 | 2.4/5.0 | 80+12+24 | $${\color{red}45-95}$$ | $${\color{green}1750}$$ | $${\color{green}23000}$$ | $${\color{green}1700}$$ | $${\color{red}400}$$   |
+| Intel Core i7-1360P (Iris Xe 96EU) | 12(4P+8E)/16 | 2.2/5.0 | 48+12+18 | 28 | $${\color{green}1750}$$  | $${\color{green}12000}$$ | $${\color{green}1800}$$  | 350   |
 | AMD Ryzen 7 8845HS (780M)  | 8/16 | 3.8/5.1 | 64+8+16  | 35-54 | $${\color{green}1600}$$    | $${\color{green}15500}$$   | $${\color{green}3200}$$  | $${\color{red}400}$$ |
+| Intel Core Ultra 7 155U (Arc 4X)   | 12(2P+8E)/14            | 1.7/4.8   | 48+12+12 | 15    | 1650    | 9500    | 2000         | 400   |
+| Intel Core i7-1260P (Iris Xe 96EU) | 12(4P+8E)/16            | 2.1/4.7   | 48+12+18 | 28    | 1650    | 11000   | 1700         | 320   |
+| Intel Core i5-1340P (Iris Xe 80EU) | 12(4P+8E)/16 | 1.9/4.6   | 48+12+18 | 28    | $${\color{green}1600}$$    | 10500   | 1500         | 280   |
 | AMD Ryzen 7 7840HS (780M)  | 8/16 | 3.8/5.1 | 64+8+16  | 35-54 | $${\color{green}1580}$$    | $${\color{green}15000}$$   | $${\color{green}3000}$$ | $${\color{red}380}$$ |
 | AMD Ryzen 7 7735HS (680M)  | 8/16  | 3.2/4.75 | 64+4+16  | 35-54 | $${\color{green}1520}$$    | $${\color{green}14000}$$   | $${\color{green}2200}$$ | $${\color{red}300}$$ |
+| Intel Core i5-1240P (Iris Xe 80EU) | 12(4P+8E)/16            | 1.7/4.4   | 48+12+18 | 28    | 1500    | 9500    | 1400         | 250   |
 | AMD Ryzen 7 6800H (680M)  | 8/16  | 3.2/4.7 | 64+4+16  | 35-45 | $${\color{green}1480}$$    | $${\color{green}13500}$$   | $${\color{green}2100}$$ | 250   |
-| Intel Core i5-13500H (Iris Xe 80EU)| 12(4P+8E) | 2.6/4.7   | 64+9+18  | $${\color{red}45-95}$$ | $${\color{green}1450}$$    | $${\color{green}16500}$$ | $${\color{green}1400}$$ | $${\color{red}300}$$ |
+| Intel Core i5-13500H (Iris Xe 80EU)| 12(4P+8E)/16 | 2.6/4.7   | 64+9+18  | $${\color{red}45-95}$$ | $${\color{green}1450}$$    | $${\color{green}16500}$$ | $${\color{green}1400}$$ | $${\color{red}300}$$ |
+| Intel Core i7-1355U (Iris Xe 96EU) | 10(2P+8E)/12            | 1.7/5.0   | 32+10+12 | 15    | 1450    | 7500    | 1300         | 300   |
 | AMD Ryzen 5 7640HS (760M)   | 6/12  | 4.3/5.0   | 64+6+16  | 35-54 | $${\color{green}1420}$$    | $${\color{green}12000}$$   | $${\color{green}2700}$$  | 250   |
 | AMD Ryzen 5 6600H (660M) | 6/12   | 3.3/4.5  | 64+3+16  | 35-45 | $${\color{green}1420}$$   | $${\color{green}11000}$$   | $${\color{green}1900}$$         | 230   |
 | **CPU (iGPU)** | **Core/Threads** | **Freq GHz** | **L1+L2+L3** | **TDP** | **CB23 SC** | **CB23 MC** | **Time Spy GPU** | **Price (USD)** |
-| Intel Core i5-12500H (Iris Xe 80EU)| 12(4P+8E) | 2.5/4.5| 64+9+18  | $${\color{red}45-95}$$ | $${\color{green}1400}$$    | $${\color{green}16000}$$   | 1300  | 200 |
+| Intel Core i7-1255U (Iris Xe 96EU) | 10(2P+8E)/12            | 1.7/4.7   | 32+10+12 | 15    | 1400    | 7000    | 1250         | 280   |
+| Intel Core Ultra 5 125U (Arc 4X)   | 10(2P+8E)/12            | 1.2/4.3   | 32+10+12 | 15    | 1400    | 8000    | 1600         | 320   |
+| Intel Core i5-12500H (Iris Xe 80EU)| 12(4P+8E)/16 | 2.5/4.5| 64+9+18  | $${\color{red}45-95}$$ | $${\color{green}1400}$$    | $${\color{green}16000}$$   | 1300  | 200 |
 | AMD Ryzen 7 5825U (Vega 8)   | 8/16   | 2.0/4.5   | 64+4+16  | $${\color{green}15}$$    | $${\color{green}1400}$$    | $${\color{green}11000}$$   | 1100  | $${\color{green}180}$$ |
+| Intel Core i5-1235U (Iris Xe 80EU) | 10(2P+8E)/12            | 1.3/4.4   | 32+10+12 | 15    | 1300    | 6000    | 1150         | 200   |
 | AMD Ryzen 5 7535HS (Radeon 660M) | 6/12    | 3.3/4.6   | 64+3+16  | 35  | $${\color{green}1380}$$    | 10000   | $${\color{green}1900}$$  | 220   |
+| Intel Core i5-1335U (Iris Xe 80EU) | 10(2P+8E)/12            | 1.3/4.6   | 32+10+12 | 15    | 1350    | 6500    | 1200         | 220   |
 | AMD Ryzen 7 5800U (Vega 8)     | 8/16      | 1.9/4.4   | 64+4+16  | $${\color{green}15}$$    | $${\color{green}1350}$$    | $${\color{green}10500}$$   | 1050  | $${\color{green}160}$$ |
-| Intel Core i5-13420H (UHD 48EU)| 8(4P+4E)  | 2.1/4.6   | 48+8+12  | $${\color{red}45-95}$$ | $${\color{green}1300}$$    | $${\color{green}12500}$$   | 900    | 220   |
+| Intel Core i5-13420H (UHD 48EU)| 8(4P+4E)/12  | 2.1/4.6   | 48+8+12  | $${\color{red}45-95}$$ | $${\color{green}1300}$$    | $${\color{green}12500}$$   | 900    | 220   |
 | AMD Ryzen 7 5700U (Vega 8)     | 8/16      | 1.8/4.3   | 64+4+8   | $${\color{green}15}$$    | $${\color{green}1250}$$    | 9500    | 1000  | $${\color{green}140}$$   |
 | AMD Ryzen 5 5650U (Vega 7)     | 6/12      | 2.3/4.2   | 64+3+16  | $${\color{green}15}$$    | $${\color{green}1200}$$    | 8500    | 900   | $${\color{green}150}$$   |
 | **CPU (iGPU)** | **Core/Threads** | **Freq GHz** | **L1+L2+L3** | **TDP** | **CB23 SC** | **CB23 MC** | **Time Spy GPU** | **Price (USD)** |
@@ -29,8 +39,8 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 | Intel Core i5-1335U (Iris Xe 80EU) | 10(2P+8E) | 1.3/4.6   | 48+7+12  | $${\color{green}15}$$    | $${\color{green}1100}$$    | 7000  | 950  | $${\color{green}180}$$   |
 | AMD Ryzen 5 5500U (Vega 7)       | 6/12  | 2.1/4.0   | 64+3+8   | $${\color{green}15}$$    | $${\color{green}1100}$$    | 7500    | 800      | $${\color{green}120}$$   |
 | AMD Ryzen 5 4600H (Vega 6)     | 6/12    | 3.0/4.0   | 64+3+8   | 35-45 | 1000    | 7500    | 800          | $${\color{green}100}$$   |
-| Intel Core i3-1315U (UHD 64EU) | 6(2P+4E) | 1.2/4.5   | 48+5+10  | $${\color{green}15}$$    | 950     | $${\color{red}4500}$$    | $${\color{red}650}$$   | $${\color{green}120}$$   |
-| Intel Core i3-1215U (UHD 64EU) | 6(2P+4E) | 1.2/4.4   | 48+5+10  | $${\color{green}15}$$    | 900     | $${\color{red}4200}$$    | $${\color{red}600}$$      | $${\color{green}90}$$    |
+| Intel Core i3-1315U (UHD 64EU) | 6(2P+4E)/8 | 1.2/4.5   | 48+5+10  | $${\color{green}15}$$    | 950     | $${\color{red}4500}$$    | $${\color{red}650}$$   | $${\color{green}120}$$   |
+| Intel Core i3-1215U (UHD 64EU) | 6(2P+4E)/8 | 1.2/4.4   | 48+5+10  | $${\color{green}15}$$    | 900     | $${\color{red}4200}$$    | $${\color{red}600}$$      | $${\color{green}90}$$    |
 | **CPU (iGPU)** | **Core/Threads** | **Freq GHz** | **L1+L2+L3** | **TDP** | **CB23 SC** | **CB23 MC** | **Time Spy GPU** | **Price (USD)** |
 | AMD Ryzen 3 7520U (610M) | 4/8 | 2.8/4.3   | 64+2+8   | $${\color{green}8-15}$$  | 850     | $${\color{red}4000}$$    | $${\color{red}600}$$          | $${\color{green}80}$$    |
 | AMD Ryzen 3 7320U (610M) | 4/8  | 2.4/4.1   | 64+2+4   | $${\color{green}15}$$    | 800     | $${\color{red}3800}$$    | $${\color{red}550}$$          | $${\color{green}70}$$    |
