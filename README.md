@@ -48,8 +48,8 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 | AMD Ryzen 3 3200U (Vega 3) | 2/4 | 2.6/3.5 | 1+4 | $${\color{green}15}$$ | $${\color{red}600}$$ | $${\color{red}1800}$$ | $${\color{red}350}$$ | $${\color{green}50}$$ |
 | Intel N305 (UHD 24EU) | 8/8 | 1.8/3.8 | 2+6 | $${\color{green}15}$$ | $${\color{red}550}$$ | $${\color{red}2200}$$ | $${\color{red}300}$$   | $${\color{green}40}$$ |
 | Intel N300 (UHD 32EU)  | 8/8 | 1.0/3.8 | 2+6 | $${\color{green}7-15}$$ | $${\color{red}500}$$ | $${\color{red}2000}$$ | $${\color{red}350}$$ | $${\color{green}35}$$ |
-| Intel N5095 (UHD 16EU) | 4/4  | 2.0/2.9 | 2+4 | $${\color{green}15}$$ | $${\color{red}450}$$ | $${\color{red}1500}$$ | $${\color{red}220}$$ | $${\color{green}30}$$ |
 | Intel N200 (UHD 24EU) | 4/4  | 1.0/3.7 | 2+6 | $${\color{green}6-15}$$ | $${\color{red}450}$$ | $${\color{red}1800}$$ | $${\color{red}250}$$ | $${\color{green}30}$$ |
+| Intel N5095 (UHD 16EU) | 4/4  | 2.0/2.9 | 2+4 | $${\color{green}15}$$ | $${\color{red}450}$$ | $${\color{red}1500}$$ | $${\color{red}220}$$ | $${\color{green}30}$$ |
 | **CPU (iGPU)** | **Core/Threads** | **Freq GHz** | **L2+L3** | **TDP** | **CB23 SC** | **CB23 MC** | **Time Spy GPU** | **Price (USD)** |
 | Intel N95 (UHD 16EU) | 4/4  | 1.4/3.4 | 2+6 | $${\color{green}12-15}$$ | $${\color{red}420}$$ | $${\color{red}1600}$$ | $${\color{red}180}$$ | $${\color{green}20}$$ |
 | Intel N100 (UHD 24EU) | 4/4 | 0.8/3.4 | 2+6 | $${\color{green}6-15}$$ | $${\color{red}400}$$ | $${\color{red}1500}$$ | $${\color{red}200}$$ | $${\color{green}25}$$  |
