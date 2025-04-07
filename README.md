@@ -12,7 +12,7 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 | Intel Core Ultra 7 155U (Arc 4X) | 12(2P+8E)/14  | 1.7/4.8 | 12+12 | $${\color{green}15}$$ | $${\color{green}1650}$$  | 9500 | $${\color{green}2000}$$ | $${\color{red}400}$$ |
 | Intel Core i7-1260P (Iris Xe 96EU) | 12(4P+8E)/16 | 2.1/4.7   | 12+18 | 28 | $${\color{green}1650}$$    | $${\color{green}11000}$$   | $${\color{green}1700}$$  | $${\color{red}320}$$   |
 | AMD Ryzen 7 8845HS (780M)  | 8/16 | 3.8/5.1 | 8+16  | 35-54 | $${\color{green}1600}$$    | $${\color{green}15500}$$   | $${\color{green}3200}$$  | $${\color{red}400}$$ |
-| Intel Core i5-1340P (Iris Xe 80EU) | 12(4P+8E)/16 | 1.9/4.6   | 12+18 | 28 | $${\color{green}1600}$$    | $${\color{green}10500}$$   | $${\color{green}1500}$$         | 280   |
+| Intel Core i5-1340P (Iris Xe 96EU) | 12(4P+8E)/16 | 1.9/4.6   | 12+18 | 28 | $${\color{green}1600}$$    | $${\color{green}10500}$$   | $${\color{green}1500}$$         | 280   |
 | AMD Ryzen 7 7840HS (780M)  | 8/16 | 3.8/5.1 | 8+16  | 35-54 | $${\color{green}1580}$$    | $${\color{green}15000}$$   | $${\color{green}3000}$$ | $${\color{red}380}$$ |
 | AMD Ryzen 7 7735HS (680M)  | 8/16  | 3.2/4.75 | 4+16  | 35-54 | $${\color{green}1520}$$    | $${\color{green}14000}$$   | $${\color{green}2200}$$ | $${\color{red}300}$$ |
 | **CPU (iGPU)** | **Core/Threads** | **Freq GHz** | **L2+L3** | **TDP** | **CB23 SC** | **CB23 MC** | **Time Spy GPU** | **Price (USD)** |
