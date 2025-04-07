@@ -65,3 +65,16 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 
 Most balanced (4 green): 5825U, 5800U, 7730U.  
 Without red good cpu and gpu: 6800H, 6600H, 7640HS, 1340P, 7735HS.
+
+## Top 10 Mobile CPU from DeepSeek
+Best performance + Best GPU + Energy efficiency
+1.  AMD Ryzen 7 7840U/HS (Zen 4, Radeon 780M)
+1.  AMD Ryzen 7 7735U/HS (Zen 3+, Radeon 680M)
+1.  Intel Core Ultra 7 155H (Meteor Lake, Arc Xe-LPG)
+1.  AMD Ryzen 5 7640U/HS (Zen 4, Radeon 760M)
+1.  Apple M3 (8-core GPU)
+1.  AMD Ryzen 7 6800U/HS (Zen 3+, Radeon 680M)
+1.  AMD Ryzen 5 7535U/HS (Zen 3+, Radeon 660M)
+1.  Intel Core i7-1360P (Raptor Lake, Iris Xe 96EU)
+1.  AMD Ryzen 7 5825U (Zen 3, Vega 8)
+1.  AMD Ryzen 5 5625U (Zen 3, Vega 7)
