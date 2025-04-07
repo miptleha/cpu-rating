@@ -22,11 +22,11 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 | Intel Core i7-1355U (Iris Xe 96EU) | 10(2P+8E)/12  | 1.7/5.0   | 10+12 | $${\color{green}15}$$  | $${\color{green}1450}$$    | 7500    | 1300  | $${\color{red}300}$$   |
 | AMD Ryzen 5 7640HS (760M)   | 6/12  | 4.3/5.0   | 6+16  | 35-54 | $${\color{green}1420}$$    | $${\color{green}12000}$$   | $${\color{green}2700}$$  | 250   |
 | AMD Ryzen 5 6600H (660M) | 6/12   | 3.3/4.5  | 3+16  | 35-45 | $${\color{green}1420}$$   | $${\color{green}11000}$$   | $${\color{green}1900}$$         | 230   |
-| Intel Core i7-1255U (Iris Xe 96EU) | 10(2P+8E)/12            | 1.7/4.7   | 10+12 | $${\color{green}15}$$    | $${\color{green}1400}$$    | 7000    | 1250         | 280   |
-| Intel Core Ultra 5 125U (Arc 4X)   | 10(2P+8E)/12            | 1.2/4.3   | 10+12 | $${\color{green}15}$$    | $${\color{green}1400}$$    | 8000    | 1600         | $${\color{red}320}$$   |
 | **CPU (iGPU)** | **Core/Threads** | **Freq GHz** | **L2+L3** | **TDP** | **CB23 SC** | **CB23 MC** | **Time Spy GPU** | **Price (USD)** |
 | Intel Core i5-12500H (Iris Xe 80EU)| 12(4P+8E)/16 | 2.5/4.5| 9+18  | $${\color{red}45-95}$$ | $${\color{green}1400}$$    | $${\color{green}16000}$$   | 1300  | 200 |
 | AMD Ryzen 7 5825U (Vega 8)   | 8/16   | 2.0/4.5   | 4+16  | $${\color{green}15}$$    | $${\color{green}1400}$$    | $${\color{green}11000}$$   | 1100  | $${\color{green}180}$$ |
+| Intel Core i7-1255U (Iris Xe 96EU) | 10(2P+8E)/12            | 1.7/4.7   | 10+12 | $${\color{green}15}$$    | $${\color{green}1400}$$    | 7000    | 1250         | 280   |
+| Intel Core Ultra 5 125U (Arc 4X)   | 10(2P+8E)/12            | 1.2/4.3   | 10+12 | $${\color{green}15}$$    | $${\color{green}1400}$$    | 8000    | 1600         | $${\color{red}320}$$   |
 | AMD Ryzen 5 7535HS (Radeon 660M) | 6/12    | 3.3/4.6   | 3+16  | 35  | $${\color{green}1380}$$    | 10000   | $${\color{green}1900}$$  | 220   |
 | AMD Ryzen 7 5800U (Vega 8)     | 8/16      | 1.9/4.4   | 4+16  | $${\color{green}15}$$    | $${\color{green}1350}$$    | $${\color{green}10500}$$   | 1050  | $${\color{green}160}$$ |
 | Intel Core i5-1335U (Iris Xe 80EU) | 10(2P+8E)/12            | 1.3/4.6   | 10+12 | $${\color{green}15}$$    | $${\color{green}1350}$$    | 6500    | 1200         | 220   |
