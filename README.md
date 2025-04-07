@@ -13,6 +13,7 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 | AMD Ryzen 7 7735HS (680M)  | 8/16  | 3.2/4.75 | 64+4+16  | 35-54 | $${\color{green}1520}$$    | $${\color{green}14000}$$   | $${\color{green}2200}$$ | $${\color{red}300}$$ |
 | AMD Ryzen 7 6800H (680M)  | 8/16  | 3.2/4.7 | 64+4+16  | 35-45 | $${\color{green}1480}$$    | $${\color{green}13500}$$   | $${\color{green}2100}$$ | 250   |
 | Intel Core i5-13500H (Iris Xe 80EU)| 12(4P+8E) | 2.6/4.7   | 64+9+18  | $${\color{red}45-95}$$ | $${\color{green}1450}$$    | $${\color{green}16500}$$ | $${\color{green}1400}$$ | $${\color{red}300}$$ |
+| 12 | AMD Ryzen 5 6600H (660M) | 6/12   | 3.3/4.5  | 64+3+16  | 35-45 | $${\color{green}1420}$$   | $${\color{green}11000}$$   | $${\color{green}1900}$$         | 230   |
 | AMD Ryzen 5 7640HS (760M)   | 6/12  | 4.3/5.0   | 64+6+16  | 35-54 | $${\color{green}1420}$$    | $${\color{green}12000}$$   | $${\color{green}2700}$$  | 250   |
 | **CPU (iGPU)** | **Core/Threads** | **Freq GHz** | **L1+L2+L3** | **TDP** | **CB23 SC** | **CB23 MC** | **Time Spy GPU** | **Price (USD)** |
 | Intel Core i5-12500H (Iris Xe 80EU)| 12(4P+8E) | 2.5/4.5| 64+9+18  | $${\color{red}45-95}$$ | $${\color{green}1400}$$    | $${\color{green}16000}$$   | 1300  | 200 |
@@ -48,4 +49,4 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 | Intel J3710 (HD 405) | 4/4 | 1.6/2.6  | 32+2+2  | $${\color{green}6}$$ | $${\color{red}250}$$  | $${\color{red}800}$$ | $${\color{red}80}$$ | $${\color{green}10}$$    |
 
 Most balanced (4 green): 5825U, 5800U.  
-Without red good cpu and gpu: 6800H, 7640HS.
+Without red good cpu and gpu: 6800H, 6600H, 7640HS.
