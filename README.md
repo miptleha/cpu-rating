@@ -3,7 +3,7 @@ It is difficult to determine the processor performance by its number. A newer pr
 
 This article is an attempt to make a summary table from which it will be clear what characteristics the processor has and what performance it has according to tests. I am only interested in those processors with which laptops can be bought cheaply in Russia.
 
-Test results from Cinenbench 23R Single and Multi Core, 3D graphics from 3D Mark Time Spy (up to 1000 - old games, up to 3000 - 720p, more - 1080p). CPU sorted by Single Core Score. Only 400- USD processors.
+Test results from Cinenbench 23R Single and Multi Core, 3D graphics from 3D Mark Time Spy. CPU sorted by Single Core Score. Only 400- USD processors.
 
 | **№**  | **CPU (iGPU)** | **Core/Threads** | **Frequency** | **L1+L2+L3** | **TDP** | **CB23 SC** | **CB23 MC** | **Time Spy GPU** | **Price (USD)** |
 |----|------------------------------------|-----------|-----------|----------|-------|---------|---------|--------------|-------|
