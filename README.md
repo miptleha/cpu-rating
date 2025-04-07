@@ -72,10 +72,6 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 | 20 | AMD Ryzen 7 5800U (Vega 8)         | 8/16               | 1.9/4.4       | 4+16     | 15       | 1350    | 10500   | 1050         | 160      |
 | 21 | Intel Core i5-1335U (Iris Xe 80EU) | 10(2P+8E)/12       | 1.3/4.6       | 10+12    | 15       | 1350    | 6500    | 1200         | 220      |
 | 27 | Intel Core i5-1235U (Iris Xe 80EU) | 10(2P+8E)/12       | 1.3/4.4       | 10+12    | 15       | 1300    | 6000    | 1150         | 200      |
-| 24 | AMD Ryzen 5 5650U (Vega 7)         | 6/12               | 2.3/4.2       | 3+16     | 15       | 1200    | 8500    | 900          | 150      |
-| 34 | AMD Ryzen 7 4750U (Vega 7)         | 8/16               | 1.7/4.1       | 4+8      | 15       | 1200    | 9000    | 950          | 100      |
-| 25 | AMD Ryzen 5 5600U (Vega 7)         | 6/12               | 2.3/4.2       | 3+16     | 15       | 1150    | 8000    | 850          | 130      |
-| 26 | AMD Ryzen 5 5500U (Vega 7)         | 6/12               | 2.1/4.0       | 3+8      | 15       | 1100    | 7500    | 800          | 120      |
 
 Most balanced (4 green): 5825U, 5800U.  
 Without red good cpu and gpu: 6800H, 6600H, 7640HS.
