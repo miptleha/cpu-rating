@@ -12,10 +12,10 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 | Intel Core Ultra 7 155U (Arc 4X) | 12(2P+8E)/14  | 1.7/4.8 | 48+12+12 | $${\color{green}15}$$ | $${\color{green}1650}$$  | 9500 | $${\color{green}2000}$$ | $${\color{red}400}$$ |
 | Intel Core i7-1260P (Iris Xe 96EU) | 12(4P+8E)/16 | 2.1/4.7   | 48+12+18 | 28 | $${\color{green}1650}$$    | $${\color{green}11000}$$   | $${\color{green}1700}$$  | 320   |
 | AMD Ryzen 7 8845HS (780M)  | 8/16 | 3.8/5.1 | 64+8+16  | 35-54 | $${\color{green}1600}$$    | $${\color{green}15500}$$   | $${\color{green}3200}$$  | $${\color{red}400}$$ |
-| Intel Core i5-1340P (Iris Xe 80EU) | 12(4P+8E)/16 | 1.9/4.6   | 48+12+18 | 28 | $${\color{green}1600}$$    | 10500   | 1500         | 280   |
+| Intel Core i5-1340P (Iris Xe 80EU) | 12(4P+8E)/16 | 1.9/4.6   | 48+12+18 | 28 | $${\color{green}1600}$$    | 10500   | $${\color{green}1500}$$         | 280   |
 | AMD Ryzen 7 7840HS (780M)  | 8/16 | 3.8/5.1 | 64+8+16  | 35-54 | $${\color{green}1580}$$    | $${\color{green}15000}$$   | $${\color{green}3000}$$ | $${\color{red}380}$$ |
 | AMD Ryzen 7 7735HS (680M)  | 8/16  | 3.2/4.75 | 64+4+16  | 35-54 | $${\color{green}1520}$$    | $${\color{green}14000}$$   | $${\color{green}2200}$$ | $${\color{red}300}$$ |
-| Intel Core i5-1240P (Iris Xe 80EU) | 12(4P+8E)/16            | 1.7/4.4   | 48+12+18 | 28    | 1500    | 9500    | 1400         | 250   |
+| Intel Core i5-1240P (Iris Xe 80EU) | 12(4P+8E)/16            | 1.7/4.4   | 48+12+18 | 28    | 1500    | 9500    | $${\color{green}1400}$$         | 250   |
 | AMD Ryzen 7 6800H (680M)  | 8/16  | 3.2/4.7 | 64+4+16  | 35-45 | $${\color{green}1480}$$    | $${\color{green}13500}$$   | $${\color{green}2100}$$ | 250   |
 | Intel Core i5-13500H (Iris Xe 80EU)| 12(4P+8E)/16 | 2.6/4.7   | 64+9+18  | $${\color{red}45-95}$$ | $${\color{green}1450}$$    | $${\color{green}16500}$$ | $${\color{green}1400}$$ | $${\color{red}300}$$ |
 | Intel Core i7-1355U (Iris Xe 96EU) | 10(2P+8E)/12            | 1.7/5.0   | 32+10+12 | 15    | 1450    | 7500    | 1300         | 300   |
