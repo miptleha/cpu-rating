@@ -64,4 +64,4 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 | Intel J3710 (HD 405) | 4/4 | 1.6/2.6  | 2+2  | $${\color{green}6}$$ | $${\color{red}250}$$  | $${\color{red}800}$$ | $${\color{red}80}$$ | $${\color{green}10}$$    |
 
 Most balanced (4 green): 5825U, 5800U, 7730U.  
-Without red good cpu and gpu: 6800H, 6600H, 7640HS, 1340P.
+Without red good cpu and gpu: 6800H, 6600H, 7640HS, 1340P, 7735HS.
