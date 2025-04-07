@@ -16,6 +16,7 @@ Test results from Cinenbench 23R Single and Multi Core, 3D Mark Time Spy. CPU so
 | AMD Ryzen 7 7840HS (780M)  | 8/16 | 3.8/5.1 | 8+16  | 35-54 | $${\color{green}1580}$$    | $${\color{green}15000}$$   | $${\color{green}3000}$$ | $${\color{red}380}$$ |
 
 | **CPU (iGPU)** | **Core/Threads** | **Freq GHz** | **L2+L3** | **TDP** | **CB23 SC** | **CB23 MC** | **Time Spy GPU** | **Price (USD)** |
+|------------------------------------|-----------|-----------|----------|-------|---------|---------|--------------|-------|
 | AMD Ryzen 7 7735HS (680M)  | 8/16  | 3.2/4.75 | 4+16  | 35-54 | $${\color{green}1520}$$    | $${\color{green}14000}$$   | $${\color{green}2200}$$ | $${\color{red}300}$$ |
 | Intel Core i5-1240P (Iris Xe 80EU) | 12(4P+8E)/16            | 1.7/4.4   | 12+18 | 28    | $${\color{green}1500}$$    | 9500    | $${\color{green}1400}$$         | 250   |
 | AMD Ryzen 7 6800H (680M)  | 8/16  | 3.2/4.7 | 4+16  | 35-45 | $${\color{green}1480}$$    | $${\color{green}13500}$$   | $${\color{green}2100}$$ | 250   |
