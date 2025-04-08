@@ -84,7 +84,7 @@ Best performance + Best GPU + Energy efficiency
 Weak processor ratings are incorrectly shown higher than they actually are.  
 
 
-| #  | Processor (GPU)                     | Single-Core (%) | Multi-Core (%) | GPU (FPS 1080p) | Sum  | Avg Notebook Price ($) | Performance/Price |
+| #  | Processor (GPU)                     | Single-Core (%) | Multi-Core (%) | GPU (FPS 1080p) | Sum  | Note Price ($) | Performance/Price |
 |----|-------------------------------------|------------|----------------|---------|-----------|----------|-------------------|
 | 1  | AMD Ryzen 9 7940HS (Radeon 780M)    | 98         | 98             | 95      | 291       | 1800     | 142               |
 | 2  | AMD Ryzen 7 8845HS (Radeon 780M)    | 95         | 94             | 90      | 279       | 1650     | 147               |
