@@ -11,7 +11,118 @@ Load and parse 3 pages.
 For all laptops on sale look at the processor rating, find its video core, also look at the video core rating.  
 Output a markdown table with ratings, price.
 
-# Laptop СPU rating
+| # | Processor (GPU) | Tdp | Core/Threads | Frequency | Single-Core | Multi-Core | GPU | Single+Multi+GPU | Price |
+|---|-----------------|-----|--------------|-----------|-------------|------------|-----|------------------|-------|
+| 1 | Intel Core Ultra 9 285HX (Graphics 4-Core iGPU (Arc)) | 55-160 | 24/24 | 2100 ‑ 5500 | 2232 | 27010 | 5235,5 | 246 | 1 500 980 |
+| 2 | Intel Core Ultra 9 275HX (Graphics 4-Core iGPU (Arc)) | 55-160 | 24/24 | 2100 ‑ 5400 | 2235 | 24285 | 5235,5 | 236 | 624 990 |
+| 3 | AMD Ryzen 9 9955HX (Radeon 610M) | 55- | 16/32 |  ‑ 5400 | 2419 | 22114 | 2192 | 204 | 457 990 |
+| 4 | Intel Core i9-13980HX (UHD Graphics 770) | 55- | 24/32 | 1600 ‑ 5600 | 2099 | 20329 | 4,4 | 162 | 206 870 |
+| 5 | Intel Core i9-14900HX (UHD Graphics Xe 32EUs (Tiger Lake-H)) | 55-157 | 24/32 | 1600 ‑ 5800 | 2123,5 | 20002 | 2495 | 187 | 450 070 |
+| 6 | AMD Ryzen 9 9955HX3D (Radeon 610M) | 55- | 16/32 |  ‑ 5400 | 2133 | 19875 | 2192 | 184 | 617 990 |
+| 7 | AMD Ryzen 9 7945HX (Radeon 610M) | 55- | 16/32 | 2500 ‑ 5400 | 2103 | 19745 | 2192 | 182 | 482 970 |
+| 8 | Intel Core Ultra 7 255HX (Graphics 4-Core iGPU (Arc)) | 55-160 | 20/20 | 2300 ‑ 5200 | 2080 | 17691 | 5235,5 | 205 | 282 990 |
+| 9 | Intel Core i7-14700HX (UHD Graphics 770) | 55-157 | 20/28 | 3900 ‑ 5500 | 2080 | 17691 | 4,4 | 152 | 448 080 |
+| 10 | Intel Core Ultra 7 255H (Arc Graphics 140T) | 28-115 | 16/16 | 4400 ‑ 5100 | 2112 | 17218 | 9328 | 246 | 183 970 |
+| 11 | Intel Core i7-14650HX (UHD Graphics 770) | 55-157 | 16/24 | 1600 ‑ 5200 | 1933 | 16810 | 4,4 | 142 | 409 860 |
+| 12 | Intel Core Ultra 9 285H (Arc Graphics 140T) | 45-115 | 16/16 | 4500 ‑ 5400 | 2096 | 15818 | 9328 | 240 | 519 540 |
+| 13 | Intel Core i7-13700HX (UHD Graphics 770) | 55- | 16/24 | 1500 ‑ 5000 | 1852,5 | 14695 | 4,4 | 131 | 174 490 |
+| 14 | AMD Ryzen AI 9 HX 370 (Radeon 890M) | 28-54 | 12/24 | 2000 ‑ 5100 | 2096 | 14192 | 9145 | 232 | 252 970 |
+| 15 | Intel Core i7-13650HX (UHD Graphics Xe 16EUs (Tiger Lake-H)) | 55- | 14/20 | 1900 ‑ 4900 | 1845 | 13729,5 | 1203 | 139 | 321 960 |
+| 16 | Intel Core i5-14500HX (Iris Xe G7 96EUs) | 55-157 | 14/20 | 1800 ‑ 5000 | 1845 | 13729,5 | 5148,5 | 180 | 165 390 |
+| 17 | Intel Core Ultra 9 185H (Arc 8-Core iGPU) | 45- | 16/22 | 3800 ‑ 5100 | 1852 | 13566 | 8513 | 213 | 275 740 |
+| 18 | AMD Ryzen AI 9 365 (Radeon 880M) | 54- | 10/20 | 2000 ‑ 5000 | 2066 | 13009 | 9295,5 | 228 | 328 840 |
+| 19 | Intel Core i9-13900H (Iris Xe G7 96EUs) | 45- | 14/20 | 1900 ‑ 5400 | 1955 | 12890 | 5148,5 | 181 | 225 270 |
+| 20 | Intel Core i7-12850HX (UHD Graphics 770) | 55- | 16/24 | 1500 ‑ 4800 | 1782 | 12302 | 4,4 | 119 | 119 990 |
+| 21 | Intel Core Ultra 7 155H (Arc 8-Core iGPU) | 28- | 16/22 | 3800 ‑ 4800 | 1761,5 | 12183,5 | 8513 | 205 | 150 590 |
+| 22 | AMD Ryzen 9 7940HS (Radeon 780M) | 35- | 8/16 | 4000 ‑ 5200 | 1989,5 | 12145 | 7997 | 209 | 236 870 |
+| 23 | Intel Core i7-12700H (Iris Xe G7 96EUs) | 45- | 14/20 | 1700 ‑ 4700 | 1755 | 12125 | 5148,5 | 170 | 165 470 |
+| 24 | Intel Core i5-13450HX (UHD Graphics Xe 16EUs (Tiger Lake-H)) | 55- | 10/16 | 1800 ‑ 4600 | 1757 | 12005 | 1203 | 129 | 160 790 |
+| 25 | AMD Ryzen 7 8845HS (Radeon 780M) | 45- | 8/16 | 3800 ‑ 5100 | 1949 | 11864 | 7997 | 206 | 257 460 |
+| 26 | Intel Core i7-13700H (Iris Xe G7 96EUs) | 45- | 14/20 | 1800 ‑ 5000 | 1829 | 11831 | 5148,5 | 172 | 128 900 |
+| 27 | AMD Ryzen AI 7 350 (Radeon 860M) | 28-54 | 8/16 | 2000 ‑ 5000 | 2120 | 11830,5 | 7923 | 212 | 137 970 |
+| 28 | Intel Core i7-13620H (UHD Graphics 64EUs) | 45- | 10/16 | 1800 ‑ 4900 | 1827 | 11430 | 3894,5 | 157 | 251 760 |
+| 29 | Intel Core i5-13500H (Iris Xe G7 80EUs) | 45- | 12/16 | 1900 ‑ 4700 | 1743 | 11099 | 4048 | 154 | 210 360 |
+| 30 | Intel Core Ultra 5 225H (Arc Graphics 130T) | 28-115 | 16/16 | 4300 ‑ 4900 | 1676 | 10542 | 9825 | 208 | 126 470 |
+| 31 | Intel Core Ultra 5 125H (Arc 7-Core iGPU) | 28- | 14/18 | 3600 ‑ 4500 | 1676 | 10542 | 8133 | 191 | 227 540 |
+| 32 | Intel Core i5-12600H (Iris Xe G7 80EUs) | 45- | 12/16 | 2000 ‑ 4500 | 1636,5 | 10272 | 4048 | 147 | 128 490 |
+| 33 | Intel Core i5-12500H (Iris Xe G7 80EUs) | 45- | 12/16 | 1800 ‑ 4500 | 1636,5 | 10272 | 4048 | 147 | 89 990 |
+| 34 | Intel Core i7-1360P (Iris Xe G7 96EUs) | 28- | 12/16 | 1600 ‑ 5000 | 1824 | 9967 | 5148,5 | 165 | 169 900 |
+| 35 | AMD Ryzen 7 8840HS (Radeon 780M) | 28- | 8/16 | 3300 ‑ 5100 | 1928 | 9897 | 7997 | 198 | 105 990 |
+| 36 | Intel Core i7-12650H (UHD Graphics 64EUs) | 45- | 10/16 | 1700 ‑ 4700 | 1758 | 9784 | 3894,5 | 149 | 211 980 |
+| 37 | Intel Core Ultra 7 258V (Arc Graphics 140V) | 17-37 | 8/8 | 2200 ‑ 4800 | 2004,5 | 9654 | 9825 | 219 | 208 170 |
+| 38 | AMD Ryzen 5 8645HS (Radeon 760M) | 45- | 6/12 | 4300 ‑ 5000 | 1915 | 9420 | 6360,5 | 179 | 83 900 |
+| 39 | Intel Core Ultra 7 256V (Arc Graphics 140V) | 17-37 | 8/8 | 2200 ‑ 4800 | 2000 | 9361 | 9825 | 217 | 172 170 |
+| 40 | AMD Ryzen 7 7735HS (Radeon 680M) | 35- | 8/16 | 3200 ‑ 4750 | 1559,5 | 9360 | 6865 | 169 | 89 190 |
+| 41 | AMD Ryzen 5 7640HS (Radeon 760M) | 45- | 6/12 | 4300 ‑ 5000 | 1941 | 9355 | 6360,5 | 180 | 121 780 |
+| 42 | AMD Ryzen 7 6800H (Radeon 680M) | 45- | 8/16 | 3200 ‑ 4700 | 1550,5 | 9331 | 6865 | 169 | 172 190 |
+| 43 | Intel Core i7-1260P (Iris Xe G7 96EUs) | 28- | 12/16 | 1500 ‑ 4700 | 1719 | 9298 | 5148,5 | 158 | 169 390 |
+| 44 | AMD Ryzen 7 8840U (Radeon 780M) | 28- | 8/16 | 3300 ‑ 5100 | 1879 | 9258 | 7997 | 193 | 106 990 |
+| 45 | Qualcomm Snapdragon X Elite X1E-78-100 (SD X Adreno X1-85 3.8 TFLOPS) | 35-45 | 12/12 |  ‑ 3400 | 1666,5 | 9104,5 | 6288,5 | 167 | 203 370 |
+| 46 | Intel Core Ultra 5 226V (Arc Graphics 130V) | 17-37 | 8/8 | 2100 ‑ 4500 | 1877,5 | 8931 | 8374,5 | 196 | 114 970 |
+| 47 | Intel Core i7-1270P (Iris Xe G7 96EUs) | 28- | 12/16 | 1600 ‑ 4800 | 1644 | 8660 | 5148,5 | 152 | 164 990 |
+| 48 | Intel Core i7-1365U (Iris Xe G7 96EUs) | 15- | 10/12 | 1300 ‑ 5200 | 1878,5 | 8605,5 | 5148,5 | 162 | 235 770 |
+| 49 | AMD Ryzen 7 7435H () | 45- | 8/16 | 3100 ‑ 4500 | 1564 | 8582 |  | 96 | 114 990 |
+| 50 | Intel Core Ultra 7 165U (Graphics 4-Core iGPU (Arc)) | 15- | 12/14 | 3800 ‑ 4900 | 1733,5 | 8577 | 5235,5 | 157 | 354 590 |
+| 51 | Intel Core 5 120U (Iris Xe G7 80EUs) | 15-55 | 10/12 | 900 ‑ 5000 | 1858 | 8576 | 4048 | 150 | 62 990 |
+| 52 | AMD Ryzen AI 5 340 (Radeon 840M) | 28-54 | 6/12 | 2000 ‑ 4800 | 1822 | 8507 | 4989 | 158 | 175 940 |
+| 53 | Intel Core Ultra 5 125U (Graphics 4-Core iGPU (Arc)) | 15- | 12/14 | 3600 ‑ 4300 | 1577,5 | 8311 | 5235,5 | 149 | 205 040 |
+| 54 | AMD Ryzen 5 PRO 7540U (Radeon 740M) | 15- | 6/12 | 3200 ‑ 4900 | 1866 | 8296 | 4989 | 159 | 177 490 |
+| 55 | Intel Core Ultra 7 155U (Graphics 4-Core iGPU (Arc)) | 15- | 12/14 | 3800 ‑ 4800 | 1691 | 8270 | 5235,5 | 154 | 258 740 |
+| 56 | Intel Core i7-1355U (Iris Xe G7 96EUs) | 15- | 10/12 | 1200 ‑ 5000 | 1783 | 8058 | 5148,5 | 156 | 201 240 |
+| 57 | Intel Core 7 150U (Iris Xe G7 96EUs) | 15-55 | 10/12 | 1200 ‑ 5400 | 1909,5 | 7987 | 5148,5 | 161 | 224 800 |
+| 58 | AMD Ryzen 7 4800H (Radeon RX Vega 7) | 45- | 8/16 | 2900 ‑ 4200 | 1191 | 7955 | 3347,5 | 113 | 53 870 |
+| 59 | Intel Core i7-1255U (Iris Xe G7 96EUs) | 15- | 10/12 | 1200 ‑ 4700 | 1661,5 | 7947,5 | 5148,5 | 151 | 69 570 |
+| 60 | Intel Core i5-13420H (UHD Graphics Xe G4 48EUs) | 45- | 8/12 | 1500 ‑ 4600 | 1664 | 7925 | 2374 | 122 | 68 590 |
+| 61 | Intel Core 5 210H (UHD Graphics Xe G4 48EUs) | 45- | 8/12 | 1600 ‑ 4800 | 1664 | 7925 | 2374 | 122 | 116 170 |
+| 62 | Intel Core i5-1335U (Iris Xe G7 80EUs) | 15- | 10/12 | 900 ‑ 4600 | 1669 | 7856 | 4048 | 139 | 167 170 |
+| 63 | Intel Core i5-1345U (Iris Xe G7 80EUs) | 15- | 10/12 | 1200 ‑ 4700 | 1653 | 7738 | 4048 | 138 | 165 290 |
+| 64 | AMD Ryzen 5 6600H (Radeon 660M) | 45- | 6/12 | 3300 ‑ 4500 | 1474 | 7729 | 4734,5 | 138 | 128 840 |
+| 65 | Intel Core i5-12450HX (UHD Graphics Xe 16EUs (Tiger Lake-H)) | 55- | 8/12 | 1800 ‑ 4400 | 940 | 7680 | 1203 | 80 | 211 800 |
+| 66 | AMD Ryzen 7 7730U (Radeon RX Vega 8 (Ryzen 4000/5000)) | 15- | 8/16 | 2000 ‑ 4500 | 1479,5 | 7573 | 3742,5 | 127 | 138 270 |
+| 67 | AMD Ryzen 5 7535HS (Radeon 660M) | 35- | 6/12 | 3300 ‑ 4550 | 1491,5 | 7520,5 | 4734,5 | 138 | 89 570 |
+| 68 | Intel Core i5-12450H (UHD Graphics Xe G4 48EUs) | 45- | 8/12 | 1500 ‑ 4400 | 1636 | 7200 | 2374 | 118 | 57 970 |
+| 69 | AMD Ryzen 7 5825U (Radeon RX Vega 8 (Ryzen 4000/5000)) | 15- | 8/16 | 2000 ‑ 4500 | 1482 | 7074,5 | 3742,5 | 126 | 107 069 |
+| 70 | AMD Ryzen 5 5600H (Radeon RX Vega 7) | 45- | 6/12 | 3300 ‑ 4200 | 1422,5 | 6536 | 3347,5 | 117 | 47 990 |
+| 71 | AMD Ryzen 5 7535U (Radeon 660M) | 28- | 6/12 | 2900 ‑ 4550 | 1456,5 | 6496 | 4734,5 | 132 | 74 790 |
+| 72 | AMD Ryzen 5 7530U (Radeon RX Vega 7) | 15- | 6/12 | 2000 ‑ 4500 | 1479 | 6390 | 3347,5 | 119 | 54 900 |
+| 73 | Intel Core i5-1334U (Iris Xe G7 80EUs) | 15- | 10/12 | 900 ‑ 4600 | 1561 | 6263 | 4048 | 129 | 197 640 |
+| 74 | AMD Ryzen 7 5700U (Radeon RX Vega 8 (Ryzen 4000/5000)) | 25- | 8/16 | 1800 ‑ 4300 | 1186 | 6259 | 3742,5 | 110 | 60 990 |
+| 75 | Intel Core 3 100U (UHD Graphics 64EUs) | 15-55 | 6/8 | 900 ‑ 4700 | 1630 | 6180 | 3894,5 | 130 | 47 690 |
+| 76 | AMD Ryzen 7 PRO 4750U (Radeon RX Vega 7) | 15- | 8/16 | 1700 ‑ 4100 | 1149 | 6153 | 3347,5 | 104 | 42 690 |
+| 77 | AMD Ryzen 5 7430U (Radeon RX Vega 7) | 15- | 6/12 | 2300 ‑ 4300 | 1418 | 6106 | 3347,5 | 115 | 56 990 |
+| 78 | Intel Core i5-1235U (Iris Xe G7 80EUs) | 15- | 10/12 | 900 ‑ 4400 | 1591,5 | 6084,5 | 4048 | 130 | 53 470 |
+| 79 | AMD Ryzen 5 4600H (Radeon RX Vega 6 (Ryzen 4000/5000)) | 45- | 6/12 | 3000 ‑ 4000 | 1117 | 6080 | 2793 | 97 | 47 570 |
+| 80 | AMD Ryzen 5 5560U (Radeon RX Vega 6 (Ryzen 4000/5000)) | 25- | 6/12 | 2300 ‑ 4000 | 1318 | 5955 | 2793 | 105 | 48 490 |
+| 81 | AMD Ryzen 5 5625U (Radeon RX Vega 7) | 15- | 6/12 | 2300 ‑ 4300 | 1417 | 5947 | 3347,5 | 115 | 43 390 |
+| 82 | AMD Ryzen 5 4600U (Radeon RX Vega 6 (Ryzen 4000/5000)) | 15- | 6/12 | 2100 ‑ 4000 | 1105 | 5591 | 2793 | 95 | 36 690 |
+| 83 | AMD Ryzen 5 5500U (Radeon RX Vega 7) | 25- | 6/12 | 2100 ‑ 4000 | 1108 | 5438,5 | 3347,5 | 100 | 54 990 |
+| 84 | Qualcomm Snapdragon X Plus X1P-42-100 (SD X Adreno X1-45 1.7 TFLOPS) | 30- | 8/8 |  ‑ 3400 | 1531 | 5350,5 | 3703 | 121 | 160 970 |
+| 85 | Intel Core i3-1315U (UHD Graphics 64EUs) | 15- | 6/8 | 900 ‑ 4500 | 1495 | 5350 | 3894,5 | 121 | 117 140 |
+| 86 | Intel Core i3-1215U (UHD Graphics 64EUs) | 15- | 6/8 | 900 ‑ 4400 | 1539 | 5258,5 | 3894,5 | 123 | 90 040 |
+| 87 | AMD Ryzen 5 PRO 5675U (Radeon RX Vega 7) | 15- | 6/12 | 2300 ‑ 4300 | 1363,5 | 5227 | 3347,5 | 110 | 43 070 |
+| 88 | Intel Core i7-1165G7 (Iris Xe G7 96EUs) | 28- | 4/8 | 2800 ‑ 4700 | 1532,5 | 5174,5 | 5148,5 | 135 | 55 390 |
+| 89 | AMD Ryzen 5 PRO 4650U (Radeon RX Vega 6 (Ryzen 4000/5000)) | 15- | 6/12 | 2100 ‑ 4000 | 1071 | 4648,5 | 2793 | 90 | 36 570 |
+| 90 | Intel Core i3-N305 (UHD Graphics Xe 750 32EUs) | 15- | 8/8 | 1800 ‑ 3800 | 1060,5 | 4603 | 2174,5 | 83 | 96 440 |
+| 91 | AMD Ryzen 3 5300U (Radeon RX Vega 6 (Ryzen 4000/5000)) | 25- | 4/8 | 2600 ‑ 3800 | 1070 | 4008 | 2793 | 87 | 51 670 |
+| 92 | AMD Ryzen 3 7335U (Radeon 660M) | 28- | 4/8 | 3000 ‑ 4300 | 875 | 3932 | 4734,5 | 99 | 62 870 |
+| 93 | Intel Core i5-1035G1 (UHD Graphics G1 (Ice Lake 32 EU)) | 15- | 4/8 | 1000 ‑ 3600 | 1219 | 3858 | 1521 | 80 | 44 870 |
+| 94 | AMD Ryzen 3 7320U (Radeon 610M) | 15- | 4/8 | 2400 ‑ 4100 | 1066 | 3821 | 2192 | 81 | 77 580 |
+| 95 | AMD Ryzen 5 7520U (Radeon 610M) | 15- | 4/8 | 2800 ‑ 4300 | 1066 | 3821 | 2192 | 81 | 104 890 |
+| 96 | Intel Processor U300 (UHD Graphics Xe G4 48EUs) | 15-55 | 5/6 | 900 ‑ 4400 | 1422 | 3764 | 2374 | 97 | 46 690 |
+| 97 | Intel Core i3-1305U (UHD Graphics 64EUs) | 15- | 5/6 | 1200 ‑ 4500 | 1422 | 3764 | 3894,5 | 112 | 38 900 |
+| 98 | AMD Ryzen 3 4300U (Radeon RX Vega 5) | 15- | 4/4 | 2700 ‑ 3700 | 1046,5 | 3438,5 | 2438 | 81 | 41 770 |
+| 99 | AMD Ryzen 3 5400U (Radeon RX Vega 6 (Ryzen 4000/5000)) | 25- | 4/8 | 2600 ‑ 4000 | 1170 | 3095 | 2793 | 88 | 37 390 |
+| 100 | AMD Ryzen 3 5425U (Radeon RX Vega 6 (Ryzen 4000/5000)) | 15- | 4/8 | 2700 ‑ 4100 | 1170 | 3095 | 2793 | 88 | 42 290 |
+| 101 | AMD Ryzen 3 7330U (Radeon RX Vega 6 (Ryzen 4000/5000)) | 15- | 4/8 | 2300 ‑ 4300 | 1170 | 3095 | 2793 | 88 | 43 990 |
+| 102 | Intel Processor N100 (UHD Graphics 24EUs (Alder Lake-N)) | 6- | 4/4 | 1000 ‑ 3400 | 986 | 2829 | 1185 | 63 | 66 360 |
+| 103 | Intel Core i3-1115G4 (UHD Graphics Xe G4 48EUs) | 28- | 2/4 | 3000 ‑ 4100 | 1311,5 | 2605 | 2374 | 88 | 33 690 |
+| 104 | Qualcomm Snapdragon 850 (Adreno 630) | - | 8/8 | 2750 ‑ 2960 | 488 | 1923 | 821 | 36 | 47 170 |
+| 105 | Intel Processor N200 (UHD Graphics Xe 750 32EUs) | 6- | 4/4 | 1000 ‑ 3700 | 928 | 1540 | 2174,5 | 66 | 98 540 |
+| 106 | Intel Celeron N4020 (UHD Graphics 600) | 6-15 | 2/2 | 1100 ‑ 2800 | 462 | 836 | 433 | 27 | 21 690 |
+| 107 | Intel Celeron N4000 (UHD Graphics 600) | 6- | 2/2 | 1100 ‑ 2600 | 433,5 | 801,5 | 433 | 25 | 17 390 |
+
+
+# Laptop СPU rating (AI generated)
 > I have only one question: why do I need a laptop if I already have one.
 
 It is difficult to determine the processor performance by its number. A newer processor may be weaker and more expensive. The speed of a laptop is a subjective characteristic and may be related not only to the processor, but also to the SSD and memory. Another important part of the processor is the graphics core.
@@ -92,7 +203,7 @@ Best performance + Best GPU + Energy efficiency
 1.  AMD Ryzen 7 5825U (Zen 3, Vega 8)
 1.  AMD Ryzen 5 5625U (Zen 3, Vega 7)
 
-## Top Mobile CPU by Total Rating (Single-Core + Multi-Core + GPU) in percents
+## Top Mobile CPU by Total Rating (Single-Core + Multi-Core + GPU) in percents (AI Generated)
 
 Weak processor ratings are incorrectly shown higher than they actually are.  
 
