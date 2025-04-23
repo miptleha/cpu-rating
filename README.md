@@ -55,64 +55,64 @@ Output a markdown table with ratings, price.
 | 29 | Intel Core Ultra 5 226V (Arc Graphics 130V) | $${\color{green}17}$$-37 | 8/8 | 2,1/4,5 | $${\color{green}78}$$ | $${\color{green}69}$$ | $${\color{green}79}$$ | 226 | 96 420 | $${\color{green}2,3}$$ |
 | 30 | Intel Core Ultra 5 125H (Arc 7-Core iGPU) | $${\color{green}28}$$- | 14/18 | 3,6/4,5 | $${\color{green}69}$$ | $${\color{green}82}$$ | $${\color{green}74}$$ | 225 | 69 746 | $${\color{green}3,2}$$ |
 | 31 | AMD Ryzen 7 8840HS (Radeon 780M) | $${\color{green}28}$$- | 8/16 | 3,3/5,1 | $${\color{green}80}$$ | $${\color{green}77}$$ | $${\color{green}68}$$ | 225 | 97 805 | $${\color{green}2,3}$$ |
-| 32 | Intel Core i5-14500HX (Iris Xe G7 96EUs) | $${\color{red}55}$$-157 | 14/20 | 1,8/5,0 | $${\color{green}76}$$ | $${\color{green}106}$$ | $${\color{red}37}$$ | 219 | 165 390 | 1,3 |
-| 33 | Intel Core i7-13800H (Iris Xe G7 96EUs) | $${\color{red}45}$$- | 14/20 | 1,8/5,2 | $${\color{green}82}$$ | $${\color{green}100}$$ | $${\color{red}37}$$ | 219 | 247 527 | 0,9 |
-| 34 | Intel Core i9-13900H (Iris Xe G7 96EUs) | $${\color{red}45}$$- | 14/20 | 1,9/5,4 | $${\color{green}81}$$ | $${\color{green}100}$$ | $${\color{red}37}$$ | 218 | 91 033 | $${\color{green}2,4}$$ |
+| 32 | Intel Core i5-14500HX (Iris Xe G7 96EUs) | $${\color{red}55}$$-157 | 14/20 | 1,8/5,0 | $${\color{green}76}$$ | $${\color{green}106}$$ | 37 | 219 | 165 390 | 1,3 |
+| 33 | Intel Core i7-13800H (Iris Xe G7 96EUs) | $${\color{red}45}$$- | 14/20 | 1,8/5,2 | $${\color{green}82}$$ | $${\color{green}100}$$ | 37 | 219 | 247 527 | 0,9 |
+| 34 | Intel Core i9-13900H (Iris Xe G7 96EUs) | $${\color{red}45}$$- | 14/20 | 1,9/5,4 | $${\color{green}81}$$ | $${\color{green}100}$$ | 37 | 218 | 91 033 | $${\color{green}2,4}$$ |
 | 35 | AMD Ryzen 7 8840U (Radeon 780M) | $${\color{green}28}$$- | 8/16 | 3,3/5,1 | $${\color{green}78}$$ | $${\color{green}72}$$ | $${\color{green}68}$$ | 218 | 106 990 | $${\color{green}2,0}$$ |
 | 36 | Intel Core i7-13700HX (UHD Graphics 770) | $${\color{red}55}$$- | 16/24 | 1,5/5,0 | $${\color{green}77}$$ | $${\color{green}114}$$ | $${\color{red}18}$$ | 209 | 162 474 | 1,3 |
-| 37 | AMD Ryzen 5 7640HS (Radeon 760M) | $${\color{red}45}$$- | 6/12 | 4,3/5,0 | $${\color{green}80}$$ | $${\color{green}72}$$ | 54 | 206 | 58 990 | $${\color{green}3,5}$$ |
-| 38 | AMD Ryzen 5 8645HS (Radeon 760M) | $${\color{red}45}$$- | 6/12 | 4,3/5,0 | $${\color{green}79}$$ | $${\color{green}73}$$ | 54 | 206 | 65 884 | $${\color{green}3,1}$$ |
-| 39 | Intel Core i7-13700H (Iris Xe G7 96EUs) | $${\color{red}45}$$- | 14/20 | 1,8/5,0 | $${\color{green}76}$$ | $${\color{green}92}$$ | $${\color{red}37}$$ | 205 | 55 681 | $${\color{green}3,7}$$ |
-| 40 | Intel Core i7-12700H (Iris Xe G7 96EUs) | $${\color{red}45}$$- | 14/20 | 1,7/4,7 | $${\color{green}73}$$ | $${\color{green}94}$$ | $${\color{red}37}$$ | 204 | 65 228 | $${\color{green}3,1}$$ |
+| 37 | AMD Ryzen 5 7640HS (Radeon 760M) | $${\color{red}45}$$- | 6/12 | 4,3/5,0 | $${\color{green}80}$$ | $${\color{green}72}$$ | $${\color{green}54}$$ | 206 | 58 990 | $${\color{green}3,5}$$ |
+| 38 | AMD Ryzen 5 8645HS (Radeon 760M) | $${\color{red}45}$$- | 6/12 | 4,3/5,0 | $${\color{green}79}$$ | $${\color{green}73}$$ | $${\color{green}54}$$ | 206 | 65 884 | $${\color{green}3,1}$$ |
+| 39 | Intel Core i7-13700H (Iris Xe G7 96EUs) | $${\color{red}45}$$- | 14/20 | 1,8/5,0 | $${\color{green}76}$$ | $${\color{green}92}$$ | 37 | 205 | 55 681 | $${\color{green}3,7}$$ |
+| 40 | Intel Core i7-12700H (Iris Xe G7 96EUs) | $${\color{red}45}$$- | 14/20 | 1,7/4,7 | $${\color{green}73}$$ | $${\color{green}94}$$ | 37 | 204 | 65 228 | $${\color{green}3,1}$$ |
 | 41 | AMD Ryzen 7 7745HX (Radeon 610M) | $${\color{red}55}$$- | 8/16 | 3,6/5,1 | $${\color{green}85}$$ | $${\color{green}100}$$ | $${\color{red}14}$$ | 199 | 141 073 | 1,4 |
-| 42 | AMD Ryzen 7 6800H (Radeon 680M) | $${\color{red}45}$$- | 8/16 | 3,2/4,7 | $${\color{green}64}$$ | $${\color{green}72}$$ | 55 | 191 | 172 190 | 1,1 |
-| 43 | AMD Ryzen 7 7735HS (Radeon 680M) | $${\color{red}35}$$- | 8/16 | 3,2/4,8 | $${\color{green}64}$$ | $${\color{green}72}$$ | 55 | 191 | 84 974 | $${\color{green}2,2}$$ |
+| 42 | AMD Ryzen 7 6800H (Radeon 680M) | $${\color{red}45}$$- | 8/16 | 3,2/4,7 | $${\color{green}64}$$ | $${\color{green}72}$$ | $${\color{green}55}$$ | 191 | 172 190 | 1,1 |
+| 43 | AMD Ryzen 7 7735HS (Radeon 680M) | $${\color{red}35}$$- | 8/16 | 3,2/4,8 | $${\color{green}64}$$ | $${\color{green}72}$$ | $${\color{green}55}$$ | 191 | 84 974 | $${\color{green}2,2}$$ |
 | 44 | Intel Core i7-13620H (UHD Graphics 64EUs) | $${\color{red}45}$$- | 10/16 | 1,8/4,9 | $${\color{green}76}$$ | $${\color{green}88}$$ | $${\color{red}26}$$ | 190 | 54 231 | $${\color{green}3,5}$$ |
 | 45 | Intel Core i7-13650HX (UHD Graphics Xe 16EUs) | $${\color{red}55}$$- | 14/20 | 1,9/4,9 | $${\color{green}76}$$ | $${\color{green}106}$$ | $${\color{red}8}$$ | 190 | 89 497 | $${\color{green}2,1}$$ |
-| 46 | Intel Core i7-1360P (Iris Xe G7 96EUs) | $${\color{green}28}$$- | 12/16 | 1,6/5,0 | $${\color{green}75}$$ | $${\color{green}77}$$ | $${\color{red}37}$$ | 189 | 52 547 | $${\color{green}3,6}$$ |
+| 46 | Intel Core i7-1360P (Iris Xe G7 96EUs) | $${\color{green}28}$$- | 12/16 | 1,6/5,0 | $${\color{green}75}$$ | $${\color{green}77}$$ | 37 | 189 | 52 547 | $${\color{green}3,6}$$ |
 | 47 | Intel Core i7-12850HX (UHD Graphics 770) | $${\color{red}55}$$- | 16/24 | 1,5/4,8 | $${\color{green}74}$$ | $${\color{green}95}$$ | $${\color{red}18}$$ | 187 | 119 990 | 1,6 |
 | 48 | Intel Core i5-13500H (Iris Xe G7 80EUs) | $${\color{red}45}$$- | 12/16 | 1,9/4,7 | $${\color{green}72}$$ | $${\color{green}86}$$ | $${\color{red}28}$$ | 186 | 51 989 | $${\color{green}3,6}$$ |
 | 49 | Intel Core Ultra 7 165U (Graphics 4-Core iGPU) | $${\color{green}15}$$- | 12/14 | 3,8/4,9 | $${\color{green}72}$$ | $${\color{green}66}$$ | 45 | 183 | 249 900 | 0,7 |
-| 50 | Intel Core i7-1365U (Iris Xe G7 96EUs) | $${\color{green}15}$$- | 10/12 | 1,3/5,2 | $${\color{green}78}$$ | $${\color{green}67}$$ | $${\color{red}37}$$ | 182 | 136 588 | 1,3 |
-| 51 | Intel Core i7-1260P (Iris Xe G7 96EUs) | $${\color{green}28}$$- | 12/16 | 1,5/4,7 | $${\color{green}71}$$ | $${\color{green}72}$$ | $${\color{red}37}$$ | 180 | 55 025 | $${\color{green}3,3}$$ |
+| 50 | Intel Core i7-1365U (Iris Xe G7 96EUs) | $${\color{green}15}$$- | 10/12 | 1,3/5,2 | $${\color{green}78}$$ | $${\color{green}67}$$ | 37 | 182 | 136 588 | 1,3 |
+| 51 | Intel Core i7-1260P (Iris Xe G7 96EUs) | $${\color{green}28}$$- | 12/16 | 1,5/4,7 | $${\color{green}71}$$ | $${\color{green}72}$$ | 37 | 180 | 55 025 | $${\color{green}3,3}$$ |
 | 52 | Qualcomm Snapdragon X Elite X1E-78-100 (SD X Adreno X1-85 3.8 TFLOPS) | $${\color{red}35}$$-45 | 12/12 | 3,4 | $${\color{green}69}$$ | $${\color{green}70}$$ | 41 | 180 | 111 215 | 1,6 |
-| 53 | AMD Ryzen AI 5 340 (Radeon 840M) | $${\color{green}28}$$-54 | 6/12 | 2,0/4,8 | $${\color{green}75}$$ | $${\color{green}66}$$ | $${\color{red}39}$$ | 180 | 76 713 | $${\color{green}2,3}$$ |
-| 54 | AMD Ryzen 5 7540U (Radeon 740M) | $${\color{green}28}$$- | 6/12 | 3,2/4,9 | $${\color{green}77}$$ | $${\color{green}64}$$ | $${\color{red}39}$$ | 180 | 163 812 | 1,1 |
-| 55 | AMD Ryzen 5 PRO 7540U (Radeon 740M) | $${\color{green}15}$$- | 6/12 | 3,2/4,9 | $${\color{green}77}$$ | $${\color{green}64}$$ | $${\color{red}39}$$ | 180 | 164 890 | 1,1 |
+| 53 | AMD Ryzen AI 5 340 (Radeon 840M) | $${\color{green}28}$$-54 | 6/12 | 2,0/4,8 | $${\color{green}75}$$ | $${\color{green}66}$$ | 39 | 180 | 76 713 | $${\color{green}2,3}$$ |
+| 54 | AMD Ryzen 5 7540U (Radeon 740M) | $${\color{green}28}$$- | 6/12 | 3,2/4,9 | $${\color{green}77}$$ | $${\color{green}64}$$ | 39 | 180 | 163 812 | 1,1 |
+| 55 | AMD Ryzen 5 PRO 7540U (Radeon 740M) | $${\color{green}15}$$- | 6/12 | 3,2/4,9 | $${\color{green}77}$$ | $${\color{green}64}$$ | 39 | 180 | 164 890 | 1,1 |
 | 56 | Intel Core Ultra 7 155U (Graphics 4-Core iGPU) | $${\color{green}15}$$- | 12/14 | 3,8/4,8 | $${\color{green}70}$$ | $${\color{green}64}$$ | 45 | 179 | 80 970 | $${\color{green}2,2}$$ |
-| 57 | Intel Core 7 150U (Iris Xe G7 96EUs) | $${\color{green}15}$$-55 | 10/12 | 1,2/5,4 | $${\color{green}79}$$ | $${\color{green}62}$$ | $${\color{red}37}$$ | 178 | 56 847 | $${\color{green}3,1}$$ |
+| 57 | Intel Core 7 150U (Iris Xe G7 96EUs) | $${\color{green}15}$$-55 | 10/12 | 1,2/5,4 | $${\color{green}79}$$ | $${\color{green}62}$$ | 37 | 178 | 56 847 | $${\color{green}3,1}$$ |
 | 58 | Intel Core i5-1340P (Iris Xe G7 80EUs) | $${\color{green}28}$$- | 12/16 | 1,4/4,6 | $${\color{green}71}$$ | $${\color{green}78}$$ | $${\color{red}28}$$ | 177 | 63 787 | $${\color{green}2,8}$$ |
 | 59 | Intel Core i5-12600H (Iris Xe G7 80EUs) | $${\color{red}45}$$- | 12/16 | 2,0/4,5 | $${\color{green}68}$$ | $${\color{green}80}$$ | $${\color{red}28}$$ | 176 | 71 520 | $${\color{green}2,5}$$ |
 | 60 | Intel Core Ultra 5 135U (Graphics 4-Core iGPU) | $${\color{green}15}$$- | 12/14 | 3,6/4,4 | $${\color{green}65}$$ | $${\color{green}66}$$ | 45 | 176 | 107 398 | 1,6 |
 | 61 | Intel Core i5-12500H (Iris Xe G7 80EUs) | $${\color{red}45}$$- | 12/16 | 1,8/4,5 | $${\color{green}68}$$ | $${\color{green}80}$$ | $${\color{red}28}$$ | 176 | 55 655 | $${\color{green}3,2}$$ |
 | 62 | Intel Core i7-12650H (UHD Graphics 64EUs) | $${\color{red}45}$$- | 10/16 | 1,7/4,7 | $${\color{green}73}$$ | $${\color{green}76}$$ | $${\color{red}26}$$ | 175 | 58 450 | $${\color{green}3,0}$$ |
 | 63 | Intel Core i5-13450HX (UHD Graphics Xe 16EUs) | $${\color{red}55}$$- | 10/16 | 1,8/4,6 | $${\color{green}73}$$ | $${\color{green}93}$$ | $${\color{red}8}$$ | 174 | 97 957 | 1,8 |
-| 64 | AMD Ryzen Z1 (Radeon 740M) | $${\color{red}30}$$- | 6/12 | 3,2/4,9 | $${\color{green}76}$$ | 59 | $${\color{red}39}$$ | 174 | 94 690 | 1,8 |
+| 64 | AMD Ryzen Z1 (Radeon 740M) | $${\color{red}30}$$- | 6/12 | 3,2/4,9 | $${\color{green}76}$$ | 59 | 39 | 174 | 94 690 | 1,8 |
 | 65 | AMD Ryzen 5 7645HX (Radeon 610M) | $${\color{red}55}$$- | 6/12 | 4,0/5,0 | $${\color{green}81}$$ | $${\color{green}79}$$ | $${\color{red}14}$$ | 174 | 154 724 | 1,1 |
 | 66 | Intel Core Ultra 5 125U (Graphics 4-Core iGPU) | $${\color{green}15}$$- | 12/14 | 3,6/4,3 | $${\color{green}65}$$ | $${\color{green}64}$$ | 45 | 174 | 57 648 | $${\color{green}3,0}$$ |
-| 67 | Intel Core i7-1355U (Iris Xe G7 96EUs) | $${\color{green}15}$$- | 10/12 | 1,2/5,0 | $${\color{green}74}$$ | $${\color{green}62}$$ | $${\color{red}37}$$ | 173 | $${\color{green}48 466}$$ | $${\color{green}3,6}$$ |
-| 68 | Intel Core i7-1265U (Iris Xe G7 96EUs) | $${\color{green}15}$$- | 10/12 | 1,3/4,8 | $${\color{green}72}$$ | $${\color{green}63}$$ | $${\color{red}37}$$ | 172 | 209 822 | 0,8 |
-| 69 | Intel Core i7-1270P (Iris Xe G7 96EUs) | $${\color{green}28}$$- | 12/16 | 1,6/4,8 | $${\color{green}68}$$ | $${\color{green}67}$$ | $${\color{red}37}$$ | 172 | 164 990 | 1,0 |
+| 67 | Intel Core i7-1355U (Iris Xe G7 96EUs) | $${\color{green}15}$$- | 10/12 | 1,2/5,0 | $${\color{green}74}$$ | $${\color{green}62}$$ | 37 | 173 | $${\color{green}48 466}$$ | $${\color{green}3,6}$$ |
+| 68 | Intel Core i7-1265U (Iris Xe G7 96EUs) | $${\color{green}15}$$- | 10/12 | 1,3/4,8 | $${\color{green}72}$$ | $${\color{green}63}$$ | 37 | 172 | 209 822 | 0,8 |
+| 69 | Intel Core i7-1270P (Iris Xe G7 96EUs) | $${\color{green}28}$$- | 12/16 | 1,6/4,8 | $${\color{green}68}$$ | $${\color{green}67}$$ | 37 | 172 | 164 990 | 1,0 |
 | 70 | Intel Core 5 120U (Iris Xe G7 80EUs) | $${\color{green}15}$$-55 | 10/12 | 0,9/5,0 | $${\color{green}77}$$ | $${\color{green}66}$$ | $${\color{red}28}$$ | 171 | $${\color{green}45 915}$$ | $${\color{green}3,7}$$ |
-| 71 | Intel Core i7-1255U (Iris Xe G7 96EUs) | $${\color{green}15}$$- | 10/12 | 1,2/4,7 | $${\color{green}69}$$ | $${\color{green}62}$$ | $${\color{red}37}$$ | 168 | $${\color{green}39 428}$$ | $${\color{green}4,3}$$ |
+| 71 | Intel Core i7-1255U (Iris Xe G7 96EUs) | $${\color{green}15}$$- | 10/12 | 1,2/4,7 | $${\color{green}69}$$ | $${\color{green}62}$$ | 37 | 168 | $${\color{green}39 428}$$ | $${\color{green}4,3}$$ |
 | 72 | Intel Core i5-1245U (Iris Xe G7 80EUs) | $${\color{green}15}$$- | 10/12 | 1,2/4,4 | $${\color{green}70}$$ | $${\color{green}67}$$ | $${\color{red}28}$$ | 165 | 183 512 | 0,9 |
 | 73 | Intel Core i5-1335U (Iris Xe G7 80EUs) | $${\color{green}15}$$- | 10/12 | 0,9/4,6 | $${\color{green}69}$$ | $${\color{green}61}$$ | $${\color{red}28}$$ | 158 | $${\color{green}37 388}$$ | $${\color{green}4,2}$$ |
 | 74 | Intel Core i5-1240P (Iris Xe G7 80EUs) | $${\color{green}28}$$- | 12/16 | 1,2/4,4 | $${\color{green}66}$$ | $${\color{green}64}$$ | $${\color{red}28}$$ | 158 | 63 479 | $${\color{green}2,5}$$ |
-| 75 | AMD Ryzen 5 6600H (Radeon 660M) | $${\color{red}45}$$- | 6/12 | 3,3/4,5 | $${\color{green}61}$$ | 60 | $${\color{red}36}$$ | 157 | 57 470 | $${\color{green}2,7}$$ |
-| 76 | AMD Ryzen 5 7535HS (Radeon 660M) | $${\color{red}35}$$- | 6/12 | 3,3/4,6 | $${\color{green}62}$$ | 58 | $${\color{red}36}$$ | 156 | 65 298 | $${\color{green}2,4}$$ |
+| 75 | AMD Ryzen 5 6600H (Radeon 660M) | $${\color{red}45}$$- | 6/12 | 3,3/4,5 | $${\color{green}61}$$ | 60 | 36 | 157 | 57 470 | $${\color{green}2,7}$$ |
+| 76 | AMD Ryzen 5 7535HS (Radeon 660M) | $${\color{red}35}$$- | 6/12 | 3,3/4,6 | $${\color{green}62}$$ | 58 | 36 | 156 | 65 298 | $${\color{green}2,4}$$ |
 | 77 | Intel Core i5-1345U (Iris Xe G7 80EUs) | $${\color{green}15}$$- | 10/12 | 1,2/4,7 | $${\color{green}68}$$ | 60 | $${\color{red}28}$$ | 156 | 164 284 | 0,9 |
 | 78 | Intel Core i5-13420H (UHD Graphics Xe G4 48EUs) | $${\color{red}45}$$- | 8/12 | 1,5/4,6 | $${\color{green}69}$$ | $${\color{green}61}$$ | $${\color{red}19}$$ | 149 | $${\color{green}38 409}$$ | $${\color{green}3,9}$$ |
 | 79 | Intel Core 5 210H (UHD Graphics Xe G4 48EUs) | $${\color{red}45}$$- | 8/12 | 1,6/4,8 | $${\color{green}69}$$ | $${\color{green}61}$$ | $${\color{red}19}$$ | 149 | 103 386 | 1,4 |
 | 80 | AMD Ryzen 7 7730U (Vega 8) | $${\color{green}15}$$- | 8/16 | 2,0/4,5 | $${\color{green}61}$$ | 59 | $${\color{red}28}$$ | 148 | $${\color{green}47 664}$$ | $${\color{green}3,1}$$ |
-| 81 | AMD Ryzen 5 7535U (Radeon 660M) | $${\color{green}28}$$- | 6/12 | 2,9/4,6 | 60 | 50 | $${\color{red}36}$$ | 146 | 51 672 | $${\color{green}2,8}$$ |
+| 81 | AMD Ryzen 5 7535U (Radeon 660M) | $${\color{green}28}$$- | 6/12 | 2,9/4,6 | 60 | 50 | 36 | 146 | 51 672 | $${\color{green}2,8}$$ |
 | 82 | AMD Ryzen 7 5825U (Vega 8) | $${\color{green}15}$$- | 8/16 | 2,0/4,5 | $${\color{green}61}$$ | 55 | $${\color{red}28}$$ | 144 | $${\color{green}37 635}$$ | $${\color{green}3,8}$$ |
 | 83 | Intel Core i5-12450H (UHD Graphics Xe G4 48EUs) | $${\color{red}45}$$- | 8/12 | 1,5/4,4 | $${\color{green}68}$$ | 56 | $${\color{red}19}$$ | 143 | $${\color{green}32 286}$$ | $${\color{green}4,4}$$ |
-| 84 | Intel Core i7-1185G7 (Iris Xe G7 96EUs) | $${\color{green}28}$$- | 4/8 | 3,0/4,8 | $${\color{green}63}$$ | 43 | $${\color{red}37}$$ | 143 | 120 982 | 1,2 |
+| 84 | Intel Core i7-1185G7 (Iris Xe G7 96EUs) | $${\color{green}28}$$- | 4/8 | 3,0/4,8 | $${\color{green}63}$$ | 43 | 37 | 143 | 120 982 | 1,2 |
 | 85 | Intel Core i5-1334U (Iris Xe G7 80EUs) | $${\color{green}15}$$- | 10/12 | 0,9/4,6 | $${\color{green}65}$$ | 48 | $${\color{red}28}$$ | 141 | 57 570 | $${\color{green}2,4}$$ |
 | 86 | Intel Core i5-1235U (Iris Xe G7 80EUs) | $${\color{green}15}$$- | 10/12 | 0,9/4,4 | $${\color{green}66}$$ | 47 | $${\color{red}28}$$ | 141 | $${\color{green}28 739}$$ | $${\color{green}4,9}$$ |
 | 87 | Intel Core 3 100U (UHD Graphics 64EUs) | $${\color{green}15}$$-55 | 6/8 | 0,9/4,7 | $${\color{green}67}$$ | 48 | $${\color{red}26}$$ | 141 | $${\color{green}38 846}$$ | $${\color{green}3,6}$$ |
-| 88 | Intel Core i7-1165G7 (Iris Xe G7 96EUs) | $${\color{green}28}$$- | 4/8 | 2,8/4,7 | $${\color{green}63}$$ | 40 | $${\color{red}37}$$ | 140 | 50 985 | $${\color{green}2,7}$$ |
-| 89 | Intel Core i5-11320H (Iris Xe G7 96EUs) | $${\color{red}35}$$- | 4/8 | 3,2/4,5 | $${\color{green}62}$$ | 41 | $${\color{red}37}$$ | 140 | 66 395 | $${\color{green}2,1}$$ |
+| 88 | Intel Core i7-1165G7 (Iris Xe G7 96EUs) | $${\color{green}28}$$- | 4/8 | 2,8/4,7 | $${\color{green}63}$$ | 40 | 37 | 140 | 50 985 | $${\color{green}2,7}$$ |
+| 89 | Intel Core i5-11320H (Iris Xe G7 96EUs) | $${\color{red}35}$$- | 4/8 | 3,2/4,5 | $${\color{green}62}$$ | 41 | 37 | 140 | 66 395 | $${\color{green}2,1}$$ |
 | 90 | AMD Ryzen 7 5800U (Vega 8) | $${\color{green}25}$$- | 8/16 | 1,9/4,4 | 59 | 52 | $${\color{red}28}$$ | 139 | $${\color{green}44 749}$$ | $${\color{green}3,1}$$ |
 | 91 | AMD Ryzen 7 4800H (Vega 7) | $${\color{red}45}$$- | 8/16 | 2,9/4,2 | 49 | $${\color{green}62}$$ | $${\color{red}25}$$ | 136 | 51 070 | $${\color{green}2,7}$$ |
 | 92 | AMD Ryzen 5 7530U (Vega 7) | $${\color{green}15}$$- | 6/12 | 2,0/4,5 | $${\color{green}61}$$ | 49 | $${\color{red}25}$$ | 135 | $${\color{green}46 352}$$ | $${\color{green}2,9}$$ |
@@ -138,7 +138,7 @@ Output a markdown table with ratings, price.
 | 112 | AMD Ryzen 5 4600U (Vega 6) | $${\color{green}15}$$- | 6/12 | 2,1/4,0 | 46 | 43 | $${\color{red}20}$$ | 109 | $${\color{green}36 690}$$ | $${\color{green}3,0}$$ |
 | 113 | Intel Processor U300 (UHD Graphics Xe G4 48EUs) | $${\color{green}15}$$-55 | 5/6 | 0,9/4,4 | 59 | $${\color{red}29}$$ | $${\color{red}19}$$ | 107 | $${\color{green}46 690}$$ | $${\color{green}2,3}$$ |
 | 114 | Intel Core i5-12450HX (UHD Graphics Xe 16EUs) | $${\color{red}55}$$- | 8/12 | 1,8/4,4 | $${\color{red}39}$$ | 59 | $${\color{red}8}$$ | 106 | 57 808 | 1,8 |
-| 115 | AMD Ryzen 3 7335U (Radeon 660M) | $${\color{green}28}$$- | 4/8 | 3,0/4,3 | $${\color{red}36}$$ | $${\color{red}30}$$ | $${\color{red}36}$$ | 102 | $${\color{green}36 513}$$ | $${\color{green}2,8}$$ |
+| 115 | AMD Ryzen 3 7335U (Radeon 660M) | $${\color{green}28}$$- | 4/8 | 3,0/4,3 | $${\color{red}36}$$ | $${\color{red}30}$$ | 36 | 102 | $${\color{green}36 513}$$ | $${\color{green}2,8}$$ |
 | 116 | AMD Ryzen 5 PRO 4650U (Vega 6) | $${\color{green}15}$$- | 6/12 | 2,1/4,0 | 44 | $${\color{red}36}$$ | $${\color{red}20}$$ | 100 | $${\color{green}36 570}$$ | $${\color{green}2,7}$$ |
 | 117 | Intel Core i3-1125G4 (UHD Graphics Xe G4 48EUs) | $${\color{green}28}$$- | 4/8 | 2,0/3,7 | 50 | $${\color{red}29}$$ | $${\color{red}19}$$ | 98 | 79 788 | 1,2 |
 | 118 | Intel Core i3-N305 (UHD Graphics Xe 750 32EUs) | $${\color{green}15}$$- | 8/8 | 1,8/3,8 | 44 | $${\color{red}36}$$ | $${\color{red}15}$$ | 95 | $${\color{green}31 121}$$ | $${\color{green}3,1}$$ |
