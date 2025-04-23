@@ -1,7 +1,7 @@
 > [!Note]
 > I don't trust AI, let the program collect the data and build a table
 
-```
+```diff
 + Idea: display not all processors (there are more than 1000 of them), but only those that are on sale
 parser is .NET Console application, that generates markdown table
 Open links below, store content of open in parser/Data
