@@ -11,7 +11,7 @@ Load and parse 3 pages.
 For all laptops on sale look at the processor rating, find its video core, also look at the video core rating.  
 Output a markdown table with ratings, price.
 
-| # | Processor (GPU) | Tdp | Core/Threads | Frequency | SCore | MCore | GPU | Total | Price | Value |
+| # | Processor (GPU) | Tdp | Core/Threads | GHz | SCore | MCore | GPU | Total | Price | Value |
 |---|-----------------|-----|--------------|-----------|-------|-------|-----|-------|-------|-------|
 | 1 | Intel Core Ultra 9 285HX (Graphics 4-Core iGPU) | $${\color{red}55}$$-160 | 24/24 | 2100 ‑ 5500 | 92 | 209 | 53 | 354 | 1 391 298 | 0,3
 | 2 | Intel Core Ultra 9 275HX (Graphics 4-Core iGPU) | $${\color{red}55}$$-160 | 24/24 | 2100 ‑ 5400 | 92 | 188 | 53 | 333 | 576 252 | 0,6
