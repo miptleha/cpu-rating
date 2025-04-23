@@ -2,9 +2,13 @@
 
 var dualWriter = new DualWriter("output.txt");
 Console.SetOut(dualWriter);
+Console.WriteLine("! Console output duplicated to output.txt file");
 
 ParseCpu();
 ParseGpu();
+
+List<StoreData> _storeData = new List<StoreData>();
+ParseStoreOwn();
 ParseStore();
 ParseStore2();
 
@@ -17,7 +21,6 @@ List<CpuData> _cpuData;
 Dictionary<string, CpuData> _cpuShortName;
 List<GpuData> _gpuData;
 Dictionary<string, GpuData> _gpuShortName;
-List<StoreData> _storeData;
 List<StoreFullData> _storeFullData;
 List<CpuFullData> _cpuFullData;
 
@@ -39,14 +42,24 @@ void GenerateMarkDown()
         if (i.GpuRef != null && i.GpuRef.Performance > maxGpu)
             maxGpu = i.GpuRef.Performance.Value;
 
-        i.Price = i.Notebooks[0].RetailPrice.Value;
-        /*if (i.Notebooks.Count == 1)
+        //smallest price
+        //i.Price = i.Notebooks[0].RetailPrice.Value;
+
+        //smallest, but not first
+        /*if (i.Notebooks.Count > 1)
+            i.Price = i.Notebooks[1].RetailPrice.Value;
+        else
+            i.Price = i.Notebooks[0].RetailPrice.Value;
+        */
+
+        //median price
+        if (i.Notebooks.Count == 1)
             i.Price = i.Notebooks[0].RetailPrice.Value;
         else if (i.Notebooks.Count % 2 == 0)
             i.Price = i.Notebooks[i.Notebooks.Count / 2].RetailPrice.Value;
         else
-            i.Price = i.Notebooks[(i.Notebooks.Count - 1) / 2].RetailPrice.Value + i.Notebooks[(i.Notebooks.Count + 1) / 2].RetailPrice.Value;
-        */
+            i.Price = (i.Notebooks[(i.Notebooks.Count - 1) / 2].RetailPrice.Value + i.Notebooks[(i.Notebooks.Count + 1) / 2].RetailPrice.Value) / 2;
+        
     }
 
     foreach (var i in _cpuFullData)
@@ -69,8 +82,8 @@ void GenerateMarkDown()
         if (c.CpuRef.Rating == null || c.CpuRef.Rating < 0)
             continue;
 
-        Console.WriteLine($"| {i + 1} | {c.CpuRef.Name} ({c.GpuRef?.NameShort2}) | {Color(c.CpuRef.Tdp ?? 0, 28, true)}-{c.CpuRef.TdpTurbo} | {c.CpuRef.Threads} | {Freq(c.CpuRef.Frequency)} | " +
-            $"{Color(c.CpuSingleRating, 40)} | {Color(c.CpuMultiRating, 40)} | {Color(c.GpuRating, 40)} | {c.TotalRating} | {Price(c.Price)} | {Rating((decimal)c.TotalRating / c.Price * 1000)} |");
+        Console.WriteLine($"| {i + 1} | {c.CpuRef.Name} ({c.GpuRef?.NameShort2}) | {Color(c.CpuRef.Tdp ?? 0, 28, 0, true)}-{c.CpuRef.TdpTurbo} | {c.CpuRef.Threads} | {Freq(c.CpuRef.Frequency)} | " +
+            $"{Color(c.CpuSingleRating, 40, 60)} | {Color(c.CpuMultiRating, 40, 60)} | {Color(c.GpuRating, 25, 50)} | {c.TotalRating} | {Price(c.Price)} | {Rating((decimal)c.TotalRating / c.Price * 1000)} |");
     }
 }
 
@@ -97,10 +110,12 @@ string Freq(string f)
     return res;
 }
 
-string Color(decimal rating, int min, bool inverse = false)
+string Color(decimal rating, int min, int max, bool inverse = false)
 {
-    if (inverse ? rating > min : rating < min)
+    if (min != 0 && inverse ? rating > min : rating < min)
         return "$${\\color{red}" + rating + "}$$";
+    else if (max != 0 && inverse ? rating < max : rating > max)
+        return "$${\\color{green}" + rating + "}$$";
     return rating.ToString();
 }
 
@@ -214,6 +229,8 @@ void EstimateCpu(CpuData cpuRef)
         brother = _cpuShortName["i7-14700HX"];
     else if (cpuRef.Name == "Intel Core i3-1000G1")
         brother = _cpuShortName["i3-1000NG4"];
+    else if (cpuRef.Name == "AMD Athlon Silver 7120U")
+        brother = _cpuShortName["Athlon Silver 3050U"];
 
     if (brother != null)
     {
@@ -244,7 +261,13 @@ void GenerateStoreFull()
                 ("i51240P", "i5 1240P"),
                 ("Ryzen3", "Ryzen 3"),
                 (" Ultra ", " Core Ultra "),
-                ("i914900HX", "i9 14900HX")
+                ("i914900HX", "i9 14900HX"),
+                ("i512600H", "i5 12600H"),
+                ("Core Ultra 7 226V", "Core Ultra 5 226V"),
+                ("Intel Core i5 7440EQ", "Intel Core i5 7440HQ"),
+                ("AMD Ryzen 5 7235HS", "AMD Ryzen 5 7535HS"),
+                ("AMD Ryzen 9 7940H", "AMD Ryzen 9 7940HS"),
+                (" Pentium ", " Pentium Silver ")
             };
             foreach (var s in search)
             {
@@ -260,7 +283,8 @@ void GenerateStoreFull()
         }
         if (cpu == null)
         {
-            Console.WriteLine($"### Cpu not found: {item.Desc}");
+            if (!item.Desc.ToLower().Contains(" apple "))
+                Console.WriteLine($"### Cpu not found: {item.Desc}");
         }
         else
         {
@@ -325,6 +349,9 @@ void ParseCpu()
             $"Cache: {cpu.Cache}, Tdp: {cpu.Tdp}, TdpTurbo: {cpu.TdpTurbo}, " +
             $"Frequency: {cpu.Frequency}, Threads: {cpu.Threads}, Process: {cpu.Process}, Days: {cpu.Days}, " +
             $"Gpu: {cpu.Gpu}, Rating: {cpu.Rating}, Single: {cpu.SinglePerformance}, Multi: {cpu.MultiPerformance}");*/
+        if (cpu.Name == "unknown")
+            continue;
+
         if (string.IsNullOrEmpty(cpu.NameProducer))
         {
             Console.WriteLine($"!!!Empty cpu producer: {cpu.Name}");
@@ -356,6 +383,10 @@ void ParseGpu()
             $"Shaders: {gpu.Shaders}, Core: {gpu.Core}, Turbo: {gpu.Turbo}, " +
             $"DirectX: {gpu.DirectX}, OpenGL: {gpu.OpenGL}, Process: {gpu.Process}, Days: {gpu.Days}, " +
             $"Rating: {gpu.Rating}, Perf: {gpu.Performance}");*/
+
+        if (gpu.Name == "unknown")
+            continue;
+
         if (string.IsNullOrEmpty(gpu.NameProducer))
         {
             Console.WriteLine($"!!!Empty gpu producer: {gpu.Name}");
@@ -378,7 +409,7 @@ void ParseStore()
     var html = File.ReadAllText("store.html");
     var parser = new StoreParser();
     var results = parser.ParseHtml(html);
-    _storeData = results;
+    _storeData.AddRange(results);
 
     foreach (var item in results)
     {
@@ -394,7 +425,7 @@ void ParseStore2()
     var html = File.ReadAllText("store2.html");
     var parser = new StoreParser2();
     var results = parser.ParseHtml(html);
-    _storeData = results;
+    _storeData.AddRange(results);
 
     foreach (var item in results)
     {
@@ -402,4 +433,13 @@ void ParseStore2()
             $"Desc: {item.Desc}, " +
             $"Avail: {item.Avail}, OptPrice: {item.OptPrice}, RetailPrice: {item.RetailPrice}");*/
     }
+}
+
+void ParseStoreOwn()
+{
+    _storeData.Add(new StoreData
+    {
+        Desc = "My notebook: Intel Core i5-8265U Acer Swift 3 2018",
+        RetailPrice = 30000
+    });
 }
