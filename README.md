@@ -11,8 +11,8 @@ Load and parse 3 pages.
 For all laptops on sale look at the processor rating, find its video core, also look at the video core rating.  
 Output a markdown table with ratings, price.
 
-| # | Processor (GPU) | Tdp | Core/Threads | Frequency | SCore | MCore | GPU | Total | Price | Value |
-|---|-----------------|-----|--------------|-----------|-------|-------|-----|-------|-------|-------|
+| # | Processor (GPU) | Tdp | Core/Thr | Freq GHz | SCore | MCore | GPU | Total | Price RUB | Value |
+|---|-----------------|-----|----------|----------|-------|-------|-----|-------|-----------|-------|
 | 1 | Intel Core Ultra 9 285HX (Graphics 4-Core iGPU) | $${\color{red}55}$$-160 | 24/24 | 2,1/5,5 | 92 | 209 | 53 | 354 | 1 391 298 | 0,3 |
 | 2 | Intel Core Ultra 9 275HX (Graphics 4-Core iGPU) | $${\color{red}55}$$-160 | 24/24 | 2,1/5,4 | 92 | 188 | 53 | 333 | 576 252 | 0,6 |
 | 3 | Intel Core Ultra 7 255H (Arc Graphics 140T) | 28-115 | 16/16 | 4,4/5,1 | 87 | 133 | 95 | 315 | 167 274 | 1,9 |
@@ -146,6 +146,7 @@ Output a markdown table with ratings, price.
 | 131 | Intel Celeron N4500 (UHD Graphics) | 6- | 2/2 | 1,1/2,8 | $${\color{red}25}$$ | $${\color{red}8}$$ | $${\color{red}7}$$ | 40 | 48 761 | 0,8 |
 | 132 | Intel Celeron N4020 (UHD Graphics 600) | 6-15 | 2/2 | 1,1/2,8 | $${\color{red}19}$$ | $${\color{red}6}$$ | $${\color{red}4}$$ | 29 | 39 643 | 0,7 |
 | 133 | Intel Celeron N4000 (UHD Graphics 600) | 6- | 2/2 | 1,1/2,6 | $${\color{red}18}$$ | $${\color{red}6}$$ | $${\color{red}4}$$ | 28 | 18 075 | 1,5 |
+
 
 
 # Laptop СPU rating (AI generated)
