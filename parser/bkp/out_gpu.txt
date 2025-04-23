@@ -1,0 +1,855 @@
+Name: Nvidia GeForce RTX 5090 Laptop, Shaders: 10496, Core: 990, Turbo: 1515, DirectX: 12_2, OpenGL: 4.6, Process: 4, Days: 109, Rating: 82,3, Perf: 50078,5
+Name: Nvidia RTX PRO 5000 Blackwell Generation Laptop, Shaders: 10496, Core: , Turbo: , DirectX: 12.2, OpenGL: , Process: 4, Days: 20199, Rating: , Perf: 
+Name: Nvidia GeForce RTX 5080 Laptop, Shaders: 8192, Core: 975, Turbo: 2287, DirectX: 12_2, OpenGL: 4.6, Process: 4, Days: 109, Rating: 92,2, Perf: 56116
+Name: Nvidia RTX PRO 4000 Blackwell Generation Laptop, Shaders: 7680, Core: , Turbo: , DirectX: 12.2, OpenGL: , Process: 4, Days: 20199, Rating: , Perf: 
+Name: NVIDIA GeForce RTX 4090 Laptop GPU, Shaders: 9728, Core: , Turbo: 2040, DirectX: 12 Ultimate, OpenGL: 4.6, Process: 5, Days: 839, Rating: 75,9, Perf: 46191
+Name: Nvidia RTX 5000 Ada Generation Laptop GPU, Shaders: 9728, Core: 930, Turbo: 1680, DirectX: 12 Ultimate, OpenGL: 4.6, Process: 4, Days: 762, Rating: 50, Perf: 30422
+Name: AMD Radeon RX 7900M, Shaders: 4608, Core: 1825, Turbo: 2090, DirectX: 12_2, OpenGL: 4.6, Process: 5, Days: 550, Rating: 82,5, Perf: 50241
+Name: NVIDIA GeForce RTX 4080 Laptop GPU, Shaders: 7424, Core: 1860, Turbo: 2280, DirectX: 12 Ultimate, OpenGL: 4.6, Process: 5, Days: 839, Rating: 68,1, Perf: 41431
+Name: NVIDIA RTX 4000 Ada Generation Laptop GPU, Shaders: 7424, Core: , Turbo: , DirectX: 12 Ultimate, OpenGL: 4.6, Process: 5, Days: 762, Rating: 66, Perf: 40179
+Name: Nvidia GeForce RTX 5070 Ti Laptop, Shaders: 5888, Core: , Turbo: , DirectX: 12_2, OpenGL: , Process: 4, Days: 109, Rating: , Perf: 
+Name: Nvidia RTX PRO 3000 Blackwell Generation Laptop, Shaders: 5888, Core: , Turbo: , DirectX: 12.2, OpenGL: , Process: 4, Days: 20199, Rating: , Perf: 
+Name: NVIDIA RTX 3500 Ada Generation Laptop GPU, Shaders: 5120, Core: , Turbo: , DirectX: 12 Ultimate, OpenGL: 4.6, Process: 5, Days: 762, Rating: 48, Perf: 29248
+Name: NVIDIA GeForce RTX 3080 Ti Laptop GPU, Shaders: 7424, Core: 975, Turbo: 1590, DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1203, Rating: 51, Perf: 31033
+Name: Apple M4 Max 40-Core GPU, Shaders: 40, Core: , Turbo: , DirectX: , OpenGL: , Process: 3, Days: 173, Rating: , Perf: 
+Name: NVIDIA GeForce RTX 4070 Laptop GPU, Shaders: 4608, Core: 1605, Turbo: 2175, DirectX: 12 Ultimate, OpenGL: 4.6, Process: 5, Days: 839, Rating: 49,3, Perf: 30000,5
+Name: Nvidia GeForce RTX 5070 Laptop, Shaders: 4608, Core: 2235, Turbo: 2520, DirectX: 12_2, OpenGL: 4.6, Process: 4, Days: 109, Rating: , Perf: 
+Name: NVIDIA RTX 3000 Ada Generation Laptop GPU, Shaders: 4608, Core: , Turbo: , DirectX: 12 Ultimate, OpenGL: 4.6, Process: 5, Days: 762, Rating: 34,3, Perf: 20908
+Name: NVIDIA RTX A5500 Laptop GPU, Shaders: 7424, Core: , Turbo: , DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1118, Rating: 43,1, Perf: 26260
+Name: NVIDIA GeForce RTX 3080 Laptop GPU, Shaders: 6144, Core: 7801100, Turbo: 12451710, DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1560, Rating: 44,7, Perf: 27194
+Name: AMD Radeon RX 6850M XT, Shaders: 2560, Core: , Turbo: 2463, DirectX: 12, OpenGL: 4.6, Process: 7, Days: 1203, Rating: 55,7, Perf: 33900,5
+Name: NVIDIA GeForce RTX 3070 Ti Laptop GPU, Shaders: 5888, Core: 915, Turbo: 1480, DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1203, Rating: 45,6, Perf: 27776
+Name: NVIDIA RTX A4500 Laptop GPU, Shaders: 5888, Core: 930, Turbo: 1500, DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1118, Rating: , Perf: 
+Name: NVIDIA RTX A5000 Laptop GPU, Shaders: 6144, Core: 1215, Turbo: 1770, DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1470, Rating: 44,8, Perf: 27271
+Name: NVIDIA GeForce RTX 4060 Laptop GPU, Shaders: 3072, Core: , Turbo: 2370, DirectX: 12 Ultimate, OpenGL: 4.6, Process: 5, Days: 839, Rating: 43,6, Perf: 26530
+Name: NVIDIA RTX 2000 Ada Generation Laptop GPU, Shaders: 3072, Core: , Turbo: , DirectX: 12 Ultimate, OpenGL: 4.6, Process: 5, Days: 762, Rating: 35,1, Perf: 21379
+Name: NVIDIA Quadro RTX 6000 (Laptop), Shaders: 4608, Core: 1275, Turbo: 1455, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2056, Rating: , Perf: 
+Name: AMD Radeon RX 6800M, Shaders: 2560, Core: 2116, Turbo: 2300, DirectX: 12, OpenGL: 4.6, Process: 7, Days: 1420, Rating: 56,2, Perf: 34199
+Name: NVIDIA GeForce RTX 2080 Super Mobile, Shaders: 3072, Core: 1365, Turbo: 1560, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 1845, Rating: 41, Perf: 24960
+Name: NVIDIA GeForce RTX 3070 Laptop GPU, Shaders: 5120, Core: 7801100, Turbo: 12901620, DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1568, Rating: 41,8, Perf: 25477,5
+Name: NVIDIA RTX A4000 Laptop GPU, Shaders: 5120, Core: 780, Turbo: 1680, DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1470, Rating: , Perf: 
+Name: AMD Radeon RX 6800S, Shaders: 2048, Core: 1800, Turbo: 1975, DirectX: 12, OpenGL: 4.6, Process: 7, Days: 1420, Rating: 43,5, Perf: 26511
+Name: Nvidia GeForce RTX 5060 Laptop, Shaders: 4608, Core: , Turbo: , DirectX: 12_2, OpenGL: , Process: 3, Days: 109, Rating: , Perf: 
+Name: Nvidia RTX PRO 2000 Blackwell Generation Laptop, Shaders: 3328, Core: , Turbo: , DirectX: 12.2, OpenGL: , Process: 4, Days: 20199, Rating: , Perf: 
+Name: AMD Radeon RX 8060S, Shaders: 40, Core: , Turbo: 2900, DirectX: , OpenGL: , Process: 0, Days: 105, Rating: 44,1, Perf: 26825,5
+Name: AMD Radeon RX 7600M XT, Shaders: 2048, Core: , Turbo: 2300, DirectX: 12, OpenGL: 4.6, Process: 6, Days: 837, Rating: 47,1, Perf: 28688
+Name: AMD Radeon RX 7700S, Shaders: 2048, Core: , Turbo: 2200, DirectX: 12, OpenGL: 4.6, Process: 6, Days: 837, Rating: 39,8, Perf: 24246
+Name: NVIDIA GeForce RTX 3080 Max-Q, Shaders: 6144, Core: 780, Turbo: 1245, DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1568, Rating: , Perf: 
+Name: Apple M3 Max 40-Core GPU, Shaders: 40, Core: , Turbo: , DirectX: , OpenGL: , Process: 5, Days: 538, Rating: , Perf: 
+Name: Apple M2 Max 38-Core GPU, Shaders: 38, Core: , Turbo: , DirectX: , OpenGL: , Process: 5, Days: 825, Rating: , Perf: 
+Name: NVIDIA GeForce RTX 2080 Mobile, Shaders: 2944, Core: 1380, Turbo: 1590, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2297, Rating: 41,8, Perf: 25436
+Name: AMD Radeon RX 6700M, Shaders: 2304, Core: , Turbo: 2300, DirectX: 12, OpenGL: 4.6, Process: 7, Days: 1693, Rating: 45,9, Perf: 27924
+Name: Apple M3 Max 30-Core GPU, Shaders: 30, Core: , Turbo: , DirectX: , OpenGL: , Process: 5, Days: 538, Rating: , Perf: 
+Name: NVIDIA Quadro RTX 5000 (Laptop), Shaders: 3072, Core: 10351350, Turbo: 15451770, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2156, Rating: 37,8, Perf: 23034,5
+Name: AMD Radeon RX 7600M, Shaders: 1792, Core: , Turbo: 2070, DirectX: 12, OpenGL: 4.6, Process: 6, Days: 837, Rating: 42,2, Perf: 25679
+Name: NVIDIA GeForce RTX 3070 Max-Q, Shaders: 5120, Core: , Turbo: 1290, DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1568, Rating: , Perf: 
+Name: Apple M4 Max 32-Core GPU, Shaders: 32, Core: , Turbo: , DirectX: , OpenGL: , Process: 3, Days: 173, Rating: , Perf: 
+Name: Apple M2 Max 30-Core GPU, Shaders: 30, Core: , Turbo: , DirectX: , OpenGL: , Process: 5, Days: 825, Rating: , Perf: 
+Name: NVIDIA GeForce RTX 3060 Laptop GPU, Shaders: 3840, Core: 817, Turbo: 1702, DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1568, Rating: 33,9, Perf: 20609
+Name: Apple M1 Max 32-Core GPU, Shaders: 32, Core: 1296, Turbo: , DirectX: , OpenGL: , Process: 5, Days: 1623, Rating: , Perf: 
+Name: AMD Radeon RX 7600S, Shaders: 1792, Core: , Turbo: 1865, DirectX: 12, OpenGL: 4.6, Process: 6, Days: 837, Rating: 42,5, Perf: 25900
+Name: NVIDIA GeForce RTX 2070 Super Mobile, Shaders: 2560, Core: 1140, Turbo: 1380, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 1845, Rating: 36,2, Perf: 22016
+Name: NVIDIA GeForce RTX 2080 Super Max-Q, Shaders: 3072, Core: 975, Turbo: 1230, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 1845, Rating: 36, Perf: 21902,5
+Name: NVIDIA RTX A3000 Laptop GPU, Shaders: 4096, Core: 1080, Turbo: 1560, DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1470, Rating: 32,4, Perf: 19710
+Name: Apple M1 Max 24-Core GPU, Shaders: 24, Core: 1296, Turbo: , DirectX: , OpenGL: , Process: 5, Days: 1623, Rating: , Perf: 
+Name: Intel Arc A770M, Shaders: 4096, Core: 1650, Turbo: , DirectX: 12_2, OpenGL: 4.6, Process: 6, Days: 1118, Rating: 42, Perf: 25563
+Name: AMD Radeon RX 6650M XT, Shaders: 2048, Core: , Turbo: 2162, DirectX: 12, OpenGL: 4.6, Process: 7, Days: 1203, Rating: , Perf: 
+Name: Apple M3 Pro 18-Core GPU, Shaders: 18, Core: , Turbo: , DirectX: , OpenGL: , Process: 5, Days: 538, Rating: , Perf: 
+Name: Apple M2 Pro 19-Core GPU, Shaders: 19, Core: 444, Turbo: 1398, DirectX: , OpenGL: , Process: 5, Days: 825, Rating: , Perf: 
+Name: AMD Radeon RX 6650M, Shaders: 1792, Core: , Turbo: 2222, DirectX: 12, OpenGL: 4.6, Process: 7, Days: 1203, Rating: 42,3, Perf: 25739
+Name: AMD Radeon RX 6600M, Shaders: 1792, Core: 2068, Turbo: 2177, DirectX: 12, OpenGL: 4.6, Process: 7, Days: 1693, Rating: 38,6, Perf: 23525
+Name: AMD Radeon RX 6700S, Shaders: 1792, Core: 1700, Turbo: 1890, DirectX: 12, OpenGL: 4.6, Process: 7, Days: 1203, Rating: 39,6, Perf: 24135
+Name: NVIDIA GeForce RTX 2070 Mobile, Shaders: 2304, Core: 1215, Turbo: 1440, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2297, Rating: 33,5, Perf: 20392
+Name: NVIDIA Quadro RTX 5000 Max-Q, Shaders: 3072, Core: 600930, Turbo: 13501455, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2156, Rating: 32,5, Perf: 19790
+Name: NVIDIA GeForce RTX 2080 Max-Q, Shaders: 2944, Core: 735990, Turbo: 10951230, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2297, Rating: 34, Perf: 20703
+Name: Apple M4 Pro 20-Core GPU, Shaders: 20, Core: , Turbo: , DirectX: , OpenGL: , Process: 3, Days: 173, Rating: , Perf: 
+Name: AMD Radeon RX 8050S, Shaders: 32, Core: , Turbo: 2800, DirectX: , OpenGL: , Process: 0, Days: 105, Rating: , Perf: 
+Name: AMD Radeon RX 5700M, Shaders: 2304, Core: 1465, Turbo: 1720, DirectX: 12, OpenGL: 4.6, Process: 7, Days: 1877, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 1080 Mobile, Shaders: 2560, Core: 1566, Turbo: 1733, DirectX: 12_1, OpenGL: 4.5, Process: 16, Days: 3170, Rating: 35,1, Perf: 21394
+Name: NVIDIA Quadro RTX 4000 (Laptop), Shaders: 2560, Core: 1110, Turbo: 1560, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2156, Rating: 31, Perf: 18849
+Name: NVIDIA GeForce RTX 3060 Max-Q, Shaders: 3840, Core: , Turbo: 1283, DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1568, Rating: , Perf: 
+Name: Apple M3 Pro 14-Core GPU, Shaders: 14, Core: , Turbo: , DirectX: , OpenGL: , Process: 5, Days: 538, Rating: , Perf: 
+Name: Apple M2 Pro 16-Core GPU, Shaders: 16, Core: , Turbo: , DirectX: , OpenGL: , Process: 5, Days: 825, Rating: , Perf: 
+Name: Apple M1 Pro 16-Core GPU, Shaders: 16, Core: 1296, Turbo: , DirectX: , OpenGL: , Process: 5, Days: 1623, Rating: , Perf: 
+Name: AMD Radeon PRO W6600M, Shaders: 1792, Core: , Turbo: , DirectX: 12, OpenGL: 4.6, Process: 7, Days: 1413, Rating: , Perf: 
+Name: NVIDIA GeForce RTX 2070 Super Max-Q, Shaders: 2560, Core: 930, Turbo: 1155, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 1845, Rating: 34,3, Perf: 20872,5
+Name: NVIDIA Quadro RTX 4000 Max-Q, Shaders: 2560, Core: 780960, Turbo: 13801485, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2156, Rating: 28, Perf: 17049
+Name: Apple M1 Pro 14-Core GPU, Shaders: 14, Core: 1296, Turbo: , DirectX: , OpenGL: , Process: 5, Days: 1623, Rating: , Perf: 
+Name: NVIDIA GeForce RTX 2070 Max-Q, Shaders: 2304, Core: 8851080, Turbo: 11851305, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2297, Rating: 28,5, Perf: 17335
+Name: AMD Radeon RX 6600S, Shaders: 1792, Core: , Turbo: 1881, DirectX: 12, OpenGL: 4.6, Process: 7, Days: 1203, Rating: , Perf: 
+Name: NVIDIA Quadro P5200, Shaders: 2560, Core: 1316, Turbo: 1569, DirectX: 12_1, OpenGL: 4.5, Process: 16, Days: 3022, Rating: 30,3, Perf: 18467
+Name: NVIDIA Quadro RTX 3000 (Laptop), Shaders: 1920, Core: 945, Turbo: 1380, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2156, Rating: 24,4, Perf: 14841,5
+Name: Nvidia GeForce RTX 5050 Laptop, Shaders: 3584, Core: , Turbo: , DirectX: 12_2, OpenGL: , Process: 3, Days: 109, Rating: , Perf: 
+Name: Nvidia RTX PRO 1000 Blackwell Generation Laptop, Shaders: 2560, Core: , Turbo: , DirectX: 12.2, OpenGL: , Process: 4, Days: 20199, Rating: , Perf: 
+Name: NVIDIA GeForce RTX 2060 Mobile, Shaders: 1920, Core: 960, Turbo: 1200, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2297, Rating: 26,8, Perf: 16331
+Name: NVIDIA Quadro RTX 3000 Max-Q, Shaders: 1920, Core: 600870, Turbo: 12151380, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2156, Rating: 22,4, Perf: 13617
+Name: NVIDIA GeForce GTX 1080 Max-Q, Shaders: 2560, Core: 11011290, Turbo: 12781468, DirectX: 12_1, OpenGL: 4.5, Process: 16, Days: 2883, Rating: 29,9, Perf: 18191,5
+Name: NVIDIA GeForce GTX 1070 Mobile, Shaders: 2048, Core: 1443, Turbo: 1645, DirectX: 12_1, OpenGL: 4.5, Process: 16, Days: 3154, Rating: 28,3, Perf: 17236,5
+Name: NVIDIA GeForce RTX 2060 Max-Q, Shaders: 1920, Core: 975, Turbo: 1185, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2297, Rating: 24,5, Perf: 14909,5
+Name: NVIDIA Quadro P4200, Shaders: 2304, Core: 1215, Turbo: 1480, DirectX: 12_1, OpenGL: 4.5, Process: 16, Days: 2541, Rating: , Perf: 
+Name: NVIDIA GeForce RTX 4050 Laptop GPU, Shaders: 2560, Core: , Turbo: 2370, DirectX: 12 Ultimate, OpenGL: 4.6, Process: 5, Days: 839, Rating: 36,2, Perf: 22068
+Name: Nvidia RTX 1000 Ada Generation Laptop GPU, Shaders: 2560, Core: , Turbo: , DirectX: 12 Ultimate, OpenGL: 4.6, Process: 5, Days: 419, Rating: , Perf: 
+Name: Nvidia RTX PRO 500 Blackwell Generation Laptop, Shaders: 1792, Core: , Turbo: , DirectX: 12.2, OpenGL: , Process: 4, Days: 20199, Rating: , Perf: 
+Name: NVIDIA RTX A2000 Laptop GPU, Shaders: 2560, Core: 893, Turbo: 1687, DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1470, Rating: 21,6, Perf: 13157
+Name: Intel Arc A730M, Shaders: 3072, Core: 1100, Turbo: , DirectX: 12_2, OpenGL: 4.6, Process: 6, Days: 1118, Rating: 35, Perf: 21294
+Name: AMD Radeon RX 8040S, Shaders: 16, Core: , Turbo: 2800, DirectX: , OpenGL: , Process: 0, Days: 105, Rating: , Perf: 
+Name: AMD Radeon Pro 5600M, Shaders: 2560, Core: , Turbo: 1265, DirectX: 12, OpenGL: 4.6, Process: 7, Days: 1771, Rating: , Perf: 
+Name: AMD Radeon RX 5600M, Shaders: 2304, Core: , Turbo: 1265, DirectX: 12, OpenGL: 4.6, Process: 7, Days: 1931, Rating: 29, Perf: 17652,5
+Name: NVIDIA Quadro P5000, Shaders: 2048, Core: 1164, Turbo: 1506, DirectX: 12_1, OpenGL: 4.5, Process: 16, Days: 3022, Rating: 24,1, Perf: 14666
+Name: Apple M4 Pro 16-Core GPU, Shaders: 16, Core: , Turbo: , DirectX: , OpenGL: , Process: 3, Days: 173, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 1660 Ti Mobile, Shaders: 1536, Core: 1455, Turbo: 1590, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2190, Rating: 24,3, Perf: 14818
+Name: NVIDIA GeForce RTX 3050 Ti Laptop GPU, Shaders: 2560, Core: 1222, Turbo: 1485, DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1442, Rating: 21,9, Perf: 13359,5
+Name: NVIDIA GeForce RTX 3050 6GB Laptop GPU, Shaders: 2560, Core: 1237, Turbo: 1492, DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 836, Rating: 19,7, Perf: 11973
+Name: Intel Arc A570M, Shaders: 16, Core: 900, Turbo: 1300, DirectX: 12_2, OpenGL: 4.6, Process: 6, Days: 630, Rating: , Perf: 
+Name: NVIDIA RTX A1000 Laptop GPU, Shaders: 2048, Core: , Turbo: , DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1118, Rating: 18,6, Perf: 11321
+Name: NVIDIA GeForce GTX 1070 Max-Q, Shaders: 2048, Core: 11011215, Turbo: 12651379, DirectX: 12_1, OpenGL: 4.5, Process: 16, Days: 2883, Rating: 24,1, Perf: 14678,5
+Name: Intel Arc Graphics 140T, Shaders: 8, Core: , Turbo: , DirectX: 12 Ultrimate, OpenGL: , Process: 0, Days: 105, Rating: 15,3, Perf: 9328
+Name: Intel Arc A550M, Shaders: 16, Core: 900, Turbo: 2005, DirectX: 12_2, OpenGL: 4.6, Process: 6, Days: 1118, Rating: 23,6, Perf: 14350
+Name: NVIDIA Quadro P5000 Max-Q, Shaders: 2048, Core: 1101, Turbo: 1366, DirectX: 12_1, OpenGL: 4.5, Process: 16, Days: 3022, Rating: , Perf: 
+Name: AMD Radeon 890M, Shaders: 1024, Core: , Turbo: 2900, DirectX: 12_2, OpenGL: , Process: 4, Days: 323, Rating: 15, Perf: 9145
+Name: Intel Arc Graphics 130T, Shaders: 7, Core: , Turbo: , DirectX: , OpenGL: , Process: 0, Days: 105, Rating: , Perf: 
+Name: NVIDIA GeForce RTX 3050 A Laptop GPU, Shaders: 1792, Core: , Turbo: , DirectX: 12_2, OpenGL: 4.6, Process: 5, Days: 269, Rating: , Perf: 
+Name: NVIDIA GeForce RTX 3050 4GB Laptop GPU, Shaders: 2048, Core: 1238, Turbo: 1500, DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1441, Rating: 19,6, Perf: 11949
+Name: Nvidia RTX 500 Ada Generation Laptop GPU, Shaders: 2048, Core: , Turbo: , DirectX: 12 Ultimate, OpenGL: 4.6, Process: 5, Days: 419, Rating: 23,2, Perf: 14136
+Name: Intel Arc A530M, Shaders: 12, Core: 900, Turbo: 1300, DirectX: 12_2, OpenGL: 4.6, Process: 6, Days: 630, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 1660 Ti Max-Q, Shaders: 1536, Core: 1140, Turbo: 1335, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2190, Rating: 21,9, Perf: 13355
+Name: NVIDIA RTX A500 Laptop GPU, Shaders: 2048, Core: , Turbo: , DirectX: 12_2, OpenGL: 4.6, Process: 8, Days: 1118, Rating: 12,5, Perf: 7597,5
+Name: AMD Radeon RX 6550M, Shaders: 1024, Core: 2000, Turbo: 2560, DirectX: 12_2, OpenGL: 4.6, Process: 6, Days: 837, Rating: 24,1, Perf: 14696
+Name: AMD Radeon RX 6500M, Shaders: 1024, Core: , Turbo: 2191, DirectX: 12_2, OpenGL: 4.6, Process: 6, Days: 1203, Rating: 23, Perf: 14017,5
+Name: AMD Radeon RX 6550S, Shaders: 1024, Core: , Turbo: 2170, DirectX: 12_2, OpenGL: 4.6, Process: 6, Days: 837, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 980 (Laptop), Shaders: 2048, Core: 1126, Turbo: 1228, DirectX: 12_1, OpenGL: 4.5, Process: 28, Days: 3864, Rating: 21,4, Perf: 13047
+Name: NVIDIA Quadro M5500, Shaders: 2048, Core: 1139, Turbo: 1140, DirectX: 12_1, OpenGL: 4.5, Process: 28, Days: 3304, Rating: , Perf: 
+Name: NVIDIA Quadro P4000, Shaders: 1792, Core: 1202, Turbo: 1228, DirectX: 12_1, OpenGL: 4.5, Process: 16, Days: 3022, Rating: 20,1, Perf: 12259
+Name: NVIDIA Quadro T2000 (Laptop), Shaders: 1024, Core: 1575, Turbo: 1785, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2156, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 1060 Mobile, Shaders: 1280, Core: 1404, Turbo: 1670, DirectX: 12_1, OpenGL: 4.5, Process: 16, Days: 3168, Rating: 19, Perf: 11558
+Name: Apple M4 10-core GPU, Shaders: 10, Core: , Turbo: , DirectX: , OpenGL: , Process: 3, Days: 349, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 1650 Ti Mobile, Shaders: 1024, Core: 1350, Turbo: 1485, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 1845, Rating: 16,3, Perf: 9930
+Name: Intel Arc A370M, Shaders: 8, Core: 1550, Turbo: , DirectX: 12_2, OpenGL: 4.6, Process: 6, Days: 1118, Rating: 13,4, Perf: 8149
+Name: AMD Radeon RX 5500M, Shaders: 1408, Core: 1327, Turbo: 1645, DirectX: 12, OpenGL: 4.6, Process: 7, Days: 2031, Rating: 20,2, Perf: 12276
+Name: AMD Radeon Pro 5500M, Shaders: 1536, Core: , Turbo: 1300, DirectX: 12, OpenGL: 4.6, Process: 7, Days: 1986, Rating: 17,1, Perf: 10399
+Name: NVIDIA Quadro P4000 Max-Q, Shaders: 1792, Core: 1113, Turbo: 1240, DirectX: 12_1, OpenGL: 4.5, Process: 16, Days: 3022, Rating: 20,2, Perf: 12312
+Name: NVIDIA Quadro P3200, Shaders: 1792, Core: 7081202, Turbo: 1228, DirectX: 12_1, OpenGL: 4.5, Process: 16, Days: 2975, Rating: 20,6, Perf: 12554,5
+Name: AMD Radeon RX 580X (Laptop), Shaders: 2304, Core: , Turbo: 1340, DirectX: 12_0, OpenGL: , Process: 14, Days: 2293, Rating: , Perf: 
+Name: AMD Radeon RX 580 (Laptop), Shaders: 2304, Core: 1000, Turbo: 1077, DirectX: 12_0, OpenGL: 4.6, Process: 14, Days: 2925, Rating: 18,5, Perf: 11261
+Name: AMD Radeon RX 6450M, Shaders: 768, Core: 2000, Turbo: 2220, DirectX: 12_2, OpenGL: 4.6, Process: 6, Days: 837, Rating: , Perf: 
+Name: Intel Arc 8-Core iGPU, Shaders: 8, Core: , Turbo: 2300, DirectX: 12_2, OpenGL: 4.6, Process: 5, Days: 494, Rating: 14, Perf: 8513
+Name: AMD Radeon RX Vega Mobile, Shaders: 1792, Core: , Turbo: , DirectX: 12_1, OpenGL: , Process: 14, Days: 2661, Rating: , Perf: 
+Name: NVIDIA GeForce RTX 2050 Mobile, Shaders: 2048, Core: , Turbo: 1477, DirectX: 12_1, OpenGL: 4.6, Process: 8, Days: 1221, Rating: 14,7, Perf: 8964,5
+Name: Intel Arc Graphics 140V, Shaders: 8, Core: , Turbo: 2050, DirectX: 12_2, OpenGL: 4.6, Process: 3, Days: 209, Rating: 16,1, Perf: 9825
+Name: AMD Radeon RX 6300M, Shaders: 768, Core: , Turbo: 1512, DirectX: 12_2, OpenGL: 4.6, Process: 6, Days: 1203, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 1650 Mobile, Shaders: 1024, Core: 1380, Turbo: 1560, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2190, Rating: 15,3, Perf: 9313
+Name: NVIDIA GeForce MX570, Shaders: 2048, Core: , Turbo: 1477, DirectX: 12_1, OpenGL: 4.6, Process: 8, Days: 1221, Rating: 13,9, Perf: 8469
+Name: AMD Radeon Pro 5300M, Shaders: 1280, Core: , Turbo: 1250, DirectX: 12, OpenGL: 4.6, Process: 7, Days: 1986, Rating: , Perf: 
+Name: AMD Radeon RX 5300M, Shaders: 1408, Core: 1036, Turbo: 1445, DirectX: 12, OpenGL: 4.6, Process: 7, Days: 2031, Rating: 16,9, Perf: 10306
+Name: NVIDIA Quadro P3000, Shaders: 1280, Core: 1088, Turbo: 1215, DirectX: 12_1, OpenGL: 4.5, Process: 16, Days: 3022, Rating: 15,2, Perf: 9255,5
+Name: NVIDIA GeForce GTX 1060 Max-Q, Shaders: 1280, Core: 10631265, Turbo: 13411480, DirectX: 12_1, OpenGL: 4.5, Process: 16, Days: 2883, Rating: 17,1, Perf: 10430
+Name: NVIDIA Quadro P3000 Max-Q, Shaders: 1280, Core: 1075, Turbo: 1240, DirectX: 12_1, OpenGL: 4.5, Process: 16, Days: 2789, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 1650 Ti Max-Q, Shaders: 1024, Core: 1035, Turbo: 1200, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 1845, Rating: 14,1, Perf: 8564
+Name: NVIDIA Quadro T2000 Max-Q, Shaders: 1024, Core: 9301200, Turbo: 15001620, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2156, Rating: 13,6, Perf: 8261,5
+Name: AMD Radeon RX 480 (Laptop), Shaders: 2304, Core: , Turbo: , DirectX: 12, OpenGL: , Process: 14, Days: 3185, Rating: , Perf: 
+Name: NVIDIA Quadro T1000 (Laptop), Shaders: 768, Core: 1395, Turbo: 1455, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2156, Rating: 14,3, Perf: 8727
+Name: Intel Arc Graphics 130V, Shaders: 7, Core: , Turbo: 1850, DirectX: 12_2, OpenGL: 4.6, Process: 3, Days: 209, Rating: 13,8, Perf: 8374,5
+Name: AMD Radeon Pro WX 7100, Shaders: 2304, Core: , Turbo: 1243, DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 2973, Rating: , Perf: 
+Name: Intel Arc 7-Core iGPU, Shaders: 7, Core: , Turbo: 2200, DirectX: 12_2, OpenGL: 4.6, Process: 5, Days: 494, Rating: 13,4, Perf: 8133
+Name: AMD Radeon RX 570X (Laptop), Shaders: 2048, Core: , Turbo: 1168, DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 2293, Rating: , Perf: 
+Name: Apple M4 8-core GPU, Shaders: 8, Core: , Turbo: , DirectX: , OpenGL: , Process: 3, Days: 175, Rating: , Perf: 
+Name: AMD Radeon RX 570 (Laptop), Shaders: 2048, Core: 926, Turbo: 1206, DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 3028, Rating: , Perf: 
+Name: AMD Radeon RX 470 (Laptop), Shaders: 2048, Core: 926, Turbo: 1206, DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 3182, Rating: 17,6, Perf: 10715
+Name: NVIDIA GeForce GTX 1650 Max-Q, Shaders: 1024, Core: 1020, Turbo: 1245, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2190, Rating: 12,8, Perf: 7779
+Name: NVIDIA T1200 Laptop GPU, Shaders: 1024, Core: 855, Turbo: 1425, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 1470, Rating: 16,6, Perf: 10134
+Name: NVIDIA Quadro T1000 Max-Q, Shaders: 768, Core: 7951230, Turbo: 1455, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2156, Rating: , Perf: 
+Name: Intel Arc A310, Shaders: 6, Core: , Turbo: 2000, DirectX: 12_2, OpenGL: 4.6, Process: 6, Days: 963, Rating: 13,9, Perf: 8464
+Name: Intel Arc A350M, Shaders: 6, Core: 1150, Turbo: , DirectX: 12_2, OpenGL: 4.6, Process: 6, Days: 1118, Rating: 11,7, Perf: 7147
+Name: NVIDIA T600 Laptop GPU, Shaders: 896, Core: , Turbo: 1400, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 1470, Rating: 13, Perf: 7928
+Name: NVIDIA T550 Laptop GPU, Shaders: 1024, Core: 1065, Turbo: 1665, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 1060, Rating: 8, Perf: 4890
+Name: AMD Radeon RX 490M, Shaders: , Core: , Turbo: , DirectX: 12, OpenGL: , Process: 14, Days: 3185, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 980M, Shaders: 1536, Core: 1038, Turbo: 1127, DirectX: 12_1, OpenGL: 4.5, Process: 28, Days: 3849, Rating: 15,9, Perf: 9682
+Name: AMD Radeon RX Vega M GH, Shaders: 1536, Core: 1063, Turbo: 1190, DirectX: 12_1, OpenGL: , Process: 14, Days: 2661, Rating: 16,8, Perf: 10248
+Name: NVIDIA Quadro M5000M, Shaders: 1536, Core: 962, Turbo: 1051, DirectX: 12_1, OpenGL: 4.5, Process: 28, Days: 3489, Rating: 15,2, Perf: 9227,5
+Name: AMD Radeon Pro Vega 20, Shaders: 1280, Core: 815, Turbo: 1283, DirectX: , OpenGL: , Process: 14, Days: 2349, Rating: 14,9, Perf: 9043,5
+Name: AMD Radeon 880M, Shaders: 768, Core: , Turbo: 2900, DirectX: 12_2, OpenGL: , Process: 4, Days: 323, Rating: 15,3, Perf: 9295,5
+Name: Qualcomm Adreno 830, Shaders: 1536, Core: , Turbo: 1100, DirectX: , OpenGL: , Process: 3, Days: 180, Rating: , Perf: 
+Name: Qualcomm SD X Adreno X1-85 4.6 TFLOPS, Shaders: 1536, Core: , Turbo: 1500, DirectX: 12_1, OpenGL: ES 3.2, Process: 4, Days: 543, Rating: 11,5, Perf: 6982
+Name: AMD Radeon 780M, Shaders: 768, Core: 1500, Turbo: 3000, DirectX: 12_2, OpenGL: 4.6, Process: 4, Days: 837, Rating: 13,1, Perf: 7997
+Name: Apple M3 10-Core GPU, Shaders: 10, Core: , Turbo: , DirectX: , OpenGL: , Process: 5, Days: 538, Rating: , Perf: 
+Name: NVIDIA GeForce MX550, Shaders: 1024, Core: , Turbo: 1320, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 1221, Rating: 10,1, Perf: 6125,5
+Name: NVIDIA GeForce GTX 1050 Ti Mobile, Shaders: 768, Core: 1493, Turbo: 1620, DirectX: 12_1, OpenGL: 4.5, Process: 14, Days: 3030, Rating: 12,7, Perf: 7740,5
+Name: AMD Radeon 680M, Shaders: 768, Core: , Turbo: 2400, DirectX: 12_1, OpenGL: , Process: 6, Days: 1203, Rating: 11,3, Perf: 6865
+Name: NVIDIA Quadro P2000, Shaders: 768, Core: 1215, Turbo: 1468, DirectX: 12_1, OpenGL: 4.5, Process: 14, Days: 2847, Rating: 11,2, Perf: 6847
+Name: NVIDIA Quadro P2000 Max-Q, Shaders: 768, Core: 1215, Turbo: 1468, DirectX: 12_1, OpenGL: 4.5, Process: 14, Days: 2847, Rating: 11,1, Perf: 6742
+Name: NVIDIA Quadro M4000M, Shaders: 1280, Core: 975, Turbo: 1013, DirectX: 12_1, OpenGL: 4.5, Process: 28, Days: 3489, Rating: 12,7, Perf: 7723
+Name: NVIDIA GeForce GTX 970M, Shaders: 1280, Core: 924, Turbo: 1038, DirectX: 12_1, OpenGL: 4.5, Process: 28, Days: 3849, Rating: 12,3, Perf: 7463
+Name: NVIDIA T500 Laptop GPU, Shaders: 896, Core: 1365, Turbo: 1695, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 2156, Rating: 6,9, Perf: 4224,5
+Name: NVIDIA GeForce MX450, Shaders: 896, Core: 1395, Turbo: 1575, DirectX: 12_1, OpenGL: 4.6, Process: 12, Days: 1724, Rating: 7,8, Perf: 4725
+Name: AMD Radeon R9 M395X, Shaders: 2048, Core: , Turbo: 909, DirectX: 12 (FL 12_0), OpenGL: , Process: 28, Days: 3840, Rating: 13, Perf: 7921
+Name: NVIDIA GeForce GTX 1050 Ti Max-Q, Shaders: 768, Core: 11511290, Turbo: 12901417, DirectX: 12_1, OpenGL: 4.5, Process: 16, Days: 2665, Rating: 12, Perf: 7324
+Name: Apple M3 9-Core GPU, Shaders: 9, Core: , Turbo: , DirectX: , OpenGL: , Process: 5, Days: 538, Rating: , Perf: 
+Name: AMD Radeon Pro Vega 16, Shaders: 1024, Core: , Turbo: , DirectX: , OpenGL: , Process: 14, Days: 2349, Rating: 12,7, Perf: 7745
+Name: AMD Radeon RX Vega M GL / 870, Shaders: 1280, Core: 931, Turbo: 1011, DirectX: 12_1, OpenGL: , Process: 14, Days: 2661, Rating: 12, Perf: 7329
+Name: AMD Radeon Pro WX Vega M GL, Shaders: 1280, Core: 931, Turbo: 1011, DirectX: 12_1, OpenGL: , Process: 14, Days: 2661, Rating: 12, Perf: 7333
+Name: AMD Radeon R9 M485X, Shaders: 2048, Core: , Turbo: , DirectX: 12 (FL 12_0), OpenGL: , Process: 28, Days: 3264, Rating: , Perf: 
+Name: AMD Radeon R9 M295X, Shaders: 2048, Core: , Turbo: 850, DirectX: 12 (FL 12_0), OpenGL: , Process: 28, Days: 3840, Rating: 10,8, Perf: 6590,5
+Name: AMD Radeon R9 M390X, Shaders: 2048, Core: , Turbo: 723, DirectX: 12 (FL 12_0), OpenGL: 4.3 / Vulkan, Process: 28, Days: 3604, Rating: , Perf: 
+Name: NVIDIA Quadro M3000M, Shaders: 1024, Core: 1050, Turbo: , DirectX: 12_1, OpenGL: 4.5, Process: 28, Days: 3489, Rating: 10,7, Perf: 6536,5
+Name: NVIDIA GeForce GTX 1050 Mobile, Shaders: 640, Core: 1354, Turbo: 1493, DirectX: 12_1, OpenGL: 4.5, Process: 14, Days: 3030, Rating: 10, Perf: 6066
+Name: AMD FirePro W7170M, Shaders: 2048, Core: 723, Turbo: , DirectX: 12 (FL 12_0), OpenGL: 4.3 / Vulkan, Process: 28, Days: 3489, Rating: 11,4, Perf: 6935
+Name: AMD Radeon R9 M395, Shaders: 1792, Core: 834, Turbo: , DirectX: 12 (FL 12_0), OpenGL: 4.3 / Vulkan, Process: 28, Days: 3604, Rating: 11,2, Perf: 6819
+Name: NVIDIA GeForce GTX 880M, Shaders: 1536, Core: 954, Turbo: , DirectX: 12 (FL 11_0), OpenGL: 4.3, Process: 28, Days: 4058, Rating: 10, Perf: 6101
+Name: NVIDIA GeForce GTX 1050 Max-Q, Shaders: 640, Core: 9991189, Turbo: 11391328, DirectX: 12_1, OpenGL: 4.5, Process: 14, Days: 2665, Rating: 9,3, Perf: 5649,5
+Name: AMD Radeon 860M, Shaders: 512, Core: , Turbo: 2900, DirectX: 12_2, OpenGL: , Process: 4, Days: 323, Rating: 13, Perf: 7923
+Name: Apple M3 8-Core GPU, Shaders: 8, Core: , Turbo: , DirectX: , OpenGL: , Process: 5, Days: 538, Rating: , Perf: 
+Name: Apple M2 10-Core GPU, Shaders: 10, Core: , Turbo: 1398, DirectX: , OpenGL: , Process: 5, Days: 1050, Rating: , Perf: 
+Name: AMD Radeon 760M, Shaders: 512, Core: 1500, Turbo: 2800, DirectX: 12_2, OpenGL: 4.6, Process: 4, Days: 837, Rating: 10,4, Perf: 6360,5
+Name: Qualcomm SD X Adreno X1-85 3.8 TFLOPS, Shaders: 1536, Core: , Turbo: 1250, DirectX: 12_1, OpenGL: ES 3.2, Process: 4, Days: 543, Rating: 10,3, Perf: 6288,5
+Name: AMD Radeon Steam Deck 8CU, Shaders: 512, Core: , Turbo: 1900, DirectX: 12_1, OpenGL: , Process: 6, Days: 529, Rating: , Perf: 
+Name: AMD Radeon 660M, Shaders: 384, Core: , Turbo: 1900, DirectX: 12_1, OpenGL: , Process: 6, Days: 1203, Rating: 7,8, Perf: 4734,5
+Name: NVIDIA GeForce GTX 780M, Shaders: 1536, Core: 823, Turbo: , DirectX: 11, OpenGL: 4.3, Process: 28, Days: 4344, Rating: 8,6, Perf: 5244
+Name: NVIDIA Quadro K5100M, Shaders: 1536, Core: 771, Turbo: , DirectX: 11, OpenGL: 4.3, Process: 28, Days: 4290, Rating: 7,9, Perf: 4793
+Name: NVIDIA GeForce GTX 680MX, Shaders: 1536, Core: 720, Turbo: , DirectX: 11, OpenGL: 4.3, Process: 28, Days: 4563, Rating: , Perf: 
+Name: AMD Radeon Pro WX 4150, Shaders: 896, Core: , Turbo: 1053, DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 2973, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 965M, Shaders: 1024, Core: 924935, Turbo: 9501151, DirectX: 12_1, OpenGL: 4.5, Process: 28, Days: 3759, Rating: 9,1, Perf: 5536
+Name: AMD Radeon RX 560X (Laptop), Shaders: 1024, Core: 1172, Turbo: 1275, DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 3028, Rating: 10,4, Perf: 6329
+Name: AMD Radeon RX 560 (Laptop), Shaders: 1024, Core: 1090, Turbo: 1292, DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 3028, Rating: 9,4, Perf: 5738
+Name: NVIDIA Quadro M2200, Shaders: 1024, Core: 694, Turbo: 1038, DirectX: 12_1, OpenGL: 4.5, Process: 28, Days: 3020, Rating: 9,6, Perf: 5850
+Name: NVIDIA GeForce GTX 870M, Shaders: 1344, Core: 941, Turbo: , DirectX: 12 (FL 11_0), OpenGL: 4.3, Process: 28, Days: 4058, Rating: 7,7, Perf: 4694
+Name: AMD Radeon R9 M290X, Shaders: 1280, Core: 850, Turbo: 900, DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 28, Days: 4122, Rating: 8,7, Perf: 5294
+Name: AMD Radeon HD 8970M, Shaders: 1280, Core: 850, Turbo: 900, DirectX: 11.1, OpenGL: 4.2, Process: 28, Days: 4359, Rating: 8,3, Perf: 5038,5
+Name: AMD Radeon RX 460 (Laptop), Shaders: 896, Core: , Turbo: 1180, DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 3178, Rating: 8,4, Perf: 5107,5
+Name: NVIDIA GeForce GTX 680M, Shaders: 1344, Core: 720, Turbo: , DirectX: 11, OpenGL: , Process: 28, Days: 4704, Rating: 6,7, Perf: 4049
+Name: NVIDIA GeForce GTX 775M, Shaders: 1344, Core: 719, Turbo: , DirectX: 11, OpenGL: , Process: 28, Days: 4227, Rating: , Perf: 
+Name: NVIDIA Quadro P1000, Shaders: 512, Core: 1493, Turbo: 1519, DirectX: 12_1, OpenGL: 4.6, Process: 14, Days: 3001, Rating: 7,9, Perf: 4787
+Name: AMD Radeon R9 M390, Shaders: 1024, Core: , Turbo: 958, DirectX: 12 (FL 11_2), OpenGL: , Process: 28, Days: 3604, Rating: , Perf: 
+Name: Intel Iris Xe MAX Graphics, Shaders: 96, Core: , Turbo: 1650, DirectX: 12.1, OpenGL: 4.6, Process: 10, Days: 1633, Rating: 10,4, Perf: 6333
+Name: AMD FirePro M6100, Shaders: 768, Core: 1100, Turbo: , DirectX: 12 (FL 12_0), OpenGL: 4.3, Process: 28, Days: 4220, Rating: 6,3, Perf: 3837
+Name: AMD Radeon HD 7970M, Shaders: 1280, Core: 850, Turbo: , DirectX: 11.1, OpenGL: 4.2, Process: 28, Days: 4738, Rating: 7,7, Perf: 4694
+Name: AMD Radeon Pro 560X, Shaders: 1024, Core: 907, Turbo: , DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 2877, Rating: 9,4, Perf: 5699
+Name: AMD Radeon Pro 560, Shaders: 1024, Core: 907, Turbo: , DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 2877, Rating: 6,4, Perf: 3892
+Name: AMD Radeon Pro 460, Shaders: 1024, Core: 900, Turbo: , DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 3178, Rating: 7,5, Perf: 4584
+Name: AMD Radeon Pro WX 4130, Shaders: 640, Core: , Turbo: 1053, DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 2973, Rating: , Perf: 
+Name: Intel Iris Xe Graphics G7 96EUs, Shaders: 96, Core: 400, Turbo: 1350, DirectX: 12_1, OpenGL: 4.6, Process: 10, Days: 1710, Rating: 8,5, Perf: 5148,5
+Name: NVIDIA GeForce MX350, Shaders: 640, Core: 1354, Turbo: 1468, DirectX: 12_1, OpenGL: 4.6, Process: 14, Days: 1887, Rating: 7,2, Perf: 4371
+Name: NVIDIA GeForce GTX 960M, Shaders: 640, Core: 1096, Turbo: 1202, DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 3693, Rating: 7,1, Perf: 4318
+Name: NVIDIA Quadro M1200, Shaders: 640, Core: 991, Turbo: 1150, DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 3020, Rating: 6,8, Perf: 4141,5
+Name: NVIDIA Quadro P620, Shaders: 512, Core: 1177, Turbo: 1442, DirectX: 12_1, OpenGL: 4.5, Process: 14, Days: 2156, Rating: 7,7, Perf: 4672,5
+Name: AMD Radeon RX 550X (Laptop), Shaders: 640, Core: 1176, Turbo: , DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 2293, Rating: 6,1, Perf: 3688
+Name: AMD Radeon RX 550 (Laptop), Shaders: 640, Core: 1287, Turbo: 1476, DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 2953, Rating: 6, Perf: 3645
+Name: AMD Radeon RX 640, Shaders: 640, Core: 1218, Turbo: 1218, DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 2079, Rating: 5,7, Perf: 3498,5
+Name: AMD Radeon Pro WX 3200, Shaders: 640, Core: 1082, Turbo: , DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 2034, Rating: 5,2, Perf: 3156
+Name: AMD Radeon Pro 555X, Shaders: 768, Core: 855, Turbo: , DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 2877, Rating: , Perf: 
+Name: AMD Radeon Pro 555, Shaders: 768, Core: 855, Turbo: , DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 2877, Rating: 6,1, Perf: 3721
+Name: AMD Radeon Pro 455, Shaders: 768, Core: 855, Turbo: , DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 3098, Rating: 6,2, Perf: 3759
+Name: NVIDIA Quadro P600, Shaders: 384, Core: 1430, Turbo: 1620, DirectX: 12_1, OpenGL: 4.5, Process: 14, Days: 2715, Rating: 6,7, Perf: 4083
+Name: NVIDIA GeForce MX250, Shaders: 384, Core: 1518, Turbo: 1582, DirectX: 12_1, OpenGL: 4.5, Process: 14, Days: 2252, Rating: 6, Perf: 3660
+Name: NVIDIA GeForce MX330, Shaders: 384, Core: 1531, Turbo: 1594, DirectX: 12_1, OpenGL: 4.6, Process: 14, Days: 1887, Rating: 6,2, Perf: 3762
+Name: NVIDIA GeForce MX150, Shaders: 384, Core: 1468, Turbo: 1532, DirectX: 12_1, OpenGL: 4.5, Process: 14, Days: 2897, Rating: 5,7, Perf: 3488
+Name: Intel Arc Graphics 3-core GPU (Arrow Lake), Shaders: , Core: , Turbo: , DirectX: , OpenGL: , Process: , Days: 0, Rating: 20199, Perf: 
+Name: Intel Iris Xe Graphics G7 80EUs, Shaders: 80, Core: 400, Turbo: 1350, DirectX: 12_1, OpenGL: 4.6, Process: 10, Days: 1710, Rating: 6,6, Perf: 4048
+Name: AMD Radeon 840M, Shaders: 256, Core: , Turbo: 2900, DirectX: 12_2, OpenGL: , Process: 4, Days: 323, Rating: , Perf: 
+Name: AMD Radeon 740M, Shaders: 256, Core: 1500, Turbo: 2500, DirectX: 12_2, OpenGL: 4.6, Process: 4, Days: 699, Rating: 8,2, Perf: 4989
+Name: Intel Graphics 4-Core iGPU (Arc), Shaders: 4, Core: , Turbo: 1950, DirectX: 12_2, OpenGL: 4.6, Process: 5, Days: 494, Rating: 8,6, Perf: 5235,5
+Name: NVIDIA Quadro M2000M, Shaders: 640, Core: 1038, Turbo: 1197, DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 3489, Rating: 6,8, Perf: 4157
+Name: NVIDIA Quadro K5000M, Shaders: 1344, Core: 706, Turbo: , DirectX: 11, OpenGL: 4.1, Process: 28, Days: 4707, Rating: 4,6, Perf: 2797,5
+Name: NVIDIA Quadro K4100M, Shaders: 1152, Core: 706, Turbo: , DirectX: 11, OpenGL: 4.3, Process: 28, Days: 4290, Rating: 6, Perf: 3654
+Name: NVIDIA GeForce GTX 770M, Shaders: 960, Core: 811, Turbo: , DirectX: 11, OpenGL: 4.3, Process: 28, Days: 4344, Rating: 5,5, Perf: 3347
+Name: AMD Radeon RX 540X, Shaders: 512, Core: , Turbo: 1219, DirectX: 12_0, OpenGL: 4.6, Process: 14, Days: 2588, Rating: , Perf: 
+Name: AMD Radeon Pro WX 2100, Shaders: 512, Core: , Turbo: 1219, DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 2588, Rating: , Perf: 
+Name: AMD Radeon RX 540, Shaders: 512, Core: , Turbo: 1219, DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 2953, Rating: 6,1, Perf: 3686
+Name: AMD Radeon Pro WX 3100, Shaders: 512, Core: , Turbo: , DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 2953, Rating: 4,4, Perf: 2671
+Name: NVIDIA GeForce GTX 860M, Shaders: 640, Core: 1029, Turbo: , DirectX: 12 (FL 11_0), OpenGL: 4.4, Process: 28, Days: 4058, Rating: 6,4, Perf: 3904
+Name: Intel Arc Graphics 2-core GPU (Arrow Lake), Shaders: 2, Core: , Turbo: , DirectX: , OpenGL: , Process: 0, Days: 105, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 675MX, Shaders: 960, Core: 600, Turbo: , DirectX: 11, OpenGL: 4.1, Process: 28, Days: 4585, Rating: 4,7, Perf: 2831
+Name: NVIDIA GeForce GTX 950M, Shaders: 640, Core: 914993, Turbo: 1124, DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 3693, Rating: 5,3, Perf: 3200
+Name: AMD Radeon Pro 450, Shaders: 640, Core: 800, Turbo: , DirectX: 12, OpenGL: Vulkan, Process: 14, Days: 3098, Rating: 5,3, Perf: 3252
+Name: Qualcomm SD X Adreno X1-45 2.1 TFLOPS, Shaders: 768, Core: , Turbo: , DirectX: 12_1, OpenGL: ES 3.2, Process: 4, Days: 230, Rating: , Perf: 
+Name: AMD Radeon 630, Shaders: 512, Core: , Turbo: 1219, DirectX: 12, OpenGL: 4.5, Process: 14, Days: 2079, Rating: , Perf: 
+Name: AMD Radeon 540X, Shaders: 512, Core: , Turbo: 1219, DirectX: 12_0, OpenGL: 4.6, Process: 14, Days: 2079, Rating: 4,6, Perf: 2779
+Name: AMD Radeon R9 M470X, Shaders: 896, Core: 1100, Turbo: , DirectX: 12 FL11_1, OpenGL: 4.3, Process: 28, Days: 3264, Rating: , Perf: 
+Name: AMD Radeon R9 M385X, Shaders: 896, Core: 1100, Turbo: , DirectX: 12 FL11_1, OpenGL: 4.3, Process: 28, Days: 3597, Rating: 5,6, Perf: 3404,5
+Name: NVIDIA Quadro P520, Shaders: 384, Core: 1303, Turbo: 1493, DirectX: 12_1, OpenGL: 4.5, Process: 14, Days: 2156, Rating: 5,3, Perf: 3217,5
+Name: NVIDIA GeForce GTX 850M, Shaders: 640, Core: 876, Turbo: , DirectX: 12 (FL 11_0), OpenGL: 4.4, Process: 28, Days: 4058, Rating: 5,1, Perf: 3085,5
+Name: NVIDIA Quadro M1000M, Shaders: 512, Core: 993, Turbo: 1072, DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 3489, Rating: 5,7, Perf: 3497,5
+Name: NVIDIA Quadro M620, Shaders: 512, Core: 1018, Turbo: , DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 3020, Rating: 5,1, Perf: 3130
+Name: AMD Radeon RX Vega 11, Shaders: 704, Core: , Turbo: 1240, DirectX: 12_1, OpenGL: , Process: 14, Days: 2734, Rating: 5,7, Perf: 3494
+Name: AMD Radeon R9 M280X, Shaders: 896, Core: 900, Turbo: 1000, DirectX: 12 (FL 12_0), OpenGL: 4.4, Process: 28, Days: 3732, Rating: 5,7, Perf: 3498
+Name: AMD Radeon HD 7950M, Shaders: 1280, Core: 700, Turbo: , DirectX: 11.1, OpenGL: 4.1, Process: 28, Days: 4738, Rating: , Perf: 
+Name: NVIDIA GeForce 945M, Shaders: 512, Core: 928, Turbo: 1045, DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 3693, Rating: 4,7, Perf: 2850
+Name: NVIDIA GeForce GTX 765M, Shaders: 768, Core: 850, Turbo: , DirectX: 11, OpenGL: 4.3, Process: 28, Days: 4344, Rating: 4,1, Perf: 2479
+Name: NVIDIA Quadro K4000M, Shaders: 960, Core: 600, Turbo: , DirectX: 11, OpenGL: 4.1, Process: 28, Days: 4707, Rating: 3,6, Perf: 2199
+Name: NVIDIA Quadro P500, Shaders: 256, Core: 1455, Turbo: 1519, DirectX: 12_1, OpenGL: 4.5, Process: 14, Days: 2715, Rating: 3,7, Perf: 2254,5
+Name: Intel UHD Graphics 64EUs (Alder Lake 12th Gen), Shaders: 64, Core: , Turbo: 1400, DirectX: 12_1, OpenGL: 4.6, Process: 10, Days: 1203, Rating: 6,4, Perf: 3894,5
+Name: Intel Iris Plus Graphics G7 (Ice Lake 64 EU), Shaders: 64, Core: 300, Turbo: 1100, DirectX: 12_1, OpenGL: 4.5, Process: 10, Days: 2155, Rating: 4,5, Perf: 2743
+Name: AMD Radeon RX Vega 10, Shaders: 640, Core: , Turbo: 1300, DirectX: 12_1, OpenGL: , Process: 14, Days: 2734, Rating: 3,7, Perf: 2272
+Name: Intel Iris Pro Graphics P580, Shaders: 72, Core: 350, Turbo: 1100, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3375, Rating: , Perf: 
+Name: Intel Iris Pro Graphics 580, Shaders: 72, Core: 350, Turbo: 1050, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3375, Rating: 3,1, Perf: 1903
+Name: NVIDIA GeForce GTX 675M, Shaders: 384, Core: 620, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 4778, Rating: 3,8, Perf: 2331
+Name: Qualcomm SD X Adreno X1-45 1.7 TFLOPS, Shaders: 768, Core: , Turbo: , DirectX: 12_1, OpenGL: ES 3.2, Process: 4, Days: 230, Rating: 6,1, Perf: 3703
+Name: NVIDIA GeForce GTX 580M, Shaders: 384, Core: 620, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5046, Rating: , Perf: 
+Name: AMD Radeon HD 6990M, Shaders: 1120, Core: 715, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5032, Rating: , Perf: 
+Name: AMD Radeon R9 M470, Shaders: 768, Core: 1000, Turbo: , DirectX: 12 FL11_1, OpenGL: 4.3, Process: 28, Days: 3264, Rating: 6, Perf: 3655
+Name: AMD Radeon R9 M385, Shaders: , Core: , Turbo: , DirectX: 11.1, OpenGL: 4.3, Process: 28, Days: 3597, Rating: , Perf: 
+Name: AMD Radeon R9 M380, Shaders: 768, Core: 1000, Turbo: , DirectX: 11.1, OpenGL: 4.3, Process: 28, Days: 3597, Rating: , Perf: 
+Name: NVIDIA GeForce GT 650M SLI, Shaders: 768, Core: 790, Turbo: 835, DirectX: 11, OpenGL: , Process: 28, Days: 4778, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 485M, Shaders: 384, Core: 575, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5584, Rating: , Perf: 
+Name: NVIDIA Quadro K3100M, Shaders: 768, Core: 706, Turbo: , DirectX: 11, OpenGL: 4.3, Process: 28, Days: 4290, Rating: 4,6, Perf: 2797
+Name: AMD FirePro W5170M, Shaders: 640, Core: , Turbo: 925, DirectX: 12 (FL 12_0), OpenGL: 4.3 / Vulkan, Process: 28, Days: 3489, Rating: 4,8, Perf: 2909
+Name: AMD Radeon R9 M370X, Shaders: 640, Core: 800, Turbo: , DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 28, Days: 3625, Rating: 4, Perf: 2419
+Name: NVIDIA GeForce GTX 670MX, Shaders: 960, Core: 600, Turbo: , DirectX: 11, OpenGL: 4.2, Process: 28, Days: 4585, Rating: 3,9, Perf: 2371
+Name: NVIDIA Quadro 5010M, Shaders: 384, Core: 450, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5172, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 760M, Shaders: 768, Core: 657, Turbo: , DirectX: 11, OpenGL: 4.3, Process: 28, Days: 4344, Rating: 3,7, Perf: 2271
+Name: AMD Radeon R9 M275, Shaders: 640, Core: 925, Turbo: , DirectX: 12 (FL 11_1), OpenGL: 4.2, Process: 28, Days: 3916, Rating: 3,1, Perf: 1885
+Name: NVIDIA GeForce GTX 670M, Shaders: 336, Core: 598, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 4778, Rating: 3,2, Perf: 1950
+Name: AMD Radeon RX Vega 9, Shaders: 576, Core: , Turbo: 1300, DirectX: 12_1, OpenGL: , Process: 14, Days: 2734, Rating: 4,6, Perf: 2789
+Name: NVIDIA Maxwell GPU Surface Book, Shaders: 384, Core: 954, Turbo: 993, DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 3490, Rating: 3,4, Perf: 2075,5
+Name: AMD FirePro W5130M, Shaders: 512, Core: , Turbo: 925, DirectX: 12 (FL 12_0), OpenGL: 4.3 / Vulkan, Process: 28, Days: 3489, Rating: 3,5, Perf: 2110
+Name: AMD FirePro M8900, Shaders: 960, Core: 680, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5123, Rating: , Perf: 
+Name: AMD Radeon HD 6970M, Shaders: 960, Core: 680, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5219, Rating: , Perf: 
+Name: AMD Radeon R9 M270, Shaders: 640, Core: 725, Turbo: , DirectX: 12 (FL 11_1), OpenGL: 4.2, Process: 28, Days: 4038, Rating: , Perf: 
+Name: AMD Radeon HD 8870M, Shaders: 640, Core: 725, Turbo: , DirectX: 11.1, OpenGL: 4.1, Process: 28, Days: 4507, Rating: 3,6, Perf: 2168,5
+Name: AMD Radeon HD 7870M, Shaders: 640, Core: 800, Turbo: , DirectX: 11.1, OpenGL: 4.2, Process: 28, Days: 4745, Rating: , Perf: 
+Name: NVIDIA Quadro K3000M, Shaders: 576, Core: 654, Turbo: , DirectX: 11, OpenGL: 4.1, Process: 28, Days: 4707, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 570M, Shaders: 336, Core: 575, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5046, Rating: , Perf: 
+Name: Intel UHD Graphics Xe G4 48EUs, Shaders: 48, Core: 350, Turbo: 1450, DirectX: 12_1, OpenGL: 4.6, Process: 10, Days: 1710, Rating: 3,9, Perf: 2374
+Name: Intel UHD Graphics Xe 32EUs (Tiger Lake-H), Shaders: 32, Core: 350, Turbo: 1450, DirectX: 12_1, OpenGL: 4.6, Process: 10, Days: 1441, Rating: 4,1, Perf: 2495
+Name: Intel UHD Graphics 770, Shaders: 32, Core: , Turbo: 300, DirectX: 1550, OpenGL: , Process: , Days: 10, Rating: 1203, Perf: 4,4
+Name: Intel UHD Graphics Xe 750 32EUs (Rocket Lake), Shaders: 32, Core: 350, Turbo: 1450, DirectX: 12_1, OpenGL: 4.6, Process: 14, Days: 1483, Rating: 3,6, Perf: 2174,5
+Name: AMD FirePro M6000, Shaders: 640, Core: 750, Turbo: , DirectX: 11.1, OpenGL: 4.1, Process: 28, Days: 4677, Rating: , Perf: 
+Name: AMD FirePro M5100, Shaders: 640, Core: 725, Turbo: 775, DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 28, Days: 4220, Rating: 3,8, Perf: 2327,5
+Name: NVIDIA GeForce MX230, Shaders: 256, Core: 1519, Turbo: 1531, DirectX: 12_1, OpenGL: 4.5, Process: 14, Days: 2252, Rating: 4,1, Perf: 2467,5
+Name: Apple M2 8-Core GPU, Shaders: 8, Core: , Turbo: 1398, DirectX: , OpenGL: , Process: 5, Days: 1050, Rating: , Perf: 
+Name: Apple M1 8-Core GPU, Shaders: 8, Core: 1278, Turbo: , DirectX: , OpenGL: , Process: 5, Days: 1623, Rating: , Perf: 
+Name: AMD Radeon RX Vega 8 (Ryzen 4000/5000), Shaders: 512, Core: , Turbo: 2100, DirectX: 12_1, OpenGL: , Process: 7, Days: 1931, Rating: 6,1, Perf: 3742,5
+Name: NVIDIA Quadro K2100M, Shaders: 576, Core: 667, Turbo: , DirectX: 11, OpenGL: 4.3, Process: 28, Days: 4290, Rating: 2,6, Perf: 1606
+Name: AMD Radeon HD 6950M, Shaders: 960, Core: 580, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5219, Rating: , Perf: 
+Name: NVIDIA GeForce GT 755M, Shaders: 384, Core: 980, Turbo: , DirectX: 11, OpenGL: , Process: 28, Days: 4318, Rating: 3,5, Perf: 2105,5
+Name: Apple M1 7-Core GPU, Shaders: 7, Core: 1278, Turbo: , DirectX: , OpenGL: , Process: 5, Days: 1623, Rating: , Perf: 
+Name: AMD Radeon RX Vega 7, Shaders: 448, Core: , Turbo: 1800, DirectX: 12_1, OpenGL: , Process: 7, Days: 1931, Rating: 5,5, Perf: 3347,5
+Name: NVIDIA GeForce GTX 660M, Shaders: 384, Core: 835, Turbo: , DirectX: 11, OpenGL: , Process: 28, Days: 4778, Rating: 2,9, Perf: 1751
+Name: NVIDIA GeForce 845M, Shaders: 384, Core: 1071, Turbo: 1150, DirectX: 12 (FL 11_0), OpenGL: 4.4, Process: 28, Days: 4058, Rating: 3,9, Perf: 2362
+Name: AMD Radeon HD 8850M, Shaders: 640, Core: 575, Turbo: 725, DirectX: 11.1, OpenGL: 4.1, Process: 28, Days: 4507, Rating: 3, Perf: 1845
+Name: AMD Radeon R9 M365X, Shaders: 640, Core: 900, Turbo: 925, DirectX: 12, OpenGL: 4.4, Process: 28, Days: 3638, Rating: , Perf: 
+Name: AMD Radeon R9 M265X, Shaders: 640, Core: 625, Turbo: , DirectX: 12 (FL 11_1), OpenGL: , Process: 28, Days: 4122, Rating: 3,3, Perf: 1997
+Name: AMD Radeon HD 7850M, Shaders: 640, Core: 675, Turbo: , DirectX: 11.1, OpenGL: 4.1, Process: 28, Days: 4745, Rating: , Perf: 
+Name: AMD Radeon R7 M465, Shaders: 384, Core: 825, Turbo: 960, DirectX: 11.1, OpenGL: , Process: 28, Days: 3032, Rating: 2,9, Perf: 1740
+Name: AMD Radeon HD 8790M, Shaders: 384, Core: 850, Turbo: , DirectX: 11.1, OpenGL: , Process: 28, Days: 4539, Rating: 2,8, Perf: 1727
+Name: AMD FirePro W4170M, Shaders: 384, Core: 850, Turbo: 900, DirectX: 11.2, OpenGL: , Process: 28, Days: 4539, Rating: 2,9, Perf: 1766
+Name: NVIDIA Quadro 4000M, Shaders: 336, Core: 475, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5172, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 470M, Shaders: 288, Core: 535, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5285, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 480M, Shaders: 352, Core: 425, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5445, Rating: , Perf: 
+Name: NVIDIA GeForce GT 750M, Shaders: 384, Core: 967, Turbo: , DirectX: 11, OpenGL: , Process: 28, Days: 4403, Rating: 2,6, Perf: 1574
+Name: Intel Iris Pro Graphics 6200, Shaders: 48, Core: 300, Turbo: 1150, DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 14, Days: 3611, Rating: 2,9, Perf: 1736,5
+Name: NVIDIA GeForce MX130, Shaders: 384, Core: 1122, Turbo: 1242, DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 2667, Rating: 3,9, Perf: 2345
+Name: NVIDIA GeForce 940MX, Shaders: 384, Core: 1122, Turbo: 1242, DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 3329, Rating: 3,3, Perf: 1996
+Name: NVIDIA Quadro M520, Shaders: 384, Core: 756, Turbo: 1019, DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 3020, Rating: 3,8, Perf: 2342
+Name: NVIDIA Quadro K1100M, Shaders: 384, Core: 705, Turbo: , DirectX: 11, OpenGL: 4.3, Process: 28, Days: 4290, Rating: 2,2, Perf: 1340,5
+Name: AMD Radeon RX Vega 8 (Ryzen 2000/3000), Shaders: 512, Core: , Turbo: 1200, DirectX: 12_1, OpenGL: , Process: 14, Days: 2734, Rating: 3,9, Perf: 2381
+Name: NVIDIA GeForce 940M, Shaders: 384, Core: 1072, Turbo: 1176, DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 3693, Rating: 2,7, Perf: 1622
+Name: Intel Iris Plus Graphics G4 (Ice Lake 48 EU), Shaders: 48, Core: 300, Turbo: 1100, DirectX: 12_1, OpenGL: 4.5, Process: 10, Days: 2155, Rating: 3,5, Perf: 2124
+Name: NVIDIA GeForce 930MX, Shaders: 384, Core: 952, Turbo: 1020, DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 3329, Rating: 2,6, Perf: 1597
+Name: NVIDIA Quadro M600M, Shaders: 384, Core: 837, Turbo: 876, DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 3489, Rating: 4, Perf: 2430
+Name: AMD FirePro W4190M, Shaders: 384, Core: 825, Turbo: 900, DirectX: 11.2, OpenGL: , Process: 28, Days: 3448, Rating: 2,9, Perf: 1745
+Name: AMD Radeon R9 M375, Shaders: 640, Core: 1015, Turbo: , DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 28, Days: 3637, Rating: 2,7, Perf: 1667
+Name: Intel Iris Plus Graphics 655, Shaders: 48, Core: 300, Turbo: 1200, DirectX: 12_1, OpenGL: 4.5, Process: 14, Days: 2789, Rating: 3,3, Perf: 1983
+Name: AMD Radeon R7 M445, Shaders: 320, Core: 920, Turbo: , DirectX: 12, OpenGL: 4.5, Process: 28, Days: 3263, Rating: 2,6, Perf: 1579
+Name: AMD Radeon R7 M380, Shaders: 640, Core: 915, Turbo: , DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 28, Days: 3637, Rating: , Perf: 
+Name: AMD Radeon R7 M370, Shaders: 384, Core: 875, Turbo: , DirectX: 12, OpenGL: 4.4, Process: 28, Days: 3638, Rating: 2,9, Perf: 1760
+Name: NVIDIA GeForce GT 650M, Shaders: 384, Core: 735, Turbo: 900, DirectX: 11, OpenGL: , Process: 28, Days: 4778, Rating: 2,3, Perf: 1420
+Name: NVIDIA Quadro K620M, Shaders: 384, Core: 1029, Turbo: 1124, DirectX: 11, OpenGL: 4.3, Process: 28, Days: 3704, Rating: 2,7, Perf: 1621
+Name: NVIDIA Quadro M500M, Shaders: 384, Core: 1029, Turbo: 1124, DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 3415, Rating: 2,6, Perf: 1594,5
+Name: NVIDIA GeForce 840M, Shaders: 384, Core: 1029, Turbo: , DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 4058, Rating: 2,6, Perf: 1573
+Name: NVIDIA GeForce GT 745M, Shaders: 384, Core: 837, Turbo: , DirectX: 11, OpenGL: , Process: 28, Days: 4403, Rating: 2,5, Perf: 1531
+Name: AMD Radeon HD 7770M, Shaders: 512, Core: 675, Turbo: , DirectX: 11.1, OpenGL: 4.1, Process: 28, Days: 4745, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 560M, Shaders: 192, Core: 775, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5075, Rating: , Perf: 
+Name: Intel Iris Pro Graphics 5200, Shaders: 40, Core: 200, Turbo: 1300, DirectX: 11.1, OpenGL: 4.0, Process: 22, Days: 4338, Rating: 2,3, Perf: 1380,5
+Name: NVIDIA GeForce GT 740M, Shaders: 384, Core: 810, Turbo: 980, DirectX: 11, OpenGL: 4.3, Process: 28, Days: 4434, Rating: 1,9, Perf: 1150,5
+Name: Intel Iris Plus Graphics 650, Shaders: 48, Core: 300, Turbo: 1100, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3030, Rating: 2,8, Perf: 1698
+Name: NVIDIA GeForce 930M, Shaders: 384, Core: 928, Turbo: 941, DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 3693, Rating: 2,4, Perf: 1460,5
+Name: Intel Iris Graphics 550, Shaders: 48, Core: 300, Turbo: 1100, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3520, Rating: 2,7, Perf: 1647,5
+Name: AMD Radeon 530, Shaders: 384, Core: 1024, Turbo: , DirectX: 12, OpenGL: 4.5, Process: 28, Days: 2953, Rating: 2,5, Perf: 1542
+Name: AMD Radeon 625, Shaders: 384, Core: , Turbo: 1024, DirectX: 12, OpenGL: 4.5, Process: 28, Days: 2079, Rating: , Perf: 
+Name: AMD Radeon RX Vega 6 (Ryzen 4000/5000), Shaders: 384, Core: 400, Turbo: 1500, DirectX: 12_1, OpenGL: 4.6, Process: 7, Days: 1931, Rating: 4,6, Perf: 2793
+Name: Intel Iris Plus Graphics 645, Shaders: 48, Core: 300, Turbo: 1150, DirectX: 12_1, OpenGL: 4.5, Process: 14, Days: 2112, Rating: 3,1, Perf: 1893
+Name: NVIDIA GeForce 830M, Shaders: 256, Core: 1029, Turbo: 1150, DirectX: 12 (FL 11_0), OpenGL: 4.4, Process: 28, Days: 4058, Rating: 2,3, Perf: 1386,5
+Name: NVIDIA GeForce MX110, Shaders: 256, Core: 965, Turbo: 993, DirectX: 12, OpenGL: 4.5, Process: 28, Days: 2667, Rating: 2,8, Perf: 1714
+Name: Intel Iris Plus Graphics 640, Shaders: 48, Core: 300, Turbo: 1050, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3030, Rating: 2,3, Perf: 1393,5
+Name: NVIDIA GeForce 920MX, Shaders: 256, Core: 965, Turbo: 993, DirectX: 12, OpenGL: 4.5, Process: 28, Days: 3680, Rating: 2,4, Perf: 1448
+Name: Intel Iris Graphics 540, Shaders: 48, Core: 300, Turbo: 1050, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3520, Rating: 2,4, Perf: 1448
+Name: Intel UHD Graphics 24EUs (Alder Lake-N), Shaders: 24, Core: 450, Turbo: 750, DirectX: 12_1, OpenGL: 4.6, Process: 10, Days: 839, Rating: 1,9, Perf: 1185
+Name: NVIDIA Quadro K2000M, Shaders: 384, Core: 745, Turbo: , DirectX: 11, OpenGL: 4.1, Process: 28, Days: 4707, Rating: 1,7, Perf: 1046
+Name: NVIDIA GeForce GT 735M, Shaders: 384, Core: 575, Turbo: 889, DirectX: 11, OpenGL: , Process: 28, Days: 4403, Rating: 1,7, Perf: 1023,5
+Name: ATI Mobility Radeon HD 5870, Shaders: 800, Core: 700, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: NVIDIA GeForce 825M, Shaders: 384, Core: 850, Turbo: , DirectX: 12 (FL 11_0), OpenGL: 4.3, Process: 28, Days: 4102, Rating: 1,9, Perf: 1150
+Name: NVIDIA Quadro 5000M, Shaders: 320, Core: 405, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5382, Rating: , Perf: 
+Name: AMD FirePro M4000, Shaders: 512, Core: 600, Turbo: , DirectX: 11, OpenGL: 4.1, Process: 28, Days: 4677, Rating: 2,8, Perf: 1713
+Name: ATI FirePro M7820, Shaders: 800, Core: 700, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5469, Rating: , Perf: 
+Name: AMD Radeon HD 6870M, Shaders: 800, Core: 675, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5218, Rating: , Perf: 
+Name: AMD Radeon HD 8830M, Shaders: 640, Core: 575, Turbo: , DirectX: 11.1, OpenGL: 4.1, Process: 28, Days: 4507, Rating: , Perf: 
+Name: AMD Radeon HD 8770M, Shaders: 384, Core: 775, Turbo: , DirectX: 11.1, OpenGL: , Process: 28, Days: 4539, Rating: , Perf: 
+Name: AMD Radeon R7 M260X, Shaders: 384, Core: 715, Turbo: , DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 28, Days: 4122, Rating: 2,3, Perf: 1396
+Name: NVIDIA GeForce GTX 460M, Shaders: 192, Core: 675, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5344, Rating: , Perf: 
+Name: NVIDIA GeForce GT 730M, Shaders: 384, Core: 725, Turbo: , DirectX: 11, OpenGL: , Process: 28, Days: 4493, Rating: 1,7, Perf: 1061
+Name: NVIDIA GeForce GT 645M, Shaders: 384, Core: 710, Turbo: , DirectX: 11, OpenGL: , Process: 28, Days: 4778, Rating: 1,9, Perf: 1151,5
+Name: AMD Radeon HD 7750M, Shaders: 512, Core: 575, Turbo: , DirectX: 11.1, OpenGL: 4.1, Process: 28, Days: 4745, Rating: , Perf: 
+Name: AMD FirePro M4100, Shaders: 384, Core: 670, Turbo: , DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 28, Days: 4220, Rating: 1,4, Perf: 857
+Name: AMD Radeon HD 8750M, Shaders: 384, Core: 620, Turbo: 775, DirectX: 11.1, OpenGL: , Process: 28, Days: 4539, Rating: 2,1, Perf: 1276,5
+Name: NVIDIA Quadro 3000M, Shaders: 240, Core: 450, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5172, Rating: , Perf: 
+Name: AMD Radeon R7 M270, Shaders: 384, Core: 825, Turbo: , DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 28, Days: 4122, Rating: 2,1, Perf: 1258
+Name: AMD Radeon R7 M265, Shaders: 384, Core: 825, Turbo: 980, DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 28, Days: 4122, Rating: 2,2, Perf: 1336
+Name: NVIDIA Quadro FX 3800M, Shaders: 128, Core: 675, Turbo: , DirectX: 10, OpenGL: , Process: 55, Days: 5601, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 285M, Shaders: 128, Core: 576, Turbo: , DirectX: 10, OpenGL: , Process: 55, Days: 5894, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 4870, Shaders: 800, Core: 550, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5946, Rating: , Perf: 
+Name: AMD Radeon R7 (Bristol Ridge), Shaders: 512, Core: , Turbo: 900, DirectX: 12 (FL 12_0), OpenGL: 4.4, Process: 28, Days: 3246, Rating: 1,7, Perf: 1013
+Name: NVIDIA GeForce GT 640M, Shaders: 384, Core: 625, Turbo: 645, DirectX: 11, OpenGL: , Process: 28, Days: 4778, Rating: 2, Perf: 1225
+Name: AMD Radeon R7 (Carrizo), Shaders: 512, Core: , Turbo: 800, DirectX: 12 (FL 12_0), OpenGL: 4.4, Process: 28, Days: 3609, Rating: 1,9, Perf: 1137
+Name: AMD Radeon R7 (Kaveri), Shaders: 512, Core: 553, Turbo: 686, DirectX: 12 (FL 12_0), OpenGL: , Process: 28, Days: 3974, Rating: 1,4, Perf: 851
+Name: AMD Radeon R7 M460, Shaders: 384, Core: 984, Turbo: , DirectX: 12, OpenGL: 4.3, Process: 28, Days: 3347, Rating: 1,9, Perf: 1177
+Name: AMD Radeon HD 7730M, Shaders: 512, Core: 575, Turbo: 675, DirectX: 11.1, OpenGL: 4.1, Process: 28, Days: 4745, Rating: , Perf: 
+Name: AMD Radeon R7 M360, Shaders: 384, Core: 1125, Turbo: , DirectX: 12, OpenGL: 4.3, Process: 28, Days: 3638, Rating: 1,9, Perf: 1146
+Name: NVIDIA GeForce GTX 280M, Shaders: 128, Core: 585, Turbo: , DirectX: 10, OpenGL: , Process: 55, Days: 5894, Rating: , Perf: 
+Name: NVIDIA GeForce 920M, Shaders: 384, Core: 954, Turbo: , DirectX: 12 (FL 11_0), OpenGL: 4.5, Process: 28, Days: 3737, Rating: 1,9, Perf: 1161,5
+Name: AMD Radeon HD 8690M, Shaders: 384, Core: 775, Turbo: , DirectX: 11.1, OpenGL: , Process: 28, Days: 4539, Rating: 2, Perf: 1210
+Name: AMD Radeon 620, Shaders: 384, Core: , Turbo: 1024, DirectX: 12, OpenGL: 4.5, Process: 28, Days: 2079, Rating: 2,8, Perf: 1730
+Name: AMD Radeon R7 M440, Shaders: 320, Core: 1021, Turbo: , DirectX: 12, OpenGL: , Process: 28, Days: 3246, Rating: 2, Perf: 1197,5
+Name: NVIDIA Quadro FX 3700M, Shaders: 128, Core: 550, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6094, Rating: , Perf: 
+Name: AMD Radeon R7 M260, Shaders: 384, Core: 715, Turbo: 980, DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 28, Days: 4122, Rating: 1,8, Perf: 1067
+Name: AMD Radeon R7 M340, Shaders: 320, Core: 1021, Turbo: , DirectX: 12, OpenGL: 4.3, Process: 28, Days: 3597, Rating: 2, Perf: 1208,5
+Name: AMD Radeon 520, Shaders: 320, Core: 1030, Turbo: , DirectX: 12, OpenGL: 4.5, Process: 28, Days: 2953, Rating: 2,2, Perf: 1319
+Name: AMD Radeon 610, Shaders: 320, Core: , Turbo: 1030, DirectX: 12, OpenGL: 4.5, Process: 28, Days: 2079, Rating: , Perf: 
+Name: AMD Radeon 610M, Shaders: 128, Core: 400, Turbo: 2200, DirectX: 12_2, OpenGL: 4.6, Process: 6, Days: 944, Rating: 3,6, Perf: 2192
+Name: AMD Radeon RX Vega 6 (Ryzen 2000/3000), Shaders: 384, Core: , Turbo: 1100, DirectX: 12_1, OpenGL: , Process: 14, Days: 2661, Rating: 3,7, Perf: 2245
+Name: AMD Radeon RX Vega 5, Shaders: 320, Core: , Turbo: 1400, DirectX: 12_1, OpenGL: , Process: 7, Days: 1931, Rating: 4, Perf: 2438
+Name: Intel UHD Graphics G1 (Ice Lake 32 EU), Shaders: 32, Core: 300, Turbo: 1100, DirectX: 12_1, OpenGL: 4.5, Process: 10, Days: 2155, Rating: 2,5, Perf: 1521
+Name: Intel UHD Graphics 630, Shaders: 24, Core: 300, Turbo: 1150, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 2759, Rating: 2, Perf: 1211
+Name: Intel UHD Graphics P630, Shaders: 24, Core: 300, Turbo: 1200, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 2759, Rating: , Perf: 
+Name: Intel UHD Graphics Xe 16EUs (Tiger Lake-H), Shaders: 16, Core: 350, Turbo: 1450, DirectX: 12_1, OpenGL: 4.6, Process: 10, Days: 1483, Rating: 2, Perf: 1203
+Name: Intel HD Graphics 630, Shaders: 24, Core: 300, Turbo: 1150, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3547, Rating: 1,8, Perf: 1067
+Name: Intel HD Graphics P630, Shaders: 24, Core: , Turbo: , DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3547, Rating: , Perf: 
+Name: Intel UHD Graphics G7 (Lakefield GT2 64 EU), Shaders: 64, Core: 200, Turbo: 500, DirectX: 12_1, OpenGL: 4.5, Process: 10, Days: 1789, Rating: 2,1, Perf: 1295,5
+Name: Intel HD Graphics 530, Shaders: 24, Core: 350, Turbo: 1150, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3547, Rating: 1,5, Perf: 935
+Name: Intel HD Graphics P530, Shaders: 24, Core: 350, Turbo: 1050, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3520, Rating: , Perf: 
+Name: AMD Radeon R5 (Bristol Ridge), Shaders: 384, Core: , Turbo: 800, DirectX: 12 (FL 12_0), OpenGL: 4.4, Process: 28, Days: 3246, Rating: 2,1, Perf: 1283,5
+Name: Intel UHD Graphics 620, Shaders: 24, Core: 300, Turbo: 1150, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 2789, Rating: 1,9, Perf: 1168
+Name: Intel HD Graphics 620, Shaders: 24, Core: 300, Turbo: 1050, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3156, Rating: 1,5, Perf: 934
+Name: AMD Radeon R6 (Carrizo), Shaders: 384, Core: , Turbo: 800, DirectX: 12 (FL 12_0), OpenGL: 4.4, Process: 28, Days: 3609, Rating: 1,5, Perf: 909
+Name: Qualcomm Adreno 690, Shaders: , Core: , Turbo: , DirectX: 12, OpenGL: , Process: 5, Days: 2328, Rating: 4,8, Perf: 2932,5
+Name: Qualcomm Adreno 685, Shaders: , Core: , Turbo: , DirectX: 12, OpenGL: , Process: 7, Days: 2328, Rating: , Perf: 
+Name: Qualcomm Adreno 680, Shaders: , Core: , Turbo: , DirectX: 12, OpenGL: , Process: 7, Days: 2328, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 4860, Shaders: 640, Core: 650, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5893, Rating: , Perf: 
+Name: ATI FirePro M7740, Shaders: 640, Core: 650, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5739, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 4850, Shaders: 800, Core: 500, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5946, Rating: , Perf: 
+Name: NVIDIA GeForce GTX 260M, Shaders: 112, Core: 550, Turbo: , DirectX: 10, OpenGL: , Process: 55, Days: 5894, Rating: , Perf: 
+Name: NVIDIA GeForce 9800M GTX, Shaders: 112, Core: 500, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6124, Rating: , Perf: 
+Name: NVIDIA Quadro FX 2800M, Shaders: 96, Core: 600, Turbo: , DirectX: 10, OpenGL: , Process: 55, Days: 5620, Rating: , Perf: 
+Name: AMD Radeon HD 7690M XT, Shaders: 480, Core: 725, Turbo: , DirectX: 11, OpenGL: 4.1, Process: 40, Days: 5067, Rating: , Perf: 
+Name: AMD FirePro M5950, Shaders: 480, Core: 725, Turbo: , DirectX: 11, OpenGL: 4.1, Process: 40, Days: 5122, Rating: , Perf: 
+Name: NVIDIA GeForce GT 640M LE, Shaders: 384, Core: 500, Turbo: , DirectX: 11, OpenGL: , Process: 28, Days: 4778, Rating: , Perf: 
+Name: AMD Radeon R6 (Kaveri), Shaders: 384, Core: 533, Turbo: 654, DirectX: 12 (FL 12_0), OpenGL: , Process: 28, Days: 3974, Rating: 1,3, Perf: 770,5
+Name: AMD Radeon HD 8650M, Shaders: 384, Core: 650, Turbo: , DirectX: 11.1, OpenGL: , Process: 28, Days: 4487, Rating: 1,7, Perf: 1050
+Name: AMD Radeon HD 8730M, Shaders: 384, Core: 650, Turbo: , DirectX: 11.1, OpenGL: , Process: 28, Days: 4539, Rating: 1,9, Perf: 1150
+Name: AMD Radeon HD 6770M, Shaders: 480, Core: 675725, Turbo: , DirectX: 11, OpenGL: 4.0, Process: 40, Days: 5221, Rating: , Perf: 
+Name: NVIDIA GeForce GT 635M, Shaders: 144, Core: 660, Turbo: 753, DirectX: 11, OpenGL: , Process: 40, Days: 4885, Rating: , Perf: 
+Name: NVIDIA GeForce GT 555M, Shaders: 144, Core: 525, Turbo: 753, DirectX: 11, OpenGL: , Process: 40, Days: 5219, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 5850, Shaders: 800, Core: 625, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: AMD Radeon HD 6850M, Shaders: 800, Core: 575675, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5219, Rating: , Perf: 
+Name: NVIDIA Quadro 2000M, Shaders: 192, Core: 550, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5172, Rating: , Perf: 
+Name: NVIDIA GeForce 9800M GT, Shaders: 96, Core: 500, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6124, Rating: , Perf: 
+Name: NVIDIA GeForce 8800M GTX, Shaders: 96, Core: 500, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6363, Rating: , Perf: 
+Name: NVIDIA Quadro FX 3600M, Shaders: 96, Core: 500, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6267, Rating: , Perf: 
+Name: NVIDIA GeForce GT 445M, Shaders: 144, Core: 590, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5344, Rating: , Perf: 
+Name: NVIDIA GeForce GTS 360M, Shaders: 96, Core: 575, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: AMD Radeon HD 7690M, Shaders: 480, Core: 600, Turbo: 725, DirectX: 11, OpenGL: 4.1, Process: 40, Days: 5067, Rating: , Perf: 
+Name: Intel HD Graphics 5600, Shaders: 24, Core: 300, Turbo: 1050, DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 14, Days: 3611, Rating: 1,6, Perf: 991
+Name: AMD Radeon HD 8670M, Shaders: 384, Core: 775, Turbo: , DirectX: 11.1, OpenGL: , Process: 28, Days: 4539, Rating: 1,4, Perf: 829
+Name: AMD Radeon HD 6750M, Shaders: 480, Core: 600, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5221, Rating: , Perf: 
+Name: NVIDIA Quadro K1000M, Shaders: 192, Core: 850, Turbo: , DirectX: 11.1, OpenGL: 4.1, Process: 28, Days: 4707, Rating: , Perf: 
+Name: NVIDIA GeForce GT 550M, Shaders: 96, Core: 740, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5219, Rating: , Perf: 
+Name: AMD Radeon HD 8590M, Shaders: 384, Core: 620, Turbo: , DirectX: 11.1, OpenGL: , Process: 28, Days: 4539, Rating: , Perf: 
+Name: NVIDIA GeForce GTS 260M, Shaders: 96, Core: 550, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5789, Rating: , Perf: 
+Name: NVIDIA GeForce GTS 160M, Shaders: 64, Core: 600, Turbo: , DirectX: 10, OpenGL: , Process: 55, Days: 5894, Rating: , Perf: 
+Name: NVIDIA GeForce 9800M GTS, Shaders: 64, Core: 600, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6124, Rating: , Perf: 
+Name: AMD Radeon HD 6830M, Shaders: 800, Core: 575, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5218, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 5830, Shaders: 800, Core: 500, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: AMD Radeon HD 6730M, Shaders: 480, Core: 725, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5221, Rating: , Perf: 
+Name: NVIDIA GeForce 9800M GS, Shaders: 64, Core: 530, Turbo: , DirectX: 10, OpenGL: , Process: 55, Days: 6015, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 4830, Shaders: 640, Core: 550, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5893, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 5770, Shaders: 400, Core: 650, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: AMD Radeon HD 6570M, Shaders: 400, Core: 650, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5260, Rating: , Perf: 
+Name: AMD Radeon HD 8650G, Shaders: 384, Core: 533, Turbo: 720, DirectX: 11, OpenGL: 4.2, Process: 32, Days: 4373, Rating: 1,5, Perf: 905
+Name: AMD Radeon HD 7670M, Shaders: 480, Core: 600, Turbo: , DirectX: 11, OpenGL: 4.1, Process: 40, Days: 5067, Rating: 1,4, Perf: 824
+Name: NVIDIA GeForce GT 630M, Shaders: 96, Core: 672, Turbo: , DirectX: 11, OpenGL: 4.0, Process: 28, Days: 4885, Rating: 1,2, Perf: 719
+Name: NVIDIA GeForce GTS 150M, Shaders: 64, Core: 400, Turbo: , DirectX: 10.0, OpenGL: , Process: 55, Days: 5894, Rating: , Perf: 
+Name: AMD Radeon R5 M335, Shaders: 320, Core: 1070, Turbo: , DirectX: 12, OpenGL: 4.3, Process: 28, Days: 3597, Rating: 1,5, Perf: 911
+Name: AMD Radeon R5 M330, Shaders: 320, Core: 1030, Turbo: , DirectX: 12, OpenGL: 4.3, Process: 28, Days: 3637, Rating: 1,5, Perf: 922
+Name: AMD Radeon R5 M430, Shaders: 320, Core: 955, Turbo: , DirectX: 12 (11_1), OpenGL: 4.3, Process: 28, Days: 3277, Rating: 1,6, Perf: 1004
+Name: AMD Radeon R5 M255, Shaders: 320, Core: 940, Turbo: , DirectX: 12, OpenGL: 4.3, Process: 28, Days: 4008, Rating: 1,8, Perf: 1080,5
+Name: AMD Radeon RX Vega 3, Shaders: 192, Core: 600, Turbo: 1200, DirectX: 12_1, OpenGL: , Process: 14, Days: 2661, Rating: 1,9, Perf: 1171,5
+Name: NVIDIA Quadro 1000M, Shaders: 96, Core: 700, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5172, Rating: , Perf: 
+Name: NVIDIA GeForce 910M, Shaders: 384, Core: 641, Turbo: , DirectX: 12 (FL 11_0), OpenGL: , Process: 28, Days: 3520, Rating: 1,7, Perf: 1022
+Name: NVIDIA GeForce 820M, Shaders: 96, Core: 775, Turbo: , DirectX: 12 (FL 11_0), OpenGL: , Process: 28, Days: 4122, Rating: 1,5, Perf: 897
+Name: Intel HD Graphics 520, Shaders: 24, Core: 300, Turbo: 1050, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3520, Rating: 1,3, Perf: 803,5
+Name: Intel Iris Graphics 6100, Shaders: 48, Core: 300, Turbo: 1100, DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 14, Days: 3759, Rating: 1,4, Perf: 874
+Name: Intel UHD Graphics G4 (Lakefield GT1 48 EU), Shaders: 48, Core: 200, Turbo: 500, DirectX: 12_1, OpenGL: 4.5, Process: 10, Days: 1789, Rating: , Perf: 
+Name: NVIDIA GeForce GT 720M, Shaders: 96, Core: 625, Turbo: 938, DirectX: 11, OpenGL: , Process: 28, Days: 4403, Rating: 1,4, Perf: 822
+Name: NVIDIA GeForce 8800M GTS, Shaders: 64, Core: 500, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6363, Rating: , Perf: 
+Name: AMD Radeon R5 M240, Shaders: 320, Core: 1030, Turbo: , DirectX: 11.2, OpenGL: , Process: 28, Days: 3885, Rating: 1,6, Perf: 949
+Name: AMD Radeon R5 M320, Shaders: 320, Core: 855, Turbo: , DirectX: 12, OpenGL: 4.3, Process: 28, Days: 3637, Rating: , Perf: 
+Name: AMD Radeon R5 M230, Shaders: 320, Core: 855, Turbo: , DirectX: 12, OpenGL: 4.3, Process: 28, Days: 4122, Rating: 1,3, Perf: 771
+Name: AMD Radeon R5 M315, Shaders: 320, Core: 970, Turbo: , DirectX: 12, OpenGL: 4.3, Process: 28, Days: 3597, Rating: 1,5, Perf: 920
+Name: AMD Radeon R5 M420, Shaders: 320, Core: 780, Turbo: , DirectX: 12, OpenGL: 4.3, Process: 28, Days: 3246, Rating: , Perf: 
+Name: AMD Radeon RX Vega 2, Shaders: 128, Core: , Turbo: 1100, DirectX: 12_1, OpenGL: , Process: 12, Days: 2661, Rating: , Perf: 
+Name: AMD Radeon R5 (Stoney Ridge), Shaders: 192, Core: , Turbo: 800, DirectX: 12 (FL 12_0), OpenGL: 4.4, Process: 28, Days: 3246, Rating: 1,3, Perf: 772
+Name: ATI Mobility Radeon HD 5750, Shaders: 400, Core: 550, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: AMD Radeon HD 8570M, Shaders: 384, Core: 650, Turbo: , DirectX: 11.1, OpenGL: , Process: 28, Days: 4539, Rating: 1,3, Perf: 790
+Name: Intel HD Graphics 6000, Shaders: 48, Core: 300, Turbo: 1000, DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 14, Days: 3759, Rating: 1,6, Perf: 951
+Name: NVIDIA Quadro K610M, Shaders: 192, Core: 954, Turbo: , DirectX: 11, OpenGL: 4.3, Process: 28, Days: 4290, Rating: 1,2, Perf: 755,5
+Name: AMD Radeon HD 8550M, Shaders: 384, Core: 700, Turbo: , DirectX: 11.1, OpenGL: , Process: 28, Days: 4539, Rating: , Perf: 
+Name: Intel Iris Graphics 5100, Shaders: 40, Core: 200, Turbo: 1200, DirectX: 11.1, OpenGL: 4.0, Process: 22, Days: 4338, Rating: 1,4, Perf: 878,5
+Name: NVIDIA GeForce GT 540M, Shaders: 96, Core: 672, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5219, Rating: , Perf: 
+Name: AMD Radeon HD 6650M, Shaders: 480, Core: 600, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5221, Rating: , Perf: 
+Name: Intel HD Graphics 4600, Shaders: 20, Core: 200, Turbo: 1350, DirectX: 11.1, OpenGL: 4.0, Process: 22, Days: 4342, Rating: 1,1, Perf: 643
+Name: ATI Mobility Radeon HD 5730, Shaders: 400, Core: 650, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: Intel HD Graphics 5500, Shaders: 24, Core: 300, Turbo: 950, DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 14, Days: 3759, Rating: 1,1, Perf: 663
+Name: Qualcomm Adreno 630, Shaders: , Core: , Turbo: , DirectX: 12, OpenGL: ES 3.2, Process: 10, Days: 2625, Rating: 1,3, Perf: 821
+Name: Intel UHD Graphics (Jasper Lake 32 EU), Shaders: 32, Core: 350, Turbo: 900, DirectX: 12_1, OpenGL: 4.5, Process: 10, Days: 1561, Rating: 1,7, Perf: 1016
+Name: Intel UHD Graphics (Elkhart Lake 32 EU), Shaders: 32, Core: 400, Turbo: 850, DirectX: 12_1, OpenGL: 4.5, Process: 10, Days: 1561, Rating: , Perf: 
+Name: AMD Radeon R5 (Carrizo), Shaders: 256, Core: , Turbo: 800, DirectX: 12 (FL 12_0), OpenGL: 4.4, Process: 28, Days: 3609, Rating: 1,6, Perf: 1001
+Name: Intel UHD Graphics 617, Shaders: 24, Core: 300, Turbo: 1150, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 2365, Rating: 1,6, Perf: 997
+Name: Intel UHD Graphics 615, Shaders: 24, Core: 300, Turbo: 1000, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 2426, Rating: 1,3, Perf: 819
+Name: Intel UHD Graphics (Jasper Lake 24 EU), Shaders: 24, Core: 350, Turbo: 800, DirectX: 12_1, OpenGL: 4.5, Process: 10, Days: 1561, Rating: 1,8, Perf: 1106
+Name: Intel HD Graphics 615, Shaders: 24, Core: 300, Turbo: 1050, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3156, Rating: 1,4, Perf: 853
+Name: AMD Radeon R5 (Kaveri), Shaders: 256, Core: 514, Turbo: 626, DirectX: 12 (FL 12_0), OpenGL: , Process: 28, Days: 3974, Rating: 0,9, Perf: 572
+Name: ATI FirePro M5800, Shaders: 400, Core: 650, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5530, Rating: , Perf: 
+Name: NVIDIA NVS 5400M, Shaders: 96, Core: 660, Turbo: , DirectX: 11, OpenGL: 4.0, Process: 40, Days: 4707, Rating: , Perf: 
+Name: NVIDIA GeForce 710M, Shaders: 96, Core: 775, Turbo: 800, DirectX: 11, OpenGL: , Process: 28, Days: 4403, Rating: 1,3, Perf: 768,5
+Name: AMD Radeon HD 7660G, Shaders: 384, Core: 497, Turbo: 686, DirectX: 11, OpenGL: 4.2, Process: 32, Days: 4724, Rating: , Perf: 
+Name: NVIDIA GeForce GT 435M, Shaders: 96, Core: 650, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5344, Rating: , Perf: 
+Name: Intel HD Graphics 5000, Shaders: 40, Core: 200, Turbo: 1100, DirectX: 11.1, OpenGL: 4.0, Process: 22, Days: 4338, Rating: 1,2, Perf: 715,5
+Name: NVIDIA Quadro K510M, Shaders: 192, Core: 846, Turbo: , DirectX: 11, OpenGL: 4.3, Process: 28, Days: 4290, Rating: , Perf: 
+Name: AMD Radeon HD 6550M, Shaders: 400, Core: 600, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5260, Rating: , Perf: 
+Name: AMD Radeon HD 7590M, Shaders: 480, Core: 600, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 4852, Rating: , Perf: 
+Name: NVIDIA GeForce GTS 350M, Shaders: 96, Core: 500, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: NVIDIA GeForce GTS 250M, Shaders: 96, Core: 500, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5789, Rating: , Perf: 
+Name: AMD Radeon HD 6630M, Shaders: 480, Core: 485, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5221, Rating: , Perf: 
+Name: AMD Radeon HD 7650M, Shaders: 480, Core: 450, Turbo: 550, DirectX: 11, OpenGL: , Process: 40, Days: 4853, Rating: , Perf: 
+Name: AMD FirePro M2000, Shaders: 480, Core: 500, Turbo: , DirectX: 11.1, OpenGL: 4.2, Process: 40, Days: 4677, Rating: , Perf: 
+Name: AMD Radeon HD 7570M, Shaders: 400, Core: 450, Turbo: 650, DirectX: 11, OpenGL: , Process: 40, Days: 4853, Rating: 0,9, Perf: 569
+Name: AMD Radeon HD 7630M, Shaders: 480, Core: 450, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 4853, Rating: , Perf: 
+Name: NVIDIA Quadro FX 1800M, Shaders: 72, Core: 560, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5558, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 5650, Shaders: 400, Core: 450, Turbo: 650, DirectX: 11, OpenGL: , Process: 40, Days: 5583, Rating: 1,2, Perf: 730
+Name: AMD Radeon HD 8510G, Shaders: 384, Core: 450, Turbo: 554, DirectX: 11, OpenGL: 4.2, Process: 32, Days: 4351, Rating: , Perf: 
+Name: AMD Radeon HD 6530M, Shaders: 400, Core: 500, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5260, Rating: , Perf: 
+Name: AMD Radeon HD 8550G, Shaders: 256, Core: 515, Turbo: 720, DirectX: 11, OpenGL: 4.2, Process: 32, Days: 4423, Rating: 1,3, Perf: 792
+Name: NVIDIA Quadro K500M, Shaders: 192, Core: 850, Turbo: , DirectX: 11, OpenGL: 4.3, Process: 28, Days: 4707, Rating: , Perf: 
+Name: NVIDIA GeForce GT 625M, Shaders: 96, Core: 625, Turbo: , DirectX: 11, OpenGL: , Process: 28, Days: 4585, Rating: , Perf: 
+Name: NVIDIA GeForce GT 620M, Shaders: 96, Core: 625, Turbo: 715, DirectX: 11, OpenGL: , Process: 40, Days: 4778, Rating: 1,2, Perf: 737,5
+Name: NVIDIA GeForce GT 525M, Shaders: 96, Core: 600, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5219, Rating: , Perf: 
+Name: AMD Radeon HD 7610M, Shaders: 400, Core: 450, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 4853, Rating: 1, Perf: 605
+Name: AMD Radeon HD 7620G, Shaders: 384, Core: 360, Turbo: 497, DirectX: 11, OpenGL: 4.2, Process: 32, Days: 4724, Rating: 1,2, Perf: 716
+Name: AMD Radeon HD 7640G, Shaders: 256, Core: 497, Turbo: 686, DirectX: 11, OpenGL: 4.2, Process: 32, Days: 4724, Rating: , Perf: 
+Name: Intel HD Graphics 515, Shaders: 24, Core: 300, Turbo: 1000, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3520, Rating: 1,1, Perf: 691,5
+Name: Intel UHD Graphics 610, Shaders: 12, Core: 300, Turbo: 950, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 2302, Rating: 1,1, Perf: 663,5
+Name: Intel HD Graphics 610, Shaders: 12, Core: 300, Turbo: 950, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3032, Rating: 1, Perf: 607,5
+Name: Intel HD Graphics 4400, Shaders: 20, Core: 200, Turbo: 1100, DirectX: 11.1, OpenGL: 4.0, Process: 22, Days: 4338, Rating: 0,9, Perf: 569
+Name: AMD Radeon HD 8610G, Shaders: 384, Core: 533, Turbo: 626, DirectX: 11, OpenGL: 4.2, Process: 32, Days: 4351, Rating: 0,8, Perf: 475
+Name: Intel HD Graphics 510, Shaders: 12, Core: 300, Turbo: 950, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3520, Rating: 1, Perf: 621
+Name: NVIDIA NVS 5200M, Shaders: 96, Core: 625, Turbo: , DirectX: 11, OpenGL: , Process: 28, Days: 4707, Rating: 1,2, Perf: 704
+Name: ATI Mobility Radeon HD 565v, Shaders: 320, Core: 675, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5465, Rating: , Perf: 
+Name: AMD Radeon HD 7550M, Shaders: 400, Core: 450, Turbo: 550, DirectX: 11, OpenGL: , Process: 40, Days: 4853, Rating: 0,9, Perf: 569
+Name: ATI Mobility Radeon HD 4670, Shaders: 320, Core: 675, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5946, Rating: , Perf: 
+Name: NVIDIA GeForce GT 425M, Shaders: 96, Core: 560, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5363, Rating: , Perf: 
+Name: NVIDIA GeForce 9700M GTS, Shaders: 48, Core: 530, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6124, Rating: , Perf: 
+Name: NVIDIA Quadro FX 2700M, Shaders: 48, Core: 530, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6094, Rating: , Perf: 
+Name: NVIDIA GeForce GT 335M, Shaders: 72, Core: 450, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: AMD Radeon HD 7600G, Shaders: 384, Core: 320, Turbo: 424, DirectX: 11, OpenGL: 4.2, Process: 32, Days: 4615, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 3870, Shaders: 320, Core: 660, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 6260, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 5165, Shaders: 320, Core: 600, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5583, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 560v, Shaders: 320, Core: 550, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5465, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 4650, Shaders: 320, Core: 550, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5946, Rating: , Perf: 
+Name: NVIDIA GeForce GT 420M, Shaders: 96, Core: 500, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5344, Rating: , Perf: 
+Name: AMD Radeon HD 7530M, Shaders: 400, Core: 450, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 4853, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 3850, Shaders: 320, Core: 580, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 6351, Rating: , Perf: 
+Name: NVIDIA GeForce GT 330M, Shaders: 48, Core: 575, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5580, Rating: , Perf: 
+Name: NVIDIA Quadro FX 880M, Shaders: 48, Core: 550, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: NVIDIA Quadro NVS 5100M, Shaders: 48, Core: 550, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: NVIDIA GeForce GT 240M, Shaders: 48, Core: 550, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5789, Rating: , Perf: 
+Name: AMD Radeon HD 7490M, Shaders: 160, Core: 800, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 4884, Rating: , Perf: 
+Name: Intel UHD Graphics (Elkhart Lake 16 EU), Shaders: 16, Core: 250, Turbo: 850, DirectX: 12_1, OpenGL: 4.5, Process: 10, Days: 1561, Rating: 0,9, Perf: 523
+Name: Intel UHD Graphics (Jasper Lake 16 EU), Shaders: 24, Core: 350, Turbo: 800, DirectX: 12_1, OpenGL: 4.5, Process: 10, Days: 1561, Rating: 1,1, Perf: 645
+Name: Intel UHD Graphics 605, Shaders: 18, Core: 300, Turbo: 750, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 2688, Rating: 0,7, Perf: 454
+Name: Intel HD Graphics 505, Shaders: 18, Core: 300, Turbo: 750, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3154, Rating: 0,7, Perf: 408
+Name: Intel HD Graphics 5300, Shaders: 24, Core: 100, Turbo: 900, DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 14, Days: 3881, Rating: 0,7, Perf: 439
+Name: AMD Radeon HD 7510M, Shaders: 400, Core: 450, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 4853, Rating: , Perf: 
+Name: NVIDIA GeForce Go 7950 GTX, Shaders: 24, Core: 8, Turbo: 575, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6766, Perf: 
+Name: NVIDIA Quadro FX 3500M, Shaders: 24, Core: 8, Turbo: 575, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6626, Perf: 
+Name: NVIDIA GeForce 9700M GT, Shaders: 32, Core: 625, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6166, Rating: , Perf: 
+Name: NVIDIA GeForce GT 230M, Shaders: 48, Core: 500, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5789, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 550v, Shaders: 320, Core: 450, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5465, Rating: , Perf: 
+Name: Intel HD Graphics 4000, Shaders: 16, Core: 350, Turbo: 1350, DirectX: 11, OpenGL: 3.1, Process: 22, Days: 5143, Rating: 0,8, Perf: 480
+Name: AMD Radeon HD 6620G, Shaders: 400, Core: 400, Turbo: , DirectX: 11, OpenGL: , Process: 32, Days: 5059, Rating: , Perf: 
+Name: AMD Radeon R4 (Stoney Ridge), Shaders: 192, Core: , Turbo: 600, DirectX: 12 (FL 12_0), OpenGL: 4.4, Process: 28, Days: 3246, Rating: 1, Perf: 583
+Name: AMD Radeon R5 (Beema/Carrizo-L), Shaders: 128, Core: , Turbo: 850, DirectX: 12 (FL 12_0), OpenGL: , Process: 28, Days: 4010, Rating: 0,9, Perf: 539
+Name: AMD Radeon R4 (Beema), Shaders: 128, Core: 800, Turbo: , DirectX: 12 (FL 12_0), OpenGL: , Process: 28, Days: 4010, Rating: 0,8, Perf: 497
+Name: AMD Radeon R4 (Kaveri), Shaders: 192, Core: 533, Turbo: , DirectX: 12 (FL 12_0), OpenGL: , Process: 28, Days: 3974, Rating: 0,7, Perf: 433,5
+Name: AMD Radeon R3 (Mullins/Beema), Shaders: 128, Core: 350, Turbo: 686, DirectX: 12 (FL 12_0), OpenGL: , Process: 28, Days: 4010, Rating: 0,7, Perf: 419,5
+Name: AMD Radeon R2 (Stoney Ridge), Shaders: 128, Core: , Turbo: 600, DirectX: 12 (FL 12_0), OpenGL: 4.4, Process: 28, Days: 3246, Rating: 0,8, Perf: 511,5
+Name: Intel HD Graphics (Broadwell), Shaders: 12, Core: 100, Turbo: 850, DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 14, Days: 3759, Rating: 0,8, Perf: 463
+Name: Intel HD Graphics 4200, Shaders: 20, Core: 200, Turbo: 850, DirectX: 11.1, OpenGL: 4.0, Process: 22, Days: 4338, Rating: 0,7, Perf: 431,5
+Name: Intel HD Graphics (Skylake), Shaders: 12, Core: 300, Turbo: 800, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3520, Rating: , Perf: 
+Name: AMD Radeon HD 7500G, Shaders: 256, Core: 327, Turbo: 424, DirectX: 11, OpenGL: 4.2, Process: 32, Days: 4724, Rating: 0,8, Perf: 512
+Name: AMD Radeon HD 8450G, Shaders: 192, Core: 533, Turbo: 720, DirectX: 11, OpenGL: 4.2, Process: 32, Days: 4423, Rating: 0,8, Perf: 464,5
+Name: AMD Radeon HD 7470M, Shaders: 160, Core: 750800, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 4884, Rating: , Perf: 
+Name: AMD Radeon HD 6490M, Shaders: 160, Core: 700750800, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5219, Rating: , Perf: 
+Name: AMD Radeon HD 8410G, Shaders: 192, Core: 450, Turbo: 600, DirectX: 11, OpenGL: 4.2, Process: 32, Days: 4351, Rating: , Perf: 
+Name: AMD Radeon HD 8400, Shaders: 128, Core: 600, Turbo: , DirectX: 11.1, OpenGL: , Process: 28, Days: 4351, Rating: 0,7, Perf: 401
+Name: NVIDIA GeForce GT 520MX, Shaders: 48, Core: 900, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5075, Rating: , Perf: 
+Name: AMD Radeon HD 7520G, Shaders: 192, Core: 497, Turbo: 686, DirectX: 11, OpenGL: 4.2, Process: 32, Days: 4707, Rating: , Perf: 
+Name: NVIDIA GeForce GT 325M, Shaders: 48, Core: 450, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5580, Rating: , Perf: 
+Name: NVIDIA GeForce GT 130M, Shaders: 32, Core: 600, Turbo: , DirectX: 10, OpenGL: , Process: 55, Days: 5947, Rating: , Perf: 
+Name: NVIDIA NVS 4200M, Shaders: 48, Core: 810, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5172, Rating: , Perf: 
+Name: NVIDIA GeForce Go 7900 GTX, Shaders: 24, Core: 8, Turbo: 500, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6943, Perf: 
+Name: NVIDIA Quadro FX 2500M, Shaders: 24, Core: 8, Turbo: 500, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 7144, Perf: 
+Name: AMD Radeon HD 8350G, Shaders: 128, Core: 514, Turbo: 720, DirectX: 11, OpenGL: 4.2, Process: 32, Days: 4423, Rating: 0,6, Perf: 388
+Name: AMD Radeon HD 8330, Shaders: 128, Core: 500, Turbo: , DirectX: 11.1, OpenGL: , Process: 28, Days: 4351, Rating: 0,6, Perf: 351
+Name: Intel UHD Graphics 600, Shaders: 12, Core: 300, Turbo: 700, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 2688, Rating: 0,7, Perf: 433
+Name: Intel HD Graphics 500, Shaders: 12, Core: 300, Turbo: 700, DirectX: 12_1, OpenGL: 4.4, Process: 14, Days: 3154, Rating: 0,6, Perf: 362,5
+Name: NVIDIA GeForce 9650M GS, Shaders: 32, Core: 625, Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6248, Rating: , Perf: 
+Name: NVIDIA GeForce 9650M GT, Shaders: 32, Core: 550, Turbo: , DirectX: 10, OpenGL: , Process: 55, Days: 6089, Rating: , Perf: 
+Name: NVIDIA GeForce 8700M GT, Shaders: 32, Core: 625, Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6523, Rating: , Perf: 
+Name: NVIDIA Quadro FX 1700M, Shaders: 32, Core: 625, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6046, Rating: , Perf: 
+Name: NVIDIA Quadro FX 1600M, Shaders: 32, Core: 625, Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6534, Rating: , Perf: 
+Name: NVIDIA GeForce Go 7800 GTX, Shaders: 24, Core: 8, Turbo: 440, DirectX: , OpenGL: 9c, Process: , Days: 110, Rating: 7144, Perf: 
+Name: NVIDIA GeForce Go 7900 GS, Shaders: 20, Core: 7, Turbo: 375, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6943, Perf: 
+Name: NVIDIA Quadro NVS 320M, Shaders: 32, Core: 575, Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6526, Rating: , Perf: 
+Name: NVIDIA Quadro FX 1500M, Shaders: 20, Core: 7, Turbo: 375, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6943, Perf: 
+Name: NVIDIA GeForce 9600M GT, Shaders: 32, Core: 500, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6165, Rating: , Perf: 
+Name: NVIDIA GeForce GT 220M, Shaders: 32, Core: 500, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 5727, Rating: , Perf: 
+Name: NVIDIA Quadro FX 770M, Shaders: 32, Core: 500, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6094, Rating: , Perf: 
+Name: NVIDIA GeForce GT 120M, Shaders: 32, Core: 500, Turbo: , DirectX: 10, OpenGL: , Process: 55, Days: 5913, Rating: , Perf: 
+Name: AMD Radeon HD 7450M, Shaders: 160, Core: 700, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 4821, Rating: , Perf: 
+Name: NVIDIA GeForce 610M, Shaders: 48, Core: 672, Turbo: 900, DirectX: 11, OpenGL: 4.0, Process: 40, Days: 4885, Rating: , Perf: 
+Name: NVIDIA GeForce 705M, Shaders: 48, Core: 775, Turbo: , DirectX: 11, OpenGL: 4.0, Process: 40, Days: 4342, Rating: , Perf: 
+Name: Intel HD Graphics 405 (Braswell), Shaders: 16, Core: 320, Turbo: 700, DirectX: 11.2, OpenGL: , Process: 14, Days: 3307, Rating: 0,4, Perf: 254,5
+Name: Intel HD Graphics (Braswell), Shaders: 16, Core: 320, Turbo: 700, DirectX: 11.2, OpenGL: , Process: 14, Days: 3673, Rating: 0,4, Perf: 261
+Name: Intel HD Graphics 400 (Braswell), Shaders: 12, Core: 320, Turbo: 640, DirectX: 11.2, OpenGL: , Process: 14, Days: 3307, Rating: 0,4, Perf: 218
+Name: AMD Radeon HD 6470M, Shaders: 160, Core: 700750, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5219, Rating: , Perf: 
+Name: AMD FirePro M3900, Shaders: 160, Core: 700, Turbo: 750, DirectX: 11, OpenGL: 4.1, Process: 40, Days: 5122, Rating: , Perf: 
+Name: NVIDIA GeForce GT 520M, Shaders: 48, Core: 740600, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5220, Rating: , Perf: 
+Name: AMD Radeon HD 7420G, Shaders: 128, Core: 480, Turbo: 655, DirectX: 11, OpenGL: 4.2, Process: 32, Days: 4707, Rating: 0,6, Perf: 343
+Name: ATI Mobility Radeon HD 3670, Shaders: 120, Core: 680, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 6314, Rating: , Perf: 
+Name: ATI Mobility FireGL V5725, Shaders: 120, Core: 680, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5954, Rating: , Perf: 
+Name: Intel HD Graphics (Haswell), Shaders: 10, Core: 200, Turbo: 1000, DirectX: 11.1, OpenGL: , Process: 22, Days: 4585, Rating: 0,6, Perf: 362,5
+Name: AMD Radeon HD 6520G, Shaders: 320, Core: 400, Turbo: , DirectX: 11, OpenGL: , Process: 32, Days: 5059, Rating: , Perf: 
+Name: AMD Radeon HD 8310G, Shaders: 128, Core: 424, Turbo: 554, DirectX: 11, OpenGL: 4.2, Process: 32, Days: 4351, Rating: , Perf: 
+Name: NVIDIA GeForce 320M, Shaders: 32, Core: 450, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5499, Rating: , Perf: 
+Name: NVIDIA GeForce GT 320M, Shaders: 24, Core: 500, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5569, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 2600 XT, Shaders: 120, Core: 700, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6552, Rating: , Perf: 
+Name: ATI Mobility Radeon X1900, Shaders: 36, Core: 8, Turbo: 400, DirectX: , OpenGL: 9c, Process: , Days: 80, Rating: 6675, Perf: 
+Name: ATI Mobility Radeon X1800XT, Shaders: 16, Core: 8, Turbo: 550, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6991, Perf: 
+Name: ATI Mobility Radeon X1800, Shaders: 12, Core: 6, Turbo: 450, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6991, Perf: 
+Name: NVIDIA GeForce Go 6800 Ultra, Shaders: 12, Core: 5, Turbo: 450, DirectX: , OpenGL: 9c, Process: , Days: 130, Rating: 7360, Perf: 
+Name: NVIDIA GeForce Go 7800, Shaders: 16, Core: 6, Turbo: 400, DirectX: , OpenGL: 9c, Process: , Days: 110, Rating: 6991, Perf: 
+Name: NVIDIA GeForce 9600M GS, Shaders: 32, Core: 430, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6166, Rating: , Perf: 
+Name: NVIDIA GeForce 9500M GS, Shaders: 32, Core: 475, Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6289, Rating: , Perf: 
+Name: AMD Radeon HD 7400G, Shaders: 192, Core: 327, Turbo: 423, DirectX: 11, OpenGL: 4.2, Process: 32, Days: 4615, Rating: 0,5, Perf: 327
+Name: AMD Radeon HD 6480G, Shaders: 240, Core: 444, Turbo: , DirectX: 11, OpenGL: , Process: 32, Days: 5059, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 2700, Shaders: 120, Core: 700, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6340, Rating: , Perf: 
+Name: NVIDIA GeForce GT 415M, Shaders: 48, Core: 500, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5344, Rating: , Perf: 
+Name: NVIDIA GeForce 410M, Shaders: 48, Core: 575, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5219, Rating: , Perf: 
+Name: AMD Radeon HD 7370M, Shaders: 80, Core: 750, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 4853, Rating: , Perf: 
+Name: AMD Radeon R2 (Mullins/Beema/Carrizo-L), Shaders: 128, Core: 300, Turbo: 600, DirectX: 12 (FL 12_0), OpenGL: , Process: 28, Days: 4010, Rating: 0,6, Perf: 373
+Name: AMD Radeon HD 6370M, Shaders: 80, Core: 750, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5260, Rating: , Perf: 
+Name: AMD Radeon HD 8280, Shaders: 128, Core: 450, Turbo: , DirectX: 11.1, OpenGL: , Process: 28, Days: 4351, Rating: 0,5, Perf: 328
+Name: ATI Mobility Radeon HD 5470, Shaders: 80, Core: 750, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: AMD Radeon HD 6450M, Shaders: 160, Core: 600, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5221, Rating: , Perf: 
+Name: AMD Radeon HD 7430M, Shaders: 160, Core: 600, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 4851, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 3650, Shaders: 120, Core: 600, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 6314, Rating: , Perf: 
+Name: ATI Mobility FireGL V5700, Shaders: 120, Core: 600, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 6314, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 5145, Shaders: 80, Core: 720, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5583, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 545v, Shaders: 80, Core: 720, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5465, Rating: , Perf: 
+Name: AMD Radeon HD 8240, Shaders: 128, Core: 400, Turbo: , DirectX: 11.1, OpenGL: , Process: 28, Days: 4351, Rating: 0,5, Perf: 292,5
+Name: AMD Radeon R6 (Mullins), Shaders: 128, Core: 500, Turbo: , DirectX: 12 (FL 12_0), OpenGL: , Process: 28, Days: 4010, Rating: , Perf: 
+Name: AMD Radeon HD 8250, Shaders: 128, Core: 300, Turbo: 400, DirectX: 11.1, OpenGL: , Process: 28, Days: 4342, Rating: 0,4, Perf: 253,5
+Name: Intel HD Graphics (Cherry Trail), Shaders: 16, Core: 200, Turbo: 600, DirectX: 12 (FL 11_1), OpenGL: 4.3, Process: 14, Days: 3703, Rating: 0,4, Perf: 225
+Name: ATI Mobility Radeon HD 4570, Shaders: 80, Core: 680, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5946, Rating: , Perf: 
+Name: NVIDIA Quadro FX 570M, Shaders: 32, Core: 475, Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6534, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 5450, Shaders: 80, Core: 675, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: NVIDIA GeForce 8600M GT, Shaders: 32, Core: 475, Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6526, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 2600, Shaders: 120, Core: 500, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6552, Rating: , Perf: 
+Name: Intel HD Graphics 3000, Shaders: 12, Core: 350, Turbo: 1350, DirectX: 10.1, OpenGL: 3.0, Process: 32, Days: 5193, Rating: , Perf: 
+Name: NVIDIA Quadro FX 380M, Shaders: 16, Core: 625, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: NVIDIA GeForce 310M, Shaders: 16, Core: 606625, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5580, Rating: , Perf: 
+Name: NVIDIA GeForce G210M, Shaders: 16, Core: 625, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5789, Rating: , Perf: 
+Name: NVIDIA NVS 3100M, Shaders: 16, Core: 600, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: NVIDIA GeForce 405M, Shaders: 16, Core: 606, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 4728, Rating: , Perf: 
+Name: NVIDIA GeForce 315M, Shaders: 16, Core: 606, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5255, Rating: , Perf: 
+Name: NVIDIA GeForce Go 7600 GT, Shaders: 12, Core: 5, Turbo: 500, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6838, Perf: 
+Name: NVIDIA GeForce 9500M G, Shaders: 16, Core: 500, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6166, Rating: , Perf: 
+Name: NVIDIA GeForce 8600M GS, Shaders: 16, Core: 600, Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6526, Rating: , Perf: 
+Name: NVIDIA NVS 2100M, Shaders: 16, Core: 535, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: NVIDIA GeForce Go 7700, Shaders: 12, Core: 5, Turbo: 450, DirectX: , OpenGL: 9c, Process: , Days: 80, Rating: 6838, Perf: 
+Name: NVIDIA GeForce Go 6800, Shaders: 12, Core: 5, Turbo: 300, DirectX: , OpenGL: 9c, Process: , Days: 130, Rating: 7360, Perf: 
+Name: NVIDIA Quadro FX Go 1400, Shaders: 12, Core: 5, Turbo: 330, DirectX: , OpenGL: 9c, Process: , Days: 130, Rating: 7360, Perf: 
+Name: ATI Mobility Radeon X800XT, Shaders: 16, Core: 6, Turbo: 480, DirectX: , OpenGL: 9b, Process: , Days: 130, Rating: 7257, Perf: 
+Name: AMD Radeon HD 6430M, Shaders: 160, Core: 480, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5221, Rating: , Perf: 
+Name: AMD Radeon HD 6380G, Shaders: 160, Core: 400, Turbo: , DirectX: 11, OpenGL: , Process: 32, Days: 5059, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 5430, Shaders: 80, Core: 550, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5583, Rating: , Perf: 
+Name: AMD Radeon HD 8210, Shaders: 128, Core: 300, Turbo: , DirectX: 11.1, OpenGL: , Process: 28, Days: 4351, Rating: 0,4, Perf: 227
+Name: ATI Mobility Radeon HD 540v, Shaders: 80, Core: 550, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5465, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 4550, Shaders: 80, Core: 550, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5589, Rating: , Perf: 
+Name: Intel HD Graphics 2500, Shaders: 6, Core: 650, Turbo: 1150, DirectX: 11.0, OpenGL: , Process: 22, Days: 4768, Rating: 0,5, Perf: 318
+Name: Intel HD Graphics (Ivy Bridge), Shaders: 6, Core: 350, Turbo: 1100, DirectX: 11.0, OpenGL: , Process: 22, Days: 4585, Rating: 0,5, Perf: 285,5
+Name: AMD Radeon HD 7350M, Shaders: 80, Core: 500, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 4677, Rating: , Perf: 
+Name: AMD Radeon HD 6350M, Shaders: 80, Core: 500, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5260, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 4530, Shaders: 80, Core: 500, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5946, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 4350, Shaders: 80, Core: 450, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5946, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 530v, Shaders: 80, Core: 450, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5465, Rating: , Perf: 
+Name: NVIDIA GeForce 305M, Shaders: 16, Core: 525, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5580, Rating: , Perf: 
+Name: ATI Mobility Radeon X1700, Shaders: 12, Core: 5, Turbo: 475, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 7019, Perf: 
+Name: ATI Mobility FireGL V5250, Shaders: 12, Core: 5, Turbo: 400, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6685, Perf: 
+Name: ATI Mobility Radeon X2500, Shaders: 12, Core: 5, Turbo: 460, DirectX: , OpenGL: 9c, Process: , Days: 80, Rating: 6534, Perf: 
+Name: NVIDIA GeForce Go 7600, Shaders: 8, Core: 5, Turbo: 450, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6991, Perf: 
+Name: NVIDIA Quadro NVS 300M, Shaders: 8, Core: 5, Turbo: 450, DirectX: , OpenGL: 9b, Process: , Days: 90, Rating: 6907, Perf: 
+Name: ATI Mobility Radeon X800, Shaders: 12, Core: 6, Turbo: 400, DirectX: , OpenGL: 9b, Process: , Days: 130, Rating: 7260, Perf: 
+Name: ATI Mobility Radeon X1600, Shaders: 12, Core: 5, Turbo: 450, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 7019, Perf: 
+Name: ATI Mobility FireGL V5200, Shaders: 12, Core: 5, Turbo: 425, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 7019, Perf: 
+Name: ATI Mobility Radeon 9800, Shaders: 8, Core: 4, Turbo: 350, DirectX: , OpenGL: 9, Process: , Days: 130, Rating: 7599, Perf: 
+Name: NVIDIA GeForce Go 6600, Shaders: 8, Core: 4, Turbo: 375, DirectX: , OpenGL: 9c, Process: , Days: 110, Rating: 7144, Perf: 
+Name: ATI Mobility Radeon X1450, Shaders: 4, Core: 2, Turbo: 550, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6790, Perf: 
+Name: ATI Mobility Radeon X700, Shaders: 8, Core: 6, Turbo: 350, DirectX: , OpenGL: 9, Process: , Days: 110, Rating: 7396, Perf: 
+Name: ATI Mobility FireGL V5000, Shaders: 8, Core: 6, Turbo: 350, DirectX: , OpenGL: 9, Process: , Days: 110, Rating: 7382, Perf: 
+Name: NVIDIA GeForce G 110M, Shaders: 16, Core: 400, Turbo: , DirectX: 10, OpenGL: , Process: 55, Days: 5947, Rating: , Perf: 
+Name: AMD Radeon HD 6330M, Shaders: 80, Core: 500, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5260, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 4330, Shaders: 80, Core: 450, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5946, Rating: , Perf: 
+Name: NVIDIA GeForce 8400M GT, Shaders: 16, Core: 450, Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6557, Rating: , Perf: 
+Name: NVIDIA Quadro NVS 140M, Shaders: 16, Core: 400, Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6557, Rating: , Perf: 
+Name: Intel HD Graphics 2000, Shaders: 6, Core: 8501100, Turbo: 1350, DirectX: 10.1, OpenGL: , Process: 32, Days: 5193, Rating: , Perf: 
+Name: NVIDIA GeForce G 107M, Shaders: 16, Core: , Turbo: , DirectX: 10, OpenGL: , Process: 55, Days: 5711, Rating: , Perf: 
+Name: NVIDIA GeForce G 105M, Shaders: 8, Core: 640, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 5947, Rating: , Perf: 
+Name: NVIDIA GeForce G 103M, Shaders: 8, Core: 640, Turbo: , DirectX: 10.0, OpenGL: , Process: 65, Days: 5711, Rating: , Perf: 
+Name: NVIDIA GeForce 9500M GE, Shaders: 24, Core: , Turbo: , DirectX: 10.0, OpenGL: , Process: 65, Days: 6312, Rating: , Perf: 
+Name: NVIDIA GeForce G 102M, Shaders: 16, Core: 450, Turbo: , DirectX: 10.0, OpenGL: , Process: 65, Days: 5893, Rating: , Perf: 
+Name: NVIDIA GeForce G 205M, Shaders: 16, Core: 450, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 5589, Rating: , Perf: 
+Name: NVIDIA GeForce 9400M (G) / ION (LE), Shaders: 16, Core: 450, Turbo: , DirectX: 10.0, OpenGL: , Process: 65, Days: 6033, Rating: , Perf: 
+Name: Intel HD Graphics (Sandy Bridge), Shaders: 6, Core: 350, Turbo: 1100, DirectX: 10.1, OpenGL: , Process: 32, Days: 5104, Rating: , Perf: 
+Name: Intel HD Graphics (Bay Trail), Shaders: 4, Core: 311, Turbo: 896, DirectX: 11, OpenGL: 4.0, ES 3.0, Process: 22, Days: 4240, Rating: 0,2, Perf: 149
+Name: VIA Chrome9HD, Shaders: , Core: , Turbo: , DirectX: , OpenGL: 10.1, Process: , Days: 0, Rating: 6626, Perf: 
+Name: AMD Radeon HD 7340, Shaders: 80, Core: 523, Turbo: 680, DirectX: 11, OpenGL: , Process: 40, Days: 4738, Rating: 0,4, Perf: 224
+Name: AMD Radeon HD 6320, Shaders: 80, Core: 500, Turbo: 600, DirectX: 11, OpenGL: , Process: 40, Days: 5270, Rating: , Perf: 
+Name: AMD Radeon HD 7310, Shaders: 80, Core: 500, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 4738, Rating: 0,3, Perf: 192
+Name: AMD Radeon HD 6310, Shaders: 80, Core: 500, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5270, Rating: , Perf: 
+Name: AMD Radeon HD 8180, Shaders: 128, Core: 225, Turbo: , DirectX: 11.1, OpenGL: , Process: 28, Days: 4351, Rating: 0,2, Perf: 145
+Name: ATI Mobility Radeon HD 3470 Hybrid X2, Shaders: 80, Core: , Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5947, Rating: , Perf: 
+Name: NVIDIA GeForce 9400M GeForceBoost, Shaders: 24, Core: , Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6166, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 3470, Shaders: 40, Core: 680, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 6678, Rating: , Perf: 
+Name: NVIDIA GeForce 9300M G, Shaders: 16, Core: 400, Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6289, Rating: , Perf: 
+Name: NVIDIA ION 2, Shaders: 16, Core: 405475535, Turbo: , DirectX: 10.1, OpenGL: , Process: 40, Days: 5580, Rating: , Perf: 
+Name: NVIDIA GeForce 9300M GS, Shaders: 8, Core: 550, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6165, Rating: , Perf: 
+Name: NVIDIA Quadro FX 370M, Shaders: 8, Core: 580, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6093, Rating: , Perf: 
+Name: NVIDIA Quadro NVS 160M, Shaders: 8, Core: 580, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6093, Rating: , Perf: 
+Name: NVIDIA GeForce 9200M GS, Shaders: 8, Core: 550, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6166, Rating: , Perf: 
+Name: AMD Radeon HD 7290, Shaders: 80, Core: 280, Turbo: 400, DirectX: 11, OpenGL: , Process: 40, Days: 5043, Rating: , Perf: 
+Name: AMD Radeon HD 6290, Shaders: 80, Core: 280, Turbo: 400, DirectX: 11, OpenGL: , Process: 40, Days: 5043, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 3450, Shaders: 40, Core: 500, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 6678, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 3430, Shaders: 40, Core: 450, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 6114, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 3410, Shaders: 40, Core: 400, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 6114, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 2400 XT, Shaders: 40, Core: 600, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6552, Rating: , Perf: 
+Name: ATI Radeon HD 4270, Shaders: 40, Core: 590, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5469, Rating: , Perf: 
+Name: ATI Radeon HD 4250, Shaders: 40, Core: 500, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5469, Rating: , Perf: 
+Name: ATI Radeon HD 4200, Shaders: 40, Core: 500, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5702, Rating: , Perf: 
+Name: Intel Graphics Media Accelerator (GMA) HD Graphics, Shaders: 12, Core: 500, Turbo: , DirectX: 10, OpenGL: , Process: 45, Days: 5580, Rating: , Perf: 
+Name: AMD Radeon HD 6250, Shaders: 80, Core: 280, Turbo: , DirectX: 11, OpenGL: , Process: 40, Days: 5270, Rating: , Perf: 
+Name: NVIDIA Quadro NVS 150M, Shaders: 8, Core: 530, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6093, Rating: , Perf: 
+Name: NVIDIA Quadro FX 360M, Shaders: 16, Core: 400, Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6557, Rating: , Perf: 
+Name: ATI Mobility Radeon X1350, Shaders: 4, Core: 2, Turbo: 470, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6790, Perf: 
+Name: ATI Mobility Radeon X1400, Shaders: 4, Core: 2, Turbo: 445, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 7032, Perf: 
+Name: NVIDIA GeForce 9100M G, Shaders: 8, Core: 450, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6166, Rating: , Perf: 
+Name: NVIDIA GeForce 8400M GS, Shaders: 16, Core: 400, Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6557, Rating: , Perf: 
+Name: NVIDIA Quadro NVS 135M, Shaders: 16, Core: 400, Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6557, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 2400, Shaders: 40, Core: 450, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6552, Rating: , Perf: 
+Name: ATI Radeon HD 3200, Shaders: 40, Core: 500, Turbo: , DirectX: 10, OpenGL: , Process: 55, Days: 6165, Rating: , Perf: 
+Name: ATI Radeon HD 4225, Shaders: 40, Core: 380, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5469, Rating: , Perf: 
+Name: ATI Radeon HD 4100, Shaders: 40, Core: 350, Turbo: , DirectX: 10.1, OpenGL: , Process: 55, Days: 5650, Rating: , Perf: 
+Name: ATI Mobility Radeon HD 3400, Shaders: , Core: , Turbo: , DirectX: , OpenGL: , Process: 0, Days: 5377, Rating: , Perf: 
+Name: ATI Radeon HD 3100, Shaders: 40, Core: 350, Turbo: , DirectX: 10, OpenGL: , Process: 55, Days: 6107, Rating: , Perf: 
+Name: NVIDIA GeForce 8400M G, Shaders: 8, Core: 400, Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6557, Rating: , Perf: 
+Name: NVIDIA Quadro NVS 130M, Shaders: 8, Core: , Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6557, Rating: , Perf: 
+Name: NVIDIA GeForce 8200M G, Shaders: 8, Core: 400, Turbo: , DirectX: 10, OpenGL: , Process: 80, Days: 6166, Rating: , Perf: 
+Name: Intel Graphics Media Accelerator (GMA) 4700MHD, Shaders: 10, Core: 640, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6046, Rating: , Perf: 
+Name: Intel Graphics Media Accelerator (GMA) 4500MHD, Shaders: 10, Core: 533, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6046, Rating: , Perf: 
+Name: Intel Graphics Media Accelerator (GMA) 4500M, Shaders: 10, Core: 400, Turbo: , DirectX: 10, OpenGL: , Process: 65, Days: 6046, Rating: , Perf: 
+Name: NVIDIA GeForce Go 7400, Shaders: 4, Core: 3, Turbo: 450, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 7019, Perf: 
+Name: NVIDIA Quadro FX 350M, Shaders: 4, Core: 3, Turbo: 450, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6961, Perf: 
+Name: NVIDIA Quadro NVS 120M, Shaders: 4, Core: 3, Turbo: 450, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6899, Perf: 
+Name: NVIDIA GeForce Go 7300, Shaders: 4, Core: 3, Turbo: 350, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 7019, Perf: 
+Name: NVIDIA Quadro NVS 110M, Shaders: 4, Core: 3, Turbo: 300, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6899, Perf: 
+Name: ATI Mobility Radeon X600, Shaders: 4, Core: 2, Turbo: 400, DirectX: , OpenGL: 9, Process: , Days: 130, Rating: 7629, Perf: 
+Name: ATI Mobility FireGL V3200, Shaders: 4, Core: 2, Turbo: 400, DirectX: , OpenGL: 9, Process: , Days: 130, Rating: 7629, Perf: 
+Name: ATI Mobility FireGL V3100, Shaders: 4, Core: 2, Turbo: 350, DirectX: , OpenGL: 9, Process: , Days: 110, Rating: 7629, Perf: 
+Name: ATI Mobility Radeon X2300, Shaders: 4, Core: 2, Turbo: 480, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6626, Perf: 
+Name: ATI Mobility Radeon HD 2300, Shaders: 4, Core: 2, Turbo: 480, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6626, Perf: 
+Name: ATI Mobility Radeon 9700, Shaders: 4, Core: 2, Turbo: 450, DirectX: , OpenGL: 9, Process: , Days: 130, Rating: 7629, Perf: 
+Name: ATI Mobility FireGL T2e, Shaders: 4, Core: 2, Turbo: 450, DirectX: , OpenGL: 9, Process: , Days: 130, Rating: 7568, Perf: 
+Name: ATI Mobility Radeon X1300, Shaders: 4, Core: 2, Turbo: 350, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 7032, Perf: 
+Name: NVIDIA GeForce4 4200 Go, Shaders: 4, Core: 2, Turbo: 200, DirectX: , OpenGL: 8.1, Process: , Days: 150, Rating: 8193, Perf: 
+Name: ATI Mobility Radeon 9600, Shaders: 4, Core: 2, Turbo: 300, DirectX: , OpenGL: 9, Process: , Days: 130, Rating: 7629, Perf: 
+Name: ATI Mobility FireGL T2, Shaders: 4, Core: 2, Turbo: 300, DirectX: , OpenGL: 9, Process: , Days: 130, Rating: 7842, Perf: 
+Name: ATI Mobility Radeon 9550, Shaders: 4, Core: 2, Turbo: 210, DirectX: , OpenGL: 9, Process: , Days: 130, Rating: 7629, Perf: 
+Name: NVIDIA GeForce Go 7200, Shaders: 4, Core: 3, Turbo: 450, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 6807, Perf: 
+Name: NVIDIA GeForce Go 6400, Shaders: 4, Core: 3, Turbo: 400, DirectX: , OpenGL: 9c, Process: , Days: 110, Rating: 7019, Perf: 
+Name: ATI Mobility Radeon X300, Shaders: 4, Core: 2, Turbo: 350, DirectX: , OpenGL: 9, Process: , Days: 130, Rating: 7257, Perf: 
+Name: NVIDIA GeForce Go 6250, Shaders: 4, Core: 3, Turbo: 400, DirectX: , OpenGL: 9c, Process: , Days: 110, Rating: 7019, Perf: 
+Name: NVIDIA GeForce Go 6200, Shaders: 4, Core: 3, Turbo: 300, DirectX: , OpenGL: 9c, Process: , Days: 110, Rating: 7019, Perf: 
+Name: NVIDIA GeForce FX Go 5700, Shaders: 4, Core: 0, Turbo: 450, DirectX: , OpenGL: 9, Process: , Days: 130, Rating: 7781, Perf: 
+Name: NVIDIA Quadro FX Go 1000, Shaders: 4, Core: 0, Turbo: , DirectX: , OpenGL: 9, Process: , Days: 130, Rating: 7726, Perf: 
+Name: NVIDIA GeForce FX Go 5600 / 5650, Shaders: 4, Core: 1, Turbo: 350, DirectX: , OpenGL: 9, Process: , Days: 130, Rating: 8087, Perf: 
+Name: ATI Radeon Xpress X1270, Shaders: 4, Core: 0, Turbo: 400, DirectX: , OpenGL: 9, Process: , Days: 80, Rating: 6654, Perf: 
+Name: ATI Radeon Xpress X1250, Shaders: 4, Core: 0, Turbo: 350, DirectX: , OpenGL: 9, Process: , Days: 80, Rating: 6654, Perf: 
+Name: ATI Radeon Xpress 1250, Shaders: 4, Core: 0, Turbo: 400, DirectX: , OpenGL: 9, Process: , Days: 80, Rating: 6809, Perf: 
+Name: ATI Radeon Xpress X1200, Shaders: 4, Core: 0, Turbo: 350, DirectX: , OpenGL: 9, Process: , Days: 80, Rating: 6654, Perf: 
+Name: Intel Graphics Media Accelerator (GMA) X3100, Shaders: 8, Core: 500, Turbo: , DirectX: 10, OpenGL: , Process: 90, Days: 6557, Rating: , Perf: 
+Name: Intel Graphics Media Accelerator (GMA) 3650, Shaders: 4, Core: 0, Turbo: 640, DirectX: , OpenGL: 9.1, Process: , Days: 32, Rating: 4920, Perf: 
+Name: NVIDIA GeForce 7190M, Shaders: 2, Core: 1, Turbo: , DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 7019, Perf: 
+Name: NVIDIA GeForce 7150M, Shaders: 2, Core: 1, Turbo: 425, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 7019, Perf: 
+Name: ATI Radeon Xpress 1150, Shaders: 2, Core: 2, Turbo: 400, DirectX: , OpenGL: 9b, Process: , Days: 110, Rating: 6899, Perf: 
+Name: NVIDIA GeForce Go 6150, Shaders: 2, Core: 1, Turbo: 425, DirectX: , OpenGL: 9c, Process: , Days: 110, Rating: 7019, Perf: 
+Name: NVIDIA GeForce Go 6100, Shaders: 2, Core: 1, Turbo: 425, DirectX: , OpenGL: 9c, Process: , Days: 110, Rating: 7019, Perf: 
+Name: NVIDIA GeForce 7000M, Shaders: 2, Core: 1, Turbo: 350, DirectX: , OpenGL: 9c, Process: , Days: 90, Rating: 7019, Perf: 
+Name: Intel Graphics Media Accelerator (GMA) 3600, Shaders: 4, Core: 0, Turbo: 400, DirectX: , OpenGL: 9.1, Process: , Days: 32, Rating: 4920, Perf: 
+Name: ATI Mobility Radeon 9200, Shaders: 4, Core: 1, Turbo: 250, DirectX: , OpenGL: 8.1, Process: , Days: 150, Rating: 8087, Perf: 
+Name: ATI Mobility FireGL 9000, Shaders: 4, Core: 1, Turbo: 250, DirectX: , OpenGL: 8.1, Process: , Days: 150, Rating: 8511, Perf: 
+Name: NVIDIA GeForce FX Go 5200, Shaders: 4, Core: 1, Turbo: 300, DirectX: , OpenGL: 9, Process: , Days: 150, Rating: 8087, Perf: 
+Name: ATI Mobility Radeon 9000, Shaders: 4, Core: 1, Turbo: 240, DirectX: , OpenGL: 8.1, Process: , Days: 150, Rating: 8268, Perf: 
+Name: NVIDIA GeForce 4 488 Go, Shaders: 2, Core: 0, Turbo: 275, DirectX: , OpenGL: 7, Process: , Days: 150, Rating: 8452, Perf: 
+Name: NVIDIA GeForce 4 460 Go, Shaders: 2, Core: 0, Turbo: 250, DirectX: , OpenGL: 7, Process: , Days: 150, Rating: 8452, Perf: 
+Name: NVIDIA GeForce 4 440 Go, Shaders: 2, Core: 0, Turbo: 220, DirectX: , OpenGL: 7, Process: , Days: 150, Rating: 8452, Perf: 
+Name: NVIDIA GeForce 4 420 Go, Shaders: 2, Core: 0, Turbo: 190, DirectX: , OpenGL: 7, Process: , Days: 150, Rating: 8452, Perf: 
+Name: Intel Graphics Media Accelerator (GMA) 3150, Shaders: 2, Core: 0, Turbo: 200, DirectX: , OpenGL: 9c, Process: , Days: 45, Rating: 5580, Perf: 
+Name: Intel Graphics Media Accelerator (GMA) 950, Shaders: 4, Core: 0, Turbo: 250, DirectX: , OpenGL: 9c, Process: , Days: 130, Rating: 7356, Perf: 
+Name: ATI Mobility Radeon 7500, Shaders: 2, Core: 0, Turbo: 280, DirectX: , OpenGL: 7, Process: , Days: 150, Rating: 8637, Perf: 
+Name: ATI Mobility FireGL 7800, Shaders: 2, Core: 0, Turbo: 280, DirectX: , OpenGL: 7, Process: , Days: 180, Rating: 7144, Perf: 
+Name: Intel Graphics Media Accelerator (GMA) 900, Shaders: 4, Core: 0, Turbo: 400, DirectX: , OpenGL: 9c, Process: , Days: 130, Rating: 7356, Perf: 
+Name: ATI Radeon Xpress 200M, Shaders: 4, Core: 2, Turbo: 350, DirectX: , OpenGL: 9b, Process: , Days: 130, Rating: 7367, Perf: 
+Name: ATI Radeon Xpress 1100, Shaders: 4, Core: 2, Turbo: 300, DirectX: , OpenGL: 9b, Process: , Days: 110, Rating: 6899, Perf: 
+Name: SIS Mirage 3+ 672MX, Shaders: 2, Core: 1, Turbo: 250, DirectX: , OpenGL: 9, Process: , Days: 0, Rating: 6685, Perf: 
+Name: SIS Mirage 3 671MX, Shaders: 2, Core: 1, Turbo: 250, DirectX: , OpenGL: 8.1, Process: , Days: 0, Rating: 6899, Perf: 
+Name: Intel Graphics Media Accelerator (GMA) 600, Shaders: 4, Core: 400, Turbo: , DirectX: 9.0c, OpenGL: , Process: 45, Days: 5469, Rating: , Perf: 
+Name: Intel Graphics Media Accelerator (GMA) 500, Shaders: 4, Core: 200, Turbo: , DirectX: 10.1, OpenGL: , Process: 130, Days: 6015, Rating: , Perf: 
+Name: NVIDIA GeForce 3 Go, Shaders: , Core: , Turbo: 250, DirectX: , OpenGL: 7, Process: , Days: 150, Rating: 8480, Perf: 
+Name: NVIDIA GeForce 2 Go (200 / 100), Shaders: 1, Core: 0, Turbo: 166, DirectX: , OpenGL: 7, Process: , Days: 180, Rating: 8817, Perf: 
+Name: ATI Mobility Radeon 9100 IGP, Shaders: 2, Core: 1, Turbo: 400, DirectX: , OpenGL: 8.1, Process: , Days: 0, Rating: 7973, Perf: 
+Name: ATI Mobility Radeon 9000 IGP, Shaders: 2, Core: 1, Turbo: 300, DirectX: , OpenGL: 8.1, Process: , Days: 0, Rating: 8026, Perf: 
+Name: ATI Mobility Radeon M7, Shaders: 2, Core: 1, Turbo: 230, DirectX: , OpenGL: 7, Process: , Days: 180, Rating: 8542, Perf: 
+Name: ATI Mobility Radeon M6, Shaders: 0, Core: 2, Turbo: 166, DirectX: , OpenGL: 7, Process: , Days: 180, Rating: 8542, Perf: 
+Name: VIA Chrome9 HC, Shaders: 2, Core: 1, Turbo: 250, DirectX: , OpenGL: 9, Process: , Days: 0, Rating: 6626, Perf: 
+Name: Intel Extreme Graphics 2, Shaders: , Core: , Turbo: 133, DirectX: , OpenGL: 8, Process: , Days: 150, Rating: 7810, Perf: 
+Name: ATI Mobility Radeon 7000 IGP, Shaders: 0, Core: 2, Turbo: , DirectX: , OpenGL: 7, Process: , Days: 0, Rating: 8087, Perf: 
+Name: ATI Radeon IGP 340M, Shaders: 0, Core: 2, Turbo: 180, DirectX: , OpenGL: 7, Process: , Days: 0, Rating: 8234, Perf: 
+Name: ATI Radeon IGP 320M, Shaders: 0, Core: 2, Turbo: 160, DirectX: , OpenGL: 7, Process: , Days: 0, Rating: 8234, Perf: 
+Name: VIA S3G UniChrome Pro II, Shaders: , Core: , Turbo: 200, DirectX: , OpenGL: 7, Process: , Days: 0, Rating: 6777, Perf: 
+Name: VIA S3G UniChrome Pro, Shaders: 1, Core: 2, Turbo: , DirectX: , OpenGL: 7, Process: , Days: 0, Rating: 7599, Perf: 
+Name: VIA Castle Rock, Shaders: 1, Core: 2, Turbo: , DirectX: , OpenGL: , Process: , Days: 0, Rating: 8146, Perf: 
+Name: SIS Mirage 2 M760, Shaders: 4, Core: 1, Turbo: 200, DirectX: , OpenGL: 8.1, Process: , Days: 0, Rating: 7881, Perf: 
+Name: SIS Mirage M661FX , Shaders: , Core: , Turbo: 133, DirectX: , OpenGL: 7, Process: , Days: 0, Rating: 7965, Perf: 
+Name: VIA S3 Graphics ProSavage8, Shaders: 0, Core: 0, Turbo: 121, DirectX: , OpenGL: , Process: , Days: 0, Rating: 8876, Perf: 
+Name: ATI Mobility 128 M3, Shaders: 0, Core: 0, Turbo: 105, DirectX: , OpenGL: 6, Process: , Days: 0, Rating: 9211, Perf: 
+Name: Silicon Motion SM502, Shaders: , Core: , Turbo: , DirectX: , OpenGL: , Process: , Days: 0, Rating: 6685, Perf: 
+Name: unknown, Shaders: , Core: , Turbo: , DirectX: , OpenGL: , Process: , Days: 0, Rating: 20199, Perf: 
