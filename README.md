@@ -1,5 +1,5 @@
 > [!Note]
-> I don't trust AI, let the program collect the data and build a table
+> I don't trust AI, let the program collect the data and build a table  
 > [AI Generated rating](./AI.md)
 
 ```diff
