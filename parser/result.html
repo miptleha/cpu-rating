@@ -55,7 +55,7 @@
                             <th scope="col" data-id="freqTurbo" sortable>Freq turbo</th>
                             <th scope="col" data-id="score" sortable>SCore rating</th>
                             <th scope="col" data-id="mcore" sortable>MCore rating</th>
-                            <th scope="col" data-id="gpu" sortable>GPU raging</th>
+                            <th scope="col" data-id="gpu" sortable>GPU rating</th>
                             <th scope="col" data-id="total" sortable>Total rating</th>
                             <th scope="col" data-id="price" sortable>Price RUB</th>
                             <th scope="col" data-id="value" sortable>Value</th>
@@ -67,7 +67,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@riversun/sortable-table/lib/sortable-table.js"></script>
-    <script src="sortable-table.js"></script>
     <script>
         const data = [
             {
@@ -2669,8 +2668,7 @@
       sortableTable.events().on("sort", (event) => {
         console.log(`[SortableTable#onSort]
         event.colId=${event.colId}
-        event.sortDir=${event.sortDir}
-        event.data=\n${JSON.stringify(event.data)}`);
+        event.sortDir=${event.sortDir}`);
       });
 
       // button handlers
