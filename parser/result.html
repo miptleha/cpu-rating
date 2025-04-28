@@ -15,6 +15,11 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <style>
+        #my-table1 td:nth-child(n+10):nth-child(-n+13) {
+            background-color: #FFFFCC;
+        }
+    </style>
   </head>
   <body>
     <h2 class="p-2 border-bottom">Sortable CPU notebooks rating</h2>
@@ -30,8 +35,8 @@
                 <button id="btnSortThreads" class="btn btn-primary m-1 w-100">Threads</button>
                 <button id="btnSortFreq" class="btn btn-primary m-1 w-100">Freq</button>
                 <button id="btnSortFreqTurbo" class="btn btn-primary m-1 w-100">Freq turbo</button>
-                <button id="btnSortSCore" class="btn btn-primary m-1 w-100">SCore</button>
-                <button id="btnSortMCore" class="btn btn-primary m-1 w-100">MCore</button>
+                <button id="btnSortSCore" class="btn btn-primary m-1 w-100">Single Core</button>
+                <button id="btnSortMCore" class="btn btn-primary m-1 w-100">Multi Core</button>
                 <button id="btnSortGPU" class="btn btn-primary m-1 w-100">GPU</button>
                 <button id="btnSortTotal" class="btn btn-primary m-1 w-100">Total</button>
                 <button id="btnSortPrice" class="btn btn-primary m-1 w-100">Price</button>
@@ -47,17 +52,17 @@
                             <th scope="col" data-id="id" sortable>#</th>
                             <th scope="col" data-id="cpuname" sortable>Processor name</th>
                             <th scope="col" data-id="gpuname" sortable>GPU name</th>
-                            <th scope="col" data-id="tdp" sortable>Tdp W</th>
-                            <th scope="col" data-id="tdpTurbo" sortable>Tdp turbo</th>
+                            <th scope="col" data-id="tdp" sortable>Tdp</th>
+                            <th scope="col" data-id="tdpTurbo" sortable>Tdp+</th>
                             <th scope="col" data-id="cores" sortable>Cores</th>
                             <th scope="col" data-id="threads" sortable>Threads</th>
-                            <th scope="col" data-id="freq" sortable>Freq GHz</th>
-                            <th scope="col" data-id="freqTurbo" sortable>Freq turbo</th>
-                            <th scope="col" data-id="score" sortable>SCore rating</th>
-                            <th scope="col" data-id="mcore" sortable>MCore rating</th>
-                            <th scope="col" data-id="gpu" sortable>GPU rating</th>
-                            <th scope="col" data-id="total" sortable>Total rating</th>
-                            <th scope="col" data-id="price" sortable>Price RUB</th>
+                            <th scope="col" data-id="freq" sortable>Freq</th>
+                            <th scope="col" data-id="freqTurbo" sortable>Freq+</th>
+                            <th scope="col" data-id="score" sortable>SCore</th>
+                            <th scope="col" data-id="mcore" sortable>MCore</th>
+                            <th scope="col" data-id="gpu" sortable>GPU</th>
+                            <th scope="col" data-id="total" sortable>Total</th>
+                            <th scope="col" data-id="price" sortable>Price</th>
                             <th scope="col" data-id="value" sortable>Value</th>
                         </tr>
                     </thead>
@@ -83,7 +88,7 @@
                 mcore: 209,
                 gpu: 45,
                 total: 346,
-                price: 722282,
+                price: 722,
                 value: 0.5,
             },
             {
@@ -100,7 +105,7 @@
                 mcore: 188,
                 gpu: 45,
                 total: 325,
-                price: 576252,
+                price: 576,
                 value: 0.6,
             },
             {
@@ -117,7 +122,7 @@
                 mcore: 133,
                 gpu: 100,
                 total: 320,
-                price: 183970,
+                price: 183,
                 value: 1.7,
             },
             {
@@ -134,7 +139,7 @@
                 mcore: 122,
                 gpu: 100,
                 total: 309,
-                price: 246662,
+                price: 246,
                 value: 1.3,
             },
             {
@@ -151,7 +156,7 @@
                 mcore: 171,
                 gpu: 14,
                 total: 285,
-                price: 425737,
+                price: 425,
                 value: 0.7,
             },
             {
@@ -168,7 +173,7 @@
                 mcore: 110,
                 gpu: 82,
                 total: 279,
-                price: 213968,
+                price: 213,
                 value: 1.3,
             },
             {
@@ -185,8 +190,8 @@
                 mcore: 137,
                 gpu: 45,
                 total: 268,
-                price: 282990,
-                value: 0.9,
+                price: 282,
+                value: 1.0,
             },
             {
                 id: 8,
@@ -202,8 +207,8 @@
                 mcore: 101,
                 gpu: 77,
                 total: 263,
-                price: 142991,
-                value: 1.8,
+                price: 142,
+                value: 1.9,
             },
             {
                 id: 9,
@@ -219,7 +224,7 @@
                 mcore: 157,
                 gpu: 18,
                 total: 262,
-                price: 206870,
+                price: 206,
                 value: 1.3,
             },
             {
@@ -236,7 +241,7 @@
                 mcore: 105,
                 gpu: 78,
                 total: 260,
-                price: 143382,
+                price: 143,
                 value: 1.8,
             },
             {
@@ -253,7 +258,7 @@
                 mcore: 155,
                 gpu: 16,
                 total: 259,
-                price: 383958,
+                price: 383,
                 value: 0.7,
             },
             {
@@ -270,7 +275,7 @@
                 mcore: 154,
                 gpu: 14,
                 total: 256,
-                price: 408201,
+                price: 408,
                 value: 0.6,
             },
             {
@@ -287,7 +292,7 @@
                 mcore: 75,
                 gpu: 98,
                 total: 256,
-                price: 161891,
+                price: 161,
                 value: 1.6,
             },
             {
@@ -304,7 +309,7 @@
                 mcore: 154,
                 gpu: 14,
                 total: 256,
-                price: 617990,
+                price: 617,
                 value: 0.4,
             },
             {
@@ -321,7 +326,7 @@
                 mcore: 155,
                 gpu: 16,
                 total: 255,
-                price: 180232,
+                price: 180,
                 value: 1.4,
             },
             {
@@ -338,7 +343,7 @@
                 mcore: 153,
                 gpu: 14,
                 total: 254,
-                price: 482970,
+                price: 482,
                 value: 0.5,
             },
             {
@@ -355,7 +360,7 @@
                 mcore: 72,
                 gpu: 98,
                 total: 253,
-                price: 165998,
+                price: 165,
                 value: 1.5,
             },
             {
@@ -372,7 +377,7 @@
                 mcore: 92,
                 gpu: 71,
                 total: 251,
-                price: 137970,
+                price: 137,
                 value: 1.8,
             },
             {
@@ -389,7 +394,7 @@
                 mcore: 82,
                 gpu: 98,
                 total: 249,
-                price: 126470,
+                price: 126,
                 value: 2.0,
             },
             {
@@ -406,7 +411,7 @@
                 mcore: 93,
                 gpu: 78,
                 total: 245,
-                price: 176007,
+                price: 176,
                 value: 1.4,
             },
             {
@@ -423,7 +428,7 @@
                 mcore: 94,
                 gpu: 78,
                 total: 245,
-                price: 142980,
+                price: 142,
                 value: 1.7,
             },
             {
@@ -440,7 +445,7 @@
                 mcore: 94,
                 gpu: 68,
                 total: 244,
-                price: 236870,
+                price: 236,
                 value: 1.0,
             },
             {
@@ -457,7 +462,7 @@
                 mcore: 93,
                 gpu: 68,
                 total: 243,
-                price: 272134,
+                price: 272,
                 value: 0.9,
             },
             {
@@ -474,7 +479,7 @@
                 mcore: 92,
                 gpu: 68,
                 total: 241,
-                price: 101419,
+                price: 101,
                 value: 2.4,
             },
             {
@@ -491,7 +496,7 @@
                 mcore: 92,
                 gpu: 68,
                 total: 241,
-                price: 121097,
+                price: 121,
                 value: 2.0,
             },
             {
@@ -508,7 +513,7 @@
                 mcore: 137,
                 gpu: 18,
                 total: 241,
-                price: 669724,
+                price: 669,
                 value: 0.4,
             },
             {
@@ -525,7 +530,7 @@
                 mcore: 137,
                 gpu: 18,
                 total: 241,
-                price: 216806,
+                price: 216,
                 value: 1.1,
             },
             {
@@ -542,7 +547,7 @@
                 mcore: 130,
                 gpu: 18,
                 total: 228,
-                price: 185059,
+                price: 185,
                 value: 1.2,
             },
             {
@@ -559,7 +564,7 @@
                 mcore: 69,
                 gpu: 79,
                 total: 226,
-                price: 114970,
+                price: 114,
                 value: 2.0,
             },
             {
@@ -576,7 +581,7 @@
                 mcore: 82,
                 gpu: 74,
                 total: 225,
-                price: 101900,
+                price: 101,
                 value: 2.2,
             },
             {
@@ -593,7 +598,7 @@
                 mcore: 77,
                 gpu: 68,
                 total: 225,
-                price: 105990,
+                price: 105,
                 value: 2.1,
             },
             {
@@ -610,7 +615,7 @@
                 mcore: 106,
                 gpu: 37,
                 total: 219,
-                price: 165390,
+                price: 165,
                 value: 1.3,
             },
             {
@@ -627,7 +632,7 @@
                 mcore: 100,
                 gpu: 37,
                 total: 219,
-                price: 247527,
+                price: 247,
                 value: 0.9,
             },
             {
@@ -644,7 +649,7 @@
                 mcore: 100,
                 gpu: 37,
                 total: 218,
-                price: 233946,
+                price: 233,
                 value: 0.9,
             },
             {
@@ -661,7 +666,7 @@
                 mcore: 72,
                 gpu: 68,
                 total: 218,
-                price: 120252,
+                price: 120,
                 value: 1.8,
             },
             {
@@ -678,7 +683,7 @@
                 mcore: 114,
                 gpu: 18,
                 total: 209,
-                price: 178629,
+                price: 178,
                 value: 1.2,
             },
             {
@@ -695,7 +700,7 @@
                 mcore: 72,
                 gpu: 54,
                 total: 206,
-                price: 60890,
+                price: 60,
                 value: 3.4,
             },
             {
@@ -712,7 +717,7 @@
                 mcore: 73,
                 gpu: 54,
                 total: 206,
-                price: 73135,
+                price: 73,
                 value: 2.8,
             },
             {
@@ -729,7 +734,7 @@
                 mcore: 92,
                 gpu: 37,
                 total: 205,
-                price: 102897,
+                price: 102,
                 value: 2.0,
             },
             {
@@ -746,7 +751,7 @@
                 mcore: 94,
                 gpu: 37,
                 total: 204,
-                price: 123449,
+                price: 123,
                 value: 1.7,
             },
             {
@@ -763,7 +768,7 @@
                 mcore: 100,
                 gpu: 14,
                 total: 199,
-                price: 141073,
+                price: 141,
                 value: 1.4,
             },
             {
@@ -780,7 +785,7 @@
                 mcore: 72,
                 gpu: 55,
                 total: 191,
-                price: 172190,
+                price: 172,
                 value: 1.1,
             },
             {
@@ -797,7 +802,7 @@
                 mcore: 72,
                 gpu: 55,
                 total: 191,
-                price: 105116,
+                price: 105,
                 value: 1.8,
             },
             {
@@ -814,7 +819,7 @@
                 mcore: 88,
                 gpu: 26,
                 total: 190,
-                price: 119987,
+                price: 119,
                 value: 1.6,
             },
             {
@@ -831,7 +836,7 @@
                 mcore: 106,
                 gpu: 8,
                 total: 190,
-                price: 146502,
+                price: 146,
                 value: 1.3,
             },
             {
@@ -848,7 +853,7 @@
                 mcore: 77,
                 gpu: 37,
                 total: 189,
-                price: 167900,
+                price: 167,
                 value: 1.1,
             },
             {
@@ -865,7 +870,7 @@
                 mcore: 95,
                 gpu: 18,
                 total: 187,
-                price: 231477,
+                price: 231,
                 value: 0.8,
             },
             {
@@ -882,7 +887,7 @@
                 mcore: 86,
                 gpu: 28,
                 total: 186,
-                price: 102361,
+                price: 102,
                 value: 1.8,
             },
             {
@@ -899,7 +904,7 @@
                 mcore: 66,
                 gpu: 45,
                 total: 183,
-                price: 354590,
+                price: 354,
                 value: 0.5,
             },
             {
@@ -916,7 +921,7 @@
                 mcore: 67,
                 gpu: 37,
                 total: 182,
-                price: 235770,
+                price: 235,
                 value: 0.8,
             },
             {
@@ -933,7 +938,7 @@
                 mcore: 72,
                 gpu: 37,
                 total: 180,
-                price: 159240,
+                price: 159,
                 value: 1.1,
             },
             {
@@ -950,7 +955,7 @@
                 mcore: 70,
                 gpu: 41,
                 total: 180,
-                price: 174867,
+                price: 174,
                 value: 1.0,
             },
             {
@@ -967,8 +972,8 @@
                 mcore: 66,
                 gpu: 39,
                 total: 180,
-                price: 83970,
-                value: 2.1,
+                price: 83,
+                value: 2.2,
             },
             {
                 id: 54,
@@ -984,7 +989,7 @@
                 mcore: 64,
                 gpu: 39,
                 total: 180,
-                price: 176322,
+                price: 176,
                 value: 1.0,
             },
             {
@@ -1001,7 +1006,7 @@
                 mcore: 64,
                 gpu: 39,
                 total: 180,
-                price: 177490,
+                price: 177,
                 value: 1.0,
             },
             {
@@ -1018,8 +1023,8 @@
                 mcore: 64,
                 gpu: 45,
                 total: 179,
-                price: 143501,
-                value: 1.2,
+                price: 143,
+                value: 1.3,
             },
             {
                 id: 57,
@@ -1035,7 +1040,7 @@
                 mcore: 62,
                 gpu: 37,
                 total: 178,
-                price: 109900,
+                price: 109,
                 value: 1.6,
             },
             {
@@ -1052,7 +1057,7 @@
                 mcore: 78,
                 gpu: 28,
                 total: 177,
-                price: 84188,
+                price: 84,
                 value: 2.1,
             },
             {
@@ -1069,8 +1074,8 @@
                 mcore: 80,
                 gpu: 28,
                 total: 176,
-                price: 95217,
-                value: 1.8,
+                price: 95,
+                value: 1.9,
             },
             {
                 id: 60,
@@ -1086,7 +1091,7 @@
                 mcore: 66,
                 gpu: 45,
                 total: 176,
-                price: 117981,
+                price: 117,
                 value: 1.5,
             },
             {
@@ -1103,7 +1108,7 @@
                 mcore: 80,
                 gpu: 28,
                 total: 176,
-                price: 87370,
+                price: 87,
                 value: 2.0,
             },
             {
@@ -1120,7 +1125,7 @@
                 mcore: 76,
                 gpu: 26,
                 total: 175,
-                price: 105250,
+                price: 105,
                 value: 1.7,
             },
             {
@@ -1137,7 +1142,7 @@
                 mcore: 93,
                 gpu: 8,
                 total: 174,
-                price: 109102,
+                price: 109,
                 value: 1.6,
             },
             {
@@ -1154,7 +1159,7 @@
                 mcore: 59,
                 gpu: 39,
                 total: 174,
-                price: 155679,
+                price: 155,
                 value: 1.1,
             },
             {
@@ -1171,7 +1176,7 @@
                 mcore: 79,
                 gpu: 14,
                 total: 174,
-                price: 154724,
+                price: 154,
                 value: 1.1,
             },
             {
@@ -1188,8 +1193,8 @@
                 mcore: 64,
                 gpu: 45,
                 total: 174,
-                price: 94890,
-                value: 1.8,
+                price: 94,
+                value: 1.9,
             },
             {
                 id: 67,
@@ -1205,7 +1210,7 @@
                 mcore: 62,
                 gpu: 37,
                 total: 173,
-                price: 85450,
+                price: 85,
                 value: 2.0,
             },
             {
@@ -1222,7 +1227,7 @@
                 mcore: 63,
                 gpu: 37,
                 total: 172,
-                price: 209822,
+                price: 209,
                 value: 0.8,
             },
             {
@@ -1239,7 +1244,7 @@
                 mcore: 67,
                 gpu: 37,
                 total: 172,
-                price: 164990,
+                price: 164,
                 value: 1.0,
             },
             {
@@ -1256,7 +1261,7 @@
                 mcore: 66,
                 gpu: 28,
                 total: 171,
-                price: 62067,
+                price: 62,
                 value: 2.8,
             },
             {
@@ -1273,8 +1278,8 @@
                 mcore: 62,
                 gpu: 37,
                 total: 168,
-                price: 68630,
-                value: 2.4,
+                price: 68,
+                value: 2.5,
             },
             {
                 id: 72,
@@ -1290,7 +1295,7 @@
                 mcore: 67,
                 gpu: 28,
                 total: 165,
-                price: 204939,
+                price: 204,
                 value: 0.8,
             },
             {
@@ -1307,7 +1312,7 @@
                 mcore: 61,
                 gpu: 28,
                 total: 158,
-                price: 73172,
+                price: 73,
                 value: 2.2,
             },
             {
@@ -1324,7 +1329,7 @@
                 mcore: 64,
                 gpu: 28,
                 total: 158,
-                price: 333603,
+                price: 333,
                 value: 0.5,
             },
             {
@@ -1341,8 +1346,8 @@
                 mcore: 60,
                 gpu: 36,
                 total: 157,
-                price: 64420,
-                value: 2.4,
+                price: 64,
+                value: 2.5,
             },
             {
                 id: 76,
@@ -1358,7 +1363,7 @@
                 mcore: 58,
                 gpu: 36,
                 total: 156,
-                price: 83970,
+                price: 83,
                 value: 1.9,
             },
             {
@@ -1375,7 +1380,7 @@
                 mcore: 60,
                 gpu: 28,
                 total: 156,
-                price: 165290,
+                price: 165,
                 value: 0.9,
             },
             {
@@ -1392,7 +1397,7 @@
                 mcore: 61,
                 gpu: 19,
                 total: 149,
-                price: 68237,
+                price: 68,
                 value: 2.2,
             },
             {
@@ -1409,7 +1414,7 @@
                 mcore: 61,
                 gpu: 19,
                 total: 149,
-                price: 108539,
+                price: 108,
                 value: 1.4,
             },
             {
@@ -1426,7 +1431,7 @@
                 mcore: 59,
                 gpu: 28,
                 total: 148,
-                price: 64990,
+                price: 64,
                 value: 2.3,
             },
             {
@@ -1443,8 +1448,8 @@
                 mcore: 50,
                 gpu: 36,
                 total: 146,
-                price: 83456,
-                value: 1.7,
+                price: 83,
+                value: 1.8,
             },
             {
                 id: 82,
@@ -1460,8 +1465,8 @@
                 mcore: 55,
                 gpu: 28,
                 total: 144,
-                price: 50957,
-                value: 2.8,
+                price: 50,
+                value: 2.9,
             },
             {
                 id: 83,
@@ -1477,7 +1482,7 @@
                 mcore: 56,
                 gpu: 19,
                 total: 143,
-                price: 59257,
+                price: 59,
                 value: 2.4,
             },
             {
@@ -1494,7 +1499,7 @@
                 mcore: 43,
                 gpu: 37,
                 total: 143,
-                price: 141533,
+                price: 141,
                 value: 1.0,
             },
             {
@@ -1511,7 +1516,7 @@
                 mcore: 48,
                 gpu: 28,
                 total: 141,
-                price: 98820,
+                price: 98,
                 value: 1.4,
             },
             {
@@ -1528,8 +1533,8 @@
                 mcore: 47,
                 gpu: 28,
                 total: 141,
-                price: 53555,
-                value: 2.6,
+                price: 53,
+                value: 2.7,
             },
             {
                 id: 87,
@@ -1545,8 +1550,8 @@
                 mcore: 48,
                 gpu: 26,
                 total: 141,
-                price: 46708,
-                value: 3.0,
+                price: 46,
+                value: 3.1,
             },
             {
                 id: 88,
@@ -1562,7 +1567,7 @@
                 mcore: 40,
                 gpu: 37,
                 total: 140,
-                price: 64354,
+                price: 64,
                 value: 2.2,
             },
             {
@@ -1579,7 +1584,7 @@
                 mcore: 41,
                 gpu: 37,
                 total: 140,
-                price: 66395,
+                price: 66,
                 value: 2.1,
             },
             {
@@ -1596,8 +1601,8 @@
                 mcore: 52,
                 gpu: 28,
                 total: 139,
-                price: 44749,
-                value: 3.1,
+                price: 44,
+                value: 3.2,
             },
             {
                 id: 91,
@@ -1613,8 +1618,8 @@
                 mcore: 62,
                 gpu: 25,
                 total: 136,
-                price: 53870,
-                value: 2.5,
+                price: 53,
+                value: 2.6,
             },
             {
                 id: 92,
@@ -1630,7 +1635,7 @@
                 mcore: 49,
                 gpu: 25,
                 total: 135,
-                price: 66052,
+                price: 66,
                 value: 2.0,
             },
             {
@@ -1647,7 +1652,7 @@
                 mcore: 51,
                 gpu: 25,
                 total: 135,
-                price: 54187,
+                price: 54,
                 value: 2.5,
             },
             {
@@ -1664,7 +1669,7 @@
                 mcore: 45,
                 gpu: 28,
                 total: 134,
-                price: 61449,
+                price: 61,
                 value: 2.2,
             },
             {
@@ -1681,7 +1686,7 @@
                 mcore: 48,
                 gpu: 26,
                 total: 132,
-                price: 45556,
+                price: 45,
                 value: 2.9,
             },
             {
@@ -1698,7 +1703,7 @@
                 mcore: 47,
                 gpu: 25,
                 total: 131,
-                price: 56650,
+                price: 56,
                 value: 2.3,
             },
             {
@@ -1715,7 +1720,7 @@
                 mcore: 41,
                 gpu: 26,
                 total: 131,
-                price: 43160,
+                price: 43,
                 value: 3.0,
             },
             {
@@ -1732,7 +1737,7 @@
                 mcore: 66,
                 gpu: 0,
                 total: 131,
-                price: 110780,
+                price: 110,
                 value: 1.2,
             },
             {
@@ -1749,8 +1754,8 @@
                 mcore: 46,
                 gpu: 25,
                 total: 130,
-                price: 49863,
-                value: 2.6,
+                price: 49,
+                value: 2.7,
             },
             {
                 id: 100,
@@ -1766,7 +1771,7 @@
                 mcore: 41,
                 gpu: 26,
                 total: 129,
-                price: 51002,
+                price: 51,
                 value: 2.5,
             },
             {
@@ -1783,8 +1788,8 @@
                 mcore: 45,
                 gpu: 25,
                 total: 128,
-                price: 39648,
-                value: 3.2,
+                price: 39,
+                value: 3.3,
             },
             {
                 id: 102,
@@ -1800,7 +1805,7 @@
                 mcore: 48,
                 gpu: 28,
                 total: 125,
-                price: 57028,
+                price: 57,
                 value: 2.2,
             },
             {
@@ -1817,7 +1822,7 @@
                 mcore: 41,
                 gpu: 21,
                 total: 125,
-                price: 112393,
+                price: 112,
                 value: 1.1,
             },
             {
@@ -1834,7 +1839,7 @@
                 mcore: 37,
                 gpu: 28,
                 total: 123,
-                price: 92922,
+                price: 92,
                 value: 1.3,
             },
             {
@@ -1851,7 +1856,7 @@
                 mcore: 40,
                 gpu: 25,
                 total: 121,
-                price: 43151,
+                price: 43,
                 value: 2.8,
             },
             {
@@ -1868,7 +1873,7 @@
                 mcore: 36,
                 gpu: 28,
                 total: 121,
-                price: 63006,
+                price: 63,
                 value: 1.9,
             },
             {
@@ -1885,7 +1890,7 @@
                 mcore: 46,
                 gpu: 20,
                 total: 120,
-                price: 48490,
+                price: 48,
                 value: 2.5,
             },
             {
@@ -1902,8 +1907,8 @@
                 mcore: 48,
                 gpu: 25,
                 total: 120,
-                price: 45550,
-                value: 2.6,
+                price: 45,
+                value: 2.7,
             },
             {
                 id: 109,
@@ -1919,8 +1924,8 @@
                 mcore: 29,
                 gpu: 26,
                 total: 114,
-                price: 37629,
-                value: 3.0,
+                price: 37,
+                value: 3.1,
             },
             {
                 id: 110,
@@ -1936,8 +1941,8 @@
                 mcore: 42,
                 gpu: 25,
                 total: 113,
-                price: 50686,
-                value: 2.2,
+                price: 50,
+                value: 2.3,
             },
             {
                 id: 111,
@@ -1953,8 +1958,8 @@
                 mcore: 47,
                 gpu: 20,
                 total: 113,
-                price: 44880,
-                value: 2.5,
+                price: 44,
+                value: 2.6,
             },
             {
                 id: 112,
@@ -1970,7 +1975,7 @@
                 mcore: 43,
                 gpu: 20,
                 total: 109,
-                price: 36690,
+                price: 36,
                 value: 3.0,
             },
             {
@@ -1987,7 +1992,7 @@
                 mcore: 29,
                 gpu: 19,
                 total: 107,
-                price: 46690,
+                price: 46,
                 value: 2.3,
             },
             {
@@ -2004,7 +2009,7 @@
                 mcore: 59,
                 gpu: 8,
                 total: 106,
-                price: 81671,
+                price: 81,
                 value: 1.3,
             },
             {
@@ -2021,7 +2026,7 @@
                 mcore: 30,
                 gpu: 36,
                 total: 102,
-                price: 45101,
+                price: 45,
                 value: 2.3,
             },
             {
@@ -2038,8 +2043,8 @@
                 mcore: 36,
                 gpu: 20,
                 total: 100,
-                price: 36570,
-                value: 2.7,
+                price: 36,
+                value: 2.8,
             },
             {
                 id: 117,
@@ -2055,7 +2060,7 @@
                 mcore: 29,
                 gpu: 19,
                 total: 98,
-                price: 91210,
+                price: 91,
                 value: 1.1,
             },
             {
@@ -2072,7 +2077,7 @@
                 mcore: 36,
                 gpu: 15,
                 total: 95,
-                price: 43767,
+                price: 43,
                 value: 2.2,
             },
             {
@@ -2089,8 +2094,8 @@
                 mcore: 31,
                 gpu: 20,
                 total: 95,
-                price: 51670,
-                value: 1.8,
+                price: 51,
+                value: 1.9,
             },
             {
                 id: 120,
@@ -2106,7 +2111,7 @@
                 mcore: 20,
                 gpu: 19,
                 total: 93,
-                price: 39072,
+                price: 39,
                 value: 2.4,
             },
             {
@@ -2123,7 +2128,7 @@
                 mcore: 24,
                 gpu: 20,
                 total: 92,
-                price: 37390,
+                price: 37,
                 value: 2.5,
             },
             {
@@ -2140,7 +2145,7 @@
                 mcore: 24,
                 gpu: 20,
                 total: 92,
-                price: 55076,
+                price: 55,
                 value: 1.7,
             },
             {
@@ -2157,7 +2162,7 @@
                 mcore: 24,
                 gpu: 20,
                 total: 92,
-                price: 42657,
+                price: 42,
                 value: 2.2,
             },
             {
@@ -2174,7 +2179,7 @@
                 mcore: 30,
                 gpu: 10,
                 total: 90,
-                price: 43470,
+                price: 43,
                 value: 2.1,
             },
             {
@@ -2191,7 +2196,7 @@
                 mcore: 30,
                 gpu: 14,
                 total: 88,
-                price: 46088,
+                price: 46,
                 value: 1.9,
             },
             {
@@ -2208,7 +2213,7 @@
                 mcore: 30,
                 gpu: 14,
                 total: 88,
-                price: 36076,
+                price: 36,
                 value: 2.4,
             },
             {
@@ -2225,7 +2230,7 @@
                 mcore: 27,
                 gpu: 17,
                 total: 87,
-                price: 41770,
+                price: 41,
                 value: 2.1,
             },
             {
@@ -2242,8 +2247,8 @@
                 mcore: 21,
                 gpu: 19,
                 total: 85,
-                price: 34744,
-                value: 2.4,
+                price: 34,
+                value: 2.5,
             },
             {
                 id: 129,
@@ -2259,7 +2264,7 @@
                 mcore: 29,
                 gpu: 9,
                 total: 83,
-                price: 82428,
+                price: 82,
                 value: 1.0,
             },
             {
@@ -2276,8 +2281,8 @@
                 mcore: 28,
                 gpu: 14,
                 total: 81,
-                price: 24779,
-                value: 3.3,
+                price: 24,
+                value: 3.4,
             },
             {
                 id: 131,
@@ -2293,7 +2298,7 @@
                 mcore: 28,
                 gpu: 9,
                 total: 80,
-                price: 30000,
+                price: 30,
                 value: 2.7,
             },
             {
@@ -2310,8 +2315,8 @@
                 mcore: 24,
                 gpu: 17,
                 total: 78,
-                price: 25582,
-                value: 3.0,
+                price: 25,
+                value: 3.1,
             },
             {
                 id: 133,
@@ -2327,8 +2332,8 @@
                 mcore: 19,
                 gpu: 10,
                 total: 77,
-                price: 37971,
-                value: 2.0,
+                price: 37,
+                value: 2.1,
             },
             {
                 id: 134,
@@ -2344,8 +2349,8 @@
                 mcore: 16,
                 gpu: 15,
                 total: 76,
-                price: 28904,
-                value: 2.6,
+                price: 28,
+                value: 2.7,
             },
             {
                 id: 135,
@@ -2361,7 +2366,7 @@
                 mcore: 21,
                 gpu: 8,
                 total: 73,
-                price: 30756,
+                price: 30,
                 value: 2.4,
             },
             {
@@ -2378,7 +2383,7 @@
                 mcore: 16,
                 gpu: 10,
                 total: 71,
-                price: 27491,
+                price: 27,
                 value: 2.6,
             },
             {
@@ -2395,7 +2400,7 @@
                 mcore: 22,
                 gpu: 8,
                 total: 71,
-                price: 32893,
+                price: 32,
                 value: 2.2,
             },
             {
@@ -2412,8 +2417,8 @@
                 mcore: 20,
                 gpu: 8,
                 total: 69,
-                price: 23497,
-                value: 2.9,
+                price: 23,
+                value: 3.0,
             },
             {
                 id: 139,
@@ -2429,7 +2434,7 @@
                 mcore: 16,
                 gpu: 9,
                 total: 66,
-                price: 33015,
+                price: 33,
                 value: 2.0,
             },
             {
@@ -2446,8 +2451,8 @@
                 mcore: 12,
                 gpu: 15,
                 total: 65,
-                price: 39538,
-                value: 1.6,
+                price: 39,
+                value: 1.7,
             },
             {
                 id: 141,
@@ -2463,8 +2468,8 @@
                 mcore: 21,
                 gpu: 15,
                 total: 62,
-                price: 35721,
-                value: 1.7,
+                price: 35,
+                value: 1.8,
             },
             {
                 id: 142,
@@ -2480,7 +2485,7 @@
                 mcore: 11,
                 gpu: 14,
                 total: 56,
-                price: 31110,
+                price: 31,
                 value: 1.8,
             },
             {
@@ -2497,7 +2502,7 @@
                 mcore: 13,
                 gpu: 9,
                 total: 56,
-                price: 45404,
+                price: 45,
                 value: 1.2,
             },
             {
@@ -2514,7 +2519,7 @@
                 mcore: 13,
                 gpu: 9,
                 total: 55,
-                price: 27066,
+                price: 27,
                 value: 2.0,
             },
             {
@@ -2531,7 +2536,7 @@
                 mcore: 15,
                 gpu: 8,
                 total: 53,
-                price: 33392,
+                price: 33,
                 value: 1.6,
             },
             {
@@ -2548,7 +2553,7 @@
                 mcore: 11,
                 gpu: 6,
                 total: 52,
-                price: 29080,
+                price: 29,
                 value: 1.8,
             },
             {
@@ -2565,7 +2570,7 @@
                 mcore: 21,
                 gpu: 0,
                 total: 50,
-                price: 26747,
+                price: 26,
                 value: 1.9,
             },
             {
@@ -2582,7 +2587,7 @@
                 mcore: 8,
                 gpu: 4,
                 total: 37,
-                price: 24381,
+                price: 24,
                 value: 1.5,
             },
             {
@@ -2599,7 +2604,7 @@
                 mcore: 15,
                 gpu: 0,
                 total: 35,
-                price: 47170,
+                price: 47,
                 value: 0.7,
             },
             {
@@ -2616,7 +2621,7 @@
                 mcore: 6,
                 gpu: 3,
                 total: 28,
-                price: 21139,
+                price: 21,
                 value: 1.3,
             },
             {
@@ -2633,7 +2638,7 @@
                 mcore: 6,
                 gpu: 3,
                 total: 27,
-                price: 18075,
+                price: 18,
                 value: 1.5,
             },
         ];

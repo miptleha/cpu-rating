@@ -59,6 +59,8 @@ void GenerateMarkDown()
             i.Price = i.Notebooks[i.Notebooks.Count / 2].RetailPrice.Value;
         else
             i.Price = (i.Notebooks[(i.Notebooks.Count - 1) / 2].RetailPrice.Value + i.Notebooks[(i.Notebooks.Count + 1) / 2].RetailPrice.Value) / 2;
+
+        i.PriceRelative = (int)i.Price / 1000;
         
     }
 
@@ -74,8 +76,8 @@ void GenerateMarkDown()
     }
     _cpuFullData.Sort((a, b) => -a.TotalRating.CompareTo(b.TotalRating));
 
-    Console.WriteLine("| # | Processor (GPU) | Tdp | Core/Thr | Freq GHz | SCore | MCore | GPU | Total | Price RUB | Value |");
-    Console.WriteLine("|---|-----------------|-----|----------|----------|-------|-------|-----|-------|-----------|-------|");
+    Console.WriteLine("| # | Processor (GPU) | Tdp | Core/Thr | Freq GHz | SCore | MCore | GPU | Total | Price | Value |");
+    Console.WriteLine("|---|-----------------|-----|----------|----------|-------|-------|-----|-------|-------|-------|");
     for (int i = 0; i < _cpuFullData.Count; i++)
     {
         var c = _cpuFullData[i];
@@ -83,7 +85,7 @@ void GenerateMarkDown()
             continue;
 
         Console.WriteLine($"| {i + 1} | {c.CpuRef.Name} ({c.GpuRef?.NameShort2}) | {Color(c.CpuRef.Tdp ?? 0, 28, 0, true)}-{c.CpuRef.TdpTurbo} | {c.CpuRef.Threads} | {Freq(c.CpuRef.Frequency)} | " +
-            $"{Color(c.CpuSingleRating, 40, 60)} | {Color(c.CpuMultiRating, 40, 60)} | {Color(c.GpuRating, 25, 50)} | {c.TotalRating} | {Price(c.Price)} | {Rating((decimal)c.TotalRating / c.Price * 1000)} |");
+            $"{Color(c.CpuSingleRating, 40, 60)} | {Color(c.CpuMultiRating, 40, 60)} | {Color(c.GpuRating, 25, 50)} | {c.TotalRating} | {Price(c.PriceRelative)} | {Rating((decimal)c.TotalRating / c.PriceRelative)} |");
     }
 
     Console.WriteLine("const data = [");
@@ -93,7 +95,7 @@ void GenerateMarkDown()
         if (c.CpuRef.Rating == null || c.CpuRef.Rating < 0)
             continue;
 
-        var valueNum = (decimal)c.TotalRating / c.Price * 1000;
+        var valueNum = (decimal)c.TotalRating / c.PriceRelative;
         string valueStr = FormattableString.Invariant($"{valueNum:F1}");
 
         var freq = Freq(c.CpuRef.Frequency).Replace(",", ".").Split('/');
@@ -117,7 +119,7 @@ void GenerateMarkDown()
         mcore: {{c.CpuMultiRating}},
         gpu: {{c.GpuRating}},
         total: {{c.TotalRating}},
-        price: {{c.Price:F0}},
+        price: {{c.PriceRelative}},
         value: {{valueStr}},
       },
 """);
@@ -136,7 +138,7 @@ string Rating(decimal r)
 string Price(decimal p)
 {
     var pf = $"{p:N0}";
-    if (p < 50000)
+    if (p < 50)
         return "$${\\color{green}" + pf + "}$$";
     return pf;
 }

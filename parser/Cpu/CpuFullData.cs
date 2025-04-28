@@ -17,4 +17,5 @@ public class CpuFullData
 
     public List<StoreData> Notebooks { get; set; }
     public decimal Price { get; set; }
+    public int PriceRelative { get; set; }
 }
