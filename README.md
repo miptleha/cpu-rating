@@ -23,6 +23,8 @@ Load and parse pages (stored in Data folder, sites blockes HttpClient).
 For all laptops on sale look at the processor rating, find its video core, also look at the video core rating.  
 Output a markdown table with ratings, price.
 
+[See sortable version](https://codesandbox.io/p/sandbox/m9ss6s)
+
 | # | Processor (GPU) | Tdp | Core/Thr | Freq GHz | SCore | MCore | GPU | Total | Price RUB | Value |
 |---|-----------------|-----|----------|----------|-------|-------|-----|-------|-----------|-------|
 | 1 | Intel Core Ultra 9 285HX (Graphics 4-Core iGPU) | $${\color{red}55}$$-160 | 24/24 | 2,1/5,5 | $${\color{green}92}$$ | $${\color{green}209}$$ | 45 | 346 | 722 282 | 0,5 |
