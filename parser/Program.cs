@@ -85,6 +85,34 @@ void GenerateMarkDown()
         Console.WriteLine($"| {i + 1} | {c.CpuRef.Name} ({c.GpuRef?.NameShort2}) | {Color(c.CpuRef.Tdp ?? 0, 28, 0, true)}-{c.CpuRef.TdpTurbo} | {c.CpuRef.Threads} | {Freq(c.CpuRef.Frequency)} | " +
             $"{Color(c.CpuSingleRating, 40, 60)} | {Color(c.CpuMultiRating, 40, 60)} | {Color(c.GpuRating, 25, 50)} | {c.TotalRating} | {Price(c.Price)} | {Rating((decimal)c.TotalRating / c.Price * 1000)} |");
     }
+
+    Console.WriteLine("const data = [");
+    for (int i = 0; i < _cpuFullData.Count; i++)
+    {
+        var c = _cpuFullData[i];
+        if (c.CpuRef.Rating == null || c.CpuRef.Rating < 0)
+            continue;
+
+        var valueNum = (decimal)c.TotalRating / c.Price * 1000;
+        string valueStr = FormattableString.Invariant($"{valueNum:F1}");
+
+        Console.WriteLine($$"""
+      {
+        id: {{i + 1}},
+        name: "{{c.CpuRef.Name}} ({{c.GpuRef?.NameShort2}})",
+        tdp: "{{c.CpuRef.Tdp}}-{{c.CpuRef.TdpTurbo}}",
+        threads: "{{c.CpuRef.Threads}}",
+        freq: "{{Freq(c.CpuRef.Frequency)}}",
+        score: {{c.CpuSingleRating}},
+        mcore: {{c.CpuMultiRating}},
+        gpu: {{c.GpuRating}},
+        total: {{c.TotalRating}},
+        price: {{c.Price:F0}},
+        value: {{valueStr}},
+      },
+""");
+    }
+    Console.WriteLine("];");
 }
 
 string Rating(decimal r)
