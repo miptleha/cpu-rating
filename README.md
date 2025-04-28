@@ -23,7 +23,7 @@ Load and parse pages (stored in Data folder, sites blockes HttpClient).
 For all laptops on sale look at the processor rating, find its video core, also look at the video core rating.  
 Output a markdown table with ratings, price.
 
-[See sortable version](https://codesandbox.io/p/sandbox/m9ss6s)
+[See sortable version](https://miptleha.github.io/cpu-rating/parser/result.html)
 
 | # | Processor (GPU) | Tdp | Core/Thr | Freq GHz | SCore | MCore | GPU | Total | Price RUB | Value |
 |---|-----------------|-----|----------|----------|-------|-------|-----|-------|-----------|-------|
