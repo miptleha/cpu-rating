@@ -96,13 +96,23 @@ void GenerateMarkDown()
         var valueNum = (decimal)c.TotalRating / c.Price * 1000;
         string valueStr = FormattableString.Invariant($"{valueNum:F1}");
 
+        var freq = Freq(c.CpuRef.Frequency).Replace(",", ".").Split('/');
+        string freq1 = freq[0];
+        string freq2 = freq.Length > 1 ? freq[1] : freq[0];
+
+        var threads = c.CpuRef.Threads.Split('/');
+
         Console.WriteLine($$"""
       {
         id: {{i + 1}},
-        name: "{{c.CpuRef.Name}} ({{c.GpuRef?.NameShort2}})",
-        tdp: "{{c.CpuRef.Tdp}}-{{c.CpuRef.TdpTurbo}}",
-        threads: "{{c.CpuRef.Threads}}",
-        freq: "{{Freq(c.CpuRef.Frequency)}}",
+        cpuname: "{{c.CpuRef.Name}}",
+        gpuname: "{{c.GpuRef?.NameShort2}}",
+        tdp: {{c.CpuRef.Tdp}},
+        tdpTurbo: {{c.CpuRef.TdpTurbo ?? c.CpuRef.Tdp}},
+        cores: {{threads[0]}},
+        threads: {{threads[1]}},
+        freq: {{freq1}},
+        freqTurbo: {{freq2}},
         score: {{c.CpuSingleRating}},
         mcore: {{c.CpuMultiRating}},
         gpu: {{c.GpuRating}},
