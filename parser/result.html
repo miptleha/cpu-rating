@@ -21,6 +21,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="p-1 col-sm-12 d-flex justify-content-around">
+                <button id="btnSortId" class="btn btn-primary m-1 w-100">#</button>
                 <button id="btnSortCPUName" class="btn btn-primary m-1 w-100">CPU Name</button>
                 <button id="btnSortGPUName" class="btn btn-primary m-1 w-100">GPU Name</button>
                 <button id="btnSortTdp" class="btn btn-primary m-1 w-100">Tdp</button>
@@ -44,7 +45,8 @@
                     <thead>
                         <tr>
                             <th scope="col" data-id="id" sortable>#</th>
-                            <th scope="col" data-id="name" sortable>Processor (GPU)</th>
+                            <th scope="col" data-id="cpuname" sortable>Processor</th>
+                            <th scope="col" data-id="gpuname" sortable>GPU</th>
                             <th scope="col" data-id="tdp" sortable>Tdp</th>
                             <th scope="col" data-id="threads" sortable>Core/Thr</th>
                             <th scope="col" data-id="freq" sortable>Freq GHz</th>
@@ -2669,11 +2671,14 @@
       });
 
       // button handlers
+      document.querySelector("#btnSortId").addEventListener("click", () => {
+        sortableTable.sort("id", "toggle");
+      });
       document.querySelector("#btnSortCPUName").addEventListener("click", () => {
-        sortableTable.sort("name", "toggle"); //'asc','desc','toggle'
+        sortableTable.sort("cpuname", "toggle"); //'asc','desc','toggle'
       });
       document.querySelector("#btnSortGPUName").addEventListener("click", () => {
-        sortableTable.sort("name", "toggle");
+        sortableTable.sort("gpuname", "toggle");
       });
       document.querySelector("#btnSortTdp").addEventListener("click", () => {
         sortableTable.sort("tdp", "toggle");
