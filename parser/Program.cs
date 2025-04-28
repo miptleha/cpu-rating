@@ -97,8 +97,8 @@ void GenerateMarkDown()
         string valueStr = FormattableString.Invariant($"{valueNum:F1}");
 
         var freq = Freq(c.CpuRef.Frequency).Replace(",", ".").Split('/');
-        string freq1 = freq[0];
-        string freq2 = freq.Length > 1 ? freq[1] : freq[0];
+        string freq1 = string.IsNullOrWhiteSpace(freq[0]) ? "0" : freq[0];
+        string freq2 = freq.Length > 1 ? freq[1] : freq1;
 
         var threads = c.CpuRef.Threads.Split('/');
 
@@ -107,8 +107,8 @@ void GenerateMarkDown()
         id: {{i + 1}},
         cpuname: "{{c.CpuRef.Name}}",
         gpuname: "{{c.GpuRef?.NameShort2}}",
-        tdp: {{c.CpuRef.Tdp}},
-        tdpTurbo: {{c.CpuRef.TdpTurbo ?? c.CpuRef.Tdp}},
+        tdp: {{c.CpuRef.Tdp ?? 0}},
+        tdpTurbo: {{c.CpuRef.TdpTurbo ?? c.CpuRef.Tdp ?? 0}},
         cores: {{threads[0]}},
         threads: {{threads[1]}},
         freq: {{freq1}},
