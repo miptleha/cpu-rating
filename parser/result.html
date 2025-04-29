@@ -2724,6 +2724,7 @@
                 dataNew[ind][name] = value;
                 dataNew[ind][nameR] = Math.round(parseInt(dataNew[ind][nameL], 10) / parseInt(dataNew[ind][name], 10) * 10) / 10;
                 //console.log('after', name, dataNew[ind][name], nameR, dataNew[ind][nameR]);
+                cell.innerText = value;
                 cells[i+1].innerText = dataNew[ind][nameR];
             });
         }
