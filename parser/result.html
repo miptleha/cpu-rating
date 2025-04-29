@@ -16,7 +16,7 @@
       crossorigin="anonymous"
     />
     <style>
-        #my-table1 td:nth-child(n+10):nth-child(-n+13) {
+        #my-table1 td:nth-child(n+11):nth-child(-n+14) {
             background-color: #FFFFCC;
         }
         .fst-italic {
@@ -2740,18 +2740,20 @@
     });
 
       // button handlers
+      let bkpData;
       document.querySelector("#btnFavorites").addEventListener("click", () => {
         if (sortableTable.getData().length == data.length) {
             let newData = [];
-            for (let i = 0; i < data.length; i++) {
-                if (dataFavorites[data[i]["id"]])
-                  newData.push(data[i]);
+            bkpData = sortableTable.getData();
+            for (let i = 0; i < bkpData.length; i++) {
+                if (dataFavorites[bkpData[i]["id"]])
+                  newData.push(bkpData[i]);
             }
             sortableTable.setData(newData);
             setEditable();
         }
         else {
-            sortableTable.setData(data);
+            sortableTable.setData(bkpData ? bkpData : data);
             setEditable();
         }
       });
@@ -2801,7 +2803,9 @@
         sortableTable.sort("value", "toggle");
       });
       document.querySelector("#btnReset").addEventListener("click", () => {
-        sortableTable.resetData();
+        sortableTable.setData(data);
+        bkpData = null;
+        setEditable();
       });
 
     </script>
