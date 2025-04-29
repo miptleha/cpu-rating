@@ -19,6 +19,9 @@
         #my-table1 td:nth-child(n+10):nth-child(-n+13) {
             background-color: #FFFFCC;
         }
+        .fst-italic {
+            font-style: italic;
+        }
     </style>
   </head>
   <body>
@@ -26,17 +29,18 @@
     <div class="container-fluid">
         <div class="row">
             <div class="p-1 col-sm-12 d-flex justify-content-around">
+                <button id="btnFavorites" class="btn btn-primary m-1 w-100">Fav</button>
                 <button id="btnSortId" class="btn btn-primary m-1 w-100">#</button>
-                <button id="btnSortCPUName" class="btn btn-primary m-1 w-100">CPU Name</button>
-                <button id="btnSortGPUName" class="btn btn-primary m-1 w-100">GPU Name</button>
+                <button id="btnSortCPUName" class="btn btn-primary m-1 w-100">CPU N</button>
+                <button id="btnSortGPUName" class="btn btn-primary m-1 w-100">GPU N</button>
                 <button id="btnSortTdp" class="btn btn-primary m-1 w-100">Tdp</button>
                 <button id="btnSortTdpTurbo" class="btn btn-primary m-1 w-100">Tdp turbo</button>
                 <button id="btnSortCores" class="btn btn-primary m-1 w-100">Cores</button>
                 <button id="btnSortThreads" class="btn btn-primary m-1 w-100">Threads</button>
                 <button id="btnSortFreq" class="btn btn-primary m-1 w-100">Freq</button>
                 <button id="btnSortFreqTurbo" class="btn btn-primary m-1 w-100">Freq turbo</button>
-                <button id="btnSortSCore" class="btn btn-primary m-1 w-100">Single Core</button>
-                <button id="btnSortMCore" class="btn btn-primary m-1 w-100">Multi Core</button>
+                <button id="btnSortSCore" class="btn btn-primary m-1 w-100">SCore</button>
+                <button id="btnSortMCore" class="btn btn-primary m-1 w-100">MCore</button>
                 <button id="btnSortGPU" class="btn btn-primary m-1 w-100">GPU</button>
                 <button id="btnSortTotal" class="btn btn-primary m-1 w-100">Total</button>
                 <button id="btnSortPrice" class="btn btn-primary m-1 w-100">Price</button>
@@ -45,10 +49,14 @@
             </div>
         </div>
         <div class="row">
+            <p class="pl-2 fst-italic">* - Editable columns, Fav button toggle selected, Changing Price affects Value</p>
+        </div>
+        <div class="row">
             <div class="p-1 col-sm-12 sortable-table">
                 <table class="table table-hover table-bordered" id="my-table1">
                     <thead>
                         <tr>
+                            <th scope="col" data-id="favorites">F*</th>
                             <th scope="col" data-id="id" sortable>#</th>
                             <th scope="col" data-id="cpuname" sortable>Processor name</th>
                             <th scope="col" data-id="gpuname" sortable>GPU name</th>
@@ -62,7 +70,7 @@
                             <th scope="col" data-id="mcore" sortable>MCore</th>
                             <th scope="col" data-id="gpu" sortable>GPU</th>
                             <th scope="col" data-id="total" sortable>Total</th>
-                            <th scope="col" data-id="price" sortable>Price</th>
+                            <th scope="col" data-id="price" sortable>Price*</th>
                             <th scope="col" data-id="value" sortable>Value</th>
                         </tr>
                     </thead>
@@ -2666,17 +2674,87 @@
         }
         return "<td></td>";
       });
+
       // set data to be sorted
+      //console.log('before for', data.length);
+      let dataFavorites = [];
+      for (let i = 0; i < data.length; i++)
+        dataFavorites[data[i]["id"]] = false;
+      //console.log('after for');
       sortableTable.setData(data);
+
+      let dataHeader = [];
+      let hRows = document.querySelectorAll('thead tr th');
+      for (let hRow of hRows)
+        dataHeader.push(hRow.getAttribute('data-id'));
+      //console.log(dataHeader);
+
+      function setEditable() {
+        let rows = document.querySelectorAll('tbody tr');
+        //console.log(rows);
+        for (let row of rows) {
+            let cells = row.getElementsByTagName('td');
+            let i = 14;
+            let cell = cells[i];
+            //console.log('cells', cells.length, 13, cells[13], 14, cells[14], 'cell', cell, '!cell', !cell);
+            if (!cell)
+              continue;
+            let name = dataHeader[i];
+            let nameL = dataHeader[i-1];
+            let nameR = dataHeader[i+1];
+            let dataNew = sortableTable.getData();
+            let id = cells[1].innerHTML;
+            //console.log('name', name, 'nameL', nameL, 'nameR', nameR, 'id', id);
+            cells[0].innerHTML = '<input type="checkbox" ' + (dataFavorites[id] ? 'checked ' : '') + '>';
+            //console.log('cells[0]', cells[0].getElementsByTagName('input')[0]);
+            let checkbox = cells[0].getElementsByTagName('input')[0];
+            checkbox.addEventListener('change', function (evt) {
+                let checked = evt.target.checked;
+                //console.log('checked', checked, 'id', id);
+                dataFavorites[id] = checked;
+            });
+            cell.setAttribute('contenteditable', true);
+            cell.addEventListener('blur', function (evt) {
+                //elem.removeAttribute('contenteditable');
+                //cell.removeEventListener('blur', evt.target);
+                let value = parseInt(cell.innerText);
+                //console.log('done edit', cell.innerText, 'id', id, 'name', name, 'value', value);
+                let ind = dataNew.findIndex(r => r.id == id);
+                //console.log('before', name, dataNew[ind][name], nameR, dataNew[ind][nameR]);
+                dataNew[ind][name] = value;
+                dataNew[ind][nameR] = Math.round(parseInt(dataNew[ind][nameL], 10) / parseInt(dataNew[ind][name], 10) * 10) / 10;
+                //console.log('after', name, dataNew[ind][name], nameR, dataNew[ind][nameR]);
+                cells[i+1].innerText = dataNew[ind][nameR];
+            });
+        }
+      }
+      setEditable();
 
       // handling events
       sortableTable.events().on("sort", (event) => {
         console.log(`[SortableTable#onSort]
         event.colId=${event.colId}
         event.sortDir=${event.sortDir}`);
-      });
+
+        setEditable();
+    });
 
       // button handlers
+      document.querySelector("#btnFavorites").addEventListener("click", () => {
+        if (sortableTable.getData().length == data.length) {
+            let newData = [];
+            for (let i = 0; i < data.length; i++) {
+                if (dataFavorites[data[i]["id"]])
+                  newData.push(data[i]);
+            }
+            sortableTable.setData(newData);
+            setEditable();
+        }
+        else {
+            sortableTable.setData(data);
+            setEditable();
+        }
+      });
       document.querySelector("#btnSortId").addEventListener("click", () => {
         sortableTable.sort("id", "toggle");
       });
