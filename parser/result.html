@@ -16,7 +16,7 @@
       crossorigin="anonymous"
     />
     <style>
-        #my-table1 td:nth-child(n+11):nth-child(-n+14) {
+        #my-table1 td:nth-child(n+11):nth-child(-n+14), th:nth-child(n+11):nth-child(-n+14) {
             background-color: #FFFFCC;
         }
         .fst-italic {
@@ -25,7 +25,10 @@
     </style>
   </head>
   <body>
-    <h2 class="p-2 border-bottom">Sortable CPU notebooks rating</h2>
+    <div class="d-flex border-bottom justify-content-between">
+        <h2 class="p-2">Sortable CPU notebooks rating</h2>
+        <h4 class="p-2">Filter <input type="text" id="filterText"/></h4>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <div class="p-1 col-sm-12 d-flex justify-content-around">
@@ -50,6 +53,7 @@
         </div>
         <div class="row">
             <p class="pl-2 fst-italic">* - Editable columns, Fav button toggle selected, Changing Price affects Value</p>
+
         </div>
         <div class="row">
             <div class="p-1 col-sm-12 sortable-table">
@@ -2733,9 +2737,9 @@
 
       // handling events
       sortableTable.events().on("sort", (event) => {
-        console.log(`[SortableTable#onSort]
-        event.colId=${event.colId}
-        event.sortDir=${event.sortDir}`);
+        //console.log(`[SortableTable#onSort]
+        //event.colId=${event.colId}
+        //event.sortDir=${event.sortDir}`);
 
         setEditable();
     });
@@ -2743,6 +2747,7 @@
       // button handlers
       let bkpData;
       document.querySelector("#btnFavorites").addEventListener("click", () => {
+        document.querySelector("#filterText").value = "";
         if (sortableTable.getData().length == data.length) {
             let newData = [];
             bkpData = sortableTable.getData();
@@ -2804,7 +2809,20 @@
         sortableTable.sort("value", "toggle");
       });
       document.querySelector("#btnReset").addEventListener("click", () => {
+        document.querySelector("#filterText").value = "";
+        for (let i = 0; i < data.length; i++)
+            dataFavorites[data[i]["id"]] = false;
         sortableTable.setData(data);
+        bkpData = null;
+        setEditable();
+      });
+
+      document.querySelector("#filterText").value = "";
+      document.querySelector("#filterText").addEventListener("input", (evt) => {
+        let value = evt.target.value.toUpperCase();
+        //console.log("filterText", value);
+        let newData = data.filter(d => d.cpuname.toUpperCase().includes(value) || d.gpuname.toUpperCase().includes(value));
+        sortableTable.setData(newData);
         bkpData = null;
         setEditable();
       });
