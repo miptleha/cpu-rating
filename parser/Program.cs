@@ -103,11 +103,13 @@ void GenerateMarkDown()
         string freq2 = freq.Length > 1 ? freq[1] : freq1;
 
         var threads = c.CpuRef.Threads.Split('/');
+        var process = (c.CpuRef.Process ?? 0).ToString();
+        process = process == "0" ? "" : " " + process + "nm";
 
         Console.WriteLine($$"""
       {
         id: {{i + 1}},
-        cpuname: "{{c.CpuRef.Name}} ({{c.CpuRef.CodeNameShort}})",
+        cpuname: "{{c.CpuRef.Name}} ({{c.CpuRef.CodeNameShort}}{{process}})",
         gpuname: "{{c.GpuRef?.NameShort2}}",
         tdp: {{c.CpuRef.Tdp ?? 0}},
         tdpTurbo: {{c.CpuRef.TdpTurbo ?? c.CpuRef.Tdp ?? 0}},
