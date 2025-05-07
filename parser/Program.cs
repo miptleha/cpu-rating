@@ -104,6 +104,8 @@ void GenerateMarkDown()
 
         var threads = c.CpuRef.Threads.Split('/');
         var process = (c.CpuRef.Process ?? 0).ToString();
+        if (process == "0" && c.CpuRef.CodeNameShort is "Zen 4" or "Zen 5")
+            process = "4";
         process = process == "0" ? "" : " " + process + "nm";
 
         Console.WriteLine($$"""
