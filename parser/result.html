@@ -16,11 +16,14 @@
       crossorigin="anonymous"
     />
     <style>
-        #my-table1 td:nth-child(n+11):nth-child(-n+14), th:nth-child(n+11):nth-child(-n+14) {
+        #my-table1 tr:not(:hover) td:nth-child(n+11):nth-child(-n+14), th:nth-child(n+11):nth-child(-n+14) {
             background-color: #FFFFCC;
         }
         .fst-italic {
             font-style: italic;
+        }
+        .filter {
+          width: 100%;
         }
     </style>
   </head>
@@ -64,18 +67,18 @@
                             <th scope="col" data-id="id" sortable>#</th>
                             <th scope="col" data-id="cpuname" sortable>Processor name</th>
                             <th scope="col" data-id="gpuname" sortable>GPU name</th>
-                            <th scope="col" data-id="tdp" sortable>Tdp</th>
-                            <th scope="col" data-id="tdpTurbo" sortable>Tdp+</th>
-                            <th scope="col" data-id="cores" sortable>Cores</th>
-                            <th scope="col" data-id="threads" sortable>Threads</th>
-                            <th scope="col" data-id="freq" sortable>Freq</th>
-                            <th scope="col" data-id="freqTurbo" sortable>Freq+</th>
-                            <th scope="col" data-id="score" sortable>SCore</th>
-                            <th scope="col" data-id="mcore" sortable>MCore</th>
-                            <th scope="col" data-id="gpu" sortable>GPU</th>
-                            <th scope="col" data-id="total" sortable>Total</th>
-                            <th scope="col" data-id="price" sortable>Price*</th>
-                            <th scope="col" data-id="value" sortable>Value</th>
+                            <th scope="col" data-id="tdp" sortable>Tdp<br/><input type="text" class="filter" id="filterTdp"/></th>
+                            <th scope="col" data-id="tdpTurbo" sortable>Tdp+<br/><input type="text" class="filter" id="filterTdpTurbo"/></th>
+                            <th scope="col" data-id="cores" sortable>Cores<br/><input type="text" class="filter" id="filterCores"/></th>
+                            <th scope="col" data-id="threads" sortable>Threads<br/><input type="text" class="filter" id="filterThreads"/></th>
+                            <th scope="col" data-id="freq" sortable>Freq<br/><input type="text" class="filter" id="filterFreq"/></th>
+                            <th scope="col" data-id="freqTurbo" sortable>Freq+<br/><input type="text" class="filter" id="filterFreqTurbo"/></th>
+                            <th scope="col" data-id="score" sortable>SCore<br/><input type="text" class="filter" id="filterSCore"/></th>
+                            <th scope="col" data-id="mcore" sortable>MCore<br/><input type="text" class="filter" id="filterMCore"/></th>
+                            <th scope="col" data-id="gpu" sortable>GPU<br/><input type="text" class="filter" id="filterGpu"/></th>
+                            <th scope="col" data-id="total" sortable>Total<br/><input type="text" class="filter" id="filterTotal"/></th>
+                            <th scope="col" data-id="price" sortable>Price*<br/><input type="text" class="filter" id="filterPrice"/></th>
+                            <th scope="col" data-id="value" sortable>Value<br/><input type="text" class="filter" id="filterValue"/></th>
                         </tr>
                     </thead>
                 </table>
@@ -2778,6 +2781,7 @@ const data = [
         document.querySelector("#filterText").value = "";
         for (let i = 0; i < data.length; i++)
             dataFavorites[data[i]["id"]] = false;
+        clearFilter();
         sortableTable.setData(data);
         bkpData = null;
         setEditable();
@@ -2793,6 +2797,94 @@ const data = [
         setEditable();
       });
 
-    </script>
+      function checkRow(d) {
+        let tdp = parseFloat(document.querySelector("#filterTdp").value);
+        if (tdp && d.tdp > tdp)
+          return false;
+
+        let tdpTurbo = parseFloat(document.querySelector("#filterTdpTurbo").value);
+        if (tdpTurbo && d.tdpTurbo > tdpTurbo)
+          return false;
+
+        let cores = parseFloat(document.querySelector("#filterCores").value);
+        if (cores && d.cores < cores)
+          return false;
+
+        let threads = parseFloat(document.querySelector("#filterThreads").value);
+        if (threads && d.threads < threads)
+          return false;
+
+        let freq = parseFloat(document.querySelector("#filterFreq").value);
+        if (freq && d.freq < freq)
+          return false;
+
+        let freqTurbo = parseFloat(document.querySelector("#filterFreqTurbo").value);
+        if (freqTurbo && d.freqTurbo < freqTurbo)
+          return false;
+
+        let score = parseFloat(document.querySelector("#filterSCore").value);
+        if (score && d.score < score)
+          return false;
+
+        let mcore = parseFloat(document.querySelector("#filterMCore").value);
+        if (mcore && d.mcore < mcore)
+          return false;
+
+        let gpu = parseFloat(document.querySelector("#filterGpu").value);
+        if (gpu && d.gpu < gpu)
+          return false;
+
+        let total = parseFloat(document.querySelector("#filterTotal").value);
+        if (total && d.total < total)
+          return false;
+
+        let price = parseFloat(document.querySelector("#filterPrice").value);
+        if (price && d.price > price)
+          return false;
+
+        let value = parseFloat(document.querySelector("#filterValue").value);
+        if (value && d.value < value)
+          return false;
+
+       return true;
+      }
+
+      function applyFilter() {
+        let newData = data.filter(d => checkRow(d));
+        sortableTable.setData(newData);
+        bkpData = null;
+        setEditable();
+      }
+
+      function clearFilter() {
+        document.querySelector("#filterTdp").value = "";
+        document.querySelector("#filterTdpTurbo").value = "";
+        document.querySelector("#filterCores").value = "";
+        document.querySelector("#filterThreads").value = "";
+        document.querySelector("#filterFreq").value = "";
+        document.querySelector("#filterFreqTurbo").value = "";
+        document.querySelector("#filterSCore").value = "";
+        document.querySelector("#filterMCore").value = "";
+        document.querySelector("#filterGpu").value = "";
+        document.querySelector("#filterTotal").value = "";
+        document.querySelector("#filterPrice").value = "";
+        document.querySelector("#filterValue").value = "";
+      }
+
+      clearFilter();
+      document.querySelector("#filterTdp").addEventListener("input", evt => applyFilter());
+      document.querySelector("#filterTdpTurbo").addEventListener("input", evt => applyFilter());
+      document.querySelector("#filterCores").addEventListener("input", evt => applyFilter());
+      document.querySelector("#filterThreads").addEventListener("input", evt => applyFilter());
+      document.querySelector("#filterFreq").addEventListener("input", evt => applyFilter());
+      document.querySelector("#filterFreqTurbo").addEventListener("input", evt => applyFilter());
+      document.querySelector("#filterSCore").addEventListener("input", evt => applyFilter());
+      document.querySelector("#filterMCore").addEventListener("input", evt => applyFilter());
+      document.querySelector("#filterGpu").addEventListener("input", evt => applyFilter());
+      document.querySelector("#filterTotal").addEventListener("input", evt => applyFilter());
+      document.querySelector("#filterPrice").addEventListener("input", evt => applyFilter());
+      document.querySelector("#filterValue").addEventListener("input", evt => applyFilter());
+
+</script>
   </body>
 </html>
