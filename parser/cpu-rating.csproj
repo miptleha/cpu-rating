@@ -14,14 +14,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Gpu\" />
+    <ContentWithTargetPath Include="$(ProjectDir)Data\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>%(Filename)%(Extension)</TargetPath>
+    </ContentWithTargetPath>
   </ItemGroup>
-
-  <Target Name="CopyDataFiles" AfterTargets="Build">
-    <ItemGroup>
-      <DataFiles Include="$(ProjectDir)Data\*.*" />
-    </ItemGroup>
-    <Copy SourceFiles="@(DataFiles)" DestinationFolder="$(OutDir)" SkipUnchangedFiles="true" />
-  </Target>
 
 </Project>
