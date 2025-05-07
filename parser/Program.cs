@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using System.Text.RegularExpressions;
 
 var dualWriter = new DualWriter("output.txt");
 Console.SetOut(dualWriter);
@@ -103,6 +104,10 @@ void GenerateMarkDown()
         string freq2 = freq.Length > 1 ? freq[1] : freq1;
 
         var threads = c.CpuRef.Threads.Split('/');
+
+        var codename = c.CpuRef.CodeNameShort;
+        codename = Regex.Replace(codename, @"^Zen(\d)", "Zen $1");
+
         var process = (c.CpuRef.Process ?? 0).ToString();
         if (process == "0" && c.CpuRef.CodeNameShort is "Zen 4" or "Zen 5")
             process = "4";
@@ -111,7 +116,7 @@ void GenerateMarkDown()
         Console.WriteLine($$"""
       {
         id: {{i + 1}},
-        cpuname: "{{c.CpuRef.Name}} ({{c.CpuRef.CodeNameShort}}{{process}})",
+        cpuname: "{{c.CpuRef.Name}} ({{codename}}{{process}})",
         gpuname: "{{c.GpuRef?.NameShort2}}",
         tdp: {{c.CpuRef.Tdp ?? 0}},
         tdpTurbo: {{c.CpuRef.TdpTurbo ?? c.CpuRef.Tdp ?? 0}},
