@@ -36,7 +36,7 @@ public class StoreParser2
             var item = new StoreData
             {
                 Desc = values[0],
-                RetailPrice = values[6]?.ToDecimal()
+                RetailPrice = values[5]?.ToDecimal() ?? values[6]?.ToDecimal()
             };
             goods.Add(item);
         }

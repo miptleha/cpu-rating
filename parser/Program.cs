@@ -46,20 +46,20 @@ void GenerateMarkDown()
         //i.Price = i.Notebooks[0].RetailPrice.Value;
 
         //smallest, but not first
-        /*if (i.Notebooks.Count > 1)
+        if (i.Notebooks.Count > 1)
             i.Price = i.Notebooks[1].RetailPrice.Value;
         else
             i.Price = i.Notebooks[0].RetailPrice.Value;
-        */
+        
 
         //median price
-        if (i.Notebooks.Count == 1)
+        /*if (i.Notebooks.Count == 1)
             i.Price = i.Notebooks[0].RetailPrice.Value;
         else if (i.Notebooks.Count % 2 == 0)
             i.Price = i.Notebooks[i.Notebooks.Count / 2].RetailPrice.Value;
         else
             i.Price = (i.Notebooks[(i.Notebooks.Count - 1) / 2].RetailPrice.Value + i.Notebooks[(i.Notebooks.Count + 1) / 2].RetailPrice.Value) / 2;
-
+        */
         i.PriceRelative = (int)i.Price / 1000;
         
     }
@@ -107,7 +107,7 @@ void GenerateMarkDown()
         Console.WriteLine($$"""
       {
         id: {{i + 1}},
-        cpuname: "{{c.CpuRef.Name}}",
+        cpuname: "{{c.CpuRef.Name}} ({{c.CpuRef.CodeNameShort}})",
         gpuname: "{{c.GpuRef?.NameShort2}}",
         tdp: {{c.CpuRef.Tdp ?? 0}},
         tdpTurbo: {{c.CpuRef.TdpTurbo ?? c.CpuRef.Tdp ?? 0}},
@@ -307,6 +307,8 @@ void GenerateStoreFull()
                 ("Intel Core i5 7440EQ", "Intel Core i5 7440HQ"),
                 ("AMD Ryzen 5 7235HS", "AMD Ryzen 5 7535HS"),
                 ("AMD Ryzen 9 7940H", "AMD Ryzen 9 7940HS"),
+                ("AMD Ryzen 5 7640S", "AMD Ryzen 5 7640HS"),
+                ("Core i3 1025G1", "Core i3 1005G1"),
                 (" Pentium ", " Pentium Silver ")
             };
             foreach (var s in search)

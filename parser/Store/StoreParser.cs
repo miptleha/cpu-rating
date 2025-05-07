@@ -37,12 +37,12 @@ public class StoreParser
             var item = new StoreData
             {
                 Art = values[0],
-                Code = values[1],
-                Model = values[2],
-                Desc = values[3],
-                Avail = values[4],
-                OptPrice = values[5]?.ToDecimal(),
-                RetailPrice = values[6]?.ToDecimal()
+                //Code = values[1],
+                Model = values[1],
+                Desc = values[2],
+                Avail = values[3],
+                //OptPrice = values[4]?.ToDecimal(),
+                RetailPrice = values[4]?.ToDecimal()
             };
             goods.Add(item);
         }

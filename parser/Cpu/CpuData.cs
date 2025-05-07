@@ -3,6 +3,21 @@
 public class CpuData
 {
     public string? Name { get; set; }
+    public string? CodeName { get; set; }
+    public string? CodeNameShort
+    {
+        get
+        {
+            var m = Regex.Match(CodeName, @".*\((.*?)\).*");
+            if (m.Success)
+                return m.Groups[1].Value;
+            if (CodeName.StartsWith("Rembrandt"))
+                return "Zen 3+";
+            if (CodeName.StartsWith("Barcelo"))
+                return "Zen 3";
+            return CodeName;
+        }
+    }
     public string? NameProducer { get { return Name?.GetWordsInRange(1, 1); } }
     
     public string? NameShort 

@@ -52,17 +52,18 @@ public class CpuParser
             var cpu = new CpuData
             {
                 Name = values[1],
-                Cache = values[2],
-                Tdp = values[3]?.ToDecimal(),
-                TdpTurbo = values[4]?.ToDecimal(),
-                Frequency = values[5],
-                Threads = values[6],
-                Process = values[7]?.ToDecimal(),
-                Days = values[8]?.ToDecimal(),
-                Gpu = values[9],
-                Rating = values[10]?.ToDecimal(),
-                SinglePerformance = values[11]?.ToDecimal(),
-                MultiPerformance = values[12]?.ToDecimal()
+                CodeName = values[2],
+                Cache = values[3],
+                Tdp = values[4]?.ToDecimal(),
+                TdpTurbo = values[5]?.ToDecimal(),
+                Frequency = values[6],
+                Threads = values[7],
+                Process = values[8]?.ToDecimal(),
+                Days = values[9]?.ToDecimal(),
+                Gpu = values[10],
+                Rating = values[11]?.ToDecimal(),
+                SinglePerformance = values[12]?.ToDecimal(),
+                MultiPerformance = values[13]?.ToDecimal()
             };
             cpuList.Add(cpu);
         }
