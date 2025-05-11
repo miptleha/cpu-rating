@@ -10,6 +10,7 @@ parser is .NET Console application, that generates markdown table.
 Open links below, store content of open in parser/Data  
 Run app, see bin/Debug/net9.0/output.txt  
 
+[List of notebooks](notebooks.md)
 
 Price list 1: https://www.notik.ru/fullprice?cityid=1
 
