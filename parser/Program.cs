@@ -46,12 +46,27 @@ void GenerateMarkDown()
         //smallest price
         //i.Price = i.Notebooks[0].RetailPrice.Value;
 
+        //smallest, but not 8Gb
+        foreach (var n in i.Notebooks)
+        {
+            if (n.Desc == "Ноутбук 90NB10V2-M00SJ0  17.3\" ASUS VivoBook 17 X1704VA Intel U300 / 8Gb / SSD512Gb / IntelUHD / FHD / NoOS / Blue")
+                n.Desc = n.Desc;
+            if (n.Desc.IndexOf("8Gb SSD") != -1 || n.Desc.IndexOf("8Gb UFS") != -1)
+                continue;
+            if (n.Desc.IndexOf(", 8 ГБ, ") != -1 || n.Desc.IndexOf("/ 8Gb /") != -1)
+                continue;
+            i.Price = n.RetailPrice.Value;
+            break;
+        }
+        if (i.Price == 0)
+            continue;
+
         //smallest, but not first
-        if (i.Notebooks.Count > 1)
+        /*if (i.Notebooks.Count > 1)
             i.Price = i.Notebooks[1].RetailPrice.Value;
         else
             i.Price = i.Notebooks[0].RetailPrice.Value;
-        
+        */
 
         //median price
         /*if (i.Notebooks.Count == 1)
@@ -61,8 +76,7 @@ void GenerateMarkDown()
         else
             i.Price = (i.Notebooks[(i.Notebooks.Count - 1) / 2].RetailPrice.Value + i.Notebooks[(i.Notebooks.Count + 1) / 2].RetailPrice.Value) / 2;
         */
-        i.PriceRelative = (int)i.Price / 1000;
-        
+        i.PriceRelative = (int)i.Price / 1000;        
     }
 
     foreach (var i in _cpuFullData)
@@ -79,21 +93,27 @@ void GenerateMarkDown()
 
     Console.WriteLine("| # | Processor (GPU) | Tdp | Core/Thr | Freq GHz | SCore | MCore | GPU | Total | Price | Value |");
     Console.WriteLine("|---|-----------------|-----|----------|----------|-------|-------|-----|-------|-------|-------|");
+    int id = 0;
     for (int i = 0; i < _cpuFullData.Count; i++)
     {
         var c = _cpuFullData[i];
         if (c.CpuRef.Rating == null || c.CpuRef.Rating < 0)
             continue;
+        if (c.Price == 0)
+            continue;
 
-        Console.WriteLine($"| {i + 1} | {c.CpuRef.Name} ({c.GpuRef?.NameShort2}) | {Color(c.CpuRef.Tdp ?? 0, 28, 0, true)}-{c.CpuRef.TdpTurbo} | {c.CpuRef.Threads} | {Freq(c.CpuRef.Frequency)} | " +
+        Console.WriteLine($"| {++id} | {c.CpuRef.Name} ({c.GpuRef?.NameShort2}) | {Color(c.CpuRef.Tdp ?? 0, 28, 0, true)}-{c.CpuRef.TdpTurbo} | {c.CpuRef.Threads} | {Freq(c.CpuRef.Frequency)} | " +
             $"{Color(c.CpuSingleRating, 40, 60)} | {Color(c.CpuMultiRating, 40, 60)} | {Color(c.GpuRating, 25, 50)} | {c.TotalRating} | {Price(c.PriceRelative)} | {Rating((decimal)c.TotalRating / c.PriceRelative)} |");
     }
 
     Console.WriteLine("const data = [");
+    id = 0;
     for (int i = 0; i < _cpuFullData.Count; i++)
     {
         var c = _cpuFullData[i];
         if (c.CpuRef.Rating == null || c.CpuRef.Rating < 0)
+            continue;
+        if (c.Price == 0)
             continue;
 
         var valueNum = (decimal)c.TotalRating / c.PriceRelative;
@@ -115,7 +135,7 @@ void GenerateMarkDown()
 
         Console.WriteLine($$"""
       {
-        id: {{i + 1}},
+        id: {{++id}},
         cpuname: "{{c.CpuRef.Name}} ({{codename}}{{process}})",
         gpuname: "{{c.GpuRef?.NameShort2}}",
         tdp: {{c.CpuRef.Tdp ?? 0}},
