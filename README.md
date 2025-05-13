@@ -10,8 +10,6 @@ parser is .NET Console application, that generates markdown table.
 Open links below, store content of open in parser/Data  
 Run app, see bin/Debug/net9.0/output.txt  
 
-[List of notebooks](notebooks.md)
-
 Price list 1: https://www.notik.ru/fullprice?cityid=1
 
 Price list 2: https://www.nix.ru/price/price_list.html?section=notebooks_all#c_id=256&fn=256&g_id=10&new_goods=0&page=all&sort=%2Bp8116%2B8120%2B8119%2B330%2B90&spoiler=&store=msk-0_1721_1&thumbnail_view=2
@@ -159,6 +157,7 @@ Output a markdown table with ratings, price.
 | 127 | Intel Celeron N4020 (UHD Graphics 600) | $${\color{green}6}$$-15 | 2/2 | 1,1/2,8 | $${\color{red}19}$$ | $${\color{red}6}$$ | $${\color{red}3}$$ | 28 | $${\color{green}17}$$ | 1,6 |
 | 128 | Intel Celeron N4000 (UHD Graphics 600) | $${\color{green}6}$$- | 2/2 | 1,1/2,6 | $${\color{red}18}$$ | $${\color{red}6}$$ | $${\color{red}3}$$ | 27 | $${\color{green}17}$$ | 1,6 |
 
-[AI Generated rating](./AI.md)
+[AI Generated rating](AI.md)
 
+[List of notebooks](notebooks.md)
 
