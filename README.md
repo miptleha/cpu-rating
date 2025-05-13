@@ -20,6 +20,8 @@ CPU: https://www.notebookcheck.net/Mobile-Processors-Benchmark-List.2436.0.html?
 
 GPU: https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html?type=&sort=&gpubenchmarks=0&professional=0&dx=0&multiplegpus=1&showClassDescription=1&deskornote=0&series_uid=0&archive=0&condensed=0&id=0&perfrating=1&or=0&condensed=0&showCount=0&showBars=0&showPercent=0&3dmark13_time_spy_gpu=1&gpu_fullname=1&pixelshaders=1&vertexshaders=1&corespeed=1&boostspeed=1&directx=1&opengl=1&technology=1&daysold=1
 
+Geekbench 5.5 Single-Core test is used to evaluate single-threaded performance. For multithreaded - Geekbench 5.5 Multi-Core (underestimates the result for a large number of cores, but this test is the most widespread). To evaluate the speed of the GPU, a 3DMark Time Spy test is used.
+
 Load and parse pages (stored in Data folder, sites blockes HttpClient).  
 For all laptops on sale look at the processor rating, find its video core, also look at the video core rating.  
 Output a markdown table with ratings, price.
