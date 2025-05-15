@@ -24,7 +24,8 @@ Load and parse pages (stored in Data folder, sites blockes HttpClient).
 For all laptops on sale look at the processor rating, find its video core, also look at the video core rating.  
 Output a markdown table with ratings, price.
 
-[See sortable version](https://miptleha.github.io/cpu-rating/parser/result.html)
+[See sortable version (geekbench)](https://miptleha.github.io/cpu-rating/parser/result.html)  
+[See sortable version (cinebench)](https://miptleha.github.io/cpu-rating/parser/result2.html)
 
 | # | Processor (GPU) | Tdp | Core/Thr | Freq GHz | SCore | MCore | GPU | Total | Price | Value |
 |---|-----------------|-----|----------|----------|-------|-------|-----|-------|-------|-------|
