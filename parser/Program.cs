@@ -83,6 +83,10 @@ void GenerateMarkDown()
     {
         if (i.CpuRef.Rating == null || i.CpuRef.Rating < 0)
             continue;
+        if (i.CpuRef.SinglePerformance == null || i.CpuRef.SinglePerformance < 0)
+            continue;
+        if (i.CpuRef.MultiPerformance == null || i.CpuRef.MultiPerformance < 0)
+            continue;
 
         i.CpuSingleRating = Convert.ToInt32(i.CpuRef.SinglePerformance.Value / maxSingle * 100);
         i.CpuMultiRating = Convert.ToInt32(i.CpuRef.MultiPerformance.Value / maxMulti * 100);
@@ -99,6 +103,11 @@ void GenerateMarkDown()
         var c = _cpuFullData[i];
         if (c.CpuRef.Rating == null || c.CpuRef.Rating < 0)
             continue;
+        if (c.CpuRef.SinglePerformance == null || c.CpuRef.SinglePerformance < 0)
+            continue;
+        if (c.CpuRef.MultiPerformance == null || c.CpuRef.MultiPerformance < 0)
+            continue;
+
         if (c.Price == 0)
             continue;
 
@@ -112,6 +121,10 @@ void GenerateMarkDown()
     {
         var c = _cpuFullData[i];
         if (c.CpuRef.Rating == null || c.CpuRef.Rating < 0)
+            continue;
+        if (c.CpuRef.SinglePerformance == null || c.CpuRef.SinglePerformance < 0)
+            continue;
+        if (c.CpuRef.MultiPerformance == null || c.CpuRef.MultiPerformance < 0)
             continue;
         if (c.Price == 0)
             continue;
@@ -219,8 +232,12 @@ void GenerateCpuFull()
 
     foreach (var i in _cpuFullData)
     {
-        if (i.CpuRef.Rating == null || i.CpuRef.Rating <= 0)
+        if (i.CpuRef.Rating == null || i.CpuRef.Rating <= 0 ||
+            i.CpuRef.SinglePerformance == null || i.CpuRef.SinglePerformance <= 0 ||
+            i.CpuRef.MultiPerformance == null || i.CpuRef.MultiPerformance <= 0)
+        {
             EstimateCpu(i.CpuRef);
+        }
 
         if (i.CpuRef.Rating == null || i.CpuRef.Rating <= 0)
             Console.WriteLine($"No rating for cpu: {i.CpuRef.Name}");
@@ -281,7 +298,11 @@ void EstimateCpu(CpuData cpuRef)
     else if (cpuRef.Name == "Intel Core i3-1305U")
         brother = _cpuShortName["U300"];
     else if (cpuRef.Name == "AMD Ryzen 3 7330U")
+    {
         brother = _cpuShortName["Ryzen 3 5400U"];
+        if (brother.Rating == null)
+            brother = _cpuShortName["Ryzen 3 5425U"];
+    }
     else if (cpuRef.Name == "Intel Core i5-14500HX")
         brother = _cpuShortName["i7-13650HX"];
     else if (cpuRef.Name == "AMD Ryzen 5 PRO 7540U")
@@ -299,10 +320,48 @@ void EstimateCpu(CpuData cpuRef)
     else if (cpuRef.Name == "Intel Core i3-1000G1")
         brother = _cpuShortName["i3-1000NG4"];
     else if (cpuRef.Name == "AMD Athlon Silver 7120U")
+    {
         brother = _cpuShortName["Athlon Silver 3050U"];
+        if (brother.Rating == null)
+            brother = _cpuShortName["Ryzen 3 3200U"];
+    }
+
+    //cinebench
+    else if (cpuRef.Name == "Intel Core 3 100U" || cpuRef.Name == "Intel Core i3-1315U")
+        brother = _cpuShortName["i3-1215U"];
+    else if (cpuRef.Name == "AMD Ryzen 7 7435H")
+        brother = _cpuShortName["Ryzen 7 7735H"];
+    else if (cpuRef.Name == "AMD Ryzen Z1")
+        brother = _cpuShortName["Ryzen 5 8640U"];
+    else if (cpuRef.Name == "AMD Ryzen 5 7430U")
+        brother = _cpuShortName["Ryzen 5 5625U"];
+    else if (cpuRef.Name == "Intel Celeron N4000")
+        brother = _cpuShortName["N4020"];
+    else if (cpuRef.Name == "AMD Ryzen 3 7330U")
+        brother = _cpuShortName["Ryzen 5 7530U"];
+    else if (cpuRef.Name == "Intel Core i5-12450HX")
+        brother = _cpuShortName["i5-12450H"];
+    else if (cpuRef.Name == "Intel Core i5-1334U")
+        brother = _cpuShortName["i5-1335U"];
+    else if (cpuRef.Name == "AMD Ryzen 3 5400U" || cpuRef.Name == "AMD Ryzen 3 PRO 5450U")
+        brother = _cpuShortName["Ryzen 3 5425U"];
+    else if (cpuRef.Name == "AMD Ryzen 5 4600U" || cpuRef.Name == "AMD Ryzen 5 PRO 4650U")
+        brother = _cpuShortName["Ryzen 5 4680U"];
+    else if (cpuRef.Name == "Intel Core i3-1125G4")
+        brother = _cpuShortName["i5-1130G7"];
+    else if (cpuRef.Name == "AMD Ryzen 7 8745H")
+        brother = _cpuShortName["Ryzen 7 8840HS"];
+    else if (cpuRef.Name == "Intel Core m3-8100Y")
+        brother = _cpuShortName["m3-7Y32"];
+    else if (cpuRef.Name == "AMD Ryzen 5 3500U")
+        brother = _cpuShortName["Ryzen 5 3450U"];
+    else if (cpuRef.Name == "Intel Core i3-1220P")
+        brother = _cpuShortName["i5-1245U"];
 
     if (brother != null)
     {
+        if (brother.Rating == null || brother.SinglePerformance == null || brother.MultiPerformance == null)
+            Console.WriteLine($"for cpu: {cpuRef.Name} found invalid brother: {brother.Name}");
         cpuRef.Rating = brother.Rating;
         cpuRef.SinglePerformance = brother.SinglePerformance;
         cpuRef.MultiPerformance = brother.MultiPerformance;
@@ -407,8 +466,9 @@ void GenerateStoreFull()
 
 void ParseCpu()
 {
-    // Пример использования
-    var html = File.ReadAllText("cpu.html");
+    //cpu.html - geekbench (single and multi)
+    //cpu2.html - cinebench (single and multi)
+    var html = File.ReadAllText("cpu2.html");
     var parser = new CpuParser();
     var results = parser.ParseHtml(html);
 
@@ -441,7 +501,6 @@ void ParseCpu()
 
 void ParseGpu()
 {
-    // Пример использования
     var html = File.ReadAllText("gpu.html");
     var parser = new GpuParser();
     var results = parser.ParseHtml(html);
@@ -476,7 +535,6 @@ void ParseGpu()
 
 void ParseStore()
 {
-    // Пример использования
     var html = File.ReadAllText("store.html");
     var parser = new StoreParser();
     var results = parser.ParseHtml(html);
@@ -492,7 +550,6 @@ void ParseStore()
 
 void ParseStore2()
 {
-    // Пример использования
     var html = File.ReadAllText("store2.html");
     var parser = new StoreParser2();
     var results = parser.ParseHtml(html);

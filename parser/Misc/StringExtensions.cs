@@ -5,10 +5,10 @@ using System.Text.RegularExpressions;
 public static class StringExtensions
 {
     /// <summary>
-    /// Безопасно преобразует строку в decimal. Возвращает null, если преобразование невозможно.
+    /// Convert string to decimal, returns null if not possible
     /// </summary>
-    /// <param name="input">Строка для преобразования</param>
-    /// <returns>decimal? (число или null)</returns>
+    /// <param name="input">String to convert</param>
+    /// <returns>decimal? (decimal or null)</returns>
     public static decimal? ToDecimal(this string input)
     {
         if (string.IsNullOrWhiteSpace(input))
@@ -16,7 +16,6 @@ public static class StringExtensions
 
         input = Regex.Replace(input, @"[^\d.]", "");
 
-        // Пробуем инвариантную культуру (например, "123.45" в invariant)
         if (decimal.TryParse(input, NumberStyles.Any, CultureInfo.InvariantCulture, out decimal result))
             return result;
 
@@ -24,33 +23,33 @@ public static class StringExtensions
     }
 
     /// <summary>
-    /// Возвращает слово (или слова) из строки по указанному интервалу.
+    /// Substring by words
     /// </summary>
-    /// <param name="text">Исходная строка</param>
-    /// <param name="start">Начальный индекс (с 1). Если null — начинаем с первого слова.</param>
-    /// <param name="end">Конечный индекс (включительно). Если null — до конца строки.</param>
-    /// <returns>Строка с выбранными словами (или пустая строка, если интервал невалиден)</returns>
+    /// <param name="text">Source string</param>
+    /// <param name="start">Start index (from 1). If null - from first word</param>
+    /// <param name="end">Last index (inclusive). If null - till end</param>
+    /// <returns>Substring with selected words (or empty for not valid interval)</returns>
     public static string GetWordsInRange(this string text, int? start = null, int? end = null)
     {
         if (string.IsNullOrWhiteSpace(text))
             return string.Empty;
 
-        // Разбиваем строку на слова (игнорируя пустые)
+        // split string
         var words = text.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
-        // Если слова нет — возвращаем пустую строку
+        // check not empty
         if (words.Length == 0)
             return string.Empty;
 
-        // Нормализуем start и end
-        int startIndex = (start ?? 1) - 1; // Если start не указан — берём 1 (преобразуется в 0)
-        int endIndex = end.HasValue ? end.Value - 1 : words.Length - 1; // Если end не указан — до конца
+        // Convert nulls to default values
+        int startIndex = (start ?? 1) - 1;
+        int endIndex = end.HasValue ? end.Value - 1 : words.Length - 1;
 
-        // Проверяем валидность интервала
+        // Check validity
         if (startIndex < 0 || endIndex >= words.Length || startIndex > endIndex)
             return string.Empty;
 
-        // Выбираем слова в интервале и соединяем их через пробел
+        // Select words and concatenate them
         return string.Join(" ", words.Skip(startIndex).Take(endIndex - startIndex + 1));
     }
 }
