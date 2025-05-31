@@ -35,7 +35,7 @@ public class StoreParser2
             Console.WriteLine("======");*/
             var item = new StoreData
             {
-                Desc = values[0],
+                Desc = values[0]?.Replace("<sup>®</sup> ", ""),
                 RetailPrice = values[5]?.ToDecimal() ?? values[6]?.ToDecimal()
             };
             goods.Add(item);

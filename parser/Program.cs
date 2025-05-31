@@ -1,5 +1,4 @@
-﻿using System.Text;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 var dualWriter = new DualWriter("output.txt");
 Console.SetOut(dualWriter);
@@ -40,23 +39,58 @@ void GenerateMarkDown()
             maxSingle = i.CpuRef.SinglePerformance.Value;
         if (i.CpuRef.Threads == "8/16" && i.CpuRef.MultiPerformance > maxMulti)
             maxMulti = i.CpuRef.MultiPerformance.Value;
-        if (i.GpuRef != null && i.GpuRef.Performance > maxGpu)
+        if (i.GpuRef != null && i.GpuRef.Name == "Intel Arc Graphics 140T" && i.GpuRef.Performance > maxGpu)
             maxGpu = i.GpuRef.Performance.Value;
 
         //smallest price
         //i.Price = i.Notebooks[0].RetailPrice.Value;
 
-        //smallest, but not 8Gb
+        //smallest, but not 8Gb RAM and not 256Gb SSD
+        bool wasSmallest = false;
         foreach (var n in i.Notebooks)
         {
             if (n.Desc == "Ноутбук 90NB10V2-M00SJ0  17.3\" ASUS VivoBook 17 X1704VA Intel U300 / 8Gb / SSD512Gb / IntelUHD / FHD / NoOS / Blue")
                 n.Desc = n.Desc;
             if (n.Desc.IndexOf("8Gb SSD") != -1 || n.Desc.IndexOf("8Gb UFS") != -1)
                 continue;
-            if (n.Desc.IndexOf(", 8 ГБ, ") != -1 || n.Desc.IndexOf("/ 8Gb /") != -1)
+            if (n.Desc.IndexOf(", 8 ГБ, ") != -1 || n.Desc.IndexOf("/ 8Gb /") != -1 || n.Desc.IndexOf("/ 8 /") != -1)
                 continue;
+
+            if (n.Desc.ToLower().IndexOf(", 256 Гб SSD".ToLower()) != -1)
+                continue;
+            if (n.Desc.IndexOf("/ SSD 256 /") != -1)
+                continue;
+
+            if (n.RetailPrice.Value == null || n.RetailPrice.Value <= 0)
+                continue;
+
+            string s = n.Desc;
+            s = Regex.Replace(s, "Ноутбук", "", RegexOptions.IgnoreCase);
+            s = s.Trim();
+            //addition list of 16" notebooks, no more 100 000 rub
+            string[] ignoreInch = ["13", "13,3", "14", "14.1", "15", "15.1", "15.3", "15.6", "17", "17.3", "18", "18.4"];
+            string[] matrixType = ["\"", " FHD", " 2K", " 2.2K", " WUXGA", " WQXGA", " 4K", " QHD+", " 2.8K"];
+            bool ignoreNotebook = false;
+            foreach (var inch in ignoreInch)
+            {
+                foreach (var matrix in matrixType)
+                {
+                    if (s.Contains($"{inch}{matrix}") || s.Contains($"{inch.Replace(".", ",")}{matrix}") || n.RetailPrice > 100_000)
+                    {
+                        ignoreNotebook = true;
+                        break;
+                    }
+                }
+                if (ignoreNotebook)
+                    break;
+            }
+            if (!ignoreNotebook)
+                i.Notebooks2.Add(new NotebookInfo { Desc = s, Price = (int)n.RetailPrice });
+
+            if (wasSmallest)
+                continue;
+            wasSmallest = true;
             i.Price = n.RetailPrice.Value;
-            break;
         }
         if (i.Price == 0)
             continue;
@@ -93,7 +127,43 @@ void GenerateMarkDown()
         i.GpuRating = Convert.ToInt32((i.GpuRef?.Performance ?? 0)/ maxGpu * 100);
         i.TotalRating = i.CpuSingleRating + i.CpuMultiRating + i.GpuRating;
     }
-    _cpuFullData.Sort((a, b) => -a.TotalRating.CompareTo(b.TotalRating));
+    _cpuFullData.Sort((a, b) => {
+        if (a.TotalRating == b.TotalRating)
+            return -(a.CpuRef.SinglePerformance ?? 0).CompareTo(b.CpuRef.SinglePerformance ?? 0);
+        return -a.TotalRating.CompareTo(b.TotalRating);
+    });
+
+    /*
+    //check notebook count for different cpu tests
+    int noteCnt = 0;
+    List<string> cpuList = new();
+    foreach (var i in _cpuFullData)
+    {
+        if (i.Notebooks2.Count > 0)
+        {
+            noteCnt += i.Notebooks2.Count;
+            cpuList.Add($"{i.CpuRef.Name} ({i.Notebooks2.Count})");
+        }
+    }
+    cpuList.Sort();
+    foreach (var i in cpuList)
+        Console.WriteLine(i);
+    Console.WriteLine($"Total notebooks: {noteCnt}");
+    */
+
+    foreach (var i in _cpuFullData)
+    {
+        if (i.Notebooks2.Count > 0)
+        {
+            Console.WriteLine($"## {i.CpuRef.Name} (Rating: {i.TotalRating})");
+            i.Notebooks2.Sort((a, b) => a.Desc.CompareTo(b.Desc));
+            foreach (var n in i.Notebooks2)
+            {
+                var greenPrice = (int price) => price < 60000 ? "$${\\color{green}" + $"{price:N0}" + "}$$" : $"{price:N0}";
+                Console.WriteLine($"{n.Desc} - {greenPrice(n.Price)} Rub  ");
+            }
+        }
+    }
 
     Console.WriteLine("| # | Processor (GPU) | Tdp | Core/Thr | Freq GHz | SCore | MCore | GPU | Total | Price | Value |");
     Console.WriteLine("|---|-----------------|-----|----------|----------|-------|-------|-----|-------|-------|-------|");
@@ -325,6 +395,8 @@ void EstimateCpu(CpuData cpuRef)
         if (brother.Rating == null)
             brother = _cpuShortName["Ryzen 3 3200U"];
     }
+    else if (cpuRef.Name == "AMD Ryzen Z2")
+        brother = _cpuShortName["Ryzen 7 8840U"];
 
     //cinebench
     else if (cpuRef.Name == "Intel Core 3 100U" || cpuRef.Name == "Intel Core i3-1315U")
@@ -373,6 +445,31 @@ void GenerateStoreFull()
     _storeFullData = new List<StoreFullData>();
     foreach (var item in _storeData)
     {
+        var search = new List<(string, string)>()
+        {
+            ("123", "123"),
+            (" HX ", " "),
+            (" Ultra7 ", " Ultra 7 "),
+            ("Ryzen 5 5675U", "Ryzen 5 Pro 5675U"),
+            ("i51240P", "i5 1240P"),
+            ("Ryzen3", "Ryzen 3"),
+            (" Ultra ", " Core Ultra "),
+            ("i914900HX", "i9 14900HX"),
+            ("i512600H", "i5 12600H"),
+            ("Core Ultra 7 226V", "Core Ultra 5 226V"),
+            ("Intel Core i5 7440EQ", "Intel Core i5 7440HQ"),
+            ("AMD Ryzen 5 7235HS", "AMD Ryzen 5 7535HS"),
+            ("AMD Ryzen 9 7940H", "AMD Ryzen 9 7940HS"),
+            ("AMD Ryzen 5 7640S", "AMD Ryzen 5 7640HS"),
+            ("Core i3 1025G1", "Core i3 1005G1"),
+            ("Core Ult165H", "Core Ultra 7 165H"),
+            ("13650H ", "13650HX "),
+            ("14650HX", "i7 14650HX"),
+            ("13420H", "i5 13420H"),
+            ("Ryzen 7 7535HS", "Ryzen 5 7535HS"),
+            (" Pentium ", " Pentium Silver ")
+        };
+
         CpuData cpu = null;
         GpuData gpu = null;
         foreach (var c in _cpuData)
@@ -380,25 +477,6 @@ void GenerateStoreFull()
             string cpuName = c.NameShort.Replace("-", " ");
             string cpuName2 = cpuName.Replace("Ryzen ", "");
             string desc = item.Desc.Replace("-", " ");
-            var search = new List<(string, string)>()
-            {
-                ("123", "123"),
-                (" HX ", " "),
-                (" Ultra7 ", " Ultra 7 "),
-                ("Ryzen 5 5675U", "Ryzen 5 Pro 5675U"),
-                ("i51240P", "i5 1240P"),
-                ("Ryzen3", "Ryzen 3"),
-                (" Ultra ", " Core Ultra "),
-                ("i914900HX", "i9 14900HX"),
-                ("i512600H", "i5 12600H"),
-                ("Core Ultra 7 226V", "Core Ultra 5 226V"),
-                ("Intel Core i5 7440EQ", "Intel Core i5 7440HQ"),
-                ("AMD Ryzen 5 7235HS", "AMD Ryzen 5 7535HS"),
-                ("AMD Ryzen 9 7940H", "AMD Ryzen 9 7940HS"),
-                ("AMD Ryzen 5 7640S", "AMD Ryzen 5 7640HS"),
-                ("Core i3 1025G1", "Core i3 1005G1"),
-                (" Pentium ", " Pentium Silver ")
-            };
             foreach (var s in search)
             {
                 var newDesc = desc.Replace(s.Item1, s.Item2);

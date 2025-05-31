@@ -16,6 +16,13 @@ public class CpuFullData
     public int TotalRating { get; set; }
 
     public List<StoreData> Notebooks { get; set; }
+    public List<NotebookInfo> Notebooks2 { get; } = new List<NotebookInfo>();
     public decimal Price { get; set; }
     public int PriceRelative { get; set; }
+}
+
+public class NotebookInfo
+{
+    public string Desc { get; set; }
+    public int Price { get; set; }
 }
