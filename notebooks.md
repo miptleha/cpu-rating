@@ -9,6 +9,7 @@
 | 3K           | 16:9        | 3000 × 2000   |
 | 4K UHD       | 16:9        | 3840 × 2160   |
 
+## Intel Core Ultra 9 185H (Rating: 259)
 TECNO Megabook T16MA Pro Ultra 9 185H 32Gb SSD 1Tb Intel Arc Graphics 16 WQXGA IPS Cam 99.99Вт*ч Win11 Серый 4894947061066 - 99 990 Rub  
 ## Intel Core Ultra 5 225H (Rating: 250)
 ASUS Vivobook S 16 S5606CA-RI072 < 90NB1553-M002S0 > (Intel Core Ultra 5 225H, 16 ГБ, 1 Тб SSD, WiFi, Bluetooth, noOS, 16") - 90 541 Rub  
