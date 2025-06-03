@@ -67,15 +67,15 @@ void GenerateMarkDown()
             string s = n.Desc;
             s = Regex.Replace(s, "Ноутбук", "", RegexOptions.IgnoreCase);
             s = s.Trim();
-            //addition list of 16" notebooks, no more 100 000 rub
-            string[] ignoreInch = ["13", "13,3", "14", "14.1", "15", "15.1", "15.3", "15.6", "17", "17.3", "18", "18.4"];
-            string[] matrixType = ["\"", " / IPS", " FHD", " 2K", " 2.2K", " WUXGA", " WQXGA", " 4K", " QHD+", " QHD", " 2.8K"];
+            //addition list of 16" notebooks, no more 120 000 rub
+            string[] ignoreInch = ["13", "13.3", "14", "14. 0", "14.1", "14.2", "15", "15.1", "15.3", "15.6", "17", "17.3", "18", "18.4"];
+            string[] matrixType = ["\"", " / IPS", " / OLED", " FullHD", " FHD", " 2K", " 2.2K", " 2.8K", " WUXGA", " WQXGA", " 4K", " QHD+", " QHD", " 2.8K"];
             bool ignoreNotebook = false;
             foreach (var inch in ignoreInch)
             {
                 foreach (var matrix in matrixType)
                 {
-                    if (s.Contains($"{inch}{matrix}") || s.Contains($"{inch.Replace(".", ",")}{matrix}") || n.RetailPrice > 100_000)
+                    if (s.Contains($"{inch}{matrix}") || s.Contains($"{inch.Replace(".", ",")}{matrix}") || n.RetailPrice > 120_000)
                     {
                         ignoreNotebook = true;
                         break;
@@ -548,7 +548,7 @@ void ParseCpu()
 {
     //cpu.html - geekbench (single and multi)
     //cpu2.html - cinebench (single and multi)
-    var html = File.ReadAllText("cpu2.html");
+    var html = File.ReadAllText("cpu.html");
     var parser = new CpuParser();
     var results = parser.ParseHtml(html);
 

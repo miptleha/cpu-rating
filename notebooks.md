@@ -13,15 +13,24 @@
 21SK0030GQ Lenovo ThinkBook 16 G8 IAL U7-255H / 16Gb / 512Gb / DOS - 79 226 Rub  
 ## Intel Core Ultra 9 185H (Rating: 261)
 TECNO Megabook T16MA Pro Ultra 9 185H 32Gb SSD 1Tb Intel Arc Graphics 16 WQXGA IPS Cam 99.99Вт*ч Win11 Серый 4894947061066 - 99 990 Rub  
+## AMD Ryzen AI 7 350 (Rating: 251)
+9S7-261K21-026 MSI Venture A16 AI+ A3HMG-026XRU AMD Ryzen AI 7 350 / 16Gb / SSD1Tb / 16 / OLED / 2K (2048*1280) / 120Hz / NoOS / Solid - 103 391 Rub  
 ## Intel Core Ultra 5 225H (Rating: 250)
 ASUS Vivobook S 16 S5606CA-RI072 < 90NB1553-M002S0 > (Intel Core Ultra 5 225H, 16 ГБ, 1 Тб SSD, WiFi, Bluetooth, noOS, 16") - 91 701 Rub  
+ASUS VivoBook S16 S5606CA Ultra 5 225H 16Gb SSD 1Tb Intel Arc Graphics 16 2.8K OLED Cam 75Вт*ч No OS Черный S5606CA-RI072 90NB1553-M002S0 - 112 670 Rub  
 ## Intel Core Ultra 7 155H (Rating: 246)
 Lenovo IdeaPad 5 Slim 16IMH9 < 83DC008SRK > (Intel Core Ultra 7 155H, 32 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 81 875 Rub  
 Lenovo IdeaPad Slim 5 16IMH9 < 83DC004HRK > (Intel Core Ultra 7 155H, 16 ГБ, 1 Тб SSD, WiFi, Bluetooth, noOS, 16") - 95 799 Rub  
 Lenovo IdeaPad Slim 5 16IMH9 Ultra 7 155H 16Gb SSD 512Gb Intel Arc Graphics 16 WUXGA IPS Cam 76Вт*ч No OS Светло-серый 83DC008SRK - 86 090 Rub  
+Lenovo ThinkBook 16 G7 IML < 21MS003GGQ > (Intel Core Ultra 7 155H, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 108 878 Rub  
 Lenovo ThinkBook 16 G7 IML < 21MS008RRU > (Intel Core Ultra 7 155H, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 71 748 Rub  
 Lenovo ThinkBook 16 G7 IML < 21MS008TRU > (Intel Core Ultra 7 155H, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, Win11Pro, 16") - 80 146 Rub  
 Lenovo ThinkBook 16 G7 IML Ultra 7 155H 16Gb SSD 512Gb Intel Graphics 16 WUXGA IPS Cam 71Вт*ч No OS Серый 21MS008RRU - 99 900 Rub  
+Lenovo ThinkBook 16 G7 IML Ultra 7 155H 16Gb SSD 512Gb Intel Graphics 16 WUXGA IPS Cam 71Вт*ч Win11Pro Серый 21MS008TRU - 119 900 Rub  
+Lenovo ThinkPad P16v Gen 2 (Intel) < 21KX002KUS > (Intel Core Ultra 7 155H, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, 16") - 116 491 Rub  
+MSI Prestige 16 AI Evo B1MG-035RU < 9S7-15A121-035 > (Intel Core Ultra 7 155H, 16 ГБ, 1 Тб SSD, WiFi, Bluetooth, Win11, 16") - 100 233 Rub  
+MSI Prestige 16 AI Studio B1VEG-080RU < 9S7-15A211-080 > (Intel Core Ultra 7 155H, 16 ГБ, 1 Тб SSD, GeForce RTX 4050 (96 бит), WiFi, Bluetooth, Win11, 16") - 119 649 Rub  
+MSI Summit E16 AI Studio A1VETG-017RU < 9S7-159621-017 > (Intel Core Ultra 7 155H, 16 ГБ, 1 Тб SSD, GeForce RTX 4050 (96 бит), WiFi, Bluetooth, Win11Pro, 16") - 119 513 Rub  
 TECNO 71003300452 < 71003300452 > (Intel Core Ultra 7 155H, 16 ГБ, 1 Тб SSD, Win11, 16") - 97 322 Rub  
 TECNO Megabook T16MA Pro Ultra 7 155H 16Gb SSD 1Tb Intel Arc Graphics 16 WQXGA IPS Cam 99.99Вт*ч Win11 Серый 4894947061035 - 94 990 Rub  
 ## AMD Ryzen 7 7840HS (Rating: 241)
@@ -35,22 +44,30 @@ Acer Aspire Lite AL16-71P-5137 < NX.D4YCD.004 > (Intel Core Ultra 5 125H, 16 Г�
 Acer Swift Go SFG16-72-50UC < NX.KUBCD.002 > (Intel Core Ultra 5 125H, 16 ГБ, 1 Тб SSD, WiFi, Bluetooth, Win11, 16") - 73 563 Rub  
 ## AMD Ryzen 7 8745H (Rating: 225)
 Lenovo Xiaoxin Pro 16 AHP9 (AMD Ryzen 7 8745H, 24 ГБ, 1 Тб SSD, Win11, 16") - 97 627 Rub  
+## AMD Ryzen 7 8840U (Rating: 218)
+Acer Swift Edge 16 SFE16-44 Ryzen 7 8840U 16Gb SSD 1Tb AMD Radeon 780M 16 3.2K OLED Cam 54Вт*ч Win11 Черный SFE16-44-R2RD NX.KTDCD.002 - 103 990 Rub  
+Acer Swift Edge 16 SFE16-44-R2RD < NX.KTDCD.002 > (AMD Ryzen 7 8840U, 16 ГБ, 1 Тб SSD, WiFi, Bluetooth, Win11, 16") - 100 905 Rub  
 ## AMD Ryzen 5 7640HS (Rating: 207)
 Honor MagicBook X16 2024 BRN-H56 Ryzen 5 7640HS 16Gb SSD 512Gb AMD Radeon 760M Graphics 16 WUXGA IPS Cam 60Вт*ч No OS Серебристый 5301AJYF - 55 190 Rub  
 Honor MagicBook X16 2024 BRN-H56 Ryzen 5 7640HS 16Gb SSD 512Gb AMD Radeon 760M Graphics 16 WUXGA IPS Cam 60Вт*ч No OS Серый 5301AJYD - 55 190 Rub  
 ## AMD Ryzen 5 8645HS (Rating: 207)
+Acer Nitro V 16 ANV16-41-R3B9 < NH.QRUCD.00B > (AMD Ryzen 5 8645HS, 16 ГБ, 1 Тб SSD, GeForce RTX 4060 (128 бит), noOS, 16") - 105 824 Rub  
 Lenovo IdeaPad Slim 5 16AHP9 < 83DD001XRK > (AMD Ryzen 5 8645HS, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 69 564 Rub  
 Lenovo IdeaPad Slim 5 16AHP9 < 83DD001YRK > (AMD Ryzen 5 8645HS, 16 ГБ, 1 Тб SSD, WiFi, Bluetooth, noOS, 16") - 66 452 Rub  
 ## Intel Core i7-13700H (Rating: 206)
 ASUS VivoBook 16 X1605VA i7-13700H 16Gb SSD 1Tb Intel UHD Graphics 16 WUXGA IPS 42Вт*ч No OS Серебристый X1605VA-MB688 90NB10N2-M00W90 - 72 990 Rub  
+ASUS VivoBook 16 X1605VA i7-13700H 32Gb SSD 1Tb Intel Iris Xe Graphics 16 WUXGA IPS 42Вт*ч No OS Серебристый X1605VA-MB934 90NB10N2-M015A0 - 100 670 Rub  
 ASUS Vivobook 16 X1605VA-MB688 < 90NB10N2-M00W90 > (Intel Core i7 13700H, 16 ГБ, 1 Тб SSD, WiFi, Bluetooth, noOS, 16") - 63 351 Rub  
 ASUS Vivobook 16 X1605VA-MB934 < 90NB10N2-M015A0 > (Intel Core i7 13700H, 32 ГБ, 1 Тб SSD, WiFi, Bluetooth, noOS, 16") - 94 131 Rub  
 Colorful EVOL X16 PRO 23-HG76B16512H-G-RU-KA < A10205400060 > (Intel Core i7 13700H, 16 ГБ, 512 Гб SSD, GeForce RTX 4060 (128 бит), Win11, 16") - 80 616 Rub  
 Colorful EVOL X16 PRO i7-13700H 16Gb SSD 512Gb NVIDIA RTX 4060 8Gb 16 WQXGA IPS Cam 73Вт*ч No OS Черный A10205400059 - 99 070 Rub  
+Colorful EVOL X16 PRO i7-13700H 16Gb SSD 512Gb NVIDIA RTX 4060 8Gb 16 WQXGA IPS Cam 73Вт*ч Win11 Черный A10205400060 - 101 870 Rub  
 Lenovo ThinkBook 16 16 G6 IRL < 21KH007VRM > (Intel Core i7 13700H, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 84 244 Rub  
 Lenovo ThinkBook 16 G6 IRL < 21KH005TEV > (Intel Core i7 13700H, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 75 444 Rub  
 Lenovo ThinkBook 16 G6 IRL < 21KH007VRU > (Intel Core i7 13700H, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 93 097 Rub  
 Lenovo ThinkBook 16 G6 IRL < 21KH00E8AK > (Intel Core i7 13700H, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 93 246 Rub  
+Lenovo ThinkBook 16 G6 IRL i7-13700H 16Gb SSD 512Gb Intel UHD Graphics 16 WUXGA IPS Cam 71Вт*ч No OS Серый 21KH007VRU - 104 900 Rub  
+MSI Prestige 16Evo A13M-413XRU < 9S7-159222-413 > (Intel Core i7 13700H, 16 ГБ, 1 Тб SSD, 16") - 116 897 Rub  
 ## AMD Ryzen AI 5 340 (Rating: 193)
 9S7-261K21-027 MSI Venture A16 AI+ A3HMG-027XRU AMD Ryzen AI 5 340 / 16Gb / SSD512Gb / 16 / OLED / 2K (2048*1280) / 120Hz / NoOS / Soli - 86 126 Rub  
 ASUS VivoBook 16 M1607KA Ryzen AI 5 340 16Gb SSD 1Tb AMD Radeon Graphics 16 WUXGA IPS 42Вт*ч No OS Синий M1607KA-MB102 90NB15F1-M005Z0 - 85 070 Rub  
@@ -62,6 +79,7 @@ Lenovo 21M5S08M00 < 21M5S08M00 > (AMD Ryzen 7 7735HS, 16 ГБ, 512 Гб SSD, Win
 Lenovo 21M5S09E00 < 21M5S09E00 > (AMD Ryzen 7 7735HS, 16 ГБ, 512 Гб SSD, noOS, 16") - 74 637 Rub  
 ## Intel Core i7-13620H (Rating: 191)
 83HS002QRK Lenovo IdeaPad Slim 5 16IRH10 Core i7 13620H 16Gb SSD512Gb 16" OLED 2.8K (2880x1800) без ОС grey - 77 392 Rub  
+83HS002SRK Lenovo IdeaPad Slim 5 16IRH10 Core i7 13620H 32Gb SSD1Tb UHD 16" OLED 2.8K (2880x1800) без ОС grey - 104 139 Rub  
 83HS002TRK Lenovo IdeaPad Slim 5 16IRH10 Core i7 13620H 16Gb SSD1Tb 16" OLED 2.8K (2880x1800) без ОС grey - 91 248 Rub  
 90NB1671-M002X0 Asus VivoBook S16 S3607VA-RP042 Core i7 13620H 16Gb SSD512Gb 16" IPS (1920x1200) без ОС silver () - 62 410 Rub  
 ASUS VivoBook 16 X1605VA i7-13620H 32Gb SSD 1Tb Intel UHD Graphics 16 WUXGA IPS 42Вт*ч No OS Серебристый X1605VA-MB1749 90NB10N2-M02620 - 80 970 Rub  
@@ -70,10 +88,18 @@ ASUS Vivobook S16 S3607VA i7-13620H 16Gb SSD 512Gb Intel UHD Graphics 16 WUXGA I
 ASUS Vivobook S16 S3607VA i7-13620H 16Gb SSD 512Gb Intel UHD Graphics 16 WUXGA IPS 70Вт*ч No OS Серебристый S3607VA-RP079 90NB1671-M005Y0 - 78 170 Rub  
 GIGABYTE G6 < KF-H3KZ894KD > (Intel Core i7 13620H, 16 ГБ, 1 Тб SSD, GeForce RTX 4060 (128 бит), WiFi, Bluetooth, noOS, 16") - 84 177 Rub  
 GIGABYTE G6 2023 KF < KF-H3KZ853KD > (Intel Core i7 13620H, 16 ГБ, 512 Гб SSD, GeForce RTX 4060 (128 бит), WiFi, Bluetooth, noOS, 16") - 93 230 Rub  
+GIGABYTE G6 KF < KF-H3KZ854KD > (Intel Core i7 13620H, 16 ГБ, 1 Тб SSD, GeForce RTX 4050 (96 бит), WiFi, Bluetooth, noOS, 16") - 103 659 Rub  
+GIGABYTE G6 KF i7-13620H 16Gb SSD 1Tb NVIDIA RTX 4060 8Gb 16 WUXGA IPS Cam 54Вт*ч Free DOS Черный KF-H3KZ854KD - 104 990 Rub  
+GIGABYTE G6 KF i7-13620H 16Gb SSD 512Gb NVIDIA RTX 4060 8Gb 16 WUXGA IPS Cam 54Вт*ч No OS Черный KF-H3KZ853KD - 109 170 Rub  
+GIGABYTE G6 MF < MF-H2KZ853KD > (Intel Core i7 13620H, 16 ГБ, 1 Тб SSD, GeForce RTX 4050 (96 бит), noOS, 16") - 106 686 Rub  
 GIGABYTE G6 MF-H2KZ853KD < 9RC56MF0HJII0IKZ000 > (Intel Core i7 13620H, 16 ГБ, 512 Гб SSD, GeForce RTX 4050 (96 бит), WiFi, Bluetooth, noOS, 16") - 88 477 Rub  
 GIGABYTE G6 MF-H2KZ854KD < 9RC56MF0HJJI0IKZ000 > (Intel Core i7 13620H, 16 ГБ, 1 Тб SSD, GeForce RTX 4050 (96 бит), WiFi, Bluetooth, noOS, 16") - 99 091 Rub  
 GIGABYTE G6 MF-H2KZ893KD < 9RC56MF0HJIK0IKZ000 > (Intel Core i7 13620H, 16 ГБ, 512 Гб SSD, GeForce RTX 4050 (96 бит), WiFi, Bluetooth, noOS, 16") - 62 553 Rub  
+KF-H3KZ894KD / 32 Gigabyte G6 Core i7 13620H 32Gb SSD1Tb RTX4060 8Gb 16" IPS + (1920x1200) без ОС black () - 100 502 Rub  
+Lenovo IdeaPad Slim 5 16IRH10 i7-13620H 16Gb SSD 1Tb Intel UHD Graphics 16 2.8K OLED Cam 80Вт*ч No OS Серый 83HS002TRK - 103 090 Rub  
+Lenovo IdeaPad Slim 5 16IRH10 i7-13620H 16Gb SSD 1Tb Intel UHD Graphics 16 2.8K OLED Cam 80Вт*ч Win11 Серый 83HS002YRK - 118 790 Rub  
 Lenovo IdeaPad Slim 5 16IRH10 i7-13620H 16Gb SSD 512Gb Intel UHD Graphics 16 2.8K OLED Cam 80Вт*ч No OS Серый 83HS002QRK - 97 490 Rub  
+Lenovo IdeaPad Slim 5 16IRH10 i7-13620H 32Gb SSD 1Tb Intel UHD Graphics 16 2.8K OLED Cam 80Вт*ч No OS Серый 83HS002SRK - 112 090 Rub  
 NX.J6SCD.004  Acer Aspire Go AG15-71P-73AT / 15, 6" FHD IPS 800:1 300 nit / i7-13620H / UMA / 16 GB DDR5 / - 74 406 Rub  
 TECNO 71003300333 < 71003300333 > (Intel Core i7 13620H, 16 ГБ, 1 Тб SSD, Win11, 16") - 63 873 Rub  
 TECNO Megabook T16 2024 < 4894947053511 > (Intel Core i7 13620H, 32 ГБ, 1 Тб SSD, Win11, 16") - 73 849 Rub  
@@ -82,13 +108,23 @@ TECNO Megabook T16 2024 i7-13620H 32Gb SSD 1Tb Intel UHD Graphics 16 WUXGA IPS C
 TECNO Megabook T16 2024 i7-13620H 32Gb SSD 1Tb Intel UHD Graphics 16 WUXGA IPS Cam 75Вт*ч Win11 Серый T16RA 4894947053511 - 69 990 Rub  
 ## Intel Core i7-13650HX (Rating: 190)
 A10205400046 Colorful EVOL P16 TA 24-HN77B16512H-W-RUA-KA i7-13650HX / 16Gb / SSD512Gb / 4070 8Gb / 16 / IPS / 240Hz / NoOS / White - 97 143 Rub  
+ASUS ROG Strix G16 G614JU-N3441 < 90NR0CC1-M00YL0 > (Intel Core i7 13650HX, 16 ГБ, 512 Гб SSD, GeForce RTX 4050 (96 бит), Bluetooth, noOS, 16") - 114 273 Rub  
+ASUS ROG Strix G16 G614JV-N4190 < 90NR0C61-M00YZ0 > (Intel Core i7 13650HX, 16 ГБ, 512 Гб SSD, GeForce RTX 4060 (128 бит), WiFi, Bluetooth, noOS, 16") - 113 669 Rub  
+Colorful EVOL P16 TA 24 i7-13650HX 16Gb SSD 512Gb NVIDIA RTX 4060 8Gb 16 WQXGA IPS Cam 53.35Вт*ч Win11 Белый A10205400050 - 100 970 Rub  
+Colorful EVOL P16 TA 24 i7-13650HX 16Gb SSD 512Gb NVIDIA RTX 4060 8Gb 16 WQXGA IPS Cam 53.35Вт*ч Win11 Серый A10205400049 - 102 270 Rub  
 Colorful EVOL P16 TA 24-HN76B16512H-G-RU-KA < A10205400049 > (Intel Core i7 13650HX, 16 ГБ, 512 Гб SSD, GeForce RTX 4060 (128 бит), Win11, 16") - 80 885 Rub  
 Colorful P16 TA 24 < A10205400050 > i7 13650H / 16 / 512SSD / RTX4060 / WiFi / BT / Win11 / 16" - 83 640 Rub  
+GIGABYTE Aorus 16X 9KG < 9RX6L9KGDSJI0DKZ0U0 > (Intel Core i7 13650HX, 16 ГБ, 1 Тб SSD, GeForce RTX 4060 (128 бит), WiFi, Bluetooth, noOS, 16") - 114 976 Rub  
+GIGABYTE Aorus 16X 9SG-43KZC64SD < 9RX6L9SGDSJH0DKZ0U0 > (Intel Core i7 13650HX, 32 ГБ, 1 Тб SSD, GeForce RTX 4070 (128 бит), WiFi, Bluetooth, noOS, 16") - 119 513 Rub  
 GIGABYTE G6X 9MG < 9MG-42KZ853SH > (Intel Core i7 13650HX, 16 ГБ, 512 Гб SSD, GeForce RTX 4050 (96 бит), WiFi, Bluetooth, Win11, 16") - 98 486 Rub  
 GIGABYTE G6X 9MG i7-13650HX 16Gb SSD 1Tb NVIDIA RTX 4050 6Gb 16 WUXGA IPS Cam 73Вт*ч No OS Темно-серый 9MG-42KZ854SD - 95 990 Rub  
 GIGABYTE G6X 9MG i7-13650HX 16Gb SSD 512Gb NVIDIA RTX 4050 6Gb 16 WUXGA IPS Cam 73Вт*ч Free DOS Темно-серый 9MG-42KZ853SD - 87 990 Rub  
+GIGABYTE G6X 9MG i7-13650HX 16Gb SSD 512Gb NVIDIA RTX 4050 6Gb 16 WUXGA IPS Cam 73Вт*ч Win11 Темно-серый 9MG-42KZ853SH - 103 990 Rub  
 GIGABYTE G6X 9MG-42KZ853SD < 9RC6L9MGHSII01KZ000 > (Intel Core i7 13650HX, 16 ГБ, 512 Гб SSD, GeForce RTX 4050 (96 бит), WiFi, Bluetooth, noOS, 16") - 83 971 Rub  
 GIGABYTE G6X 9MG-42KZ854SD < 9RC6L9MGHSJI01KZ000 > (Intel Core i7 13650HX, 16 ГБ, 1 Тб SSD, GeForce RTX 4050 (96 бит), WiFi, Bluetooth, noOS, 16") - 75 319 Rub  
+Machenike Aurora Star L Intel Core i7 13650HX / 16 ГБ / 1024 ГБ SSD / GeForce RTX4060 / DOS - 113 286 Rub  
+## Intel Core i7-12850HX (Rating: 187)
+MAIBENBEN X-Treme Typhoon X16D i7-12850HX 16Gb SSD 1Tb NVIDIA RTX 4060 8Gb 16 WQXGA IPS Cam 60Вт*ч Win11 Серый X16D-i72846GQSHGRE0 - 114 990 Rub  
 ## Intel Core i5-13500H (Rating: 187)
 ASUS VivoBook 16 X1605VA i5-13500H 16Gb SSD 1Tb Intel UHD Graphics 16 WUXGA IPS 42Вт*ч No OS Черный X1605VA-MB875 90NB10N3-M01330 - 60 990 Rub  
 ASUS VivoBook 16 X1605VA i5-13500H 16Gb SSD 512Gb Intel UHD Graphics 16 WUXGA IPS 42Вт*ч No OS Черный X1605VA-MB874 90NB10N3-M01320 - 73 470 Rub  
@@ -99,11 +135,16 @@ ASUS VivoBook 16 X1605VA-MB874 < 90NB10N3-M01320 > (Intel Core i5 13500H, 16 Г�
 ASUS Vivobook 16 X1605VA-MB875 < 90NB10N3-M01330 > (Intel Core i5 13500H, 16 ГБ, 1 Тб SSD, WiFi, Bluetooth, noOS, 16") - 46 665 Rub  
 ASUS VivoBook 16 X1605VA-MB915 < 90NB10N3-M014L0 > (Intel Core i5 13500H, 32 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 67 892 Rub  
 ASUS Vivobook 16X K3605VU-PL089 < 90NB11Z1-M003F0 > (Intel Core i5 13500H, 16 ГБ, 512 Гб SSD, GeForce RTX 4050 (96 бит), WiFi, Bluetooth, noOS, 16") - 92 440 Rub  
+GIGABYTE G5 MF < MF-52KZ853SD > (Intel Core i5 13500H, 16 ГБ, 512 Гб SSD, GeForce RTX 4050 (96 бит), WiFi, Bluetooth, noOS, 16") - 117 498 Rub  
 Lenovo ThinkBook 16 G6 IRL < 21KH00E3CD > (Intel Core i5 13500H, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, Win11Pro, 16") - 67 315 Rub  
 MSI Prestige 16 EVO A13M-403RU < 9S7-159222-403 > (Intel Core i5 13500H, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, Win11, 16") - 97 882 Rub  
+MSI Prestige 16 Evo A13M-414XRU i5-13500H 16Gb SSD 1Tb Intel Iris Xe Graphics 16 QHD+ IPS Cam 82Вт*ч No OS Серебристый 9S7-159222-414 - 117 590 Rub  
 ## Intel Core Ultra 7 155U (Rating: 179)
+ASUS ExpertBook B3 B3604CMA Ultra 7 155U 16Gb SSD 1Tb Intel Graphics 16 WUXGA IPS 63Вт*ч No OS Синий/Черный B3604CMA-Q90355 90NX0731-M00CL0 - 103 470 Rub  
 ASUS ExpertBook B3 B3604CMA-Q90272 < 90NX0731-M009W0 > (Intel Core Ultra 7 155U, 16 ГБ, 1 Тб SSD, WiFi, Bluetooth, noOS, 16") - 80 751 Rub  
 ASUS ExpertBook B3 B3604CMA-Q90355 < 90NX0731-M00CL0 > (Intel Core Ultra 7 155U, 16 ГБ, 1 Тб SSD, WiFi, Bluetooth, noOS, 16") - 93 322 Rub  
+ASUS ExpertBook B3 B3604CMA-Q90357X < 90NX0731-M00CN0 > (Intel Core Ultra 7 155U, 16 ГБ, 1 Тб SSD, WiFi, Bluetooth, Win11Pro, 16") - 105 137 Rub  
+HP ProBook 460 G11 Ultra 7 155U 16Gb SSD 512Gb Intel Graphics 16 WUXGA IPS Cam 56Вт*ч Win11Pro(ENG) KBD RU\ENG Серебристый A1LH5UT - 106 270 Rub  
 ## Intel Core i5-1340P (Rating: 178)
 Lenovo ThinkBook 16 G6 IRL < 21KH00Q3UE_RU > (Intel Core i5 1340P, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, Win11Pro, 16") - 85 166 Rub  
 ## Intel Core i5-12600H (Rating: 177)
@@ -117,15 +158,22 @@ ASUS VivoBook 16X K3605ZU i5-12500H 16Gb SSD 1Tb NVIDIA RTX 4050 6Gb 16 WUXGA IP
 ASUS VivoBook 16X K3605ZV i5-12500H 16Gb SSD 1Tb NVIDIA RTX 4060 8Gb 16 WUXGA IPS 70Вт*ч No OS Серебристый K3605ZV-RP249 90NB11W2-M00CW0 - 95 990 Rub  
 ASUS Vivobook 16X K3605ZV-RP249 < 90NB11W2-M00CW0 > (Intel Core i5 12500H, 16 ГБ, 1 Тб SSD, GeForce RTX 4060 (128 бит), WiFi, Bluetooth, noOS, 16") - 88 812 Rub  
 Machenike Machcreator Genesis N16 (Intel Core i5 12500H, 16 ГБ, 512 Гб SSD, noOS, 16") - 62 947 Rub  
+## Intel Core i7-12650H (Rating: 176)
+GIGABYTE G6 MF-G2KZ853SD < 9RC56MF0HIIA01KZ000 > (Intel Core i7 12650H, 16 ГБ, 512 Гб SSD, GeForce RTX 4050 (96 бит), WiFi, Bluetooth, noOS, 16") - 119 300 Rub  
+MSI Thin 15 B12UC-1628XRU-wpro / i7 12650H / 16гб / SSD512 ГБ / Windows 11 Pro - 113 060 Rub  
+Osio CyberLine C160i-004 < C160I-004 > (Intel Core i7 12650H, 16 ГБ, 512 Гб SSD, GeForce RTX 4060 (128 бит), WiFi, Bluetooth, noOS, 16") - 112 661 Rub  
 ## Intel Core i7-1355U (Rating: 174)
 Acer TravelMate TMP216-51-G2-72GZ < NX.BB4CD.003 > (Intel Core i7 1355U, 16 ГБ, 512 Гб SSD, Bluetooth, noOS, 16") - 71 748 Rub  
 ASUS ExpertBook B3 B3604CVA i7-1355U 16Gb SSD 1Tb Intel Iris Xe Graphics 16 WUXGA IPS 63Вт*ч No OS Синий/Черный B3604CVA-Q90154 90NX07B1-M00580 - 89 670 Rub  
+ASUS ExpertBook B3 B3604CVA i7-1355U 16Gb SSD 1Tb Intel Iris Xe Graphics 16 WUXGA IPS 63Вт*ч Win11Pro Синий/Черный B3604CVA-Q90156X 90NX07B1-M005A0 - 114 970 Rub  
 ASUS ExpertBook B3 B3604CVA-Q90154 < 90NX07B1-M00580 > (Intel Core i7 1355U, 16 ГБ, 1 Тб SSD, WiFi, Bluetooth, noOS, 16") - 62 747 Rub  
 ASUS ExpertBook B3 B3604CVA-Q90156X < 90NX07B1-M005A0 > (Intel Core i7 1355U, 16 ГБ, 1 Тб SSD, WiFi, Bluetooth, Win11Pro, 16") - 94 791 Rub  
 ASUS VivoBook 16X K3604VA i7-1355U 16Gb SSD 1Tb Intel Iris Xe Graphics eligible 16 WUXGA IPS 42Вт*ч No OS Серебристый K3604VA-MB232 90NB1072-M009K0 - 67 990 Rub  
 ASUS Vivobook 16X K3604VA-MB232 < 90NB1072-M009K0 > (Intel Core i7 1355U, 16 ГБ, 1 Тб SSD, WiFi, Bluetooth, noOS, 16") - 54 685 Rub  
 Lenovo IdeaPad Slim 3 16IRU8 < 82X80005RK > (Intel Core i7 1355U, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 74 637 Rub  
 Lenovo ThinkBook 16 16 G6 IRL < 21KH00B7AU > (Intel Core i7 1355U, 16 ГБ, 512 Гб SSD, WiFi, Win11Pro, 16") - 70 943 Rub  
+## Intel Core i5-13450HX (Rating: 174)
+Lenovo Legion 5 16IRX9 < 83DG0039RK > (Intel Core i5 13450HX, 16 ГБ, 512 Гб SSD, GeForce RTX 4050 (96 бит), WiFi, Bluetooth, noOS, 16") - 111 922 Rub  
 ## Intel Core Ultra 5 125U (Rating: 174)
 21MS0001AU Lenovo Thinkbook 16 G7 IML Core Ultra 5 125U 16Gb SSD256Gb 16" IPS (1920x1200) Win 11 Pro grey - 95 396 Rub  
 90NX0731-M009U0 ASUS ExpertBook B3604CMA-Q90269 Intel Core Ultra 5 125U / 16Gb / SSD512Gb / 16 / IPS / FHD+ / 60Hz / NoOS / Star Black - 62 008 Rub  
@@ -135,7 +183,11 @@ ASUS ExpertBook B3 B3604CMA Ultra 5 125U 16Gb SSD 512Gb Intel Graphics 16 WUXGA 
 ASUS ExpertBook B3 B3604CMA-Q90352 < 90NX0731-M00CH0 > (Intel Core Ultra 5 125U, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 64 494 Rub  
 ASUS ExpertBook B3 B3604CMA-Q90353W < 90NX0731-M00CJ0 > (Intel Core Ultra 5 125U, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, Win11, 16") - 85 719 Rub  
 ASUS ExpertBook B3 B3604CMA-Q90354X < 90NX0731-M00CK0 > (Intel Core Ultra 5 125U, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, Win11Pro, 16") - 78 131 Rub  
+ASUS ExpertBook B5 B5604CMA Ultra 5 125U 16Gb SSD 512Gb Intel Graphics 16 WQXGA IPS 63Вт*ч No OS Синий/Черный B5604CMA-QY0238 90NX0751-M00900 - 110 970 Rub  
+ASUS ExpertBook B5 B5604CMA Ultra 5 125U 16Gb SSD 512Gb Intel Graphics 16 WQXGA IPS 63Вт*ч Win11 Синий/Черный B5604CMA-QY0239W 90NX0751-M00910 - 112 370 Rub  
 ASUS ExpertBook B5 B5604CMA-QY0238 < 90NX0751-M00900 > (Intel Core Ultra 5 125U, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 86 797 Rub  
+ASUS ExpertBook B5 B5604CMA-QY0240X < 90NX0751-M00920 > (Intel Core Ultra 5 125U, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, Win11Pro, 16") - 100 569 Rub  
+HP ProBook 460 G11 Ultra 5 125U 16Gb SSD 256Gb Intel Graphics 16 WUXGA IPS Cam 56Вт*ч Win11Pro(ENG) KBD RU\ENG Серебристый A1LD5UT - 106 870 Rub  
 Lenovo ThinkBook 16 16 G7 IML < 21MS003LGQ > (Intel Core Ultra 5 125U, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 81 490 Rub  
 Lenovo ThinkBook 16 G7 IML < 21MS0002AU > (Intel Core Ultra 5 125U, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, 16") - 76 726 Rub  
 Lenovo ThinkBook 16 G7 IML < 21MS003LQN > (Intel Core Ultra 5 125U, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 78 058 Rub  
@@ -156,7 +208,6 @@ DIGMA PRO Pactos i7-1255U 16Gb SSD 512Gb Intel UHD Graphics 16 WUXGA IPS BT Cam 
 INFINIX Inbook Y3 MAX YL613 < 71008301538 > (Intel Core i7 1255U, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, Win11, 16") - 59 724 Rub  
 ## Intel Core i5-1335U (Rating: 159)
 21KH001ERU_32G 16" IPS FHD LENOVO ThinkBook 16 G6 IRL grey (Core i5 1335U / 32 (16+16)Gb / 512Gb SSD / VGA int / FP / noOS) - 88 031 Rub  
-3450-5854 DELL Latitude 3450 Core i5-1335U 14, 0" FullHD 8GB 512GB, 3Cell Backlit, FPR, Linux, KB Eng / Rus - 63 592 Rub  
 90NX07B1-M004S0 ASUS ExpertBook B3604CVA-Q90139 Intel Core i5-1335U / 16Gb / SSD512Gb / 16 / IPS / QHD+ / 120Hz / NoOS / Star Black (90 - 70 930 Rub  
 Acer TravelMate P2 TMP216-51-G2 < NX.BDDCD.001 > (Intel Core i5 1335U, 16 ГБ, 512 Гб SSD, noOS, 16") - 74 503 Rub  
 ASUS ExpertBook B3 B3604CVA i5-1335U 16Gb SSD 512Gb Intel Iris Xe Graphics 16 WUXGA IPS 63Вт*ч No OS Синий/Черный B3604CVA-Q90151 90NX07B1-M00550 - 77 070 Rub  
@@ -201,6 +252,9 @@ Lenovo IdeaPad Slim 3 16IRH10 < 83K2000WRK > (Intel Core i5 13420H, 16 ГБ, 512
 Lenovo IdeaPad Slim 3 16IRH10 i5-13420H 16Gb SSD 512Gb Intel UHD Graphics 16 WUXGA IPS Cam 60Вт*ч No OS Серый 83K2000WRK - 61 190 Rub  
 Lenovo IdeaPad Slim 5 16IRH10 i5-13420H 16Gb SSD 1Tb Intel UHD Graphics 16 2.8K OLED Cam 80Вт*ч No OS Серый 83HS002NRK - 94 190 Rub  
 Lenovo IdeaPad Slim 5 16IRH10 i5-13420H 16Gb SSD 512Gb Intel UHD Graphics 16 2.8K OLED Cam 80Вт*ч No OS Серый 83HS002RRK - 88 590 Rub  
+Lenovo IdeaPad Slim 5 16IRH10 i5-13420H 16Gb SSD 512Gb Intel UHD Graphics 16 2.8K OLED Cam 80Вт*ч Win11 Серый 83HS002URK - 103 090 Rub  
+Lenovo IdeaPad Slim 5 16IRH10 i5-13420H 32Gb SSD 1Tb Intel UHD Graphics 16 2.8K OLED Cam 80Вт*ч No OS Серый 83HS002PRK - 103 090 Rub  
+Lenovo IdeaPad Slim 5 16IRH10 i5-13420H 32Gb SSD 1Tb Intel UHD Graphics 16 2.8K OLED Cam 80Вт*ч Win11 Серый 83HS002WRK - 118 790 Rub  
 Lenovo ThinkBook 16 G6 IRL < 21KH00SGAK > (Intel Core i5 13420H, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 72 903 Rub  
 Lenovo ThinkBook 16 G6 IRL < 21KH00SMEV > (Intel Core i5 13420H, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 59 667 Rub  
 Lenovo ThinkBook 16 G6 IRL < 21KH00SXRU > (Intel Core i5 13420H, 16 ГБ, 512 Гб SSD, WiFi, Bluetooth, noOS, 16") - 51 283 Rub  
@@ -219,6 +273,9 @@ TECNO Megabook T16 2024 i5-13420H 16Gb SSD 512Gb Intel UHD Graphics 16 WUXGA IPS
 TECNO MegaBook T16RA < 71003300226 > (Intel Core i5 13420H, 16 ГБ, 512 Гб SSD, Win11, 16") - 55 724 Rub  
 Xiaomi Redmi Book 14 2024 (Intel Core i5-13420H / 2240x1400 / 16GB / 512GB SSD / Intel UHD Graphics / Win11 RUS), серый - 61 707 Rub  
 ## Intel Core 5 210H (Rating: 149)
+ASUS TUF Gaming F16 FX607VU Core 5 210H 16Gb SSD 512Gb NVIDIA RTX 4050 6Gb 16 WUXGA IPS Cam 56Вт*ч No OS Серый FX607VU-RL061 90NR0N06-M002T0 - 103 470 Rub  
+ASUS TUF Gaming F16 FX607VU-RL061 < 90NR0N06-M002T0 > (Intel Core 5 210H, 16 ГБ, 512 Гб SSD, GeForce RTX 4050 (96 бит), noOS, 16") - 100 223 Rub  
+ASUS V16 V3607VU Core 5 210H 16Gb SSD 1Tb NVIDIA RTX 4050 6Gb 16 WUXGA IPS 63Вт*ч No OS Черный V3607VU-RP267 90NB15Q1-M00KH0 - 102 570 Rub  
 ASUS VivoBook 16 V3607VU-RP267 < 90NB15Q1-M00KH0 > (Intel Core 5 210H, 16 ГБ, 1 Тб SSD, GeForce RTX 4050 (96 бит), WiFi, Bluetooth, noOS, 16") - 83 774 Rub  
 ## AMD Ryzen 7 7730U (Rating: 148)
 90NB11A2-M009S0 16" IPS WUXGA ASUS M3604YA-MB216 silver (Ryzen 7 7730U / 16Gb / 1Tb SSD / VGAint / noOS) (90NB11A2-M009S0) - 62 730 Rub  
