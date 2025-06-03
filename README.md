@@ -18,5 +18,5 @@ For all laptops on sale look at the processor rating, find its video core, also 
 [See sortable version (geekbench)](https://miptleha.github.io/cpu-rating/parser/result.html)  
 [See sortable version (cinebench)](https://miptleha.github.io/cpu-rating/parser/result2.html)
 
-[List of notebooks 16'' 16Gb+/512Gb+](notebooks.md)
+[List of cheap notebooks 16'' 16Gb+/512Gb+](notebooks.md)
 
