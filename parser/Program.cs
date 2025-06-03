@@ -69,7 +69,7 @@ void GenerateMarkDown()
             s = s.Trim();
             //addition list of 16" notebooks, no more 100 000 rub
             string[] ignoreInch = ["13", "13,3", "14", "14.1", "15", "15.1", "15.3", "15.6", "17", "17.3", "18", "18.4"];
-            string[] matrixType = ["\"", " FHD", " 2K", " 2.2K", " WUXGA", " WQXGA", " 4K", " QHD+", " 2.8K"];
+            string[] matrixType = ["\"", " / IPS", " FHD", " 2K", " 2.2K", " WUXGA", " WQXGA", " 4K", " QHD+", " QHD", " 2.8K"];
             bool ignoreNotebook = false;
             foreach (var inch in ignoreInch)
             {
@@ -159,8 +159,8 @@ void GenerateMarkDown()
             i.Notebooks2.Sort((a, b) => a.Desc.CompareTo(b.Desc));
             foreach (var n in i.Notebooks2)
             {
-                var greenPrice = (int price) => price < 60000 ? "$${\\color{green}" + $"{price:N0}" + "}$$" : $"{price:N0}";
-                Console.WriteLine($"{n.Desc} - {greenPrice(n.Price)} Rub  ");
+                //var greenPrice = (int price) => price < 60000 ? "$${\\color{green}" + $"{price:N0}" + "}$$" : $"{price:N0}";
+                Console.WriteLine($"{n.Desc} - {n.Price:N0} Rub  ");
             }
         }
     }
@@ -467,7 +467,9 @@ void GenerateStoreFull()
             ("14650HX", "i7 14650HX"),
             ("13420H", "i5 13420H"),
             ("Ryzen 7 7535HS", "Ryzen 5 7535HS"),
-            (" Pentium ", " Pentium Silver ")
+            (" Pentium ", " Pentium Silver "),
+            ("U5 125H", "Core Ultra 5 125H"),
+            ("U7 255H", "Core Ultra 7 255H")
         };
 
         CpuData cpu = null;
