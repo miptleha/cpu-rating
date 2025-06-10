@@ -68,7 +68,7 @@ void GenerateMarkDown()
             s = Regex.Replace(s, "Ноутбук", "", RegexOptions.IgnoreCase);
             s = s.Trim();
             //addition list of 16" notebooks, no more 120 000 rub
-            string[] ignoreInch = ["13", "13.3", "14", "14. 0", "14.1", "14.2", "15", "15.1", "15.3", "15.6", "17", "17.3", "18", "18.4"];
+            string[] ignoreInch = ["13", "13.3", "14", "14. 0", "14.1", "14.2", "15", "15.1", "15.3", "15.5", "15.6", "17", "17.3", "18", "18.4"];
             string[] matrixType = ["\"", " / IPS", " / OLED", " FullHD", " FHD", " 2K", " 2.2K", " 2.8K", " WUXGA", " WQXGA", " 4K", " QHD+", " QHD", " 2.8K"];
             bool ignoreNotebook = false;
             foreach (var inch in ignoreInch)
@@ -397,6 +397,8 @@ void EstimateCpu(CpuData cpuRef)
     }
     else if (cpuRef.Name == "AMD Ryzen Z2")
         brother = _cpuShortName["Ryzen 7 8840U"];
+    else if (cpuRef.Name == "Intel Celeron 3865U")
+        brother = _cpuShortName["3867U"];
 
     //cinebench
     else if (cpuRef.Name == "Intel Core 3 100U" || cpuRef.Name == "Intel Core i3-1315U")
@@ -467,6 +469,7 @@ void GenerateStoreFull()
             ("14650HX", "i7 14650HX"),
             ("13420H", "i5 13420H"),
             ("Ryzen 7 7535HS", "Ryzen 5 7535HS"),
+            ("Ryzen 7 5825U", "AMD Ryzen 7 5825U"),
             (" Pentium ", " Pentium Silver "),
             ("U5 125H", "Core Ultra 5 125H"),
             ("U7 255H", "Core Ultra 7 255H")
@@ -476,6 +479,8 @@ void GenerateStoreFull()
         GpuData gpu = null;
         foreach (var c in _cpuData)
         {
+            if (c.Name.Contains("5825U") && item.Desc.Contains("4894947063435"))
+                cpu = null;
             string cpuName = c.NameShort.Replace("-", " ");
             string cpuName2 = cpuName.Replace("Ryzen ", "");
             string desc = item.Desc.Replace("-", " ");
@@ -548,7 +553,7 @@ void ParseCpu()
 {
     //cpu.html - geekbench (single and multi)
     //cpu2.html - cinebench (single and multi)
-    var html = File.ReadAllText("cpu.html");
+    var html = File.ReadAllText("cpu2.html");
     var parser = new CpuParser();
     var results = parser.ParseHtml(html);
 
@@ -649,5 +654,11 @@ void ParseStoreOwn()
     {
         Desc = "My notebook: Intel Core i5-8265U Acer Swift 3 2018",
         RetailPrice = 30000
+    });
+
+    _storeData.Add(new StoreData
+    {
+        Desc = "My old notebook: Intel Celeron 3865U Lenovo",
+        RetailPrice = 10000
     });
 }

@@ -38,10 +38,10 @@ content="Прайс-лист на ноутбуки и ультрабуки, се
 <link rel="stylesheet" href="//code.jquery.com/ui/1.8.21/themes/base/jquery-ui.css" type="text/css"
 media="all"/>
 <script src="//code.jquery.com/ui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>
-<link rel="preload" as="style" href="/content/cache/0602/templates_c/70266444649f03371de98e9e3ebb22a7.css">
-<link rel='stylesheet' type='text/css' href='/content/cache/0602/templates_c/70266444649f03371de98e9e3ebb22a7.css' />
-<link rel="preload" as="script" href="/content/cache/0602/templates_c/c38a059f9dbb022d803d7cf1b0b7b80b.js">
-<script type='text/javascript' src='/content/cache/0602/templates_c/c38a059f9dbb022d803d7cf1b0b7b80b.js'></script>
+<link rel="preload" as="style" href="/content/cache/0609/templates_c/70266444649f03371de98e9e3ebb22a7.css">
+<link rel='stylesheet' type='text/css' href='/content/cache/0609/templates_c/70266444649f03371de98e9e3ebb22a7.css' />
+<link rel="preload" as="script" href="/content/cache/0609/templates_c/c38a059f9dbb022d803d7cf1b0b7b80b.js">
+<script type='text/javascript' src='/content/cache/0609/templates_c/c38a059f9dbb022d803d7cf1b0b7b80b.js'></script>
 <link rel="alternate" type="application/rss+xml" title="Notik.ru RSS" href="/export/rss.xml"/>
 <script type="text/javascript">
 var cntparams =  { 
@@ -50,10 +50,56 @@ var cntparams =  {
 'clientid': '',
 'type_id': '',
 'http_answer': '200',
-'referer': 'https://github.com/miptleha/cpu-rating/tree/main?tab=readme-ov-file'
+'referer': 'https://github.com/miptleha/cpu-rating?tab=readme-ov-file'
 } ;
 </script>
 <script type="text/javascript">
+var ecommerceProducts = [];
+window.ga = function () {
+var args = Array.prototype.slice.call(arguments);
+var command = args[0];
+if (command === 'ec:addProduct') {
+ecommerceProducts.push(args[1]);
+return;
+}
+if (command === 'ec:addImpression') {
+ecommerceProducts.push(args[1]);
+dataLayer.push({
+"ecommerce": {
+'impressions': {
+'products': ecommerceProducts
+}
+}
+});
+ecommerceProducts = [];
+return;
+}
+if (command === 'ec:setAction') {
+var actn = args[1];
+if (args[1] === 'purchase') {
+dataLayer.push({
+"ecommerce": {
+[actn]: {
+"actionField": args[2],
+'products': ecommerceProducts
+}
+}
+});
+} else {
+dataLayer.push({
+"ecommerce": {
+[actn]: {
+'products': ecommerceProducts
+}
+}
+});
+}
+ecommerceProducts = [];
+return;
+}
+};
+/*function ga(a,b,c,d) {
+};*/
 var nowhour = 02;
 var nowdayw = 2;
 var microtimer = new Date().getTime();
@@ -101,17 +147,6 @@ height: 50
 });
 </script>
 <script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-4012544-1', 'notik.ru');
-ga('require', 'linkid', 'linkid.js');
-ga('require', 'displayfeatures');
-//    ga('require', 'ecommerce', 'ecommerce.js');
-ga('require', 'ec', 'ec.js');
-</script>
-<script type="text/javascript">
 ga('set', 'dimension1', 'Москва');
         ga('set', 'dimension2', 'NotLogged');
 /*sociomantic*/
@@ -145,7 +180,7 @@ return gaId__;
 <script type="text/javascript">
 </script>
 </head>
-<!--- page generated 2025-06-03 02:46:08 --->
+<!--- page generated 2025-06-10 02:09:10 --->
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(37138, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, ecommerce:"dataLayer" }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/37138" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter.. -->
@@ -165,7 +200,7 @@ if (isProdCard) {ym(37138,'reachGoal','ProdCard');}
 <script>
 window.uao_settings = {
 interval: 10,
-checkInterval: 10,
+checkInterval: 5,
 ym: 37138,
 ym_period_goal_prefix: 'ym_prefix',
 data_layer_prefix: 'dl_prefix',
@@ -595,7 +630,6 @@ background-color: #f08b3b;
 <li ><a href='/search_catalog/filter/home/GIGABYTE.htm'>GIGABYTE</a></li>
 <li ><a href='/search_catalog/filter/home/HASEE.htm'>HASEE</a></li>
 <li ><a href='/search_catalog/filter/home/Lenovo.htm'>Lenovo</a></li>
-<li ><a href='/search_catalog/filter/home/Machenike.htm'>Machenike</a></li>
 <li ><a href='/search_catalog/filter/home/MAIBENBEN.htm'>MAIBENBEN</a></li>
 <li ><a href='/search_catalog/filter/home/MSI.htm'>MSI</a></li>
 <li ><a href='/search_catalog/filter/home/OSiO.htm'>OSiO</a></li>
@@ -723,6 +757,7 @@ background-color: #f08b3b;
 <li ><a href='/search_catalog/filter/mobile/Infinix.htm'>Infinix</a></li>
 <li ><a href='/search_catalog/filter/mobile/iRU.htm'>iRU</a></li>
 <li ><a href='/search_catalog/filter/mobile/MAIBENBEN.htm'>MAIBENBEN</a></li>
+<li ><a href='/search_catalog/filter/mobile/OSiO.htm'>OSiO</a></li>
 <li ><a href='/search_catalog/filter/mobile/TECNO.htm'>TECNO</a></li>
 </ul>
 </div>
@@ -730,6 +765,7 @@ background-color: #f08b3b;
 <div class='subitem-title'><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-50.htm'>Игровые ноутбуки на базе видеокарт NVIDIA GeForce RTX 50 серии</a></div><br>
 <ul>
 <li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-50/ASUS.htm'>ASUS</a></li>
+<li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-50/GIGABYTE.htm'>GIGABYTE</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-50/MSI.htm'>MSI</a></li>
 </ul>
 </div>
@@ -742,7 +778,6 @@ background-color: #f08b3b;
 <li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-40/GIGABYTE.htm'>GIGABYTE</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-40/HASEE.htm'>HASEE</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-40/Lenovo.htm'>Lenovo</a></li>
-<li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-40/Machenike.htm'>Machenike</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-40/MAIBENBEN.htm'>MAIBENBEN</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-40/MSI.htm'>MSI</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-40/OSiO.htm'>OSiO</a></li>
@@ -752,6 +787,7 @@ background-color: #f08b3b;
 <div class='subitem-title'><a href='/search_catalog/filter/noutbuki-intel-core-15-pokolenia.htm'>Ноутбуки на базе процессоров Intel Core 15-го поколения</a></div><br>
 <ul>
 <li ><a href='/search_catalog/filter/noutbuki-intel-core-15-pokolenia/ASUS.htm'>ASUS</a></li>
+<li ><a href='/search_catalog/filter/noutbuki-intel-core-15-pokolenia/GIGABYTE.htm'>GIGABYTE</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-intel-core-15-pokolenia/MSI.htm'>MSI</a></li>
 </ul>
 </div>
@@ -792,7 +828,6 @@ background-color: #f08b3b;
 <li ><a href='/search_catalog/filter/noutbuki-intel-core-13-pokolenia/Huawei.htm'>Huawei</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-intel-core-13-pokolenia/Infinix.htm'>Infinix</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-intel-core-13-pokolenia/Lenovo.htm'>Lenovo</a></li>
-<li ><a href='/search_catalog/filter/noutbuki-intel-core-13-pokolenia/Machenike.htm'>Machenike</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-intel-core-13-pokolenia/MSI.htm'>MSI</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-intel-core-13-pokolenia/Samsung.htm'>Samsung</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-intel-core-13-pokolenia/TECNO.htm'>TECNO</a></li>
@@ -975,6 +1010,7 @@ background-color: #f08b3b;
 <li ><a href='/search_catalog/filter/allmonitors/Acer.htm'>Acer</a></li>
 <li ><a href='/search_catalog/filter/allmonitors/ASUS.htm'>ASUS</a></li>
 <li ><a href='/search_catalog/filter/allmonitors/GIGABYTE.htm'>GIGABYTE</a></li>
+<li ><a href='/search_catalog/filter/allmonitors/HP.htm'>HP</a></li>
 <li ><a href='/search_catalog/filter/allmonitors/Lenovo.htm'>Lenovo</a></li>
 <li ><a href='/search_catalog/filter/allmonitors/LG.htm'>LG</a></li>
 <li ><a href='/search_catalog/filter/allmonitors/MSI.htm'>MSI</a></li>
@@ -985,6 +1021,7 @@ background-color: #f08b3b;
 <div class='subitem-title'><a href='/search_catalog/filter/gamemonitors.htm'>Игровые мониторы</a></div><br>
 <ul>
 <li ><a href='/search_catalog/filter/gamemonitors/Acer.htm'>Acer</a></li>
+<li ><a href='/search_catalog/filter/gamemonitors/ASUS.htm'>ASUS</a></li>
 <li ><a href='/search_catalog/filter/gamemonitors/GIGABYTE.htm'>GIGABYTE</a></li>
 <li ><a href='/search_catalog/filter/gamemonitors/Lenovo.htm'>Lenovo</a></li>
 <li ><a href='/search_catalog/filter/gamemonitors/LG.htm'>LG</a></li>
@@ -1007,6 +1044,7 @@ background-color: #f08b3b;
 <div class='flexblock  '>
 <div class='subitem-title'><a href='/search_catalog/filter/monitory-144-hz.htm'>Мониторы 144 Гц и выше</a></div><br>
 <ul>
+<li ><a href='/search_catalog/filter/monitory-144-hz/ASUS.htm'>ASUS</a></li>
 <li ><a href='/search_catalog/filter/monitory-144-hz/GIGABYTE.htm'>GIGABYTE</a></li>
 <li ><a href='/search_catalog/filter/monitory-144-hz/Lenovo.htm'>Lenovo</a></li>
 <li ><a href='/search_catalog/filter/monitory-144-hz/LG.htm'>LG</a></li>
@@ -1019,6 +1057,7 @@ background-color: #f08b3b;
 <ul>
 <li ><a href='/search_catalog/filter/monitors-24/Acer.htm'>Acer</a></li>
 <li ><a href='/search_catalog/filter/monitors-24/ASUS.htm'>ASUS</a></li>
+<li ><a href='/search_catalog/filter/monitors-24/HP.htm'>HP</a></li>
 <li ><a href='/search_catalog/filter/monitors-24/Lenovo.htm'>Lenovo</a></li>
 <li ><a href='/search_catalog/filter/monitors-24/MSI.htm'>MSI</a></li>
 <li ><a href='/search_catalog/filter/monitors-24/Xiaomi.htm'>Xiaomi</a></li>
@@ -1255,7 +1294,6 @@ background-color: #f08b3b;
 <li ><a href='/search_catalog/filter/allaccesories/DM.htm'>DM</a></li>
 <li ><a href='/search_catalog/filter/allaccesories/HIPER.htm'>HIPER</a></li>
 <li ><a href='/search_catalog/filter/allaccesories/HOCO.htm'>HOCO</a></li>
-<li ><a href='/search_catalog/filter/allaccesories/Honor.htm'>Honor</a></li>
 <li ><a href='/search_catalog/filter/allaccesories/HP.htm'>HP</a></li>
 <li ><a href='/search_catalog/filter/allaccesories/Huawei.htm'>Huawei</a></li>
 <li ><a href='/search_catalog/filter/allaccesories/Huion.htm'>Huion</a></li>
@@ -1275,7 +1313,7 @@ background-color: #f08b3b;
 <li ><a href='/search_catalog/filter/allaccesories/Logitech.htm'>Logitech</a></li>
 <li ><a href='/search_catalog/filter/allaccesories/LuxCase.htm'>LuxCase</a></li>
 <li ><a href='/search_catalog/filter/allaccesories/LYAMBDA.htm'>LYAMBDA</a></li>
-<li class='hidden hide'><a href='/search_catalog/filter/allaccesories/Mad-Catz.htm'>Mad Catz</a></li>
+<li ><a href='/search_catalog/filter/allaccesories/Mad-Catz.htm'>Mad Catz</a></li>
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/Marshall.htm'>Marshall</a></li>
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/Mibro.htm'>Mibro</a></li>
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/Microsoft.htm'>Microsoft</a></li>
@@ -1285,7 +1323,6 @@ background-color: #f08b3b;
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/Oklick.htm'>Oklick</a></li>
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/ONEXT.htm'>ONEXT</a></li>
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/ORICO.htm'>ORICO</a></li>
-<li class='hidden hide'><a href='/search_catalog/filter/allaccesories/PATRIOT.htm'>PATRIOT</a></li>
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/Philips.htm'>Philips</a></li>
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/POWERCOM.htm'>POWERCOM</a></li>
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/QUMO.htm'>QUMO</a></li>
@@ -1743,7 +1780,6 @@ mmenu.reInit();
 <li ><a href='/search_catalog/filter/home/GIGABYTE.htm'>GIGABYTE</a></li>
 <li ><a href='/search_catalog/filter/home/HASEE.htm'>HASEE</a></li>
 <li ><a href='/search_catalog/filter/home/Lenovo.htm'>Lenovo</a></li>
-<li ><a href='/search_catalog/filter/home/Machenike.htm'>Machenike</a></li>
 <li ><a href='/search_catalog/filter/home/MAIBENBEN.htm'>MAIBENBEN</a></li>
 <li ><a href='/search_catalog/filter/home/MSI.htm'>MSI</a></li>
 <li ><a href='/search_catalog/filter/home/OSiO.htm'>OSiO</a></li>
@@ -1871,6 +1907,7 @@ mmenu.reInit();
 <li ><a href='/search_catalog/filter/mobile/Infinix.htm'>Infinix</a></li>
 <li ><a href='/search_catalog/filter/mobile/iRU.htm'>iRU</a></li>
 <li ><a href='/search_catalog/filter/mobile/MAIBENBEN.htm'>MAIBENBEN</a></li>
+<li ><a href='/search_catalog/filter/mobile/OSiO.htm'>OSiO</a></li>
 <li ><a href='/search_catalog/filter/mobile/TECNO.htm'>TECNO</a></li>
 </ul>
 </div>
@@ -1878,6 +1915,7 @@ mmenu.reInit();
 <div class='subitem-title'><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-50.htm'>Игровые ноутбуки на базе видеокарт NVIDIA GeForce RTX 50 серии</a></div><br>
 <ul>
 <li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-50/ASUS.htm'>ASUS</a></li>
+<li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-50/GIGABYTE.htm'>GIGABYTE</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-50/MSI.htm'>MSI</a></li>
 </ul>
 </div>
@@ -1890,7 +1928,6 @@ mmenu.reInit();
 <li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-40/GIGABYTE.htm'>GIGABYTE</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-40/HASEE.htm'>HASEE</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-40/Lenovo.htm'>Lenovo</a></li>
-<li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-40/Machenike.htm'>Machenike</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-40/MAIBENBEN.htm'>MAIBENBEN</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-40/MSI.htm'>MSI</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-nvidia-geforce-rtx-40/OSiO.htm'>OSiO</a></li>
@@ -1900,6 +1937,7 @@ mmenu.reInit();
 <div class='subitem-title'><a href='/search_catalog/filter/noutbuki-intel-core-15-pokolenia.htm'>Ноутбуки на базе процессоров Intel Core 15-го поколения</a></div><br>
 <ul>
 <li ><a href='/search_catalog/filter/noutbuki-intel-core-15-pokolenia/ASUS.htm'>ASUS</a></li>
+<li ><a href='/search_catalog/filter/noutbuki-intel-core-15-pokolenia/GIGABYTE.htm'>GIGABYTE</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-intel-core-15-pokolenia/MSI.htm'>MSI</a></li>
 </ul>
 </div>
@@ -1940,7 +1978,6 @@ mmenu.reInit();
 <li ><a href='/search_catalog/filter/noutbuki-intel-core-13-pokolenia/Huawei.htm'>Huawei</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-intel-core-13-pokolenia/Infinix.htm'>Infinix</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-intel-core-13-pokolenia/Lenovo.htm'>Lenovo</a></li>
-<li ><a href='/search_catalog/filter/noutbuki-intel-core-13-pokolenia/Machenike.htm'>Machenike</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-intel-core-13-pokolenia/MSI.htm'>MSI</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-intel-core-13-pokolenia/Samsung.htm'>Samsung</a></li>
 <li ><a href='/search_catalog/filter/noutbuki-intel-core-13-pokolenia/TECNO.htm'>TECNO</a></li>
@@ -2123,6 +2160,7 @@ mmenu.reInit();
 <li ><a href='/search_catalog/filter/allmonitors/Acer.htm'>Acer</a></li>
 <li ><a href='/search_catalog/filter/allmonitors/ASUS.htm'>ASUS</a></li>
 <li ><a href='/search_catalog/filter/allmonitors/GIGABYTE.htm'>GIGABYTE</a></li>
+<li ><a href='/search_catalog/filter/allmonitors/HP.htm'>HP</a></li>
 <li ><a href='/search_catalog/filter/allmonitors/Lenovo.htm'>Lenovo</a></li>
 <li ><a href='/search_catalog/filter/allmonitors/LG.htm'>LG</a></li>
 <li ><a href='/search_catalog/filter/allmonitors/MSI.htm'>MSI</a></li>
@@ -2133,6 +2171,7 @@ mmenu.reInit();
 <div class='subitem-title'><a href='/search_catalog/filter/gamemonitors.htm'>Игровые мониторы</a></div><br>
 <ul>
 <li ><a href='/search_catalog/filter/gamemonitors/Acer.htm'>Acer</a></li>
+<li ><a href='/search_catalog/filter/gamemonitors/ASUS.htm'>ASUS</a></li>
 <li ><a href='/search_catalog/filter/gamemonitors/GIGABYTE.htm'>GIGABYTE</a></li>
 <li ><a href='/search_catalog/filter/gamemonitors/Lenovo.htm'>Lenovo</a></li>
 <li ><a href='/search_catalog/filter/gamemonitors/LG.htm'>LG</a></li>
@@ -2155,6 +2194,7 @@ mmenu.reInit();
 <div class='flexblock  '>
 <div class='subitem-title'><a href='/search_catalog/filter/monitory-144-hz.htm'>Мониторы 144 Гц и выше</a></div><br>
 <ul>
+<li ><a href='/search_catalog/filter/monitory-144-hz/ASUS.htm'>ASUS</a></li>
 <li ><a href='/search_catalog/filter/monitory-144-hz/GIGABYTE.htm'>GIGABYTE</a></li>
 <li ><a href='/search_catalog/filter/monitory-144-hz/Lenovo.htm'>Lenovo</a></li>
 <li ><a href='/search_catalog/filter/monitory-144-hz/LG.htm'>LG</a></li>
@@ -2167,6 +2207,7 @@ mmenu.reInit();
 <ul>
 <li ><a href='/search_catalog/filter/monitors-24/Acer.htm'>Acer</a></li>
 <li ><a href='/search_catalog/filter/monitors-24/ASUS.htm'>ASUS</a></li>
+<li ><a href='/search_catalog/filter/monitors-24/HP.htm'>HP</a></li>
 <li ><a href='/search_catalog/filter/monitors-24/Lenovo.htm'>Lenovo</a></li>
 <li ><a href='/search_catalog/filter/monitors-24/MSI.htm'>MSI</a></li>
 <li ><a href='/search_catalog/filter/monitors-24/Xiaomi.htm'>Xiaomi</a></li>
@@ -2403,7 +2444,6 @@ mmenu.reInit();
 <li ><a href='/search_catalog/filter/allaccesories/DM.htm'>DM</a></li>
 <li ><a href='/search_catalog/filter/allaccesories/HIPER.htm'>HIPER</a></li>
 <li ><a href='/search_catalog/filter/allaccesories/HOCO.htm'>HOCO</a></li>
-<li ><a href='/search_catalog/filter/allaccesories/Honor.htm'>Honor</a></li>
 <li ><a href='/search_catalog/filter/allaccesories/HP.htm'>HP</a></li>
 <li ><a href='/search_catalog/filter/allaccesories/Huawei.htm'>Huawei</a></li>
 <li ><a href='/search_catalog/filter/allaccesories/Huion.htm'>Huion</a></li>
@@ -2423,7 +2463,7 @@ mmenu.reInit();
 <li ><a href='/search_catalog/filter/allaccesories/Logitech.htm'>Logitech</a></li>
 <li ><a href='/search_catalog/filter/allaccesories/LuxCase.htm'>LuxCase</a></li>
 <li ><a href='/search_catalog/filter/allaccesories/LYAMBDA.htm'>LYAMBDA</a></li>
-<li class='hidden hide'><a href='/search_catalog/filter/allaccesories/Mad-Catz.htm'>Mad Catz</a></li>
+<li ><a href='/search_catalog/filter/allaccesories/Mad-Catz.htm'>Mad Catz</a></li>
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/Marshall.htm'>Marshall</a></li>
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/Mibro.htm'>Mibro</a></li>
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/Microsoft.htm'>Microsoft</a></li>
@@ -2433,7 +2473,6 @@ mmenu.reInit();
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/Oklick.htm'>Oklick</a></li>
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/ONEXT.htm'>ONEXT</a></li>
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/ORICO.htm'>ORICO</a></li>
-<li class='hidden hide'><a href='/search_catalog/filter/allaccesories/PATRIOT.htm'>PATRIOT</a></li>
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/Philips.htm'>Philips</a></li>
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/POWERCOM.htm'>POWERCOM</a></li>
 <li class='hidden hide'><a href='/search_catalog/filter/allaccesories/QUMO.htm'>QUMO</a></li>
@@ -2798,7 +2837,7 @@ ACD
 </td>
 <td><a href='/goods/notebooks-acd-14s-silver-102150.htm'>ACD 14S i7-1255U 16Gb SSD 512Gb Intel UHD Graphics 14 FHD IPS Cam 55Вт*ч (4825мАч) No OS Серебристый AH14SI3262WS</a></td>
 <td>много</td>
-<td align=right>43&#8239;990 р.</td>
+<td align=right>42&#8239;990 р.</td>
 </tr>
 <tr>
 <td>103154</td>
@@ -2834,7 +2873,7 @@ Acer
 </td>
 <td><a href='/goods/notebooks-acer-aspire-15-a15-51m-36ha-gray-101965.htm'>Acer Aspire 15 A15-51M Core 3 100U 16Gb SSD 512Gb Intel Graphics 15,6 FHD IPS Cam 50Вт*ч No OS Серый A15-51M-36HA NX.KXRCD.008</a></td>
 <td>много</td>
-<td align=right>41&#8239;990 р.</td>
+<td align=right>40&#8239;990 р.</td>
 </tr>
 <tr>
 <td>99913</td>
@@ -2852,7 +2891,7 @@ Acer
 </td>
 <td><a href='/goods/notebooks-acer-aspire-15-a15-51m-53td-gray-101882.htm'>Acer Aspire 15 A15-51M Core 5 120U 16Gb SSD 512Gb Intel Graphics 15,6 FHD IPS Cam 50Вт*ч Win11 Серый A15-51M-53TD NX.KS7CD.001</a></td>
 <td>много</td>
-<td align=right>50&#8239;990 р.</td>
+<td align=right>49&#8239;990 р.</td>
 </tr>
 <tr>
 <td>101966</td>
@@ -2870,7 +2909,7 @@ Acer
 </td>
 <td><a href='/goods/notebooks-acer-aspire-15-a15-51m-74hf-gray-99663.htm'>Acer Aspire 15 A15-51M Core 7 150U 16Gb SSD 512Gb Intel Graphics 15,6 FHD IPS Cam 50Вт*ч No OS Серый A15-51M-74HF NX.KXRCD.007</a></td>
 <td>много</td>
-<td align=right>57&#8239;990 р.</td>
+<td align=right>56&#8239;990 р.</td>
 </tr>
 <tr>
 <td>99659</td>
@@ -2888,7 +2927,7 @@ Acer
 </td>
 <td><a href='/goods/notebooks-acer-aspire-3-a317-55p-35kv-gray-102254.htm'>Acer Aspire 3 A317-55P i3-N305 8Gb SSD 512Gb Intel UHD Graphics 17,3 FHD IPS Cam 40Вт*ч No OS Серый A317-55P-35KV NX.KDKCD.009</a></td>
 <td>много</td>
-<td align=right>44&#8239;990 р.</td>
+<td align=right>43&#8239;990 р.</td>
 </tr>
 <tr>
 <td>104783</td>
@@ -2915,7 +2954,7 @@ Acer
 </td>
 <td><a href='/goods/notebooks-acer-aspire-5-14-a514-56m-770k-gray-98745.htm'>Acer Aspire 5 14 A514-56M i7-1355U 16Gb SSD 512Gb Intel Iris Xe Graphics eligible 14 WUXGA IPS Cam 50Вт*ч No OS Серый A514-56M-770K NX.KH6CD.008</a></td>
 <td>много</td>
-<td align=right>60&#8239;990 р.</td>
+<td align=right>59&#8239;990 р.</td>
 </tr>
 <tr>
 <td>98405</td>
@@ -2933,7 +2972,7 @@ Acer
 </td>
 <td><a href='/goods/notebooks-acer-aspire-5-15-a515-58gm-54px-gray-99664.htm'>Acer Aspire 5 15 A515-58GM i5-13420H 16Gb SSD 512Gb NVIDIA RTX 2050 4Gb 15.6 FHD IPS Cam 50Вт*ч No OS Серый A515-58GM-54PX NX.KQ4CD.006</a></td>
 <td>много</td>
-<td align=right>66&#8239;990 р.</td>
+<td align=right>64&#8239;990 р.</td>
 </tr>
 <tr>
 <td>99914</td>
@@ -2942,7 +2981,7 @@ Acer
 </td>
 <td><a href='/goods/notebooks-acer-aspire-5-15-a515-58gm-58nm-gray-99914.htm'>Acer Aspire 5 15 A515-58GM i5-13420H 8Gb SSD 512Gb NVIDIA RTX 2050 4Gb 15.6 FHD IPS Cam 50Вт*ч No OS Серый A515-58GM-58NM NX.KQ4CD.007</a></td>
 <td>много</td>
-<td align=right>62&#8239;990 р.</td>
+<td align=right>60&#8239;990 р.</td>
 </tr>
 <tr>
 <td>97616</td>
@@ -2969,7 +3008,7 @@ Acer
 </td>
 <td><a href='/goods/notebooks-acer-aspire-5-a515-57-50r7-gray-101114.htm'>Acer Aspire 5 A515-57 i5-12450H 16Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 50Вт*ч No OS Серый A515-57-50R7 NX.KN3CD.00M</a></td>
 <td>много</td>
-<td align=right>52&#8239;990 р.</td>
+<td align=right>51&#8239;990 р.</td>
 </tr>
 <tr>
 <td>101960</td>
@@ -3023,7 +3062,7 @@ Acer
 </td>
 <td><a href='/goods/notebooks-acer-aspire-go-14-ag14-21p-r4xc-silver-100819.htm'>Acer Aspire Go 14 AG14-21P Ryzen 3 7320U 8Gb SSD 256Gb AMD Radeon Graphics 14 WUXGA IPS Cam 50Вт*ч No OS Серебристый AG14-21P-R4XC NX.KXDCD.008</a></td>
 <td>много</td>
-<td align=right>32&#8239;990 р.</td>
+<td align=right>31&#8239;990 р.</td>
 </tr>
 <tr>
 <td>100339</td>
@@ -3032,7 +3071,7 @@ Acer
 </td>
 <td><a href='/goods/notebooks-acer-aspire-go-15-ag15-31p-35mv-silver-100339.htm'>Acer Aspire Go 15 AG15-31P i3-N305 8Gb SSD 256Gb Intel UHD Graphics 15,6 FHD IPS Cam 50Вт*ч No OS Серебристый AG15-31P-35MV NX.KX5CD.005</a></td>
 <td>много</td>
-<td align=right>32&#8239;990 р.</td>
+<td align=right>31&#8239;990 р.</td>
 </tr>
 <tr>
 <td>101962</td>
@@ -3077,7 +3116,7 @@ Acer
 </td>
 <td><a href='/goods/notebooks-acer-extensa-15-ex215-23-r62l-gray-98401.htm'>Acer Extensa 15 EX215-23 Ryzen 3 7320U 16Gb SSD 512Gb AMD Radeon Graphics 15,6 FHD IPS Cam 50Вт*ч No OS Серый EX215-23-R62L NX.EH3CD.00D</a></td>
 <td>много</td>
-<td align=right>38&#8239;990 р.</td>
+<td align=right>37&#8239;990 р.</td>
 </tr>
 <tr>
 <td>97637</td>
@@ -3086,7 +3125,7 @@ Acer
 </td>
 <td><a href='/goods/notebooks-acer-extensa-15-ex215-23-r4d3-gray-97637.htm'>Acer Extensa 15 EX215-23 Ryzen 3 7320U 8Gb SSD 256Gb AMD Radeon Graphics 15,6 FHD IPS Cam 50Вт*ч No OS Серый EX215-23-R4D3 NX.EH3CD.008</a></td>
 <td>много</td>
-<td align=right>33&#8239;990 р.</td>
+<td align=right>32&#8239;990 р.</td>
 </tr>
 <tr>
 <td>101950</td>
@@ -3104,7 +3143,7 @@ Acer
 </td>
 <td><a href='/goods/notebooks-acer-extensa-15-ex215-23-r6f9-gray-97638.htm'>Acer Extensa 15 EX215-23 Ryzen 3 7320U 8Gb SSD 512Gb AMD Radeon Graphics 15,6 FHD IPS Cam 50Вт*ч No OS Серый EX215-23-R6F9 NX.EH3CD.004</a></td>
 <td>много</td>
-<td align=right>35&#8239;990 р.</td>
+<td align=right>34&#8239;990 р.</td>
 </tr>
 <tr>
 <td>98398</td>
@@ -3113,7 +3152,7 @@ Acer
 </td>
 <td><a href='/goods/notebooks-acer-extensa-15-ex215-23-r8xf-gray-98398.htm'>Acer Extensa 15 EX215-23 Ryzen 5 7520U 16Gb SSD 1Tb AMD Radeon Graphics 15,6 FHD IPS Cam 50Вт*ч No OS Серый EX215-23-R8XF NX.EH3CD.00A</a></td>
 <td>много</td>
-<td align=right>45&#8239;990 р.</td>
+<td align=right>43&#8239;990 р.</td>
 </tr>
 <tr>
 <td>99660</td>
@@ -3158,7 +3197,7 @@ Acer
 </td>
 <td><a href='/goods/notebooks-acer-extensa-15-ex215-23-r0gz-gray-97639.htm'>Acer Extensa 15 EX215-23 Ryzen 5 7520U 8Gb SSD 512Gb AMD Radeon Graphics 15,6 FHD IPS Cam 50Вт*ч No OS Серый EX215-23-R0GZ NX.EH3CD.002</a></td>
 <td>много</td>
-<td align=right>37&#8239;990 р.</td>
+<td align=right>36&#8239;990 р.</td>
 </tr>
 <tr>
 <td>99666</td>
@@ -3251,15 +3290,6 @@ Acer
 <td align=right>78&#8239;870 р.</td>
 </tr>
 <tr>
-<td>104785</td>
-<td>
-Acer
-</td>
-<td><a href='/goods/notebooks-acer-nitro-v-15-anv15-51-58qb-black-104785.htm'>Acer Nitro V 15 ANV15-51 i5-13420H 16Gb SSD 1Tb NVIDIA RTX 3050 6Gb 15,6 FHD IPS Cam 57Вт*ч No OS Черный ANV15-51-58QB NH.QN9CD.00J</a></td>
-<td>мало</td>
-<td align=right>97&#8239;270 р.</td>
-</tr>
-<tr>
 <td>104786</td>
 <td>
 Acer
@@ -3312,15 +3342,6 @@ Acer
 <td><a href='/goods/notebooks-acer-swift-go-14-sfg14-41-r2u2-silver-98393.htm'>Acer Swift Go 14 SFG14-41 Ryzen 5 7530U 16Gb SSD 512Gb AMD Radeon Graphics 14 FHD IPS Cam 50Вт*ч Win11 Серебристый SFG14-41-R2U2 NX.KG3CD.003</a></td>
 <td>мало</td>
 <td align=right>81&#8239;170 р.</td>
-</tr>
-<tr>
-<td>97642</td>
-<td>
-Acer
-</td>
-<td><a href='/goods/notebooks-acer-swift-go-14-sfg14-41-r7eg-silver-97642.htm'>Acer Swift Go 14 SFG14-41 Ryzen 7 7730U 16Gb SSD 1Tb AMD Radeon Graphics 14 FHD IPS Cam 50Вт*ч Win11 Серебристый SFG14-41-R7EG NX.KG3CD.002</a></td>
-<td>в наличии</td>
-<td align=right>77&#8239;990 р.</td>
 </tr>
 <tr>
 <td>103158</td>
@@ -3530,15 +3551,6 @@ ASUS
 <td align=right>94&#8239;570 р.</td>
 </tr>
 <tr>
-<td>101976</td>
-<td>
-ASUS
-</td>
-<td><a href='/goods/notebooks-asus-expertbook-b3-b3404cma-q50432x-dark-101976.htm'>ASUS ExpertBook B3 B3404CMA Ultra 5 125U 16Gb SSD 512Gb Intel Graphics 14 WUXGA IPS 63Вт*ч Win11Pro Синий/Черный B3404CMA-Q50432X 90NX0711-M00H30</a></td>
-<td>в наличии</td>
-<td align=right>77&#8239;990 р.</td>
-</tr>
-<tr>
 <td>100653</td>
 <td>
 ASUS
@@ -3563,7 +3575,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-expertbook-b3-b3404cma-q50434w-dark-101226.htm'>ASUS ExpertBook B3 B3404CMA Ultra 7 155U 16Gb SSD 1Tb Intel Graphics 14 WUXGA IPS 63Вт*ч Win11 Синий/Черный B3404CMA-Q50434W 90NX0711-M00H50</a></td>
 <td>в наличии</td>
-<td align=right>96&#8239;990 р.</td>
+<td align=right>94&#8239;990 р.</td>
 </tr>
 <tr>
 <td>101977</td>
@@ -3935,15 +3947,6 @@ ASUS
 <td align=right>309&#8239;990 р.</td>
 </tr>
 <tr>
-<td>99138</td>
-<td>
-ASUS
-</td>
-<td><a href='/goods/notebooks-asus-rog-strix-g18-2023-g814jv-n6168-gray-99138.htm'>ASUS ROG Strix G18 G814JV i7-13650HX 16Gb SSD 1Tb NVIDIA RTX 4060 8Gb 18 WQXGA IPS 90Вт*ч No OS Серый G814JV-N6168 90NR0CM1-M00BC0</a></td>
-<td>мало</td>
-<td align=right>169&#8239;270 р.</td>
-</tr>
-<tr>
 <td>104484</td>
 <td>
 ASUS
@@ -3978,15 +3981,6 @@ ASUS
 <td><a href='/goods/notebooks-asus-rog-zephyrus-g14-2024-ga403uu-qs080-white-100711.htm'>ASUS ROG Zephyrus G14 GA403UU Ryzen 7 8845HS 16Gb SSD 1Tb NVIDIA RTX 4050 6Gb 14 2.8K OLED 73Вт*ч No OS Белый GA403UU-QS080 90NR0HZ2-M003V0</a></td>
 <td>мало</td>
 <td align=right>181&#8239;670 р.</td>
-</tr>
-<tr>
-<td>104489</td>
-<td>
-ASUS
-</td>
-<td><a href='/goods/notebooks-asus-rog-zephyrus-g14-2025-ga403wr-qs105-white-104489.htm'>ASUS ROG Zephyrus G14 GA403WR Ryzen AI 9 HX 370 32Gb SSD 1Tb NVIDIA RTX 5070Ti 12Gb 14 2.8K OLED 73Вт*ч No OS Белый GA403WR-QS105 90NR0M54-M005E0</a></td>
-<td>мало</td>
-<td align=right>271&#8239;370 р.</td>
 </tr>
 <tr>
 <td>104490</td>
@@ -4112,7 +4106,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-tuf-gaming-a15-2023-fa507nvr-lp040-gray-101055.htm'>ASUS TUF Gaming A15 FA507NVR Ryzen 7 7435HS 16Gb SSD 512Gb NVIDIA RTX 4060 8Gb 15,6 FHD IPS Cam 90Вт*ч No OS Серый FA507NVR-LP040 90NR0JK5-M00230</a></td>
 <td>в наличии</td>
-<td align=right>105&#8239;990 р.</td>
+<td align=right>102&#8239;990 р.</td>
 </tr>
 <tr>
 <td>103953</td>
@@ -4142,15 +4136,6 @@ ASUS
 <td align=right>75&#8239;370 р.</td>
 </tr>
 <tr>
-<td>103181</td>
-<td>
-ASUS
-</td>
-<td><a href='/goods/notebooks-asus-tuf-gaming-a17-fa706nfr-hx007-black-103181.htm'>ASUS TUF Gaming A17 FA706NFR Ryzen 7 7435HS 16Gb SSD 512Gb NVIDIA RTX 2050 4Gb 17,3 FHD IPS Cam 48Вт*ч No OS Черный FA706NFR-HX007 90NR0JW5-M00080</a></td>
-<td>в наличии</td>
-<td align=right>77&#8239;990 р.</td>
-</tr>
-<tr>
 <td>103993</td>
 <td>
 ASUS
@@ -4166,7 +4151,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-tuf-gaming-a17-2023-fa707nur-hx013-gray-102611.htm'>ASUS TUF Gaming A17 FA707NUR Ryzen 7 7435HS 16Gb SSD 512Gb NVIDIA RTX 4050 6Gb 17,3 FHD IPS Cam 90Вт*ч No OS Серый FA707NUR-HX013 90NR0JL5-M000K0</a></td>
 <td>много</td>
-<td align=right>99&#8239;990 р.</td>
+<td align=right>96&#8239;990 р.</td>
 </tr>
 <tr>
 <td>103216</td>
@@ -4174,8 +4159,17 @@ ASUS
 ASUS
 </td>
 <td><a href='/goods/notebooks-asus-tuf-gaming-a17-2023-fa707nvr-hx010-gray-103216.htm'>ASUS TUF Gaming A17 FA707NVR Ryzen 7 7435HS 16Gb SSD 512Gb NVIDIA RTX 4060 8Gb 17,3 FHD IPS Cam 90Вт*ч No OS Серый FA707NVR-HX010 90NR0JJ5-M000D0</a></td>
-<td>много</td>
-<td align=right>105&#8239;990 р.</td>
+<td>в наличии</td>
+<td align=right>104&#8239;990 р.</td>
+</tr>
+<tr>
+<td>102612</td>
+<td>
+ASUS
+</td>
+<td><a href='/goods/notebooks-asus-tuf-gaming-a17-2023-fa707nvr-hx031-gray-102612.htm'>ASUS TUF Gaming A17 FA707NVR Ryzen 7 7435HS 32Gb SSD 512Gb NVIDIA RTX 4060 8Gb 17,3 FHD IPS Cam 90Вт*ч No OS Серый FA707NVR-HX031 90NR0JJ5-M00170</a></td>
+<td>в наличии</td>
+<td align=right>132&#8239;990 р.</td>
 </tr>
 <tr>
 <td>100005</td>
@@ -4337,7 +4331,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-15-f1504va-nj827-blue-102237.htm'>ASUS VivoBook 15 F1504VA i3-1315U 8Gb SSD 512Gb Intel UHD Graphics 15,6 FHD TN 42Вт*ч No OS KBD RU\ENG Синий F1504VA-NJ827 90NB10J1-M01040</a></td>
 <td>много</td>
-<td align=right>39&#8239;990 р.</td>
+<td align=right>37&#8239;990 р.</td>
 </tr>
 <tr>
 <td>104939</td>
@@ -4400,7 +4394,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-15-x1504va-bq346-blue-99134.htm'>ASUS VivoBook 15 X1504VA i7-1355U 16Gb SSD 512Gb Intel Iris Xe Graphics eligible 15,6 FHD IPS 42Вт*ч No OS Синий X1504VA-BQ346 90NB10J1-M00EV0</a></td>
 <td>много</td>
-<td align=right>56&#8239;990 р.</td>
+<td align=right>54&#8239;990 р.</td>
 </tr>
 <tr>
 <td>100670</td>
@@ -4535,7 +4529,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-16-x1605va-mb875-black-100676.htm'>ASUS VivoBook 16 X1605VA i5-13500H 16Gb SSD 1Tb Intel UHD Graphics 16 WUXGA IPS 42Вт*ч No OS Черный X1605VA-MB875 90NB10N3-M01330</a></td>
 <td>много</td>
-<td align=right>60&#8239;990 р.</td>
+<td align=right>58&#8239;990 р.</td>
 </tr>
 <tr>
 <td>99995</td>
@@ -4571,7 +4565,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-16-x1605va-mb688-silver-100000.htm'>ASUS VivoBook 16 X1605VA i7-13700H 16Gb SSD 1Tb Intel UHD Graphics 16 WUXGA IPS 42Вт*ч No OS Серебристый X1605VA-MB688 90NB10N2-M00W90</a></td>
 <td>в наличии</td>
-<td align=right>72&#8239;990 р.</td>
+<td align=right>67&#8239;990 р.</td>
 </tr>
 <tr>
 <td>100675</td>
@@ -4598,7 +4592,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-16x-k3604va-mb231-silver-100672.htm'>ASUS VivoBook 16X K3604VA i5-1335U 16Gb SSD 512Gb Intel Iris Xe Graphics eligible 16 WUXGA IPS 42Вт*ч No OS Серебристый K3604VA-MB231 90NB1072-M009J0</a></td>
 <td>в наличии</td>
-<td align=right>62&#8239;990 р.</td>
+<td align=right>61&#8239;990 р.</td>
 </tr>
 <tr>
 <td>100673</td>
@@ -4607,7 +4601,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-16x-k3604va-mb232-silver-100673.htm'>ASUS VivoBook 16X K3604VA i7-1355U 16Gb SSD 1Tb Intel Iris Xe Graphics eligible 16 WUXGA IPS 42Вт*ч No OS Серебристый K3604VA-MB232 90NB1072-M009K0</a></td>
 <td>много</td>
-<td align=right>67&#8239;990 р.</td>
+<td align=right>66&#8239;990 р.</td>
 </tr>
 <tr>
 <td>104344</td>
@@ -4652,7 +4646,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-16x-m3604ya-mb303-silver-103218.htm'>ASUS VivoBook 16X M3604YA Ryzen 5 7430U 16Gb SSD 512Gb AMD Radeon Graphics 16 WUXGA IPS 42Вт*ч No OS Серебристый M3604YA-MB303 90NB11A2-M00D80</a></td>
 <td>в наличии</td>
-<td align=right>53&#8239;990 р.</td>
+<td align=right>52&#8239;990 р.</td>
 </tr>
 <tr>
 <td>100015</td>
@@ -4661,7 +4655,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-16x-m3604ya-mb248-black-100015.htm'>ASUS VivoBook 16X M3604YA Ryzen 5 7430U 16Gb SSD 512Gb AMD Radeon Graphics 16 WUXGA IPS 42Вт*ч No OS Черный M3604YA-MB248 90NB11A1-M00B80</a></td>
 <td>много</td>
-<td align=right>53&#8239;990 р.</td>
+<td align=right>52&#8239;990 р.</td>
 </tr>
 <tr>
 <td>99998</td>
@@ -4679,7 +4673,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-17-x1704va-au321-blue-99259.htm'>ASUS VivoBook 17 X1704VA Core 5 120U 16Gb SSD 1Tb Intel Graphics 17,3 FHD IPS 50Вт*ч No OS Синий X1704VA-AU321 90NB13X2-M002V0</a></td>
 <td>много</td>
-<td align=right>61&#8239;990 р.</td>
+<td align=right>59&#8239;990 р.</td>
 </tr>
 <tr>
 <td>104004</td>
@@ -4715,7 +4709,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-17-x1704va-au397-silver-99815.htm'>ASUS VivoBook 17 X1704VA i5-1335U 16Gb SSD 1Tb Intel Iris Xe Graphics eligible 17,3 FHD IPS 50Вт*ч No OS Серебристый X1704VA-AU397 90NB10V1-M00D10</a></td>
 <td>много</td>
-<td align=right>61&#8239;990 р.</td>
+<td align=right>59&#8239;990 р.</td>
 </tr>
 <tr>
 <td>104003</td>
@@ -4751,7 +4745,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-17-x1704va-au661-blue-104346.htm'>ASUS VivoBook 17 X1704VA U300 8Gb SSD 512Gb Intel UHD Graphics 17,3 FHD IPS 50Вт*ч No OS Синий X1704VA-AU661 90NB10V2-M00SJ0</a></td>
 <td>много</td>
-<td align=right>43&#8239;990 р.</td>
+<td align=right>42&#8239;990 р.</td>
 </tr>
 <tr>
 <td>104005</td>
@@ -4796,7 +4790,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-17x-k3704va-au051-black-96917.htm'>ASUS VivoBook 17X K3704VA i5-13500H 16Gb SSD 512Gb Intel Iris Xe Graphics eligible 17.3 FHD IPS 50Вт*ч No OS Черный K3704VA-AU051 90NB1091-M00210</a></td>
 <td>много</td>
-<td align=right>69&#8239;990 р.</td>
+<td align=right>65&#8239;990 р.</td>
 </tr>
 <tr>
 <td>98291</td>
@@ -4814,7 +4808,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-17x-m3704ya-au159-silver-100677.htm'>ASUS VivoBook 17X M3704YA Ryzen 5 7430U 16Gb SSD 1Tb AMD Radeon Graphics 17,3 FHD IPS 50Вт*ч No OS Серебристый M3704YA-AU159 90NB1191-M008F0</a></td>
 <td>много</td>
-<td align=right>64&#8239;990 р.</td>
+<td align=right>63&#8239;990 р.</td>
 </tr>
 <tr>
 <td>99683</td>
@@ -4859,7 +4853,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-go-15-e1504fa-bq052-black-100666.htm'>ASUS VivoBook Go 15 E1504FA Ryzen 3 7320U 8Gb SSD 512Gb AMD Radeon Graphics 15,6 FHD IPS 42Вт*ч No OS Черный E1504FA-BQ052 90NB0ZR2-M02270</a></td>
 <td>много</td>
-<td align=right>33&#8239;990 р.</td>
+<td align=right>32&#8239;990 р.</td>
 </tr>
 <tr>
 <td>104825</td>
@@ -4940,7 +4934,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-go-15-e1504fa-bq073w-silver-98460.htm'>ASUS VivoBook Go 15 E1504FA Ryzen 5 7520U 8Gb SSD 512Gb AMD Radeon Graphics 15,6 FHD IPS 42Вт*ч Win11 Серебристый E1504FA-BQ073W 90NB0ZR1-M00L60</a></td>
 <td>много</td>
-<td align=right>48&#8239;990 р.</td>
+<td align=right>47&#8239;990 р.</td>
 </tr>
 <tr>
 <td>95767</td>
@@ -4976,7 +4970,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-go-15-e1504ga-bq550-black-100667.htm'>ASUS VivoBook Go 15 E1504GA i3-N305 8Gb UFS 256Gb Intel UHD Graphics 15,6 FHD IPS 42Вт*ч No OS Черный E1504GA-BQ550 90NB0ZT2-M00XJ0</a></td>
 <td>много</td>
-<td align=right>30&#8239;990 р.</td>
+<td align=right>30&#8239;190 р.</td>
 </tr>
 <tr>
 <td>99985</td>
@@ -4992,7 +4986,7 @@ ASUS
 <td>
 ASUS
 </td>
-<td><a href='/goods/notebooks-asus-vivobook-pro-15-oled-n6506mv-ma359-gray-99817.htm'>ASUS VivoBook Pro 15 N6506MV Ultra 9 185H 24Gb SSD 1Tb NVIDIA RTX 4060 8Gb 15,6 2.8K OLED Cam 75Вт*ч No OS Серый N6506MV-MA359 90NB12Y3-M004U0</a></td>
+<td><a href='/goods/notebooks-asus-vivobook-pro-15-oled-n6506mv-ma085-gray-99817.htm'>ASUS VivoBook Pro 15 N6506MV Ultra 9 185H 24Gb SSD 1Tb NVIDIA RTX 4060 8Gb 15,6 2.8K OLED Cam 75Вт*ч No OS Серый N6506MV-MA085 90NB12Y3-M004U0</a></td>
 <td>мало</td>
 <td align=right>180&#8239;570 р.</td>
 </tr>
@@ -5101,8 +5095,8 @@ ASUS
 ASUS
 </td>
 <td><a href='/goods/notebooks-asus-vivobook-s-14-oled-m5406wa-pp086w-silver-101205.htm'>ASUS Vivobook S14 M5406WA Ryzen AI 9 HX 370 32Gb SSD 1Tb AMD Radeon 890M Graphic 14 2.8K OLED 75Вт*ч Win11 Серебристый M5406WA-PP086W 90NB14P1-M004N0</a></td>
-<td>мало</td>
-<td align=right>149&#8239;470 р.</td>
+<td>в наличии</td>
+<td align=right>149&#8239;990 р.</td>
 </tr>
 <tr>
 <td>104942</td>
@@ -5192,7 +5186,7 @@ ASUS
 </td>
 <td><a href='/goods/notebooks-asus-zenbook-14-oled-um3406ka-pp181-black-103989.htm'>ASUS Zenbook 14 UM3406KA Ryzen AI 7 350 32Gb SSD 1Tb AMD Radeon Graphics 14 2.8K OLED 75Вт*ч No OS Черный UM3406KA-PP181 90NB14U1-M00AL0</a></td>
 <td>в наличии</td>
-<td align=right>122&#8239;990 р.</td>
+<td align=right>119&#8239;990 р.</td>
 </tr>
 <tr>
 <td>101200</td>
@@ -5238,15 +5232,6 @@ ASUS
 <td><a href='/goods/notebooks-asus-zenbook-14-oled-ux3405ma-qd988-silver-103221.htm'>ASUS Zenbook 14 UX3405MA Ultra 5 125H 16Gb SSD 512Gb Intel Arc Graphics 14 WUXGA OLED 75Вт*ч No OS Серебристый UX3405MA-QD988 90NB11R2-M01SN0</a></td>
 <td>мало</td>
 <td align=right>103&#8239;370 р.</td>
-</tr>
-<tr>
-<td>99254</td>
-<td>
-ASUS
-</td>
-<td><a href='/goods/notebooks-asus-zenbook-14-oled-ux3405ma-qd488w-silver-99254.htm'>ASUS Zenbook 14 UX3405MA Ultra 7 155H 16Gb SSD 1Tb Intel Arc Graphics 14 WUXGA OLED 75Вт*ч Win11 Серебристый UX3405MA-QD488W 90NB11R2-M00SS0</a></td>
-<td>в наличии</td>
-<td align=right>107&#8239;990 р.</td>
 </tr>
 <tr>
 <td>103223</td>
@@ -5390,7 +5375,7 @@ Chuwi
 </td>
 <td><a href='/goods/notebooks-chuwi-corebook-xpro-gray-97906.htm'>Chuwi CoreBook XPro i5-1235U 16Gb SSD 512Gb Intel UHD Graphics 15.6 FHD IPS Cam 50Вт*ч Win11 Серый CWI530-521E5E1HDMXX</a></td>
 <td>в наличии</td>
-<td align=right>48&#8239;990 р.</td>
+<td align=right>47&#8239;990 р.</td>
 </tr>
 <tr>
 <td>101838</td>
@@ -5471,7 +5456,7 @@ Chuwi
 </td>
 <td><a href='/goods/notebooks-chuwi-herobook-pro-gray-101756.htm'>Chuwi HeroBook Pro CDC N4020 8Gb SSD 512Gb Intel UHD Graphics 600 14.1 FHD IPS Cam 33Вт*ч Win11 Серый CWI514-CN8N5N1HDMXX</a></td>
 <td>много</td>
-<td align=right>20&#8239;990 р.</td>
+<td align=right>20&#8239;790 р.</td>
 </tr>
 <tr>
 <td>101647</td>
@@ -5813,7 +5798,7 @@ GIGABYTE
 </td>
 <td><a href='/goods/notebooks-gigabyte-aorus-15-2024-bkg-black-102406.htm'>GIGABYTE AORUS 15 2024 BKG Ultra 7 155H 16Gb SSD 1Tb NVIDIA RTX 4060 8Gb 15,6 QHD IPS Cam 99Вт*ч Win11 Черный BKG-13KZ754SH</a></td>
 <td>мало</td>
-<td align=right>161&#8239;070 р.</td>
+<td align=right>144&#8239;670 р.</td>
 </tr>
 <tr>
 <td>102417</td>
@@ -5822,7 +5807,7 @@ GIGABYTE
 </td>
 <td><a href='/goods/notebooks-gigabyte-aorus-15-2023-bkf-black-102417.htm'>GIGABYTE AORUS 15 BKF i7-13620H 16Gb SSD 1Tb NVIDIA RTX 4060 8Gb 15,6 QHD IPS Cam 99Вт*ч No OS Черный BKF-H3KZ754SD</a></td>
 <td>много</td>
-<td align=right>118&#8239;990 р.</td>
+<td align=right>117&#8239;990 р.</td>
 </tr>
 <tr>
 <td>102411</td>
@@ -5831,7 +5816,7 @@ GIGABYTE
 </td>
 <td><a href='/goods/notebooks-gigabyte-aorus-16x-2024-9kg-dark-102411.htm'>GIGABYTE AORUS 16X 2024 9KG i7-13650HX 16Gb SSD 1Tb NVIDIA RTX 4060 8Gb 16 WQXGA IPS Cam 99Вт*ч No OS Темно-серый 9KG-43KZC54SD</a></td>
 <td>мало</td>
-<td align=right>132&#8239;270 р.</td>
+<td align=right>128&#8239;870 р.</td>
 </tr>
 <tr>
 <td>100712</td>
@@ -5840,7 +5825,16 @@ GIGABYTE
 </td>
 <td><a href='/goods/notebooks-gigabyte-aorus-16x-2024-9sg-dark-100712.htm'>GIGABYTE AORUS 16X 2024 9SG i7-13650HX 16Gb SSD 1Tb NVIDIA RTX 4070 8Gb 16 WQXGA IPS Cam 99Вт*ч No OS Темно-серый 9SG-43KZC54SD</a></td>
 <td>мало</td>
-<td align=right>167&#8239;870 р.</td>
+<td align=right>140&#8239;370 р.</td>
+</tr>
+<tr>
+<td>102415</td>
+<td>
+GIGABYTE
+</td>
+<td><a href='/goods/notebooks-gigabyte-aorus-16x-2024-9sg-dark-102415.htm'>GIGABYTE AORUS 16X 2024 9SG i7-13650HX 16Gb SSD 1Tb NVIDIA RTX 4070 8Gb 16 WQXGA IPS Cam 99Вт*ч Win11 Темно-серый 9SG-43KZC54SH</a></td>
+<td>мало</td>
+<td align=right>148&#8239;970 р.</td>
 </tr>
 <tr>
 <td>101651</td>
@@ -5852,22 +5846,13 @@ GIGABYTE
 <td align=right>148&#8239;970 р.</td>
 </tr>
 <tr>
-<td>101652</td>
-<td>
-GIGABYTE
-</td>
-<td><a href='/goods/notebooks-gigabyte-aorus-16x-2024-9sg-dark-101652.htm'>GIGABYTE AORUS 16X 2024 9SG i7-13650HX 32Gb SSD 1Tb NVIDIA RTX 4070 8Gb 16 WQXGA IPS Cam 99Вт*ч Win11 Темно-серый 9SG-43KZC64SH</a></td>
-<td>мало</td>
-<td align=right>182&#8239;270 р.</td>
-</tr>
-<tr>
 <td>100408</td>
 <td>
 GIGABYTE
 </td>
 <td><a href='/goods/notebooks-gigabyte-aorus-16x-2024-asg-dark-100408.htm'>GIGABYTE AORUS 16X 2024 ASG i7-14650HX 16Gb SSD 1Tb NVIDIA RTX 4070 8Gb 16 WQXGA IPS Cam 99Вт*ч Free DOS Темно-серый ASG-53KZC54SD</a></td>
 <td>мало</td>
-<td align=right>181&#8239;670 р.</td>
+<td align=right>163&#8239;370 р.</td>
 </tr>
 <tr>
 <td>102407</td>
@@ -5876,7 +5861,43 @@ GIGABYTE
 </td>
 <td><a href='/goods/notebooks-gigabyte-aorus-16x-2024-asg-dark-102407.htm'>GIGABYTE AORUS 16X 2024 ASG i7-14650HX 16Gb SSD 1Tb NVIDIA RTX 4070 8Gb 16 WQXGA IPS Cam 99Вт*ч Win11 Темно-серый ASG-53KZC54SH</a></td>
 <td>мало</td>
-<td align=right>195&#8239;370 р.</td>
+<td align=right>172&#8239;370 р.</td>
+</tr>
+<tr>
+<td>105156</td>
+<td>
+GIGABYTE
+</td>
+<td><a href='/goods/notebooks-aorus-master-16-am6h-bxh-black-105156.htm'>GIGABYTE AORUS MASTER 16 AM6H BXH Ultra 9 275HX 32Gb SSD 1Tb NVIDIA RTX 5070Ti 12Gb 16 WQXGA OLED Cam 99Вт*ч Win11Pro Черный BXHC4KZE64SP</a></td>
+<td>мало</td>
+<td align=right>288&#8239;670 р.</td>
+</tr>
+<tr>
+<td>105076</td>
+<td>
+GIGABYTE
+</td>
+<td><a href='/goods/notebooks-aorus-master-16-am6h-byh-black-105076.htm'>GIGABYTE AORUS MASTER 16 AM6H BYH Ultra 9 275HX 32Gb SSD 1Tb NVIDIA RTX 5080 16Gb 16 WQXGA OLED Cam 99Вт*ч Win11Pro Черный BYHC5KZE64SP</a></td>
+<td>мало</td>
+<td align=right>355&#8239;270 р.</td>
+</tr>
+<tr>
+<td>105077</td>
+<td>
+GIGABYTE
+</td>
+<td><a href='/goods/notebooks-aorus-master-16-am6h-bzh-black-105077.htm'>GIGABYTE AORUS MASTER 16 AM6H BZH Ultra 9 275HX 32Gb SSD 1Tb NVIDIA RTX 5090 24Gb 16 WQXGA OLED Cam 99Вт*ч Win11Pro Черный BZHC6KZE64SP</a></td>
+<td>мало</td>
+<td align=right>460&#8239;570 р.</td>
+</tr>
+<tr>
+<td>105078</td>
+<td>
+GIGABYTE
+</td>
+<td><a href='/goods/notebooks-gigabyte-g6-2023-kf-black-105078.htm'>GIGABYTE G6 2023 KF i7-13620H 16Gb SSD 1Tb NVIDIA RTX 4060 8Gb 16 WUXGA IPS Cam 54Вт*ч No OS Черный KF-H3KZ894KD</a></td>
+<td>мало</td>
+<td align=right>109&#8239;270 р.</td>
 </tr>
 <tr>
 <td>100405</td>
@@ -5885,7 +5906,7 @@ GIGABYTE
 </td>
 <td><a href='/goods/notebooks-gigabyte-g6-2023-kf-black-100405.htm'>GIGABYTE G6 KF i7-13620H 16Gb SSD 1Tb NVIDIA RTX 4060 8Gb 16 WUXGA IPS Cam 54Вт*ч Free DOS Черный KF-H3KZ854KD</a></td>
 <td>много</td>
-<td align=right>104&#8239;990 р.</td>
+<td align=right>103&#8239;990 р.</td>
 </tr>
 <tr>
 <td>103735</td>
@@ -5894,7 +5915,7 @@ GIGABYTE
 </td>
 <td><a href='/goods/notebooks-gigabyte-g6-2023-kf-black-103735.htm'>GIGABYTE G6 KF i7-13620H 16Gb SSD 512Gb NVIDIA RTX 4060 8Gb 16 WUXGA IPS Cam 54Вт*ч No OS Черный KF-H3KZ853KD</a></td>
 <td>мало</td>
-<td align=right>109&#8239;170 р.</td>
+<td align=right>104&#8239;970 р.</td>
 </tr>
 <tr>
 <td>102394</td>
@@ -5903,7 +5924,7 @@ GIGABYTE
 </td>
 <td><a href='/goods/notebooks-gigabyte-g6x-2024-9mg-dark-102394.htm'>GIGABYTE G6X 9MG i7-13650HX 16Gb SSD 1Tb NVIDIA RTX 4050 6Gb 16 WUXGA IPS Cam 73Вт*ч No OS Темно-серый 9MG-42KZ854SD</a></td>
 <td>много</td>
-<td align=right>95&#8239;990 р.</td>
+<td align=right>91&#8239;990 р.</td>
 </tr>
 <tr>
 <td>102413</td>
@@ -5921,7 +5942,7 @@ GIGABYTE
 </td>
 <td><a href='/goods/notebooks-gigabyte-g6x-2024-9mg-dark-102414.htm'>GIGABYTE G6X 9MG i7-13650HX 16Gb SSD 512Gb NVIDIA RTX 4050 6Gb 16 WUXGA IPS Cam 73Вт*ч Win11 Темно-серый 9MG-42KZ853SH</a></td>
 <td>много</td>
-<td align=right>103&#8239;990 р.</td>
+<td align=right>101&#8239;990 р.</td>
 </tr>
 <tr>
 <td>96215</td>
@@ -6218,7 +6239,7 @@ HP
 </td>
 <td><a href='/goods/notebooks-hp-envy-x360-2-in1-14-es1023dx-silver-101684.htm'>HP Envy x360 2-in-1 14 Core 7 150U 16Gb SSD 512Gb Intel Graphics 14 FHD IPS TS Cam 43Вт*ч Win11(ENG) KBD RU\ENG Серебристый 14-es1023dx 9R8R3UA</a></td>
 <td>много</td>
-<td align=right>98&#8239;990 р.</td>
+<td align=right>97&#8239;990 р.</td>
 </tr>
 <tr>
 <td>103098</td>
@@ -6437,15 +6458,6 @@ Huawei
 <td align=right>179&#8239;990 р.</td>
 </tr>
 <tr>
-<td>104106</td>
-<td>
-Huawei
-</td>
-<td><a href='/goods/notebooks-huawei-matebook-x-pro-2024-vghh-x-premium-edition-svetlo-goluboy-light-blue-104106.htm'>Huawei MateBook X Pro 2024 VGHH-X Ultra 9 185H 32Gb SSD 2Tb Intel Arc Graphics 14,2 3.1K OLED TS Cam 70Вт*ч Win11 Светло-голубой 53014ABF</a></td>
-<td>в наличии</td>
-<td align=right>211&#8239;990 р.</td>
-</tr>
-<tr>
 <td>104470</td>
 <td>
 Infinix
@@ -6461,7 +6473,7 @@ Infinix
 </td>
 <td><a href='/goods/notebooks-infinix-inbook-air-xl442-gray-101559.htm'>Infinix INBOOK AIR XL442 i7-1255U 16Gb SSD 512Gb Intel Iris Xe Graphics eligible 14 WUXGA IPS Cam 57Вт*ч Win11 Серый 71008302089</a></td>
 <td>много</td>
-<td align=right>49&#8239;990 р.</td>
+<td align=right>48&#8239;990 р.</td>
 </tr>
 <tr>
 <td>99210</td>
@@ -6479,7 +6491,7 @@ Infinix
 </td>
 <td><a href='/goods/notebooks-infinix-inbook-x3-xl422-gray-97003.htm'>Infinix INBOOK X3 XL422 i7-1255U 16Gb SSD 512Gb Intel Iris Xe Graphics eligible 14 FHD IPS Cam 50Вт*ч Win11 Серый 71008301342</a></td>
 <td>много</td>
-<td align=right>51&#8239;990 р.</td>
+<td align=right>50&#8239;990 р.</td>
 </tr>
 <tr>
 <td>99045</td>
@@ -6497,7 +6509,7 @@ Infinix
 </td>
 <td><a href='/goods/notebooks-infinix-inbook-y3-max-yl613-silver-98537.htm'>Infinix INBOOK Y3 MAX YL613 i5-1235U 8Gb SSD 512Gb Intel Iris Xe Graphics eligible 16 WUXGA IPS Cam 70Вт*ч No OS Серебристый 71008301569</a></td>
 <td>много</td>
-<td align=right>38&#8239;990 р.</td>
+<td align=right>37&#8239;990 р.</td>
 </tr>
 <tr>
 <td>104569</td>
@@ -6515,7 +6527,7 @@ Infinix
 </td>
 <td><a href='/goods/notebooks-infinix-inbook-y3-plus-yl512-gray-101539.htm'>Infinix INBOOK Y3 PLUS YL512 i3-1215U 8Gb SSD 256Gb Intel UHD Graphics 15.6 FHD IPS Cam 50Вт*ч No OS Серый 71008302495</a></td>
 <td>много</td>
-<td align=right>30&#8239;390 р.</td>
+<td align=right>29&#8239;990 р.</td>
 </tr>
 <tr>
 <td>104318</td>
@@ -6533,7 +6545,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-planio-14ing-black-103520.htm'>iRU Planio 14ING N100 8Gb SSD 256Gb Intel UHD Graphics 14 FHD IPS Cam 45.6Вт*ч No OS Черный 2058902</a></td>
 <td>мало</td>
-<td align=right>27&#8239;070 р.</td>
+<td align=right>25&#8239;570 р.</td>
 </tr>
 <tr>
 <td>103521</td>
@@ -6542,7 +6554,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-planio-14ing-black-103521.htm'>iRU Planio 14ING N100 8Gb SSD 256Gb Intel UHD Graphics 14 FHD IPS Cam 45.6Вт*ч Win11Pro Черный 2059098</a></td>
 <td>мало</td>
-<td align=right>29&#8239;870 р.</td>
+<td align=right>26&#8239;670 р.</td>
 </tr>
 <tr>
 <td>103522</td>
@@ -6551,7 +6563,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-planio-14ing-black-103522.htm'>iRU Planio 14ING N100 8Gb SSD 512Gb Intel UHD Graphics 14 FHD IPS Cam 45.6Вт*ч No OS Черный 2058899</a></td>
 <td>мало</td>
-<td align=right>30&#8239;170 р.</td>
+<td align=right>27&#8239;870 р.</td>
 </tr>
 <tr>
 <td>103523</td>
@@ -6560,7 +6572,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-planio-14inp-black-103523.htm'>iRU Planio 14INP N100 8Gb SSD 256Gb Intel UHD Graphics 14 FHD IPS Cam 38.5Вт*ч No OS Серый 2023733</a></td>
 <td>мало</td>
-<td align=right>32&#8239;470 р.</td>
+<td align=right>27&#8239;870 р.</td>
 </tr>
 <tr>
 <td>103524</td>
@@ -6569,7 +6581,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-planio-14inp-black-103524.htm'>iRU Planio 14INP N100 8Gb SSD 256Gb Intel UHD Graphics 14 FHD IPS Cam 38.5Вт*ч Win11Pro Серый 2023712</a></td>
 <td>мало</td>
-<td align=right>33&#8239;570 р.</td>
+<td align=right>28&#8239;870 р.</td>
 </tr>
 <tr>
 <td>103525</td>
@@ -6578,7 +6590,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-planio-14inpr-black-103525.htm'>iRU Planio 14INPR N100 16Gb SSD 512Gb Intel UHD Graphics 14 FHD IPS Cam 38.5Вт*ч No OS Серый 2078487</a></td>
 <td>мало</td>
-<td align=right>36&#8239;570 р.</td>
+<td align=right>28&#8239;970 р.</td>
 </tr>
 <tr>
 <td>103526</td>
@@ -6587,7 +6599,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-planio-14inpr-black-103526.htm'>iRU Planio 14INPR N100 16Gb SSD 512Gb Intel UHD Graphics 14 FHD IPS Cam 38.5Вт*ч Win11Pro Серый 2078485</a></td>
 <td>мало</td>
-<td align=right>37&#8239;570 р.</td>
+<td align=right>30&#8239;170 р.</td>
 </tr>
 <tr>
 <td>103527</td>
@@ -6596,7 +6608,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-planio-15ing-black-103527.htm'>iRU Planio 15ING N100 8Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 45.6Вт*ч No OS Черный 2058904</a></td>
 <td>мало</td>
-<td align=right>31&#8239;370 р.</td>
+<td align=right>30&#8239;170 р.</td>
 </tr>
 <tr>
 <td>103528</td>
@@ -6605,7 +6617,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-planio-15ing-black-103528.htm'>iRU Planio 15ING N100 8Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 45.6Вт*ч Win11Pro Черный 2059105</a></td>
 <td>мало</td>
-<td align=right>32&#8239;470 р.</td>
+<td align=right>31&#8239;370 р.</td>
 </tr>
 <tr>
 <td>103529</td>
@@ -6614,7 +6626,16 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-planio-15inp-black-103529.htm'>iRU Planio 15INP N100 8Gb SSD 256Gb Intel UHD Graphics 15,6 FHD IPS Cam 38Вт*ч No OS Серый 2023738</a></td>
 <td>мало</td>
-<td align=right>30&#8239;970 р.</td>
+<td align=right>27&#8239;970 р.</td>
+</tr>
+<tr>
+<td>103530</td>
+<td>
+iRU
+</td>
+<td><a href='/goods/notebooks-iru-planio-15inp-black-103530.htm'>iRU Planio 15INP N100 8Gb SSD 256Gb Intel UHD Graphics 15,6 FHD IPS Cam 38Вт*ч Win11Pro Серый 2023736</a></td>
+<td>мало</td>
+<td align=right>28&#8239;570 р.</td>
 </tr>
 <tr>
 <td>103531</td>
@@ -6623,7 +6644,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-planio-15inpr-black-103531.htm'>iRU Planio 15INPR N100 16Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 38Вт*ч No OS Серый 2081105</a></td>
 <td>мало</td>
-<td align=right>36&#8239;470 р.</td>
+<td align=right>29&#8239;970 р.</td>
 </tr>
 <tr>
 <td>103532</td>
@@ -6632,7 +6653,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-strato-15ali-black-103532.htm'>iRU Strato 15ALI i3-1215U 16Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 46.6Вт*ч No OS Черный 2058937</a></td>
 <td>мало</td>
-<td align=right>44&#8239;670 р.</td>
+<td align=right>46&#8239;370 р.</td>
 </tr>
 <tr>
 <td>103533</td>
@@ -6641,7 +6662,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-strato-15ali-black-103533.htm'>iRU Strato 15ALI i3-1215U 16Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 46.6Вт*ч Win11Pro Черный 2059109</a></td>
 <td>мало</td>
-<td align=right>46&#8239;370 р.</td>
+<td align=right>48&#8239;770 р.</td>
 </tr>
 <tr>
 <td>103534</td>
@@ -6650,7 +6671,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-strato-15ali-black-103534.htm'>iRU Strato 15ALI i3-1215U 8Gb SSD 256Gb Intel UHD Graphics 15,6 FHD IPS Cam 46.6Вт*ч No OS Черный 2058924</a></td>
 <td>мало</td>
-<td align=right>38&#8239;270 р.</td>
+<td align=right>41&#8239;770 р.</td>
 </tr>
 <tr>
 <td>103535</td>
@@ -6659,7 +6680,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-strato-15ali-black-103535.htm'>iRU Strato 15ALI i3-1215U 8Gb SSD 256Gb Intel UHD Graphics 15,6 FHD IPS Cam 46.6Вт*ч Win11Pro Черный 2059106</a></td>
 <td>мало</td>
-<td align=right>42&#8239;370 р.</td>
+<td align=right>44&#8239;070 р.</td>
 </tr>
 <tr>
 <td>103536</td>
@@ -6668,16 +6689,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-strato-15ali-black-103536.htm'>iRU Strato 15ALI i5-1235U 16Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 46.6Вт*ч No OS Черный 2058947</a></td>
 <td>мало</td>
-<td align=right>48&#8239;770 р.</td>
-</tr>
-<tr>
-<td>103537</td>
-<td>
-iRU
-</td>
-<td><a href='/goods/notebooks-iru-strato-15ali-black-103537.htm'>iRU Strato 15ALI i5-1235U 8Gb SSD 256Gb Intel UHD Graphics 15,6 FHD IPS Cam 46.6Вт*ч No OS Черный 2058943</a></td>
-<td>мало</td>
-<td align=right>52&#8239;770 р.</td>
+<td align=right>51&#8239;070 р.</td>
 </tr>
 <tr>
 <td>103562</td>
@@ -6686,7 +6698,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-tactio-14alh-black-103562.htm'>iRU Tactio 14ALH i3-1215U 16Gb SSD 512Gb Intel UHD Graphics 14 FHD IPS Cam 45.6Вт*ч No OS Серый 2058889</a></td>
 <td>мало</td>
-<td align=right>42&#8239;970 р.</td>
+<td align=right>37&#8239;170 р.</td>
 </tr>
 <tr>
 <td>103538</td>
@@ -6695,7 +6707,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-tactio-14alh-black-103538.htm'>iRU Tactio 14ALH i3-1215U 16Gb SSD 512Gb Intel UHD Graphics 14 FHD IPS Cam 45.6Вт*ч Win11Pro Серый 2059060</a></td>
 <td>мало</td>
-<td align=right>45&#8239;370 р.</td>
+<td align=right>38&#8239;270 р.</td>
 </tr>
 <tr>
 <td>103539</td>
@@ -6704,7 +6716,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-tactio-14alh-black-103539.htm'>iRU Tactio 14ALH i3-1215U 8Gb SSD 256Gb Intel UHD Graphics 14 FHD IPS Cam 45.6Вт*ч No OS Серый 2058897</a></td>
 <td>мало</td>
-<td align=right>38&#8239;270 р.</td>
+<td align=right>34&#8239;270 р.</td>
 </tr>
 <tr>
 <td>103540</td>
@@ -6713,7 +6725,16 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-tactio-14alh-black-103540.htm'>iRU Tactio 14ALH i3-1215U 8Gb SSD 256Gb Intel UHD Graphics 14 FHD IPS Cam 45.6Вт*ч Win11Pro Серый 2059058</a></td>
 <td>мало</td>
-<td align=right>41&#8239;270 р.</td>
+<td align=right>35&#8239;970 р.</td>
+</tr>
+<tr>
+<td>103541</td>
+<td>
+iRU
+</td>
+<td><a href='/goods/notebooks-iru-tactio-14alh-black-103541.htm'>iRU Tactio 14ALH i5-1235U 16Gb SSD 512Gb Intel UHD Graphics 14 FHD IPS Cam 45.6Вт*ч No OS Серый 2058884</a></td>
+<td>мало</td>
+<td align=right>44&#8239;070 р.</td>
 </tr>
 <tr>
 <td>103542</td>
@@ -6722,7 +6743,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-tactio-14alh-black-103542.htm'>iRU Tactio 14ALH i5-1235U 16Gb SSD 512Gb Intel UHD Graphics 14 FHD IPS Cam 45.6Вт*ч Win11Pro Серый 2059068</a></td>
 <td>мало</td>
-<td align=right>51&#8239;670 р.</td>
+<td align=right>46&#8239;370 р.</td>
 </tr>
 <tr>
 <td>103543</td>
@@ -6731,7 +6752,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-tactio-14alh-black-103543.htm'>iRU Tactio 14ALH i5-1235U 8Gb SSD 256Gb Intel UHD Graphics 14 FHD IPS Cam 45.6Вт*ч No OS Серый 2058896</a></td>
 <td>мало</td>
-<td align=right>44&#8239;070 р.</td>
+<td align=right>39&#8239;470 р.</td>
 </tr>
 <tr>
 <td>103544</td>
@@ -6740,16 +6761,25 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-tactio-14alh-black-103544.htm'>iRU Tactio 14ALH i5-1235U 8Gb SSD 256Gb Intel UHD Graphics 14 FHD IPS Cam 45.6Вт*ч Win11Pro Серый 2059065</a></td>
 <td>мало</td>
-<td align=right>47&#8239;570 р.</td>
+<td align=right>41&#8239;170 р.</td>
 </tr>
 <tr>
-<td>103548</td>
+<td>103547</td>
 <td>
 iRU
 </td>
-<td><a href='/goods/notebooks-iru-tactio-14rlh-black-103548.htm'>iRU Tactio 14RLH Ryzen 5 Pro 5675U 16Gb SSD 512Gb AMD Radeon Graphics 14 FHD IPS Cam 45.6Вт*ч Win11Pro Серый 2059088</a></td>
+<td><a href='/goods/notebooks-iru-tactio-14rlh-black-103547.htm'>iRU Tactio 14RLH Ryzen 5 Pro 5675U 16Gb SSD 512Gb AMD Radeon Graphics 14 FHD IPS Cam 45.6Вт*ч No OS Серый 2058875</a></td>
 <td>мало</td>
-<td align=right>43&#8239;070 р.</td>
+<td align=right>35&#8239;370 р.</td>
+</tr>
+<tr>
+<td>103545</td>
+<td>
+iRU
+</td>
+<td><a href='/goods/notebooks-iru-tactio-14rlh-black-103545.htm'>iRU Tactio 14RLH Ryzen 5 Pro 5675U 8Gb SSD 256Gb AMD Radeon Graphics 14 FHD IPS Cam 45.6Вт*ч No OS Серый 2058867</a></td>
+<td>мало</td>
+<td align=right>34&#8239;270 р.</td>
 </tr>
 <tr>
 <td>103546</td>
@@ -6758,7 +6788,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-tactio-14rlh-black-103546.htm'>iRU Tactio 14RLH Ryzen 5 Pro 5675U 8Gb SSD 256Gb AMD Radeon Graphics 14 FHD IPS Cam 45.6Вт*ч Win11Pro Серый 2059083</a></td>
 <td>мало</td>
-<td align=right>39&#8239;570 р.</td>
+<td align=right>35&#8239;370 р.</td>
 </tr>
 <tr>
 <td>103558</td>
@@ -6767,7 +6797,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-tactio-15alg-black-103558.htm'>iRU Tactio 15ALG i3-1215U 16Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 51.3Вт*ч Win11Pro Черный 2019268</a></td>
 <td>мало</td>
-<td align=right>47&#8239;570 р.</td>
+<td align=right>45&#8239;870 р.</td>
 </tr>
 <tr>
 <td>103556</td>
@@ -6776,7 +6806,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-tactio-15alg-black-103556.htm'>iRU Tactio 15ALG i3-1215U 8Gb SSD 256Gb Intel UHD Graphics 15,6 FHD IPS Cam 51.3Вт*ч No OS Черный 2023565</a></td>
 <td>мало</td>
-<td align=right>41&#8239;470 р.</td>
+<td align=right>38&#8239;270 р.</td>
 </tr>
 <tr>
 <td>103557</td>
@@ -6785,7 +6815,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-tactio-15alg-black-103557.htm'>iRU Tactio 15ALG i3-1215U 8Gb SSD 256Gb Intel UHD Graphics 15,6 FHD IPS Cam 51.3Вт*ч Win11Pro Черный 2019263</a></td>
 <td>мало</td>
-<td align=right>43&#8239;170 р.</td>
+<td align=right>42&#8239;370 р.</td>
 </tr>
 <tr>
 <td>103560</td>
@@ -6794,7 +6824,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-tactio-15alg-black-103560.htm'>iRU Tactio 15ALG i5-1235U 16Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 51.3Вт*ч No OS Черный 2023571</a></td>
 <td>мало</td>
-<td align=right>52&#8239;770 р.</td>
+<td align=right>48&#8239;770 р.</td>
 </tr>
 <tr>
 <td>103561</td>
@@ -6803,7 +6833,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-tactio-15alg-black-103561.htm'>iRU Tactio 15ALG i5-1235U 16Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 51.3Вт*ч Win11Pro Черный 2019269</a></td>
 <td>мало</td>
-<td align=right>53&#8239;470 р.</td>
+<td align=right>49&#8239;870 р.</td>
 </tr>
 <tr>
 <td>103559</td>
@@ -6812,7 +6842,7 @@ iRU
 </td>
 <td><a href='/goods/notebooks-iru-tactio-15alg-black-103559.htm'>iRU Tactio 15ALG i5-1235U 8Gb SSD 256Gb Intel UHD Graphics 15,6 FHD IPS Cam 51.3Вт*ч Win11Pro Черный 2019270</a></td>
 <td>мало</td>
-<td align=right>51&#8239;270 р.</td>
+<td align=right>48&#8239;770 р.</td>
 </tr>
 <tr>
 <td>93381</td>
@@ -6910,7 +6940,7 @@ Lenovo
 Lenovo
 </td>
 <td><a href='/goods/notebooks-lenovo-ideapad-pro-5-14imh9-gray-101136.htm'>Lenovo IdeaPad Pro 5 14IMH9 Ultra 7 155H 32Gb SSD 1Tb Intel Arc Graphics 14 2.8K OLED Cam 84Вт*ч No OS Серый 83D20026RK</a></td>
-<td>мало</td>
+<td>в наличии</td>
 <td align=right>143&#8239;490 р.</td>
 </tr>
 <tr>
@@ -6948,15 +6978,6 @@ Lenovo
 <td><a href='/goods/notebooks-lenovo-ideapad-slim-3-15abr8-gray-101520.htm'>Lenovo IdeaPad Slim 3 15ABR8 Ryzen 7 7730U 16Gb SSD 512Gb AMD Radeon Graphics 15,6 FHD IPS Cam 47Вт*ч No OS Серый 82XM00CJRK</a></td>
 <td>много</td>
 <td align=right>54&#8239;900 р.</td>
-</tr>
-<tr>
-<td>97661</td>
-<td>
-Lenovo
-</td>
-<td><a href='/goods/notebooks-lenovo-ideapad-slim-3-15amn8-gray-97661.htm'>Lenovo IdeaPad Slim 3 15AMN8 Ryzen 5 7520U 16Gb SSD 512Gb AMD Radeon 610M Graphics 15,6 FHD IPS Cam 47Вт*ч No OS Серый 82XQ00BBRK</a></td>
-<td>в наличии</td>
-<td align=right>52&#8239;900 р.</td>
 </tr>
 <tr>
 <td>98115</td>
@@ -7018,7 +7039,7 @@ Lenovo
 Lenovo
 </td>
 <td><a href='/goods/notebooks-lenovo-ideapad-slim-3-15irh10-gray-102838.htm'>Lenovo IdeaPad Slim 3 15IRH10 i7-13620H 16Gb SSD 512Gb Intel UHD Graphics 15,3 WUXGA IPS Cam 60Вт*ч No OS Серый 83K10032RK</a></td>
-<td>много</td>
+<td>в наличии</td>
 <td align=right>58&#8239;900 р.</td>
 </tr>
 <tr>
@@ -7081,7 +7102,7 @@ Lenovo
 Lenovo
 </td>
 <td><a href='/goods/notebooks-lenovo-ideapad-slim-3-16iah8-gray-103818.htm'>Lenovo IdeaPad Slim 3 16IAH8 i5-12450H 16Gb SSD 1Tb Intel UHD Graphics 16 WUXGA IPS Cam 47Вт*ч No OS Серый 83ES002VRK</a></td>
-<td>много</td>
+<td>в наличии</td>
 <td align=right>55&#8239;990 р.</td>
 </tr>
 <tr>
@@ -7544,15 +7565,6 @@ Lenovo
 <td align=right>84&#8239;590 р.</td>
 </tr>
 <tr>
-<td>97985</td>
-<td>
-Lenovo
-</td>
-<td><a href='/goods/notebooks-lenovo-thinkbook-14-g6-irl-gray-97985.htm'>Lenovo ThinkBook 14 G6 IRL i7-13700H 16Gb SSD 512Gb Intel UHD Graphics 14 WUXGA IPS Cam 60Вт*ч Win11Pro Серый 21KG0073RU</a></td>
-<td>в наличии</td>
-<td align=right>128&#8239;900 р.</td>
-</tr>
-<tr>
 <td>100203</td>
 <td>
 Lenovo
@@ -7756,7 +7768,7 @@ Lenovo
 Lenovo
 </td>
 <td><a href='/goods/notebooks-lenovo-thinkpad-e14-gen-6-black-102351.htm'>Lenovo ThinkPad E14 Gen 6 Ultra 5 125U 16Gb SSD 512Gb Intel Graphics 14 WUXGA IPS Cam 57Вт*ч No OS Черный 21M8S0WJ00</a></td>
-<td>много</td>
+<td>в наличии</td>
 <td align=right>99&#8239;900 р.</td>
 </tr>
 <tr>
@@ -7818,7 +7830,7 @@ Lenovo
 <td>
 Lenovo
 </td>
-<td><a href='/goods/notebooks-lenovo-thinkpad-t14-gen-4-black-102345.htm'>Lenovo ThinkPad T14 Gen 4 i5-1335U 16Gb SSD 1Tb Intel UHD Graphics 14 WUXGA IPS Cam 39.3Вт*ч Win11Pro(ENG) KBD RU\ENG Черный 21HDS2MY00</a></td>
+<td><a href='/goods/notebooks-lenovo-thinkpad-t14-gen-4-black-102345.htm'>Lenovo ThinkPad T14 Gen 4 i5-1335U 16Gb SSD 1Tb Intel Iris Xe Graphics 14 WUXGA IPS Cam 39.3Вт*ч Win11Pro(ENG) KBD RU\ENG Черный 21HDS2MY00</a></td>
 <td>мало</td>
 <td align=right>127&#8239;690 р.</td>
 </tr>
@@ -7873,7 +7885,7 @@ Lenovo
 Lenovo
 </td>
 <td><a href='/goods/notebooks-lenovo-thinkpad-t14-gen-5-black-103815.htm'>Lenovo ThinkPad T14 Gen 5 Ultra 5 125U 16Gb SSD 512Gb Intel Graphics 14 WUXGA IPS Cam 52.5Вт*ч No OS Черный 21MMS57G00</a></td>
-<td>много</td>
+<td>в наличии</td>
 <td align=right>119&#8239;990 р.</td>
 </tr>
 <tr>
@@ -7965,6 +7977,15 @@ Lenovo
 <td><a href='/goods/notebooks-lenovo-thinkpad-x1-carbon-gen-11-black-102038.htm'>Lenovo ThinkPad X1 Carbon Gen 11 i7-1355U 32Gb SSD 1Tb Intel Iris Xe Graphics eligible 14 WUXGA IPS LTE Cam 57Вт*ч No OS Черный 21HM00AQRT</a></td>
 <td>мало</td>
 <td align=right>249&#8239;890 р.</td>
+</tr>
+<tr>
+<td>103751</td>
+<td>
+Lenovo
+</td>
+<td><a href='/goods/notebooks-lenovo-thinkpad-x1-carbon-gen-12-black-103751.htm'>Lenovo ThinkPad X1 Carbon Gen 12 Ultra 7 155H 16Gb SSD 512Gb Intel Arc Graphics 14 WUXGA IPS Cam LTE 57Вт*ч Win11Pro KBD RU\ENG Черный 21KDA04PCD</a></td>
+<td>в наличии</td>
+<td align=right>229&#8239;990 р.</td>
 </tr>
 <tr>
 <td>103607</td>
@@ -8120,60 +8141,6 @@ Lenovo
 <td align=right>145&#8239;690 р.</td>
 </tr>
 <tr>
-<td>104115</td>
-<td>
-Machenike
-</td>
-<td><a href='/goods/notebooks-machenike-l15-air-star-gray-104115.htm'>Machenike L15 Air Star i7-12650H 16Gb SSD 512Gb NVIDIA RTX 4060 8Gb 15,6 FHD IPS Cam 53.35Вт*ч No OS Серый металлик JJ00GM00FRU</a></td>
-<td>мало</td>
-<td align=right>108&#8239;990 р.</td>
-</tr>
-<tr>
-<td>97666</td>
-<td>
-Machenike
-</td>
-<td><a href='/goods/notebooks-machenike-l15-star-2k-gray-97666.htm'>Machenike L15 Star 2K i5-13500H 16Gb SSD 512Gb NVIDIA RTX 4060 8Gb 15,6 QHD IPS Cam 53.35Вт*ч No OS Серый металлик JJ00GL00ERU</a></td>
-<td>мало</td>
-<td align=right>103&#8239;990 р.</td>
-</tr>
-<tr>
-<td>104116</td>
-<td>
-Machenike
-</td>
-<td><a href='/goods/notebooks-machenike-l16-pro-stellar-s-gray-104116.htm'>Machenike L16 Pro Stellar S i7-13650HX 16Gb SSD 1Tb NVIDIA RTX 4070 8Gb 16 WQXGA IPS Cam 46Вт*ч No OS Серый металлик JJ00GN00FRU</a></td>
-<td>мало</td>
-<td align=right>160&#8239;990 р.</td>
-</tr>
-<tr>
-<td>102243</td>
-<td>
-Machenike
-</td>
-<td><a href='/goods/notebooks-machenike-l17-stellar-m-gray-102243.htm'>Machenike L17 Stellar M i7-13620H 32Gb SSD 1Tb NVIDIA RTX 4070 8Gb 17,3 QHD IPS Cam 53.35Вт*ч No OS Серый металлик JJ00G200GRU</a></td>
-<td>мало</td>
-<td align=right>149&#8239;990 р.</td>
-</tr>
-<tr>
-<td>97669</td>
-<td>
-Machenike
-</td>
-<td><a href='/goods/notebooks-machenike-l17-star-2k-gray-97669.htm'>Machenike L17 Star 2K i5-13500H 16Gb SSD 512Gb NVIDIA RTX 4060 8Gb 17,3 QHD IPS Cam 53.35Вт*ч No OS Серый металлик JJ00G800ERU</a></td>
-<td>мало</td>
-<td align=right>109&#8239;990 р.</td>
-</tr>
-<tr>
-<td>102240</td>
-<td>
-Machenike
-</td>
-<td><a href='/goods/notebooks-machenike-s15-star-l-black-102240.htm'>Machenike S15 Star L i5-12450H 16Gb SSD 1Tb NVIDIA RTX 4060 8Gb 15,6 FHD IPS Cam 41Вт*ч No OS Черный JJ00GZ00FRU</a></td>
-<td>мало</td>
-<td align=right>94&#8239;990 р.</td>
-</tr>
-<tr>
 <td>104250</td>
 <td>
 MAIBENBEN
@@ -8315,7 +8282,7 @@ MAIBENBEN
 </td>
 <td><a href='/goods/notebooks-maibenben-m513-silver-97218.htm'>MAIBENBEN M513 i3-1115G4 8Gb SSD 256Gb Intel UHD Graphics 15,6 FHD IPS Cam 51,28Вт*ч Linux Серебристый M5131SA0LSRE0</a></td>
 <td>много</td>
-<td align=right>32&#8239;390 р.</td>
+<td align=right>31&#8239;990 р.</td>
 </tr>
 <tr>
 <td>98039</td>
@@ -8432,7 +8399,7 @@ MAIBENBEN
 </td>
 <td><a href='/goods/notebooks-maibenben-medio-m645-blue-102434.htm'>MAIBENBEN Medio M645 Ryzen 5 4600H 16Gb SSD 512Gb AMD Radeon Graphics 16 WUXGA IPS Cam 45.6Вт*ч Linux Синий M6451SF0LURE0</a></td>
 <td>много</td>
-<td align=right>40&#8239;990 р.</td>
+<td align=right>40&#8239;390 р.</td>
 </tr>
 <tr>
 <td>103167</td>
@@ -8441,7 +8408,7 @@ MAIBENBEN
 </td>
 <td><a href='/goods/notebooks-maibenben-medio-m645-blue-103167.htm'>MAIBENBEN Medio M645 Ryzen 5 4600H 16Gb SSD 512Gb AMD Radeon Graphics 16 WUXGA IPS Cam 45.6Вт*ч Linux Синий M6451SF0LURE3</a></td>
 <td>много</td>
-<td align=right>40&#8239;990 р.</td>
+<td align=right>39&#8239;990 р.</td>
 </tr>
 <tr>
 <td>102523</td>
@@ -8459,7 +8426,7 @@ MAIBENBEN
 </td>
 <td><a href='/goods/notebooks-maibenben-medio-m645-blue-103169.htm'>MAIBENBEN Medio M645 Ryzen 5 4600H 16Gb SSD 512Gb AMD Radeon Graphics 16 WUXGA IPS Cam 45.6Вт*ч Win11 Синий M6451SF0HURE3</a></td>
 <td>много</td>
-<td align=right>43&#8239;990 р.</td>
+<td align=right>41&#8239;990 р.</td>
 </tr>
 <tr>
 <td>103811</td>
@@ -8549,7 +8516,7 @@ MAIBENBEN
 </td>
 <td><a href='/goods/notebooks-maibenben-medio-m653-silver-101669.htm'>MAIBENBEN Medio M653 Ryzen 3 5400U 8Gb SSD 512Gb AMD Radeon Graphics 16 WUXGA IPS Cam 45.6Вт*ч Linux Серебристый M6531SB0LSRE0</a></td>
 <td>много</td>
-<td align=right>34&#8239;390 р.</td>
+<td align=right>33&#8239;990 р.</td>
 </tr>
 <tr>
 <td>102435</td>
@@ -8567,7 +8534,7 @@ MAIBENBEN
 </td>
 <td><a href='/goods/notebooks-maibenben-medio-m653-blue-103162.htm'>MAIBENBEN Medio M653 Ryzen 3 5400U 8Gb SSD 512Gb AMD Radeon Graphics 16 WUXGA IPS Cam 45.6Вт*ч Win11 Синий M6531SB0HURE0</a></td>
 <td>много</td>
-<td align=right>35&#8239;990 р.</td>
+<td align=right>34&#8239;990 р.</td>
 </tr>
 <tr>
 <td>103165</td>
@@ -8801,7 +8768,7 @@ MAIBENBEN
 </td>
 <td><a href='/goods/notebooks-maibenben-x-treme-typhoon-x16d-gray-104171.htm'>MAIBENBEN X-Treme Typhoon X16D i7-12850HX 16Gb SSD 1Tb NVIDIA RTX 4060 8Gb 16 WQXGA IPS Cam 60Вт*ч Win11 Серый X16D-i72846GQSHGRE0</a></td>
 <td>много</td>
-<td align=right>114&#8239;990 р.</td>
+<td align=right>111&#8239;990 р.</td>
 </tr>
 <tr>
 <td>95261</td>
@@ -8819,7 +8786,7 @@ MAIBENBEN
 </td>
 <td><a href='/goods/notebooks-maibenben-x527-gray-96934.htm'>MAIBENBEN X527 i7-12650H 16Gb SSD 512Gb NVIDIA RTX 4060 8Gb 15,6 FHD IPS Cam 46,74Вт*ч Linux Серый X527FSFNLGRE0</a></td>
 <td>много</td>
-<td align=right>101&#8239;990 р.</td>
+<td align=right>99&#8239;990 р.</td>
 </tr>
 <tr>
 <td>100259</td>
@@ -9155,40 +9122,13 @@ MSI
 <td align=right>457&#8239;990 р.</td>
 </tr>
 <tr>
-<td>101873</td>
-<td>
-OSiO
-</td>
-<td><a href='/goods/notebooks-osio-baseline-b150i-silver-101873.htm'>OSiO BaseLine B150i N100 8Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 38Вт*ч Win11 Серебристый B150i-006s</a></td>
-<td>мало</td>
-<td align=right>32&#8239;990 р.</td>
-</tr>
-<tr>
-<td>101867</td>
-<td>
-OSiO
-</td>
-<td><a href='/goods/notebooks-osio-baseline-b150i-blue-101867.htm'>OSiO BaseLine B150i N100 8Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 38Вт*ч Win11 Синий B150i-002c</a></td>
-<td>мало</td>
-<td align=right>32&#8239;990 р.</td>
-</tr>
-<tr>
-<td>101872</td>
-<td>
-OSiO
-</td>
-<td><a href='/goods/notebooks-osio-baseline-b150i-black-101872.htm'>OSiO BaseLine B150i N100 8Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 38Вт*ч Win11 Черный B150i-006b</a></td>
-<td>мало</td>
-<td align=right>32&#8239;990 р.</td>
-</tr>
-<tr>
 <td>104077</td>
 <td>
 OSiO
 </td>
 <td><a href='/goods/notebooks-osio-cyberline-c160i-brown-104077.htm'>OSiO CyberLine C160i i5-12600H 16Gb SSD 512Gb NVIDIA RTX 4060 8Gb 16 WUXGA IPS Cam 52,6Вт*ч No OS Коричневый C160i-003</a></td>
 <td>мало</td>
-<td align=right>128&#8239;490 р.</td>
+<td align=right>98&#8239;470 р.</td>
 </tr>
 <tr>
 <td>104081</td>
@@ -9197,7 +9137,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-cyberline-c160i-brown-104081.htm'>OSiO CyberLine C160i i7-12650H 16Gb SSD 512Gb NVIDIA RTX 4060 8Gb 16 WUXGA IPS Cam 52,6Вт*ч No OS Коричневый C160I-004</a></td>
 <td>мало</td>
-<td align=right>137&#8239;490 р.</td>
+<td align=right>119&#8239;270 р.</td>
 </tr>
 <tr>
 <td>104085</td>
@@ -9206,16 +9146,16 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-cyberline-c170i-dark-104085.htm'>OSiO CyberLine C170i i5-12600H 16Gb SSD 512Gb NVIDIA RTX 3050 6Gb 17,3 FHD IPS Cam 52,6Вт*ч No OS Темно-серый C170i-001</a></td>
 <td>мало</td>
-<td align=right>99&#8239;990 р.</td>
+<td align=right>101&#8239;170 р.</td>
 </tr>
 <tr>
-<td>101907</td>
+<td>101905</td>
 <td>
 OSiO
 </td>
-<td><a href='/goods/notebooks-osio-focusline-f140a-gray-101907.htm'>OSiO FocusLine F140a Ryzen 5 5500U 16Gb SSD 512Gb AMD Radeon Graphics 14 FHD IPS Cam 45,6Вт*ч Win11 Серый F140a-007</a></td>
+<td><a href='/goods/notebooks-osio-focusline-f140a-gray-101905.htm'>OSiO FocusLine F140a Ryzen 5 5500U 8Gb SSD 512Gb AMD Radeon Graphics 14 FHD IPS Cam 45,6Вт*ч No OS Серый F140a-009</a></td>
 <td>мало</td>
-<td align=right>50&#8239;490 р.</td>
+<td align=right>41&#8239;470 р.</td>
 </tr>
 <tr>
 <td>104089</td>
@@ -9224,7 +9164,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f140a-gray-104089.htm'>OSiO FocusLine F140a Ryzen 5 5560U 16Gb SSD 512Gb AMD Radeon Graphics 14 FHD IPS Cam 45,6Вт*ч No OS Серый F140a-008</a></td>
 <td>мало</td>
-<td align=right>48&#8239;490 р.</td>
+<td align=right>42&#8239;970 р.</td>
 </tr>
 <tr>
 <td>101883</td>
@@ -9233,7 +9173,16 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f140i-gray-101883.htm'>OSiO FocusLine F140i i3-1215U 16Gb SSD 512Gb Intel UHD Graphics 14 FHD IPS Cam 45,6Вт*ч Win11 Серый F140i-006</a></td>
 <td>мало</td>
-<td align=right>51&#8239;990 р.</td>
+<td align=right>46&#8239;970 р.</td>
+</tr>
+<tr>
+<td>101879</td>
+<td>
+OSiO
+</td>
+<td><a href='/goods/notebooks-osio-focusline-f140i-gray-101879.htm'>OSiO FocusLine F140i i3-1215U 8Gb SSD 512Gb Intel UHD Graphics 14 FHD IPS Cam 45,6Вт*ч Win11 Серый F140i-005</a></td>
+<td>мало</td>
+<td align=right>50&#8239;570 р.</td>
 </tr>
 <tr>
 <td>104090</td>
@@ -9242,7 +9191,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f140i-gray-104090.htm'>OSiO FocusLine F140i i5-1235U 16Gb SSD 512Gb Intel UHD Graphics 14 FHD IPS Cam 45,6Вт*ч No OS Серый F140i-008</a></td>
 <td>мало</td>
-<td align=right>57&#8239;490 р.</td>
+<td align=right>52&#8239;470 р.</td>
 </tr>
 <tr>
 <td>101885</td>
@@ -9251,7 +9200,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f140i-gray-101885.htm'>OSiO FocusLine F140i i5-1235U 16Gb SSD 512Gb Intel UHD Graphics 14 FHD IPS Cam 45,6Вт*ч Win11 Серый F140i-009</a></td>
 <td>мало</td>
-<td align=right>59&#8239;490 р.</td>
+<td align=right>60&#8239;270 р.</td>
 </tr>
 <tr>
 <td>101914</td>
@@ -9260,7 +9209,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f150a-gray-101914.htm'>OSiO FocusLine F150a Ryzen 5 5500U 16Gb SSD 1Tb AMD Radeon Graphics 15,6 FHD IPS Cam 45,6Вт*ч No OS Серый F150a-012</a></td>
 <td>мало</td>
-<td align=right>52&#8239;990 р.</td>
+<td align=right>45&#8239;870 р.</td>
 </tr>
 <tr>
 <td>101915</td>
@@ -9269,25 +9218,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f150a-gray-101915.htm'>OSiO FocusLine F150a Ryzen 5 5500U 16Gb SSD 1Tb AMD Radeon Graphics 15,6 FHD IPS Cam 45,6Вт*ч Win11 Серый F150a-013</a></td>
 <td>мало</td>
-<td align=right>54&#8239;990 р.</td>
-</tr>
-<tr>
-<td>101910</td>
-<td>
-OSiO
-</td>
-<td><a href='/goods/notebooks-osio-focusline-f150a-gray-101910.htm'>OSiO FocusLine F150a Ryzen 5 5500U 16Gb SSD 512Gb AMD Radeon Graphics 15,6 FHD IPS Cam 45,6Вт*ч No OS Серый F150a-010</a></td>
-<td>мало</td>
-<td align=right>48&#8239;990 р.</td>
-</tr>
-<tr>
-<td>104091</td>
-<td>
-OSiO
-</td>
-<td><a href='/goods/notebooks-osio-focusline-f150a-gray-104091.htm'>OSiO FocusLine F150a Ryzen 5 5500U 32Gb SSD 1Tb AMD Radeon Graphics 15,6 FHD IPS Cam 45,6Вт*ч No OS Серый F150a-014</a></td>
-<td>мало</td>
-<td align=right>56&#8239;990 р.</td>
+<td align=right>55&#8239;670 р.</td>
 </tr>
 <tr>
 <td>104093</td>
@@ -9296,7 +9227,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f150a-gray-104093.htm'>OSiO FocusLine F150a Ryzen 7 5700U 16Gb SSD 1Tb AMD Radeon Graphics 15,6 FHD IPS Cam 45,6Вт*ч No OS Серый F150a-017</a></td>
 <td>мало</td>
-<td align=right>56&#8239;990 р.</td>
+<td align=right>50&#8239;970 р.</td>
 </tr>
 <tr>
 <td>104094</td>
@@ -9305,7 +9236,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f150a-gray-104094.htm'>OSiO FocusLine F150a Ryzen 7 5700U 16Gb SSD 1Tb AMD Radeon Graphics 15,6 FHD IPS Cam 45,6Вт*ч Win11 Серый F150A-018</a></td>
 <td>мало</td>
-<td align=right>58&#8239;990 р.</td>
+<td align=right>50&#8239;970 р.</td>
 </tr>
 <tr>
 <td>104092</td>
@@ -9314,7 +9245,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f150a-gray-104092.htm'>OSiO FocusLine F150a Ryzen 7 5700U 16Gb SSD 512Gb AMD Radeon Graphics 15,6 FHD IPS Cam 45,6Вт*ч Win11 Серый F150a-016</a></td>
 <td>мало</td>
-<td align=right>54&#8239;990 р.</td>
+<td align=right>55&#8239;670 р.</td>
 </tr>
 <tr>
 <td>104095</td>
@@ -9323,7 +9254,25 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f150a-gray-104095.htm'>OSiO FocusLine F150a Ryzen 7 5700U 32Gb SSD 1Tb AMD Radeon Graphics 15,6 FHD IPS Cam 45,6Вт*ч No OS Серый F150A-019</a></td>
 <td>мало</td>
-<td align=right>60&#8239;990 р.</td>
+<td align=right>49&#8239;270 р.</td>
+</tr>
+<tr>
+<td>101888</td>
+<td>
+OSiO
+</td>
+<td><a href='/goods/notebooks-osio-focusline-f150i-gray-101888.htm'>OSiO FocusLine F150i i3-1215U 8Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 45,6Вт*ч No OS Серый F150i-015</a></td>
+<td>мало</td>
+<td align=right>49&#8239;070 р.</td>
+</tr>
+<tr>
+<td>101890</td>
+<td>
+OSiO
+</td>
+<td><a href='/goods/notebooks-osio-focusline-f150i-gray-101890.htm'>OSiO FocusLine F150i i3-1215U 8Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 45,6Вт*ч Win11 Серый F150i-016</a></td>
+<td>мало</td>
+<td align=right>51&#8239;170 р.</td>
 </tr>
 <tr>
 <td>101896</td>
@@ -9332,7 +9281,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f150i-gray-101896.htm'>OSiO FocusLine F150i i5-1235U 16Gb SSD 1Tb Intel UHD Graphics 15,6 FHD IPS Cam 45,6Вт*ч No OS Серый F150i-023</a></td>
 <td>мало</td>
-<td align=right>61&#8239;990 р.</td>
+<td align=right>53&#8239;070 р.</td>
 </tr>
 <tr>
 <td>104096</td>
@@ -9341,7 +9290,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f150i-gray-104096.htm'>OSiO FocusLine F150i i5-1235U 16Gb SSD 1Tb Intel UHD Graphics 15,6 FHD IPS Cam 45,6Вт*ч Win11 Серый F150i-024</a></td>
 <td>мало</td>
-<td align=right>63&#8239;990 р.</td>
+<td align=right>55&#8239;570 р.</td>
 </tr>
 <tr>
 <td>101894</td>
@@ -9350,16 +9299,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f150i-gray-101894.htm'>OSiO FocusLine F150i i5-1235U 16Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 45,6Вт*ч No OS Серый F150i-020</a></td>
 <td>мало</td>
-<td align=right>57&#8239;990 р.</td>
-</tr>
-<tr>
-<td>101895</td>
-<td>
-OSiO
-</td>
-<td><a href='/goods/notebooks-osio-focusline-f150i-gray-101895.htm'>OSiO FocusLine F150i i5-1235U 16Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 45,6Вт*ч Win11 Серый F150i-010</a></td>
-<td>мало</td>
-<td align=right>59&#8239;990 р.</td>
+<td align=right>52&#8239;170 р.</td>
 </tr>
 <tr>
 <td>104097</td>
@@ -9368,7 +9308,25 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f150i-gray-104097.htm'>OSiO FocusLine F150i i5-1235U 32Gb SSD 1Tb Intel UHD Graphics 15,6 FHD IPS Cam 45,6Вт*ч No OS Серый F150I-025</a></td>
 <td>мало</td>
-<td align=right>65&#8239;990 р.</td>
+<td align=right>66&#8239;170 р.</td>
+</tr>
+<tr>
+<td>101891</td>
+<td>
+OSiO
+</td>
+<td><a href='/goods/notebooks-osio-focusline-f150i-gray-101891.htm'>OSiO FocusLine F150i i5-1235U 8Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 45,6Вт*ч No OS Серый F150i-018</a></td>
+<td>мало</td>
+<td align=right>58&#8239;670 р.</td>
+</tr>
+<tr>
+<td>101892</td>
+<td>
+OSiO
+</td>
+<td><a href='/goods/notebooks-osio-focusline-f150i-gray-101892.htm'>OSiO FocusLine F150i i5-1235U 8Gb SSD 512Gb Intel UHD Graphics 15,6 FHD IPS Cam 45,6Вт*ч Win11 Серый F150i-019</a></td>
+<td>мало</td>
+<td align=right>60&#8239;670 р.</td>
 </tr>
 <tr>
 <td>101917</td>
@@ -9377,16 +9335,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f160a-gray-101917.htm'>OSiO FocusLine F160a Ryzen 5 5500U 16Gb SSD 512Gb AMD Radeon Graphics 16,1 FHD IPS Cam 45,6Вт*ч No OS Серый F160a-005</a></td>
 <td>мало</td>
-<td align=right>52&#8239;990 р.</td>
-</tr>
-<tr>
-<td>104098</td>
-<td>
-OSiO
-</td>
-<td><a href='/goods/notebooks-osio-focusline-f160a-gray-104098.htm'>OSiO FocusLine F160a Ryzen 5 5500U 16Gb SSD 512Gb AMD Radeon Graphics 16,1 FHD IPS Cam 45,6Вт*ч Win11 Серый F160a-002</a></td>
-<td>мало</td>
-<td align=right>54&#8239;990 р.</td>
+<td align=right>53&#8239;770 р.</td>
 </tr>
 <tr>
 <td>104099</td>
@@ -9395,7 +9344,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f160a-gray-104099.htm'>OSiO FocusLine F160a Ryzen 5 5500U 32Gb SSD 1Tb AMD Radeon Graphics 16,1 FHD IPS Cam 45,6Вт*ч No OS Серый F160a-007</a></td>
 <td>мало</td>
-<td align=right>60&#8239;990 р.</td>
+<td align=right>55&#8239;470 р.</td>
 </tr>
 <tr>
 <td>104107</td>
@@ -9404,7 +9353,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f160a-gray-104107.htm'>OSiO FocusLine F160a Ryzen 7 5700U 16Gb SSD 1Tb AMD Radeon Graphics 16,1 FHD IPS Cam 45,6Вт*ч No OS Серый F160a-010</a></td>
 <td>мало</td>
-<td align=right>60&#8239;990 р.</td>
+<td align=right>56&#8239;470 р.</td>
 </tr>
 <tr>
 <td>104108</td>
@@ -9413,7 +9362,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f160a-gray-104108.htm'>OSiO FocusLine F160a Ryzen 7 5700U 16Gb SSD 1Tb AMD Radeon Graphics 16,1 FHD IPS Cam 45,6Вт*ч Win11 Серый F160A-011</a></td>
 <td>мало</td>
-<td align=right>62&#8239;990 р.</td>
+<td align=right>59&#8239;170 р.</td>
 </tr>
 <tr>
 <td>104100</td>
@@ -9422,7 +9371,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f160a-gray-104100.htm'>OSiO FocusLine F160a Ryzen 7 5700U 16Gb SSD 512Gb AMD Radeon Graphics 16,1 FHD IPS Cam 45,6Вт*ч No OS Серый F160a-008</a></td>
 <td>мало</td>
-<td align=right>56&#8239;990 р.</td>
+<td align=right>56&#8239;870 р.</td>
 </tr>
 <tr>
 <td>104109</td>
@@ -9431,7 +9380,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f160a-gray-104109.htm'>OSiO FocusLine F160a Ryzen 7 5700U 32Gb SSD 1Tb AMD Radeon Graphics 16,1 FHD IPS Cam 45,6Вт*ч No OS Серый F160A-012</a></td>
 <td>мало</td>
-<td align=right>64&#8239;990 р.</td>
+<td align=right>60&#8239;770 р.</td>
 </tr>
 <tr>
 <td>104110</td>
@@ -9440,7 +9389,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f160a-gray-104110.htm'>OSiO FocusLine F160a Ryzen 7 5700U 32Gb SSD 1Tb AMD Radeon Graphics 16,1 FHD IPS Cam 45,6Вт*ч Win11 Серый F160A-013</a></td>
 <td>мало</td>
-<td align=right>66&#8239;990 р.</td>
+<td align=right>61&#8239;870 р.</td>
 </tr>
 <tr>
 <td>101900</td>
@@ -9449,7 +9398,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f160i-gray-101900.htm'>OSiO FocusLine F160i i5-1235U 16Gb SSD 512Gb Intel UHD Graphics 16,1 FHD IPS Cam 45,6Вт*ч No OS Серый F160i-009</a></td>
 <td>мало</td>
-<td align=right>61&#8239;990 р.</td>
+<td align=right>52&#8239;070 р.</td>
 </tr>
 <tr>
 <td>101901</td>
@@ -9458,16 +9407,7 @@ OSiO
 </td>
 <td><a href='/goods/notebooks-osio-focusline-f160i-gray-101901.htm'>OSiO FocusLine F160i i5-1235U 16Gb SSD 512Gb Intel UHD Graphics 16,1 FHD IPS Cam 45,6Вт*ч Win11 Серый F160i-006</a></td>
 <td>мало</td>
-<td align=right>63&#8239;990 р.</td>
-</tr>
-<tr>
-<td>104111</td>
-<td>
-OSiO
-</td>
-<td><a href='/goods/notebooks-osio-focusline-f160i-gray-104111.htm'>OSiO FocusLine F160i i5-1235U 32Gb SSD 1Tb Intel UHD Graphics 16,1 FHD IPS Cam 45,6Вт*ч No OS Серый F160i-014</a></td>
-<td>мало</td>
-<td align=right>69&#8239;990 р.</td>
+<td align=right>54&#8239;470 р.</td>
 </tr>
 <tr>
 <td>101163</td>
@@ -9475,7 +9415,7 @@ OSiO
 Samsung
 </td>
 <td><a href='/goods/notebooks-samsung-galaxy-book-3-np754-silver-silver-101163.htm'>Samsung Galaxy Book 3 NP754 i5-1335U 16Gb SSD 512Gb Intel Iris Xe Graphics 15,6 FHD IPS Cam 54Вт*ч Win11Pro(ENG) KBD RU\ENG Серебристый NP754XFG-KB2US</a></td>
-<td>в наличии</td>
+<td>много</td>
 <td align=right>85&#8239;900 р.</td>
 </tr>
 <tr>
@@ -9574,7 +9514,7 @@ TECNO
 TECNO
 </td>
 <td><a href='/goods/notebooks-tecno-megabook-k16s-k16sda-space-gray-gray-104293.htm'>TECNO Megabook K16S K16SDA Ryzen 5 7430U 16Gb SSD 1Tb AMD Radeon Graphics 16 WUXGA IPS Cam 70Вт*ч Win11 Серый 4894947054457</a></td>
-<td>много</td>
+<td>в наличии</td>
 <td align=right>45&#8239;990 р.</td>
 </tr>
 <tr>
@@ -9587,21 +9527,12 @@ TECNO
 <td align=right>43&#8239;990 р.</td>
 </tr>
 <tr>
-<td>104296</td>
-<td>
-TECNO
-</td>
-<td><a href='/goods/notebooks-tecno-megabook-k16s-k16sda-moonshine-silver-silver-104296.htm'>TECNO Megabook K16S K16SDA Ryzen 7 5825U 16Gb SSD 1Tb AMD Radeon Graphics 16 WUXGA IPS Cam 70Вт*ч Win11 Серебристый 4894947063435</a></td>
-<td>в наличии</td>
-<td align=right>47&#8239;990 р.</td>
-</tr>
-<tr>
 <td>104297</td>
 <td>
 TECNO
 </td>
 <td><a href='/goods/notebooks-tecno-megabook-k16s-k16sda-moonshine-silver-silver-104297.htm'>TECNO Megabook K16S K16SDA Ryzen 7 5825U 16Gb SSD 512Gb AMD Radeon Graphics 16 WUXGA IPS Cam 70Вт*ч Win11 Серебристый 4894947063411</a></td>
-<td>в наличии</td>
+<td>много</td>
 <td align=right>49&#8239;990 р.</td>
 </tr>
 <tr>
@@ -9646,7 +9577,7 @@ TECNO
 TECNO
 </td>
 <td><a href='/goods/notebooks-tecno-megabook-t16-2024-moonshine-silver-silver-104304.htm'>TECNO Megabook T16 2024 i7-13620H 32Gb SSD 1Tb Intel UHD Graphics 16 WUXGA IPS Cam 75Вт*ч Win11 Серебристый T16RA 4894947060977</a></td>
-<td>много</td>
+<td>в наличии</td>
 <td align=right>69&#8239;990 р.</td>
 </tr>
 <tr>
@@ -9655,7 +9586,7 @@ TECNO
 TECNO
 </td>
 <td><a href='/goods/notebooks-tecno-megabook-t16-2024-space-grey-gray-104303.htm'>TECNO Megabook T16 2024 i7-13620H 32Gb SSD 1Tb Intel UHD Graphics 16 WUXGA IPS Cam 75Вт*ч Win11 Серый T16RA 4894947053511</a></td>
-<td>много</td>
+<td>в наличии</td>
 <td align=right>69&#8239;990 р.</td>
 </tr>
 <tr>
@@ -9666,15 +9597,6 @@ TECNO
 <td><a href='/goods/notebooks-tecno-megabook-t16ma-pro-space-grey-gray-104300.htm'>TECNO Megabook T16MA Pro Ultra 7 155H 16Gb SSD 1Tb Intel Arc Graphics 16 WQXGA IPS Cam 99.99Вт*ч Win11 Серый 4894947061035</a></td>
 <td>много</td>
 <td align=right>94&#8239;990 р.</td>
-</tr>
-<tr>
-<td>104301</td>
-<td>
-TECNO
-</td>
-<td><a href='/goods/notebooks-tecno-megabook-t16ma-pro-space-grey-gray-104301.htm'>TECNO Megabook T16MA Pro Ultra 9 185H 32Gb SSD 1Tb Intel Arc Graphics 16 WQXGA IPS Cam 99.99Вт*ч Win11 Серый 4894947061066</a></td>
-<td>в наличии</td>
-<td align=right>99&#8239;990 р.</td>
 </tr>
 </tbody>
 </table>
