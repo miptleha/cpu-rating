@@ -17,3 +17,5 @@ GPU: https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.ht
 
 Geekbench 5.5 / Cinebench R23 Single-Core test is used to evaluate single-threaded performance. For multithreaded - Geekbench 5.5 / Cinebench R23 Multi-Core. To evaluate the speed of the GPU, a 3DMark Time Spy test is used.
 
+New Intel processors show good values in GPU test, but in reality they are much weaker than AMD processors in games.
+
