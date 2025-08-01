@@ -160,7 +160,8 @@ void GenerateMarkDown()
             foreach (var n in i.Notebooks2)
             {
                 //var greenPrice = (int price) => price < 60000 ? "$${\\color{green}" + $"{price:N0}" + "}$$" : $"{price:N0}";
-                Console.WriteLine($"{n.Desc} - {n.Price:N0} Rub  ");
+                string value = (1000f * i.TotalRating / n.Price).ToString("N1");
+                Console.WriteLine($"{n.Desc} - {n.Price:N0} Rub ({value})  ");
             }
         }
     }
@@ -363,6 +364,10 @@ void EstimateCpu(CpuData cpuRef)
         brother = _cpuShortName["Ryzen 5 8640U"];
     else if (cpuRef.Name == "Intel Core Ultra 5 225H")
         brother = _cpuShortName["Ultra 5 125H"];
+    else if (cpuRef.Name == "Intel Core Ultra 5 235U")
+        brother = _cpuShortName["Ultra 7 165U"];
+    else if (cpuRef.Name == "Intel Core 7 250H")
+        brother = _cpuShortName["i9-12900HX"];
     else if (cpuRef.Name == "AMD Ryzen 3 5425U")
         brother = _cpuShortName["Ryzen 3 5400U"];
     else if (cpuRef.Name == "Intel Core i3-1305U")
@@ -431,6 +436,8 @@ void EstimateCpu(CpuData cpuRef)
         brother = _cpuShortName["Ryzen 5 3450U"];
     else if (cpuRef.Name == "Intel Core i3-1220P")
         brother = _cpuShortName["i5-1245U"];
+    else if (cpuRef.Name == "Intel Core i5-14450HX")
+        brother = _cpuShortName["i5-13450HX"];
 
     if (brother != null)
     {
@@ -461,6 +468,7 @@ void GenerateStoreFull()
             ("Core Ultra 7 226V", "Core Ultra 5 226V"),
             ("Intel Core i5 7440EQ", "Intel Core i5 7440HQ"),
             ("AMD Ryzen 5 7235HS", "AMD Ryzen 5 7535HS"),
+            ("Ryzen 5 7235HS", "AMD Ryzen 5 7535HS"),
             ("AMD Ryzen 9 7940H", "AMD Ryzen 9 7940HS"),
             ("AMD Ryzen 5 7640S", "AMD Ryzen 5 7640HS"),
             ("Core i3 1025G1", "Core i3 1005G1"),
@@ -470,17 +478,19 @@ void GenerateStoreFull()
             ("13420H", "i5 13420H"),
             ("Ryzen 7 7535HS", "Ryzen 5 7535HS"),
             ("Ryzen 7 5825U", "AMD Ryzen 7 5825U"),
+            ("Ryzen 7 7530U", "AMD Ryzen 5 7530U"),
             (" Pentium ", " Pentium Silver "),
             ("U5 125H", "Core Ultra 5 125H"),
-            ("U7 255H", "Core Ultra 7 255H")
+            ("U7 155H", "Core Ultra 7 155H"),
+            ("U7 255H", "Core Ultra 7 255H"),
+            ("Core i3   1215U", "Core i3 1215U"),
+            ("Core 7Ultra 155U", "Core Ultra 7 155U")
         };
 
         CpuData cpu = null;
         GpuData gpu = null;
         foreach (var c in _cpuData)
         {
-            if (c.Name.Contains("5825U") && item.Desc.Contains("4894947063435"))
-                cpu = null;
             string cpuName = c.NameShort.Replace("-", " ");
             string cpuName2 = cpuName.Replace("Ryzen ", "");
             string desc = item.Desc.Replace("-", " ");
@@ -553,7 +563,7 @@ void ParseCpu()
 {
     //cpu.html - geekbench (single and multi)
     //cpu2.html - cinebench (single and multi)
-    var html = File.ReadAllText("cpu2.html");
+    var html = File.ReadAllText("cpu.html");
     var parser = new CpuParser();
     var results = parser.ParseHtml(html);
 
