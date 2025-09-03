@@ -29,6 +29,7 @@ void GenerateMarkDown()
     decimal maxSingle = 0;
     decimal maxMulti = 0;
     decimal maxGpu = 0;
+
     foreach (var i in _cpuFullData)
     {
         if (i.CpuRef.Rating == null || i.CpuRef.Rating < 0)
