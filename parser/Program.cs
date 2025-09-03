@@ -24,7 +24,6 @@ Dictionary<string, GpuData> _gpuShortName;
 List<StoreFullData> _storeFullData;
 List<CpuFullData> _cpuFullData;
 
-
 void GenerateMarkDown()
 {
     decimal maxSingle = 0;
