@@ -405,6 +405,26 @@ void EstimateCpu(CpuData cpuRef)
         brother = _cpuShortName["Ryzen 7 8840U"];
     else if (cpuRef.Name == "Intel Celeron 3865U")
         brother = _cpuShortName["3867U"];
+    else if (cpuRef.Name == "AMD Ryzen 5 150")
+        brother = _cpuShortName["Ryzen 5 7535HS"];
+    else if (cpuRef.Name == "AMD Ryzen 7 170")
+        brother = _cpuShortName["Ryzen 7 7735HS"];
+    else if (cpuRef.Name == "AMD Ryzen 9 270")
+        brother = _cpuShortName["Ryzen 9 8945HS"];
+    else if (cpuRef.Name == "Intel Core Ultra 7 266V")
+        brother = _cpuShortName["Ultra 7 268V"];
+    else if (cpuRef.Name == "AMD Ryzen 5 220")
+        brother = _cpuShortName["Ryzen 5 7540U"];
+    else if (cpuRef.Name == "Intel Core Ultra 5 236V")
+        brother = _cpuShortName["Ultra 5 228V"];
+    else if (cpuRef.Name == "AMD Ryzen 7 8745HX")
+        brother = _cpuShortName["Ryzen 7 7745HX"];
+    else if (cpuRef.Name == "AMD Ryzen 7 8840HX")
+        brother = _cpuShortName["Ryzen 9 7845HX"];
+    else if (cpuRef.Name == "Intel Core Ultra 9 386H")
+        brother = _cpuShortName["Ultra X7 358H"];
+    else if (cpuRef.Name == "AMD Ryzen 5 PRO 7530U")
+        brother = _cpuShortName["Ryzen 5 7530U"];
 
     //cinebench
     else if (cpuRef.Name == "Intel Core 3 100U" || cpuRef.Name == "Intel Core i3-1315U")
@@ -478,6 +498,7 @@ void GenerateStoreFull()
             ("14650HX", "i7 14650HX"),
             ("13420H", "i5 13420H"),
             ("Ryzen 7 7535HS", "Ryzen 5 7535HS"),
+            ("Ryzen 5 7533HS", "Ryzen 5 7535HS"),
             ("Ryzen 7 5825U", "AMD Ryzen 7 5825U"),
             ("Ryzen 7 7530U", "AMD Ryzen 5 7530U"),
             (" Pentium ", " Pentium Silver "),
@@ -494,6 +515,8 @@ void GenerateStoreFull()
         {
             string cpuName = c.NameShort.Replace("-", " ");
             string cpuName2 = cpuName.Replace("Ryzen ", "");
+            if (cpuName2 == "7 255")
+                cpuName2 = "Ryzen 7 255";
             string desc = item.Desc.Replace("-", " ");
             foreach (var s in search)
             {
@@ -523,6 +546,12 @@ void GenerateStoreFull()
                 gpuName = "Arc 8-Core iGPU";
             if (gpuName == "Graphics 4-Core")
                 gpuName = "Graphics 4-Core iGPU (Arc)";
+            if (gpuName == "Graphics 4-Core iGPU (Arrow Lake)")
+                gpuName = "Graphics 4-Core iGPU (Meteor / Arrow Lake)";
+            if (gpuName == "M4 10-Core GPU")
+                gpuName = "M4 10-core GPU";
+            if (gpuName == "Intel Graphics 4 Xe3")
+                gpuName = "Graphics 4 Xe3 Panther Lake iGPU";
             if (gpuName == "Arc 7-Core")
                 gpuName = "Arc 7-Core iGPU";
             if (gpuName == "Arc 140V")
@@ -564,7 +593,7 @@ void ParseCpu()
 {
     //cpu.html - geekbench (single and multi)
     //cpu2.html - cinebench (single and multi)
-    var html = File.ReadAllText("cpu.html");
+    var html = File.ReadAllText("cpu2.html");
     var parser = new CpuParser();
     var results = parser.ParseHtml(html);
 
